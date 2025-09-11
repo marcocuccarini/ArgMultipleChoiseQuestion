@@ -1,3 +1,5 @@
+# llm.py
+
 import json
 import ollama
 
@@ -13,11 +15,7 @@ class LLM:
         self.max_tokens = max_tokens
 
     def run_inference(self, prompt: str) -> str:
-        """
-        Send a prompt to the LLM and return raw response.
-        """
         try:
-            # Pull the model if it doesn't exist locally
             available = [m["name"] for m in ollama.list()["models"]]
             if self.model not in available:
                 print(f"[INFO] Model '{self.model}' not found locally. Pulling...")
