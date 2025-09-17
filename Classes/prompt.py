@@ -14,6 +14,7 @@ Output: ["We should ban smoking", "It harms others", "It violates freedom"]
 Now extract the arguments from the given text.
 """
 
+# 🔹 Old prompt kept if needed
 ARGUMENT_RELATION_PROMPT = """
 You are an argumentation reasoning assistant. 
 Given a list of arguments, determine the relationship between each pair:
@@ -25,8 +26,20 @@ Return a JSON dictionary where keys are pairs of indices and values are the rela
 
 Arguments:
 {arguments}
+"""
 
-Example:
-Input: ["We should ban smoking", "It harms others", "It violates freedom"]
-Output: {{"0-1": "support", "0-2": "attack", "1-2": "indifferent"}}
+# 🔹 New pairwise relation prompt
+PAIRWISE_RELATION_PROMPT = """
+You are an argumentation reasoning assistant. 
+Compare the following two arguments:
+
+Argument A: "{arg_a}"
+Argument B: "{arg_b}"
+
+Decide the relation of A toward B:
+- "support": A supports B
+- "attack": A attacks B
+- "indifferent": neither support nor attack
+
+Return strictly as JSON: {{"relation": "<support|attack|indifferent>"}}.
 """

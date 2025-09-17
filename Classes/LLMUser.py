@@ -1,20 +1,58 @@
 # llm_user.py
-
 import json
-from prompts import ARGUMENT_EXTRACTION_PROMPT, ARGUMENT_RELATION_PROMPT
-from llm import LLM
+from LLM import LLM
+from prompt import ARGUMENT_EXTRACTION_PROMPT, PAIRWISE_RELATION_PROMPT
+from utils import clean_json_response
+
 
 class LLMUser:
     """
-    High-level class for argument extraction, relation detection, and graph preparation.
+    High-level interface for:
+    - verbalizing choices into facts
+    - extracting arguments from text
+    - detecting pairwise argument relations
     """
 
     def __init__(self, llm: LLM):
         self.llm = llm
 
+    # ---------------------------
+    # Fact verbalization
+    # ---------------------------
+    def verbalize_choice(self, question: str, choice: str) -> str:
+        prompt = f"""
+        Transform the following multiple-choice question and option into a concise factual statement,
+        making the option the subject of the sentence.
+
+        Example:
+        Question: "Compounds that are capable of accepting electrons, such as O2 or F2, are called what?"
+        Option: "oxidants"
+        Output: "Oxidants are compounds capable of accepting electrons, such as O2 or F2."
+
+        Now transform this one:
+
+        Question: "{question}"
+        Option: "{choice}"
+
+        Return only the factual statement as plain text.
+        """
+        fact = self.llm.run_inference(prompt)
+        # --- strip formatting if model returns json or code blocks ---
+        return fact
+
+
+
+    # ---------------------------
+    # Argument extraction
+    # ---------------------------
     def extract_arguments_with_ollama(self, text: str) -> list:
+        """
+        Extract arguments from text using the LLM and prompt.
+        Returns a list of strings or dicts.
+        """
         prompt = ARGUMENT_EXTRACTION_PROMPT.format(text=text)
         raw_response = self.llm.run_inference(prompt)
+
         try:
             arguments = json.loads(raw_response)
             if isinstance(arguments, list):
@@ -22,18 +60,32 @@ class LLMUser:
             else:
                 return [str(arguments)]
         except Exception as e:
-            print(f"[WARN] Failed to parse JSON: {e}")
+            print(f"[WARN] Failed to parse JSON from argument extraction: {e}")
             return [raw_response]
 
-    def detect_argument_relations(self, arguments: list) -> dict:
-        prompt = ARGUMENT_RELATION_PROMPT.format(arguments=json.dumps(arguments))
-        raw_response = self.llm.run_inference(prompt)
-        try:
-            relations = json.loads(raw_response)
-            if isinstance(relations, dict):
-                return relations
-            else:
-                return {"0-0": str(relations)}
-        except Exception as e:
-            print(f"[WARN] Failed to parse JSON: {e}")
-            return {"error": raw_response}
+    # ---------------------------
+    # Relation detection
+    # ---------------------------
+    def detect_argument_relations_pairwise(self, arguments: list) -> dict:
+        """
+        Compare all pairs of arguments and detect relations.
+        Returns a dict like {"0-1": "support", "1-2": "attack", ...}.
+        """
+        relations = {}
+        for i, arg_a in enumerate(arguments):
+            for j, arg_b in enumerate(arguments):
+                if i == j:
+                    continue
+
+                prompt = PAIRWISE_RELATION_PROMPT.format(arg_a=arg_a, arg_b=arg_b)
+                raw_response = self.llm.run_inference(prompt)
+
+                try:
+                    result = json.loads(clean_json_response(raw_response))
+                    rel = result.get("relation", "indifferent")
+                    relations[f"{i}-{j}"] = rel
+                except Exception as e:
+                    print(f"[WARN] Failed relation parse for {i}-{j}: {e}")
+                    relations[f"{i}-{j}"] = "indifferent"
+
+        return relations

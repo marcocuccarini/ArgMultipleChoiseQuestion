@@ -1,0 +1,94 @@
+[
+  {
+    "question": "Compounds that are capable of accepting electrons, such as O2 or F2, are called what?",
+    "choices": [
+      "antioxidants",
+      "Oxygen",
+      "residues",
+      "oxidants"
+    ],
+    "correct_answer": "oxidants",
+    "explanation": "Oxidants and Reductants Compounds that are capable of accepting electrons...",
+    "evidence_per_choice": {
+      "antioxidants": "",
+      "Oxygen": "",
+      "residues": "",
+      "oxidants": ""
+    },
+    "facts_per_choice": {
+      "antioxidants": "Antioxidants are not compounds capable of accepting electrons, such as O2 or F2.",
+      "Oxygen": "Oxygen is a compound capable of accepting electrons, such as O2 or F2.",
+      "residues": "Residues are not compounds capable of accepting electrons, such as O2 or F2.",
+      "oxidants": "Oxidants are compounds capable of accepting electrons, such as O2 or F2."
+    }
+  },
+  {
+    "question": "What term in biotechnology means a genetically exact copy of an organism?",
+    "choices": [
+      "adult",
+      "male",
+      "phenotype",
+      "clone"
+    ],
+    "correct_answer": "clone",
+    "explanation": "But transgenic animals just have one novel gene. Could a clone be developed...",
+    "evidence_per_choice": {
+      "adult": "",
+      "male": "",
+      "phenotype": "",
+      "clone": ""
+    },
+    "facts_per_choice": {
+      "adult": "Adults are a genetically exact copy of an organism.",
+      "male": "Male is a genetically exact copy of an organism.\n\n\n\n",
+      "phenotype": "Phenotype is a genetically exact copy of an organism.",
+      "clone": "A clone is a genetically exact copy of an organism."
+    }
+  },
+  {
+    "question": "Vertebrata are characterized by the presence of what?",
+    "choices": [
+      "Bones",
+      "Muscles",
+      "Thumbs",
+      "backbone"
+    ],
+    "correct_answer": "backbone",
+    "explanation": "Figure 29.7 Vertebrata are characterized by the presence of a backbone...",
+    "evidence_per_choice": {
+      "Bones": "",
+      "Muscles": "",
+      "Thumbs": "",
+      "backbone": ""
+    },
+    "facts_per_choice": {
+      "Bones": "Bones characterize Vertebrata.",
+      "Muscles": "Muscles are a characteristic of Vertebrata.",
+      "Thumbs": "Thumbs are a characteristic of Vertebrata.",
+      "backbone": "Vertebrata are characterized by the presence of a backbone."
+    }
+  },
+  {
+    "question": "What is the height above or below sea level called?",
+    "choices": [
+      "depth",
+      "latitude",
+      "variation",
+      "elevation"
+    ],
+    "correct_answer": "elevation",
+    "explanation": "As you know, the surface of Earth is not flat. Elevation is the height above or below sea level...",
+    "evidence_per_choice": {
+      "depth": "",
+      "latitude": "",
+      "variation": "",
+      "elevation": ""
+    },
+    "facts_per_choice": {
+      "depth": "Depth is the height above or below sea level.",
+      "latitude": "Latitude is the height above or below sea level.",
+      "variation": "Variation is the height above or below sea level.",
+      "elevation": "Elevation is the height above or below sea level."
+    }
+  }
+]

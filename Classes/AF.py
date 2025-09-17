@@ -1,26 +1,38 @@
-# argument_graph.py
+ # argument_graph.py
 
 import networkx as nx
-from src.uncertainpy.gradual import Argument, BAG, semantics, algorithms
+import re
+import json
+from Uncertainpy.src.uncertainpy.gradual import Argument, BAG, semantics, algorithms
+from classes.LLMUser import LLMUser
+
+
+def clean_json_response(raw_response: str) -> str:
+    """
+    Rimuove blocchi di codice Markdown (```json ... ```) e spazi extra.
+    """
+    cleaned = re.sub(r"```(?:json)?\n(.*?)```", r"\1", raw_response, flags=re.DOTALL)
+    return cleaned.strip()
+
 
 class ArgumentationGraph:
     """
-    Argumentation graph class that:
-    - Adds arguments and relations
-    - Computes argument strengths
-    - Builds a graph from raw text using LLMUser
+    Classe per costruire grafi argomentativi:
+    - Estrae argomenti e relazioni con LLMUser
+    - Calcola la forza degli argomenti con DF-QuAD
+    - Esporta un grafo in JSON
     """
 
     def __init__(self):
         self.G = nx.DiGraph()
         self.bag = BAG()
 
-    # Add nodes
+    # Aggiungi nodo
     def add_argument(self, arg_id: str, text: str, node_type: str = "evidence", initial_strength: float = 0.5):
         self.G.add_node(arg_id, type=node_type, text=text, strength=initial_strength)
         self.bag.arguments[arg_id] = Argument(arg_id, initial_weight=initial_strength)
 
-    # Add edges
+    # Aggiungi arco
     def add_relation(self, src: str, tgt: str, relation: str):
         self.G.add_edge(src, tgt, relation=relation)
         if relation == "support":
@@ -28,7 +40,7 @@ class ArgumentationGraph:
         elif relation == "attack":
             self.bag.add_attack(self.bag.arguments[src], self.bag.arguments[tgt])
 
-    # Compute semantics
+    # Calcola forze con DF-QuAD
     def compute_strengths(self, delta: float = 1e-2, epsilon: float = 1e-4):
         arg_model = semantics.ContinuousDFQuADModel()
         arg_model.BAG = self.bag
@@ -39,7 +51,7 @@ class ArgumentationGraph:
         nx.set_node_attributes(self.G, strengths, "strength")
         return strengths
 
-    # Export graph
+    # Esporta grafo
     def get_graph(self):
         return self.G
 
@@ -55,26 +67,54 @@ class ArgumentationGraph:
             ]
         }
 
-    # Full pipeline: build graph from text
+    # Pipeline completa
     def build_from_text(self, text: str, llm_user: LLMUser) -> dict:
-        # Extract arguments
-        arguments = llm_user.extract_arguments_with_ollama(text)
+        # 🔹 1. Estrai argomenti
+        raw_args = llm_user.extract_arguments_with_ollama(text)
+        arguments = []
+        for arg in raw_args:
+            if isinstance(arg, str):
+                cleaned = clean_json_response(arg)
+                try:
+                    parsed = json.loads(cleaned)
+                    if isinstance(parsed, list):
+                        arguments.extend(parsed)
+                    else:
+                        arguments.append(parsed)
+                except Exception:
+                    arguments.append(cleaned)
+            else:
+                arguments.append(arg)
 
-        # Detect relations
-        relations_dict = llm_user.detect_argument_relations(arguments)
+        # 🔹 2. Estrai relazioni
+        raw_relations = llm_user.detect_argument_relations_pairwise(arguments)
+        relations_dict = {}
+        for key, val in raw_relations.items():
+            if not isinstance(key, str) or "-" not in key:
+                print(f"[WARN] Skipping invalid relation key: {key}")
+                continue
 
-        # Add nodes
+            cleaned_val = clean_json_response(val) if isinstance(val, str) else val
+            if cleaned_val in ["support", "attack"]:
+                relations_dict[key] = cleaned_val
+            else:
+                print(f"[WARN] Skipping unknown relation type: {cleaned_val}")
+
+        # 🔹 3. Aggiungi nodi
         for i, arg_text in enumerate(arguments):
-            node_type = "claim" if i == 0 else "evidence"  # first argument as claim
+            node_type = "claim" if i == 0 else "evidence"
             self.add_argument(str(i), arg_text, node_type=node_type)
 
-        # Add edges
+        # 🔹 4. Aggiungi archi in modo sicuro
         for key, rel in relations_dict.items():
-            i, j = key.split("-")
-            if rel in ["support", "attack"]:
+            try:
+                i, j = key.split("-", 1)
                 self.add_relation(i, j, rel)
+            except ValueError:
+                print(f"[WARN] Could not parse relation key: {key}")
+                continue
 
-        # Compute strengths
+        # 🔹 5. Calcola forze
         strengths = self.compute_strengths()
 
         return {
