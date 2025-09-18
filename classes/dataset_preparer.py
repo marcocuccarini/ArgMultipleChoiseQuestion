@@ -5,6 +5,7 @@ from LLMUser import LLMUser
 import wikipedia
 import warnings
 from bs4 import BeautifulSoup
+import difflib
 
 # -----------------------------
 # Patch BeautifulSoup in Wikipedia
@@ -28,12 +29,7 @@ class SciQDatasetPreparer:
     """
 
     def __init__(self, split="test", model="mistral", dataset=None, use_llm_user=True, use_ir=True):
-        if dataset is None:
-            from datasets import load_dataset
-            self.dataset = load_dataset("sciq")[split]
-        else:
-            self.dataset = dataset  # column-oriented dict
-
+        self.dataset = dataset.to_dict()
         self.llm = LLM(model=model)
         self.use_llm_user = use_llm_user
         self.llm_user = LLMUser(self.llm) if use_llm_user else None
@@ -41,7 +37,7 @@ class SciQDatasetPreparer:
         self._wiki_cache = {}
 
     def get_full_evidence_for_choice(self, question: str, choice: str) -> str:
-        """Retrieve relevant Wikipedia information for a given choice."""
+        """Retrieve relevant Wikipedia information for a given choice, with retries & fuzzy matching."""
         cache_key = f"{choice}"
         if cache_key in self._wiki_cache:
             return self._wiki_cache[cache_key]
@@ -52,9 +48,29 @@ class SciQDatasetPreparer:
                 self._wiki_cache[cache_key] = "No results."
                 return "No results."
 
-            page = wikipedia.page(results[0], auto_suggest=False)
+            # Pick the closest match by similarity to the choice
+            best_match = difflib.get_close_matches(choice, results, n=1, cutoff=0.0)
+            if best_match:
+                target_title = best_match[0]
+            else:
+                target_title = results[0]  # fallback to first result
+
+            # Try multiple candidates if first fails
+            page = None
+            for title in [target_title] + results[1:5]:  # check top 5 results
+                try:
+                    page = wikipedia.page(title, auto_suggest=False)
+                    break
+                except Exception:
+                    continue
+
+            if not page:
+                self._wiki_cache[cache_key] = "No results."
+                return "No results."
+
             full_text = page.content
 
+            # Look for overlap between question & choice
             keywords = set(question.lower().split()) | set(choice.lower().split())
             relevant_paragraphs = [
                 para for para in full_text.split("\n")
@@ -63,7 +79,7 @@ class SciQDatasetPreparer:
 
             evidence = "\n".join(relevant_paragraphs)
             if not evidence.strip():
-                evidence = full_text
+                evidence = full_text  # fallback to full page if no paragraph matches
 
             self._wiki_cache[cache_key] = evidence
             return evidence
@@ -87,6 +103,7 @@ class SciQDatasetPreparer:
 
         for idx in tqdm(range(num_examples), desc="Preparing SciQ dataset"):
             question = self.dataset['question'][idx]
+
             if question in seen_questions:
                 continue  # skip duplicates
             seen_questions.add(question)
@@ -97,11 +114,7 @@ class SciQDatasetPreparer:
                 self.dataset['distractor2'][idx],
                 self.dataset['distractor3'][idx]
             ]
-            explanation = self.dataset.get('support', [None]*num_examples)[idx]
-
-            if not question or not correct or not all(distractors):
-                print(f"[WARN] Skipping incomplete entry at index {idx}")
-                continue
+            explanation = self.dataset.get('support', [None] * num_examples)[idx]
 
             choices = distractors + [correct]
 
@@ -115,13 +128,9 @@ class SciQDatasetPreparer:
 
                 # --- Fact verbalization ---
                 if self.use_llm_user:
-                    if "distractor" in choice.lower():
-                        fact = f"{choice} is a distractor."
-                    else:
-                        fact = self.llm_user.verbalize_choice(question, choice)
+                    fact = self.llm_user.verbalize_choice(question, choice)
                 else:
-                    fact = f"{choice} -> {question}"
-
+                    fact = ""
                 choice_facts[choice] = fact
 
             records.append({

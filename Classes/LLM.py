@@ -3,6 +3,7 @@
 import json
 import ollama
 
+
 class LLM:
     """
     Low-level wrapper for Ollama LLM.
