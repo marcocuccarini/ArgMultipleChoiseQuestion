@@ -15,12 +15,7 @@ from datasets import load_dataset
 # Load train/validation/test splits
 dataset = load_dataset("allenai/sciq")
 
-
-
-
-
 # Convert column-oriented → list of records expected by preparer
-
 
 
 # Pass into SciQDatasetPreparer

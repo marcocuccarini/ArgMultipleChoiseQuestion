@@ -1,8 +1,8 @@
 # llm_user.py
 import json
-from LLM import LLM
-from prompt import ARGUMENT_EXTRACTION_PROMPT, PAIRWISE_RELATION_PROMPT
-from utils import clean_json_response
+from classes.LLM import LLM
+from classes.prompt import ARGUMENT_EXTRACTION_PROMPT, PAIRWISE_RELATION_PROMPT
+from classes.utils import clean_json_response
 
 
 class LLMUser:

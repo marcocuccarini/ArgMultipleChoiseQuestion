@@ -1,53 +1,167 @@
-# main.py
-
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+import sys
+import os
 import json
+import pprint
+import re
+import networkx as nx
+import matplotlib.pyplot as plt
+from sklearn.metrics import accuracy_score, f1_score, confusion_matrix, ConfusionMatrixDisplay
+
 from classes.LLM import LLM
 from classes.LLMUser import LLMUser
 from classes.AF import ArgumentationGraph
 
-def main():
-    # 1️⃣ Initialize the low-level LLM
-    llm_model = LLM(model="gemma3:4b")
 
-    # 2️⃣ Create the high-level LLM user
+def safe_load_json(file_path):
+    """Load JSON while ignoring trailing commas and minor formatting issues."""
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            text = f.read()
+        text = re.sub(r",(\s*[\]}])", r"\1", text)
+        return json.loads(text)
+    except Exception as e:
+        print(f"⚠️ Failed to load {file_path}: {e}")
+        return []
+
+
+def run_model(model_name, ranked_evidence, dataset):
+    """Run the full pipeline for a given model and save results."""
+
+    print(f"\n🚀 Running for model: {model_name}")
+    output_dir = os.path.join("results", model_name.replace(":", "_"))
+    os.makedirs(output_dir, exist_ok=True)
+
+    llm_model = LLM(model=model_name)
     user = LLMUser(llm_model)
-
-    # 3️⃣ Text to analyze
-    text = (
-        "Governments should invest more in renewable energy sources such as solar, wind, and hydroelectric power. "
-        "Renewable energy reduces greenhouse gas emissions, mitigates climate change, and creates long-term economic opportunities through new green jobs. "
-        "Furthermore, investing in renewables decreases dependence on fossil fuels, improving national energy security. "
-        "However, critics argue that renewable energy projects are expensive to implement, require significant land use, and sometimes disrupt local communities. "
-        "For example, large solar farms can displace wildlife habitats, and wind turbines may affect bird migration patterns. "
-        "There are also concerns about the intermittency of renewable energy, as solar and wind output depends on weather conditions, which can affect reliability. "
-        "Supporters respond that technological advancements and improved storage solutions, such as batteries, are addressing these intermittency issues. "
-        "They also argue that the long-term economic and environmental benefits outweigh the initial costs, and that proper planning can minimize community and ecological impacts. "
-        "Some even point out that countries investing in renewables are positioning themselves as leaders in future global energy markets, gaining both economic and geopolitical advantages. "
-        "On the other hand, some policymakers emphasize the importance of a balanced energy strategy that includes gradual integration of renewables alongside cleaner fossil fuel technologies to ensure a stable energy supply while transitioning to a low-carbon future. "
-        "Debates continue about how to achieve the optimal balance between environmental sustainability, economic feasibility, and social acceptance."
-    )
-
-    # 4️⃣ Initialize the ArgumentationGraph
     graph_builder = ArgumentationGraph()
 
-    # 5️⃣ Build the graph from text
-    result = graph_builder.build_from_text(text, user)
+    combined_data = []
+    y_true = []
+    y_pred = []
+    skipped_missing_data = 0
 
-    # 6️⃣ Print results
-    print("\n=== Extracted Arguments ===")
-    print(json.dumps(result["arguments"], indent=2))
+    for i in range(len(ranked_evidence)):
 
-    print("\n=== Detected Relations ===")
-    print(json.dumps(result["relations"], indent=2))
+        # Build text from ranked evidence safely
+        text_parts = []
+        for j in ranked_evidence[i].keys():
+            entry = ranked_evidence[i][j]
+            if entry and isinstance(entry, list) and "text" in entry[0]:
+                text_parts.append(entry[0]["text"])
+        text = " ".join(text_parts).strip()
 
-    print("\n=== Graph Nodes & Strengths ===")
-    print(json.dumps(result["graph"]["nodes"], indent=2))
+        # Collect hypotheses
+        hypotheses = []
+        facts_per_choice = dataset[i].get("facts_per_choice", {}) if i < len(dataset) else {}
+        for _, fact_text in list(facts_per_choice.items())[:4]:
+            if fact_text and fact_text.strip():
+                hypotheses.append(fact_text.strip())
 
-    print("\n=== Graph Edges ===")
-    print(json.dumps(result["graph"]["edges"], indent=2))
+        correct_answer = dataset[i].get("correct_answer")
+        possible_answers = dataset[i].get("choices")
 
-    print("\n=== Computed Strengths ===")
-    print(json.dumps(result["strengths"], indent=2))
+        if not possible_answers or correct_answer is None:
+            skipped_missing_data += 1
+            continue
+
+        print("\n=== Hypotheses ===")
+        pprint.pprint(hypotheses)
+        print("Correct answer:", correct_answer)
+
+        # Build argumentation graph
+        graph_result = graph_builder.build_from_text(
+            text,
+            user,
+            extra_arguments=hypotheses,
+            insert_at_start=True
+        )
+
+        strengths = graph_result.get("strengths", {})
+
+        max_strength = float("-inf")
+        best_idx = -1
+        for key, value in strengths.items():
+            try:
+                idx = int(key)
+                if idx < len(possible_answers) and value > max_strength:
+                    max_strength = value
+                    best_idx = idx
+            except ValueError:
+                continue  # skip non-numeric keys
+
+        if best_idx == -1:
+            skipped_missing_data += 1
+            continue
+
+        predicted_answer = possible_answers[best_idx]
+
+        # Handle case where correct_answer is index vs string
+        if isinstance(correct_answer, int):
+            correct_value = possible_answers[correct_answer]
+        else:
+            correct_value = correct_answer
+
+        print("corretta ✅" if predicted_answer == correct_value else "sbagliata ❌")
+
+        y_true.append(correct_value)
+        y_pred.append(predicted_answer)
+        combined_data.append({
+            "text": text,
+            "hypotheses": hypotheses,
+            "correct_answer": correct_value,
+            "predicted_answer": predicted_answer,
+            "strengths": strengths
+        })
+
+        # Running accuracy
+        current_acc = accuracy_score(y_true, y_pred)
+        print(f"📈 Running accuracy after {len(y_true)} samples: {current_acc:.2%}")
+
+    print(f"\nTotal entries processed: {len(combined_data)}")
+    print(f"Total entries skipped: {skipped_missing_data}")
+
+    if y_true and y_pred:
+        accuracy = accuracy_score(y_true, y_pred)
+        f1 = f1_score(y_true, y_pred, average="micro", zero_division=0)
+        print(f"\n🎯 Final Accuracy: {accuracy:.2%}")
+        print(f"📊 Final F1-score: {f1:.2%}")
+
+        # Confusion matrix
+        labels = sorted(set(y_true + y_pred))
+        cm = confusion_matrix(y_true, y_pred, labels=labels)
+        disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=labels)
+        disp.plot(cmap="Blues", xticks_rotation=45)
+        plt.title(f"Confusion Matrix ({model_name})")
+        plt.tight_layout()
+        plt.savefig(os.path.join(output_dir, "confusion_matrix.png"))
+        plt.close()
+
+        # Save outputs
+        with open(os.path.join(output_dir, "predictions.json"), "w", encoding="utf-8") as f:
+            json.dump(combined_data, f, indent=2, ensure_ascii=False)
+
+        with open(os.path.join(output_dir, "metrics.txt"), "w", encoding="utf-8") as f:
+            f.write(f"Accuracy: {accuracy:.4f}\n")
+            f.write(f"F1-score: {f1:.4f}\n")
+            f.write(f"Total processed: {len(combined_data)}\n")
+            f.write(f"Total skipped: {skipped_missing_data}\n")
+            f.write(f"Labels: {labels}\n")
+
+        print(f"\n✅ Results saved to: {output_dir}")
+
 
 if __name__ == "__main__":
-    main()
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    ranked_evidence = safe_load_json(os.path.join(base_dir, "ranked_evidence.json"))
+    dataset = safe_load_json(os.path.join(base_dir, "sciq_facts_output.json"))
+
+    models_to_run = [
+        "gemma3:12b",
+        "gemma3:27b"
+    ]
+
+    for model_name in models_to_run:
+        run_model(model_name, ranked_evidence, dataset)

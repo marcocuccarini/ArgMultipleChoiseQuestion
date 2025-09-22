@@ -1,125 +1,103 @@
- # argument_graph.py
+import networkx as nx
+
+from classes.LLMUser import LLMUser  # adjust imports if needed
 
 import networkx as nx
-import re
-import json
-from Uncertainpy.src.uncertainpy.gradual import Argument, BAG, semantics, algorithms
-from classes.LLMUser import LLMUser
-
-
-def clean_json_response(raw_response: str) -> str:
-    """
-    Rimuove blocchi di codice Markdown (```json ... ```) e spazi extra.
-    """
-    cleaned = re.sub(r"```(?:json)?\n(.*?)```", r"\1", raw_response, flags=re.DOTALL)
-    return cleaned.strip()
-
 
 class ArgumentationGraph:
-    """
-    Classe per costruire grafi argomentativi:
-    - Estrae argomenti e relazioni con LLMUser
-    - Calcola la forza degli argomenti con DF-QuAD
-    - Esporta un grafo in JSON
-    """
-
     def __init__(self):
-        self.G = nx.DiGraph()
-        self.bag = BAG()
+        self.graph = nx.DiGraph()
+        self.argument_map = {}   # text → node_id
+        self.id_map = {}         # node_id → text
+        self.next_id = 0         # auto-increment node IDs
 
-    # Aggiungi nodo
-    def add_argument(self, arg_id: str, text: str, node_type: str = "evidence", initial_strength: float = 0.5):
-        self.G.add_node(arg_id, type=node_type, text=text, strength=initial_strength)
-        self.bag.arguments[arg_id] = Argument(arg_id, initial_weight=initial_strength)
+    def _add_argument(self, text, arg_type="argument"):
+        node_id = self.next_id
+        self.graph.add_node(node_id, text=text, type=arg_type)
+        self.argument_map[text] = node_id
+        self.id_map[node_id] = text
+        self.next_id += 1
+        return node_id
 
-    # Aggiungi arco
-    def add_relation(self, src: str, tgt: str, relation: str):
-        self.G.add_edge(src, tgt, relation=relation)
-        if relation == "support":
-            self.bag.add_support(self.bag.arguments[src], self.bag.arguments[tgt])
-        elif relation == "attack":
-            self.bag.add_attack(self.bag.arguments[src], self.bag.arguments[tgt])
+    def build_from_text(self, text, user=None, extra_arguments=None, insert_at_start=False):
+        """
+        Build a graph from main text + optional hypotheses.
+        Returns {'graph': DiGraph, 'strengths': {...}}
+        """
+        self.graph.clear()
+        self.argument_map.clear()
+        self.id_map.clear()
+        self.next_id = 0
 
-    # Calcola forze con DF-QuAD
-    def compute_strengths(self, delta: float = 1e-2, epsilon: float = 1e-4):
-        arg_model = semantics.ContinuousDFQuADModel()
-        arg_model.BAG = self.bag
-        arg_model.approximator = algorithms.RK4(arg_model)
-        arg_model.solve(delta=delta, epsilon=epsilon)
+        # Add hypotheses first
+        if extra_arguments:
+            for hyp in extra_arguments:
+                if hyp and isinstance(hyp, str):
+                    self._add_argument(hyp, arg_type="hypothesis")
 
-        strengths = {a.name: a.strength for a in self.bag.arguments.values()}
-        nx.set_node_attributes(self.G, strengths, "strength")
-        return strengths
+        # Parse main text into arguments
+        parsed_args = self.parse_text_into_arguments(text, user)
+        for arg in parsed_args:
+            if arg and isinstance(arg, str):
+                self._add_argument(arg, arg_type="argument")
 
-    # Esporta grafo
-    def get_graph(self):
-        return self.G
+        # Build edges (dummy logic; replace with real attack/support detection)
+        self._build_relations()
 
-    def to_json(self):
-        return {
-            "nodes": [
-                {"id": n, "type": self.G.nodes[n]["type"], "text": self.G.nodes[n]["text"], "strength": self.G.nodes[n]["strength"]}
-                for n in self.G.nodes
-            ],
-            "edges": [
-                {"source": u, "target": v, "relation": d["relation"]}
-                for u, v, d in self.G.edges(data=True)
-            ]
-        }
-
-    # Pipeline completa
-    def build_from_text(self, text: str, llm_user: LLMUser) -> dict:
-        # 🔹 1. Estrai argomenti
-        raw_args = llm_user.extract_arguments_with_ollama(text)
-        arguments = []
-        for arg in raw_args:
-            if isinstance(arg, str):
-                cleaned = clean_json_response(arg)
-                try:
-                    parsed = json.loads(cleaned)
-                    if isinstance(parsed, list):
-                        arguments.extend(parsed)
-                    else:
-                        arguments.append(parsed)
-                except Exception:
-                    arguments.append(cleaned)
-            else:
-                arguments.append(arg)
-
-        # 🔹 2. Estrai relazioni
-        raw_relations = llm_user.detect_argument_relations_pairwise(arguments)
-        relations_dict = {}
-        for key, val in raw_relations.items():
-            if not isinstance(key, str) or "-" not in key:
-                print(f"[WARN] Skipping invalid relation key: {key}")
-                continue
-
-            cleaned_val = clean_json_response(val) if isinstance(val, str) else val
-            if cleaned_val in ["support", "attack"]:
-                relations_dict[key] = cleaned_val
-            else:
-                print(f"[WARN] Skipping unknown relation type: {cleaned_val}")
-
-        # 🔹 3. Aggiungi nodi
-        for i, arg_text in enumerate(arguments):
-            node_type = "claim" if i == 0 else "evidence"
-            self.add_argument(str(i), arg_text, node_type=node_type)
-
-        # 🔹 4. Aggiungi archi in modo sicuro
-        for key, rel in relations_dict.items():
-            try:
-                i, j = key.split("-", 1)
-                self.add_relation(i, j, rel)
-            except ValueError:
-                print(f"[WARN] Could not parse relation key: {key}")
-                continue
-
-        # 🔹 5. Calcola forze
+        # Compute strengths via Uncertainpy solver
         strengths = self.compute_strengths()
 
-        return {
-            "arguments": arguments,
-            "relations": relations_dict,
-            "graph": self.to_json(),
-            "strengths": strengths
-        }
+        return {"graph": self.graph, "strengths": strengths}
+
+    def parse_text_into_arguments(self, text, user=None):
+        """Dummy parser: splits text into sentences."""
+        if not text or not text.strip():
+            return []
+        return [sent.strip() for sent in text.split(".") if sent.strip()]
+
+    def _build_relations(self):
+        """Dummy edges: chain all nodes as attacks."""
+        nodes = list(self.graph.nodes)
+        for i in range(len(nodes) - 1):
+            self.graph.add_edge(nodes[i], nodes[i+1], type="attack")
+
+    def compute_strengths(self, delta=0.01, epsilon=1e-6):
+        """
+        Convert NetworkX graph to ADS/BAG for Uncertainpy and compute strengths.
+        """
+        # Import Uncertainpy classes
+        from core_engine.Uncertainpy.src.uncertainpy.gradual.semantics.ADS import ADS
+        from core_engine.Uncertainpy.src.uncertainpy.gradual.semantics.Model import Model
+        from core_engine.Uncertainpy.src.uncertainpy.gradual.algorithms.RK4 import RK4
+
+        # --- Step 1: Create ADS and add arguments ---
+        ads = ADS()
+        for node_id in self.graph.nodes:
+            text = self.id_map.get(node_id, f"arg_{node_id}")
+            ads.add_argument(node_id, text=text)
+
+        # --- Step 2: Add attacks/supports ---
+        for source, target, data in self.graph.edges(data=True):
+            edge_type = data.get("type", "attack")
+            if edge_type == "attack":
+                ads.add_attack(source, target)
+            elif edge_type == "support":
+                ads.add_support(source, target)
+
+        # --- Step 3: Create model + approximator ---
+        arg_model = Model(ads)
+        approximator = RK4(arg_model)
+        arg_model.approximator = approximator
+
+        # --- Step 4: Solve ---
+        arg_model.solve(delta=delta, epsilon=epsilon)
+
+        # --- Step 5: Return strengths keyed by node_id ---
+        return arg_model.get_strengths()
+
+    # --- Helper methods to map IDs ↔ texts ---
+    def get_text_from_id(self, node_id):
+        return self.id_map.get(node_id, None)
+
+    def get_id_from_text(self, text):
+        return self.argument_map.get(text, None)
