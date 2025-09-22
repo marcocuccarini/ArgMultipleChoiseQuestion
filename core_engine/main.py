@@ -1,12 +1,10 @@
 import sys
 import os
+
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-import sys
-import os
 import json
 import pprint
 import re
-import networkx as nx
 import matplotlib.pyplot as plt
 from sklearn.metrics import accuracy_score, f1_score, confusion_matrix, ConfusionMatrixDisplay
 
@@ -14,6 +12,8 @@ from classes.LLM import LLM
 from classes.LLMUser import LLMUser
 from classes.AF import ArgumentationGraph
 
+# --- Ensure project root is in sys.path ---
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 def safe_load_json(file_path):
     """Load JSON while ignoring trailing commas and minor formatting issues."""
@@ -26,10 +26,8 @@ def safe_load_json(file_path):
         print(f"⚠️ Failed to load {file_path}: {e}")
         return []
 
-
 def run_model(model_name, ranked_evidence, dataset):
     """Run the full pipeline for a given model and save results."""
-
     print(f"\n🚀 Running for model: {model_name}")
     output_dir = os.path.join("results", model_name.replace(":", "_"))
     os.makedirs(output_dir, exist_ok=True)
@@ -44,8 +42,7 @@ def run_model(model_name, ranked_evidence, dataset):
     skipped_missing_data = 0
 
     for i in range(len(ranked_evidence)):
-
-        # Build text from ranked evidence safely
+        # --- Build text from ranked evidence ---
         text_parts = []
         for j in ranked_evidence[i].keys():
             entry = ranked_evidence[i][j]
@@ -53,7 +50,7 @@ def run_model(model_name, ranked_evidence, dataset):
                 text_parts.append(entry[0]["text"])
         text = " ".join(text_parts).strip()
 
-        # Collect hypotheses
+        # --- Collect hypotheses ---
         hypotheses = []
         facts_per_choice = dataset[i].get("facts_per_choice", {}) if i < len(dataset) else {}
         for _, fact_text in list(facts_per_choice.items())[:4]:
@@ -71,7 +68,7 @@ def run_model(model_name, ranked_evidence, dataset):
         pprint.pprint(hypotheses)
         print("Correct answer:", correct_answer)
 
-        # Build argumentation graph
+        # --- Build argumentation graph ---
         graph_result = graph_builder.build_from_text(
             text,
             user,
@@ -81,31 +78,33 @@ def run_model(model_name, ranked_evidence, dataset):
 
         strengths = graph_result.get("strengths", {})
 
-        max_strength = float("-inf")
-        best_idx = -1
-        for key, value in strengths.items():
-            try:
-                idx = int(key)
-                if idx < len(possible_answers) and value > max_strength:
-                    max_strength = value
-                    best_idx = idx
-            except ValueError:
-                continue  # skip non-numeric keys
+        # --- Map strengths from node_id → hypothesis text ---
+        strengths_text = {
+            graph_builder.get_text_from_id(nid): val
+            for nid, val in strengths.items()
+            if graph_builder.get_text_from_id(nid) in hypotheses
+        }
 
-        if best_idx == -1:
+        if not strengths_text:
             skipped_missing_data += 1
             continue
 
-        predicted_answer = possible_answers[best_idx]
+        # --- Predict hypothesis with max strength ---
+        predicted_answer = max(strengths_text, key=strengths_text.get)
 
-        # Handle case where correct_answer is index vs string
+        # --- Map correct_answer index to text if necessary ---
         if isinstance(correct_answer, int):
-            correct_value = possible_answers[correct_answer]
+            if correct_answer < len(possible_answers):
+                correct_value = possible_answers[correct_answer]
+            else:
+                skipped_missing_data += 1
+                continue
         else:
             correct_value = correct_answer
 
-        print("corretta ✅" if predicted_answer == correct_value else "sbagliata ❌")
+        print("corretta ✅" if predicted_answer.lower() == correct_value.lower() else "sbagliata ❌")
 
+        # --- Collect results ---
         y_true.append(correct_value)
         y_pred.append(predicted_answer)
         combined_data.append({
@@ -113,10 +112,10 @@ def run_model(model_name, ranked_evidence, dataset):
             "hypotheses": hypotheses,
             "correct_answer": correct_value,
             "predicted_answer": predicted_answer,
-            "strengths": strengths
+            "strengths": strengths_text
         })
 
-        # Running accuracy
+        # --- Running accuracy ---
         current_acc = accuracy_score(y_true, y_pred)
         print(f"📈 Running accuracy after {len(y_true)} samples: {current_acc:.2%}")
 
@@ -129,7 +128,7 @@ def run_model(model_name, ranked_evidence, dataset):
         print(f"\n🎯 Final Accuracy: {accuracy:.2%}")
         print(f"📊 Final F1-score: {f1:.2%}")
 
-        # Confusion matrix
+        # --- Confusion matrix ---
         labels = sorted(set(y_true + y_pred))
         cm = confusion_matrix(y_true, y_pred, labels=labels)
         disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=labels)
@@ -139,7 +138,7 @@ def run_model(model_name, ranked_evidence, dataset):
         plt.savefig(os.path.join(output_dir, "confusion_matrix.png"))
         plt.close()
 
-        # Save outputs
+        # --- Save outputs ---
         with open(os.path.join(output_dir, "predictions.json"), "w", encoding="utf-8") as f:
             json.dump(combined_data, f, indent=2, ensure_ascii=False)
 
