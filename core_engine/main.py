@@ -158,9 +158,9 @@ if __name__ == "__main__":
     dataset = safe_load_json(os.path.join(base_dir, "sciq_facts_output.json"))
 
     models_to_run = [
-        "gemma3:12b",
-        "gemma3:27b"
-    ]
+                     "gemma3:12b",
+                     "gemma3:27b"
+                     ]
 
     for model_name in models_to_run:
         run_model(model_name, ranked_evidence, dataset)
