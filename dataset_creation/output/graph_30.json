@@ -1,0 +1,133 @@
+{
+  "question_id": 30,
+  "question": "What is the most abundant metal of the earth's crust?",
+  "nodes": [
+    {
+      "id": "0",
+      "text": "Calcium is the most abundant metal of the earth's crust.",
+      "strength": 1.0
+    },
+    {
+      "id": "1",
+      "text": "Copper is the most abundant metal of the earth's crust.",
+      "strength": 1.0
+    },
+    {
+      "id": "2",
+      "text": "Magnetite is the most abundant metal of the earth's crust.",
+      "strength": 1.0
+    },
+    {
+      "id": "3",
+      "text": "Aluminum is the most abundant metal of the earth's crust.",
+      "strength": 1.0
+    },
+    {
+      "id": "4",
+      "text": "```json\n[\n  \"aluminium easily forms the oxide and becomes bound into rocks and stays in the Earth's crust, while less reactive metals sink to the core\",\n  \"aluminium is the most abundant metallic element (8.23% by mass)\",\n  \"aluminium is the third most abundant of all elements (after oxygen and silicon)\",\n  \"the Earth's mantle is only 2.38% aluminium by mass\",\n  \"biominerals could be important indicators of extraterrestrial life\",\n  \"organic components (biosignatures) that are often associated with biominerals are believed to play crucial roles in both pre-biotic and biotic reactions\",\n  \"aluminium firms colluded to keep prices high and stable\",\n  \"aluminium had become a part of everyday life and an essential component\",\n  \"the crust of Earth is of two distinct types\",\n  \"Continental crust is thicker (50–80 km (31–50 mi))\",\n  \"aluminium sulfate has an LD50 of 6207 mg/kg (oral, mouse)\",\n  \"aluminium is classified as a non-carcinogen\"\n]\n```",
+      "strength": 1.0
+    }
+  ],
+  "edges": [
+    {
+      "source": "0",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "4",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "4",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "4",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "4",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "4",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "4",
+      "target": "3",
+      "relation": "support"
+    }
+  ]
+}

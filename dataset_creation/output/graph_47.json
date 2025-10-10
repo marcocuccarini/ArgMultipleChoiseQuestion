@@ -1,0 +1,113 @@
+{
+  "question_id": 47,
+  "question": "What are biochemical catalysts that speed up biochemical reactions?",
+  "nodes": [
+    {
+      "id": "0",
+      "text": "Inhibitors are biochemical catalysts that speed up biochemical reactions.",
+      "strength": 1.0
+    },
+    {
+      "id": "1",
+      "text": "Metabolites are biochemical catalysts that speed up biochemical reactions.",
+      "strength": 1.0
+    },
+    {
+      "id": "2",
+      "text": "Polymers are biochemical catalysts that speed up biochemical reactions.",
+      "strength": 1.0
+    },
+    {
+      "id": "3",
+      "text": "Enzymes are biochemical catalysts that speed up biochemical reactions.",
+      "strength": 1.0
+    },
+    {
+      "id": "4",
+      "text": "```json\n[\n\"times classified as enzymes despite being composed of RNA rather than protein\",\n\"biomolecular condensates have been recognized as a third category of biocatalysts\",\n\"capable of catalyzing reactions by creating interfaces and gradients\",\n\"enzymes increase the reaction rate by lowering a reaction's activation energy\",\n\"often by factors of millions\",\n\"A striking example\",\n\"conversion of hydrocarbons into synthesis gas\",\n\"The exhaust from the burning of fossil fuels is treated via catalysis\",\n\"Catalytic converters, typically composed of platinum and rhodium, break down some of the more harmful byproducts of automobile exhaust\",\n\"Michaelis–Menten kinetics relies on the law of mass action\",\n\"Most rare elements on Earth are not needed by life\",\n\"Most organisms share element needs\",\n\"ocean algae use bromine\",\n\"land plants and animals do not seem to need any\",\n\"All animals require sodium\",\n\"is not an essential element for plants\",\n\"Plants need boron and silicon\",\n\"animals may\",\n\"These signals are then transmitted inside the cell by second messenger systems\",\n\"Insulin is produced in response to rises in blood glucose levels\",\n\"Binding of the hormone to insulin receptors on cells then activates a cascade of protein kinases\",\n\"cells take up glucose and convert\",\n\"lipids are an integral part of our daily diet\",\n\"Most oils and milk products that we use for cooking and eating like butter, cheese, ghee etc. are composed of fats\",\n\"Lipid-containing foods undergo digestion within the body and are broken into fatty acids and glycerol\",\n\"Some of these enzymes have \\\"proof-reading\\\" mechanisms\",\n\"Here, an enzyme such as DNA polymerase catalyzes a reaction in a first step and then checks that the product is correct in a second step\",\n\"This two-step process results in average error rates of less than 1 error in 100 million reactions\",\n\"Similar proofreading mechanisms are also found in RNA polymerase\",\n\"The maintenance of precise ion gradients across cell membranes maintains osmotic pressure and pH\",\n\"Ions are also critical for nerve and muscle function\",\n\"He developed Döbereiner's lamp\",\n\"Humphry Davy discovered the use of platinum in catalysis\",\n\"Wilhelm Ostwald started a systematic investigation into reactions that were catalyzed by the presence of acids and bases\",\n\"chemical reactions occur at finite rates\",\n\"these rates can be used to determine\",\n\"These molecules tend to be used as markers and signals\",\n\"Many monosaccharides joined form a polysaccharide\",\n\"Cellulose is an important structural component of plant's cell walls\",\n\"glycogen is used as a form of energy storage in animals\",\n\"The term \\\"biochemistry\\\" was first used\",\n\"Vinzenz Kletzinsky had his \\\"Compendium der Biochemie\\\" printed\",\n\"Felix Hoppe-Seyler used the term\",\n\"A single change can change the entire structure\",\n\"substitution of the glutamate residue at position 6 with a valine residue changes the behavior of hemoglobin\",\n\"quaternary structure is concerned wi\",\n\"Lipids are an integral part of our daily diet\",\n\"Most oils and milk products are composed of fats\",\n\"Vegetable oils are rich in various polyunsaturated fatty acids\",\n\"Lipid-containing foods undergo digestion\",\n\"The maintenance of precise ion gradients\",\n\"Ions are critical for nerve and muscle function\"\n]\n```",
+      "strength": 1.0
+    }
+  ],
+  "edges": [
+    {
+      "source": "0",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "4",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "4",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "4",
+      "target": "1",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "4",
+      "target": "3",
+      "relation": "support"
+    }
+  ]
+}

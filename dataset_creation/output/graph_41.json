@@ -1,0 +1,93 @@
+{
+  "question_id": 41,
+  "question": "Pairs of nitrogenous bases are attached to each other by?",
+  "nodes": [
+    {
+      "id": "0",
+      "text": "Potassium bonds attach pairs of nitrogenous bases to each other.",
+      "strength": 1.0
+    },
+    {
+      "id": "1",
+      "text": "Ionic bonds attach pairs of nitrogenous bases to each other.",
+      "strength": 1.0
+    },
+    {
+      "id": "2",
+      "text": "Magnetism is what pairs of nitrogenous bases are attached to each other by.",
+      "strength": 1.0
+    },
+    {
+      "id": "3",
+      "text": "Hydrogen bonds attach pairs of nitrogenous bases to each other.",
+      "strength": 1.0
+    },
+    {
+      "id": "4",
+      "text": "```json\n[\n\"We should ban smoking because it harms others\",\n\"It violates freedom\",\n\"The development of forensic science and the ability to now obtain genetic matching on minute samples of blood, skin, saliva, or hair has led to re-examining many cases\",\n\"Evidence can now be uncovered that was scientifically impossible at the time of the original examination\",\n\"Combined with the removal of the double jeopardy law in some places, this can allow cases to be reopened where prior trials have failed to produce sufficient evidence to convince a jury\",\n\"People charged with a crime can now be exonerated through genetic matching\",\n\"The fact that ice is less dense than liquid water is due to a crystal structure stabilized by hydrogen bonds\",\n\"Dramatically higher boiling points of NH3, H2O, and HF compared to the heavier analogues PH3, H2S, and HCl, where hydrogen-bonding is absent\",\n\"DNA damages that are naturally occurring, due to normal cellular processes that produce reactive oxygen species, the hydrolytic activities of cellular water, etc., also occur frequently\",\n\"If humans lived long enough, they would all eventually develop cancer\",\n\"Computer molecular dynamics simulations suggest that osmolytes stabilize proteins by modifying the hydrogen bonds in the protein hydration layer\",\n\"Recombination allows chromosomes to exchange genetic information and produces new combinations of genes, which increases the efficiency of natural selection\",\n\"Genetic recombination can also be involved in DNA repair, particularly in the cell's response to double-strand breaks\",\n\"Environmental DNA eDNA has seen increased use in the natural sciences as a survey tool for ecology, monitoring the movements and presence of species in water, air, or on land, and assessing an area's biodiversity\"\n]\n```",
+      "strength": 1.0
+    }
+  ],
+  "edges": [
+    {
+      "source": "0",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "2",
+      "relation": "attack"
+    }
+  ]
+}

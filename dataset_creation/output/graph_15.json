@@ -1,0 +1,103 @@
+{
+  "question_id": 15,
+  "question": "How does a neon light produce visible light?",
+  "nodes": [
+    {
+      "id": "0",
+      "text": "Luminescence is the process by which a neon light produces visible light.",
+      "strength": 1.0
+    },
+    {
+      "id": "1",
+      "text": "Radiation produces visible light in a neon light.",
+      "strength": 1.0
+    },
+    {
+      "id": "2",
+      "text": "Mitosis does not explain how a neon light produces visible light.\n\n\n\n",
+      "strength": 1.0
+    },
+    {
+      "id": "3",
+      "text": "Electroluminescence is the process by which a neon light produces visible light.",
+      "strength": 1.0
+    },
+    {
+      "id": "4",
+      "text": "```json\n[\n\"The color of the light produced depends on the emission spectra of the atoms making up the gas, as well as the pressure of the gas, current density, and other variables\",\n\"Gas discharge lamps can produce a wide range of colors\",\n\"Some lamps produce ultraviolet radiation which is converted to visible light by a fluorescent coating on the inside of the lamp's glass surface\",\n\"It was found that inert gases such as the noble gases neon, argon, krypton or xenon, as well as carbon dioxide worked well in tubes\",\n\"This technology was commercialized by the French engineer Georges Claude in 1910 and became neon lighting, used in neon signs\",\n\"The introduction of the metal vapor lamp\",\n\"The magnitude of the potentials and electric fields must be determined by means other than simply finding the net charge density\",\n\"A common example is to assume that the electrons satisfy the Boltzmann relation\"\n]\n```",
+      "strength": 1.0
+    }
+  ],
+  "edges": [
+    {
+      "source": "0",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "1",
+      "target": "0",
+      "relation": "support"
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "relation": "support"
+    },
+    {
+      "source": "1",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "3",
+      "target": "0",
+      "relation": "support"
+    },
+    {
+      "source": "3",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "0",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "1",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "4",
+      "target": "3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "question_id": 19,
+  "question": "What term means the amount of water vapor in the air?",
+  "nodes": [
+    {
+      "id": "0",
+      "text": "Temperature means the amount of water vapor in the air.",
+      "strength": 1.0
+    },
+    {
+      "id": "1",
+      "text": "Pressure is the term for the amount of water vapor in the air.",
+      "strength": 1.0
+    },
+    {
+      "id": "2",
+      "text": "Ambient is the amount of water vapor in the air.",
+      "strength": 1.0
+    },
+    {
+      "id": "3",
+      "text": "Humidity is the amount of water vapor in the air.",
+      "strength": 1.0
+    },
+    {
+      "id": "4",
+      "text": "```json\n[\n\"Humidity is the concentration of water vapor present in the air\",\n\"Water vapor, the gaseous state of water, is generally invisible to the naked eye\",\n\"Humidity indicates the likelihood for precipitation, dew, or fog to be present\",\n\"Humidity depends on the temperature and pressure of the system of interest\",\n\"The same amount of water vapor results in higher relative humidity in cool air than warm air\",\n\"Density altitude is the altitude relative to the standard atmosphere conditions\",\n\"An increase in temperature, and, to a much lesser degree, humidity, will cause\",\n\"Increased humidity can also lead\",\n\"Water vapor reflects radar to a lesser extent than do water's other two phases\",\n\"Transforming thermal energy into mechanical energy requires an upper and a lower temperature level\",\n\"The moist and warm air at the ground is lighter than its surrounding environmental conditions\",\n\"Buildings with foundations not properly sealed will allow water to flow through the walls\",\n\"Scientists studying Mars hypothesize that if water moves about the planet, it does so as vapor\",\n\"The brilliance of comet tails comes largely from water vapor\",\n\"Domesticated plants and animals require regular upkeep of humidity percent\",\n\"Alertness and mental capacity also may be affected\",\n\"Water vapor will only condense onto another surface when it is colder than it would otherwise be\",\n\"Mucociliary clearance in the respiratory tract is also hindered by low humidity\",\n\"An increase in temperature, and, to a much lesser degree, humidity, will cause\"\n]\n```",
+      "strength": 1.0
+    }
+  ],
+  "edges": [
+    {
+      "source": "0",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "4",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "4",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "4",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "4",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "4",
+      "target": "2",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "3",
+      "relation": "support"
+    }
+  ]
+}

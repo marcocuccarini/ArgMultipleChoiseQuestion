@@ -1,0 +1,43 @@
+{
+  "question_id": 14,
+  "question": "Only about one percent of plants have lost what ability, turning them into consumers and even predators, instead of producers?",
+  "nodes": [
+    {
+      "id": "0",
+      "text": "Flowering is an ability lost by only about one percent of plants, turning them into consumers and even predators instead of producers.",
+      "strength": 1.0
+    },
+    {
+      "id": "1",
+      "text": "Rooting is an ability lost by about one percent of plants, turning them into consumers and even predators instead of producers.",
+      "strength": 1.0
+    },
+    {
+      "id": "2",
+      "text": "Growth is the ability lost by approximately one percent of plants, transforming them into consumers and even predators instead of producers.",
+      "strength": 1.0
+    },
+    {
+      "id": "3",
+      "text": "Photosynthesis is the ability lost by about one percent of plants, turning them into consumers and even predators instead of producers.",
+      "strength": 1.0
+    },
+    {
+      "id": "4",
+      "text": "```json\n[\n\"Approximately half of the plant species assessed by the IUCN are considered threatened\",\n\"Common threats are habitat loss as a result of agriculture\",\n\"Common threats are collection of wild p ane, and millet\",\n\"Plants that do not use PEP-carboxylase in carbon fixation are called C3 plants\",\n\"Over 90% of plants use C3 carbon fixation\",\n\"3% that use C4 carbon fixation\",\n\"the evolution of C4 in over sixty plant lineages makes it a striking example of convergent evolution\",\n\"Elements present at low levels may cause deficiency symptoms\",\n\"toxicity is possible at levels that are too high\",\n\"deficiency of one element may present as symptoms of toxicity from another element\",\n\"abundance of one nutrient may cause a deficiency of another nutrient\",\n\"K+ uptake can be influenced by the amount of NH+4 available\",\n\"Nitrogen is plentiful in the Earth's atmosphere\",\n\"N2 gas comprises nearly 79% of air\",\n\"N2 is unavailable for use by most organisms\",\n\"nitrogen must be \\\"fixed\\\" (combined) in the form of ammonium (NH+4) or nitrate (NO−3) ions\",\n\"the weathering of rocks releases these ions so slowly that it has a negligible effect\",\n\"the story of Crinoida dajeeana, also known as the Devil Tree of Madagascar or Man-Eating Tree of Madagascar, first appeared in the daily edition of the New York World on 26 April 1874\",\n\"the story of Crinoida dajeeana, also known as the Devil Tree of Madagascar or Man-Eating Tree of Madagascar, first appeared again in the weekly edition two days later\",\n\"authorship of the fantastical story would later be attributed by Frederick Maxwell Somers to one Edmund Spencer\",\n\"the traps of the bladderworts may have derived from pitchers that specialised in aquatic prey when flooded\",\n\"the helical shape of the lobster pot is an adaptation that displays as much trapping surface as possible\",\n\"these two, phytochrome and cryptochrome, are photoreceptor proteins\",\n\"the UV-B receptor is one or more compounds not yet identified with certainty\",\n\"the theory of a chemical origin of life beginning with heterotrophic life was first proposed in 1924 by Alexander Ivanovich Oparin\",\n\"the theory of a chemical origin of life beginning with heterotrophic life was independently proposed in 1929 by John Burdon Sanderson Haldane\",\n\"researchers have studied the synergistic and antagonistic effects of soil conditions on lead, zinc, cadmium and copper in radish plants to develop predictive indicators for uptake like soil pH\",\n\"Calcium absorption is increased by water-soluble phosphate fertilizers\",\n\"imbalanced application of potassium fertilizers can markedly decrease crop yields\",\n\"At constant temperature, the rate of carbon assimilation varies with irradiance\",\n\"increasing the temperature has little influence on the rate of carbon assimilation\",\n\"the rate of carbon assimilation increases as the temperature is increased\",\n\"These two experiments illustrate several importa\"\n]\n```",
+      "strength": 1.0
+    }
+  ],
+  "edges": [
+    {
+      "source": "0",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "relation": "attack"
+    }
+  ]
+}

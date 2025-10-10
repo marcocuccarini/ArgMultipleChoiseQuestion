@@ -1,0 +1,128 @@
+{
+  "question_id": 43,
+  "question": "The strength of a base depends on the concentration of _______ it produces when dissolved in water?",
+  "nodes": [
+    {
+      "id": "0",
+      "text": "Combustion ions are the concentration that determines the strength of a base when dissolved in water.",
+      "strength": 1.0
+    },
+    {
+      "id": "1",
+      "text": "Calcium ions are the concentration that determines the strength of a base when dissolved in water.",
+      "strength": 1.0
+    },
+    {
+      "id": "2",
+      "text": "Monoxide ions determine the strength of a base when dissolved in water.",
+      "strength": 1.0
+    },
+    {
+      "id": "3",
+      "text": "Hydroxide ions are the concentration that determines the strength of a base when dissolved in water.",
+      "strength": 1.0
+    },
+    {
+      "id": "4",
+      "text": "```json\n[\n\"the concentration of dissolved salt is much higher than the analytical concentrations of the reagents\",\n\"the ions originating from the dissolved salt determine the ionic strength\",\n\"the ionic strength is effectively constant\",\n\"the activity coefficients depend on ionic strength\",\n\"the activity coefficients of the species are effectively independent of concentration\",\n\"the assumption that Γ is constant is justified\",\n\"the concentration quotient is a simple multiple of the equilibrium co oncentration\",\n\"the pH of pure water is close to 7 at ambient temperatures\",\n\"the concentration of hydroxide ions can be expressed in terms of pOH\",\n\"pOH is close to (14 − pH)\",\n\"the pOH of pure water is also close to 7\",\n\"addition of a base to water will reduce the hydrogen cation concentration\",\n\"addition of a base to water will therefore increase the hydroxide ion concentration\",\n\"even if the base does not itself contain hydroxide\",\n\"ammonia solutions have a pH greater than 7\",\n\"metals are characterized by having a small number of electrons in excess of a stable, closed-shell electronic configuration\",\n\"metals have the tendency to lose these extra electrons\",\n\"non-metals are characterized by having an electron configuration just a few electrons short of a stable configuration\",\n\"ocean acidification (meaning a drop in pH value)\",\n\"atmospheric carbon dioxide levels at 430 ppm CO2 at Mauna Loa\",\n\"functional groups have strong absorption bands in the region centered around 3500 cm−1\",\n\"the band width increases when the OH group is involved in hydrogen bonding\"\n]\n```",
+      "strength": 1.0
+    }
+  ],
+  "edges": [
+    {
+      "source": "0",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "4",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "4",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "4",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "relation": "attack"
+    },
+    {
+      "source": "4",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "4",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "4",
+      "target": "3",
+      "relation": "support"
+    }
+  ]
+}

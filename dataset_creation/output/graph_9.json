@@ -1,0 +1,128 @@
+{
+  "question_id": 9,
+  "question": "Ionic compounds have strong electrostatic attractions between oppositely charged ions in this?",
+  "nodes": [
+    {
+      "id": "0",
+      "text": "Ionic compounds have strong electrostatic attractions between oppositely charged ions in an incorrect array.",
+      "strength": 1.0
+    },
+    {
+      "id": "1",
+      "text": "Normal arrays exhibit strong electrostatic attractions between oppositely charged ions in ionic compounds.",
+      "strength": 1.0
+    },
+    {
+      "id": "2",
+      "text": "Ionic compounds have strong electrostatic attractions between oppositely charged ions in an occasional array.",
+      "strength": 1.0
+    },
+    {
+      "id": "3",
+      "text": "Ionic compounds have strong electrostatic attractions between oppositely charged ions in a regular array.",
+      "strength": 1.0
+    },
+    {
+      "id": "4",
+      "text": "```json\n[\n\"Ionic bonds may be seen as extreme examples of polarization in covalent bonds.\",\n\"Often, such bonds have no particular orientation in space, since they result from equal electrostatic attraction of each ion to all ions around them.\",\n\"Ionic bonds are strong (and thus ionic substances require high temperatures to melt).\",\n\"Ionic substances are brittle, since the forces between ions are short-range and do not easily bridge cracks and fractures.\",\n\"Soluble salts can easily be dissolved to provide electrolyte solutions.\",\n\"The concentration of solutes affects many colligative properties.\",\n\"Grain boundaries are in general only a few nanometers wide.\",\n\"Grain boundaries account for a small fraction of the material.\",\n\"Very small grain sizes are achievable.\",\n\"Grain boundaries become a significant volume fraction of the material.\",\n\"Grain boundaries are important to many of the mechanisms of creep.\",\n\"He coined the Neo-Latin word electricus to refer to the property of attracting small objects after being rubbed.\",\n\"He coined the Neo-Latin word electricus to refer to the property of attracting small objects after being rubbed\",\n\"Coulomb's law can be proven from Gauss's law if it is assumed, in addition, that the electric field from a point charge is spherically symmetric.\"\n]\n```",
+      "strength": 1.0
+    }
+  ],
+  "edges": [
+    {
+      "source": "0",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "4",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "relation": "support"
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "relation": "support"
+    },
+    {
+      "source": "1",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "2",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "3",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "1",
+      "relation": "support"
+    },
+    {
+      "source": "3",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "4",
+      "target": "1",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "2",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "3",
+      "relation": "support"
+    }
+  ]
+}

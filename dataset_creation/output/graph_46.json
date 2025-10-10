@@ -1,0 +1,133 @@
+{
+  "question_id": 46,
+  "question": "Which system are the brain and spinal cord apart of?",
+  "nodes": [
+    {
+      "id": "0",
+      "text": "The large nervous system includes the brain and spinal cord.",
+      "strength": 1.0
+    },
+    {
+      "id": "1",
+      "text": "The cerebral cortex is part of the system comprised of the brain and spinal cord.",
+      "strength": 1.0
+    },
+    {
+      "id": "2",
+      "text": "The limbic system includes the brain and spinal cord.",
+      "strength": 1.0
+    },
+    {
+      "id": "3",
+      "text": "The central nervous system comprises the brain and spinal cord.",
+      "strength": 1.0
+    },
+    {
+      "id": "4",
+      "text": "```json\n[\n\"The CNS is the major division\",\n\"The CNS is enclosed and protected by the meninges\",\n\"Symptoms depend on the size, growth rate, location\",\n\"Many cases have no cause that can be identified\",\n\"It is also possible for nerves to lose function temporarily\",\n\"When a chemically gated ion channel is activated, it forms a passage\",\n\"When a second messenger system is activated, it starts a cascade\",\n\"Animal brains are used as food in numerous cuisines\",\n\"Some archaeological evidence suggests that the mourning rituals of European Neanderthals also involved the consumption of the brain\",\n\"The Fore people of Papua New Guinea are known to eat human brains\",\n\"On one hand, it is possible to write a computer program to simulate the operation of a group of neurons\",\n\"On the other hand, it is possible to study algorithms for neural computation\",\n\"Globally, it is expected there are around 40 to 80 cases of spinal cord injury per million population\",\n\"Real or suspected spinal cord injuries need immediate immobilisation\",\n\"The motivational system works largely by a reward–punishment mechanism\",\n\"When a particular behavior is followed by favorable consequences, the reward mechanism in the brain is activated\",\n\"Within placental mammals, the size and complexity of the neocortex increased over time\",\n\"Humans have quite extensive convolutions\",\n\"Nerve rootlets combine to form nerve roots\"\n]\n```",
+      "strength": 1.0
+    }
+  ],
+  "edges": [
+    {
+      "source": "0",
+      "target": "1",
+      "relation": "support"
+    },
+    {
+      "source": "0",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "3",
+      "relation": "support"
+    },
+    {
+      "source": "0",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "1",
+      "target": "0",
+      "relation": "support"
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "relation": "support"
+    },
+    {
+      "source": "1",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "2",
+      "target": "0",
+      "relation": "support"
+    },
+    {
+      "source": "2",
+      "target": "1",
+      "relation": "support"
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "relation": "support"
+    },
+    {
+      "source": "2",
+      "target": "4",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "0",
+      "relation": "support"
+    },
+    {
+      "source": "3",
+      "target": "1",
+      "relation": "support"
+    },
+    {
+      "source": "3",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "0",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "1",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "4",
+      "target": "3",
+      "relation": "support"
+    }
+  ]
+}

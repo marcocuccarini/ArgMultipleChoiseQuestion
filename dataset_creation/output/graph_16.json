@@ -1,0 +1,83 @@
+{
+  "question_id": 16,
+  "question": "The bird ancestor that lived in trees developed what feature commonly associated with birds?",
+  "nodes": [
+    {
+      "id": "0",
+      "text": "Tails are a feature developed by the bird ancestor that lived in trees.",
+      "strength": 1.0
+    },
+    {
+      "id": "1",
+      "text": "Webbed feet are a feature developed by the bird ancestor that lived in trees.",
+      "strength": 1.0
+    },
+    {
+      "id": "2",
+      "text": "Beaks are a feature developed by the bird ancestor that lived in trees.",
+      "strength": 1.0
+    },
+    {
+      "id": "3",
+      "text": "Wings developed in the tree-dwelling bird ancestor.",
+      "strength": 1.0
+    },
+    {
+      "id": "4",
+      "text": "```json\n[\n\"If the latter classification is used then the larger group is termed Avialae\",\n\"Proponents of the running hypothesis believe that flight was formed through fast running, bouncing, and then gliding\",\n\"The forelimbs could be used for grasping after a jump or as \\\"insect trapping nets\\\"\",\n\"According to the arboreal hypothesis, the ancestors of birds climbed trees\",\n\"The position of the nest and whether it has a greater chance of being under predation has exerted constraints on female birds' plumage\",\n\"A species of bird that nests on the ground, rather than the canopy of the trees, will need to have much duller colors\",\n\"Birds that nest in the canopies of trees often have many more predator attacks due to the brighter color of feathers\",\n\"Birds maintain fasting glucose levels that are 150–300% higher than mammals\",\n\"Eagle feathers have great cultural and spiritual value to Native Americans in the United States and First Nations peoples in Canada\",\n\"The religious use of eagle and hawk feathers is governed by the eagle feather law\",\n\"The purpose of this extraordinary feature is unknown\"\n]\n```",
+      "strength": 1.0
+    }
+  ],
+  "edges": [
+    {
+      "source": "0",
+      "target": "3",
+      "relation": "support"
+    },
+    {
+      "source": "0",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "relation": "support"
+    },
+    {
+      "source": "1",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "relation": "support"
+    },
+    {
+      "source": "2",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "3",
+      "target": "1",
+      "relation": "support"
+    },
+    {
+      "source": "3",
+      "target": "2",
+      "relation": "support"
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "3",
+      "relation": "support"
+    }
+  ]
+}

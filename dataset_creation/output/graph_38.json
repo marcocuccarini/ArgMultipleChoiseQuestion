@@ -1,0 +1,88 @@
+{
+  "question_id": 38,
+  "question": "The products of what process are needed for cellular respiration, and vice versa?",
+  "nodes": [
+    {
+      "id": "0",
+      "text": "Digestion produces the products needed for cellular respiration, and vice versa.",
+      "strength": 1.0
+    },
+    {
+      "id": "1",
+      "text": "Spermatogenesis products are needed for cellular respiration, and vice versa.",
+      "strength": 1.0
+    },
+    {
+      "id": "2",
+      "text": "Circulation provides the products needed for cellular respiration, and vice versa.",
+      "strength": 1.0
+    },
+    {
+      "id": "3",
+      "text": "Photosynthesis produces the products needed for cellular respiration, and vice versa.",
+      "strength": 1.0
+    },
+    {
+      "id": "4",
+      "text": "```json\n[\n\"Cellular respiration is the process of oxidizing biological fuels\",\n\"Cellular respiration may be described as a set of metabolic reactions and processes\",\n\"the candle would burn out very quickly\",\n\"a mouse could similarly \\\"injure\\\" air\",\n\"a plant could restore the air\",\n\"fermentation was catalyzed by substances within the yeast\",\n\"most of the food he took in was lost through what he called \\\"insensible perspiration\\\"\",\n\"a vital force was thought to animate living tissue\",\n\"Cyanobacteria, the only prokaryotes performing oxygenic photosynthesis\",\n\"the driving force for moving phosphate ions into the mitochondria is the proton motive force\",\n\"the ATP-ADP translocase is an antiporter\",\n\"the outcome of these transport processes using the proton electrochemical gradient\"\n]\n```",
+      "strength": 1.0
+    }
+  ],
+  "edges": [
+    {
+      "source": "0",
+      "target": "3",
+      "relation": "support"
+    },
+    {
+      "source": "0",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "2",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "relation": "support"
+    },
+    {
+      "source": "2",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "3",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "0",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "2",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "3",
+      "relation": "support"
+    }
+  ]
+}

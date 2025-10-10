@@ -1,0 +1,98 @@
+{
+  "question_id": 27,
+  "question": "Most insects reproduce quickly and through what type of reproduction?",
+  "nodes": [
+    {
+      "id": "0",
+      "text": "Spores are a type of reproduction used by most insects who reproduce quickly.",
+      "strength": 1.0
+    },
+    {
+      "id": "1",
+      "text": "Photosynthesis is not the method of reproduction used by most insects.\n\n\n\n",
+      "strength": 1.0
+    },
+    {
+      "id": "2",
+      "text": "Asexual reproduction is the primary mode of reproduction for most insects.",
+      "strength": 1.0
+    },
+    {
+      "id": "3",
+      "text": "Sexual reproduction is the typical mode of reproduction for insects, allowing them to reproduce quickly.",
+      "strength": 1.0
+    },
+    {
+      "id": "4",
+      "text": "```json\n[\n\"Some insects are parthenogenetic\",\n\"the female can reproduce and give birth without having the eggs fertilized by a male\",\n\"Many aphids undergo a cyclical form of parthenogenesis\",\n\"aphids are generally female and parthenogenetic\",\n\"males may be produced for sexual reproduction\",\n\"sexual reproduction is entirely beneficial\",\n\"larger populations appear to respond more quickly to some of the benefits obtained through sexual reproduction than do smaller population sizes\",\n\"newer models suggest a basic advantage for sexual reproduction in slowly reproducing complex organisms\",\n\"sexual reproduction allows these species to exhibit characteristics\",\n\"sexual reproduction increases genetic diversity\",\n\"sexual reproduction impedes the accumulation of harmful genetic mutations\",\n\"any organism can only pass on 50% of its own genes to its offspring\",\n\"an asexual population has an intrinsic capacity to grow more rapidly with each generation\",\n\"sexual reproduction is a mode of natural selection\",\n\"exposure of hyperthermophilic archaeal Sulfolobus species to DNA damaging conditions induces cellular aggregation accompanied by high frequency genetic marker exchange\",\n\"the infrequent integration of a plasmid into a host bacterial chromosome, and the subsequent transfer of a part of the host chromosome to another cell do not appear to be bacterial adaptations\"\n]\n```",
+      "strength": 1.0
+    }
+  ],
+  "edges": [
+    {
+      "source": "0",
+      "target": "2",
+      "relation": "support"
+    },
+    {
+      "source": "0",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "4",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "relation": "support"
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "4",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "relation": "attack"
+    },
+    {
+      "source": "4",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "4",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "4",
+      "target": "3",
+      "relation": "attack"
+    }
+  ]
+}

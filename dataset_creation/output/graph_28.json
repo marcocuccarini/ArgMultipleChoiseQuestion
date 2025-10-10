@@ -1,0 +1,123 @@
+{
+  "question_id": 28,
+  "question": "Digestion of proteins begins with acids in what organ?",
+  "nodes": [
+    {
+      "id": "0",
+      "text": "The colon is not the organ where digestion of proteins begins with acids.",
+      "strength": 1.0
+    },
+    {
+      "id": "1",
+      "text": "The liver is the organ where protein digestion begins with acids.",
+      "strength": 1.0
+    },
+    {
+      "id": "2",
+      "text": "The brain is not the organ where digestion of proteins begins with acids.",
+      "strength": 1.0
+    },
+    {
+      "id": "3",
+      "text": "The stomach is where digestion of proteins begins with acids.",
+      "strength": 1.0
+    },
+    {
+      "id": "4",
+      "text": "```json\n[\n\"Highly stomach-specific proteins include gastrokine-1 expressed in the mucosa\",\n\"Pepsinogen and gastric lipase, expressed in gastric chief cells\",\n\"A gastric ATPase and gastric intrinsic factor, expressed in parietal cells\",\n\"Human anatomy, physiology, and biochemistry are basic medical sciences\",\n\"Generally taught to medical students in their first year at medical school\",\n\"Any ambiguous image not easily fitting into one of these categories may be misinterpreted\",\n\"The most contentious disputes are between fine art and erotic images\",\n\"The most common viral infection of the mouth is gingivostomatitis caused by herpes simplex\",\n\"A common fungal infection is candidiasis commonly known as thrush which affects the mucous membranes of the mouth\",\n\"There are a number of esophageal diseases such as the development of Schatzki rings that can restrict the passageway, causing difficulties in swallowing\",\n\"They can also completely block the esophagus\",\n\"Stomach diseases are often chronic conditions\",\n\"The kidneys filter about 150 quarts (170 liters) of blood daily\",\n\"Most of it is returned to the blood stream\",\n\"Only 1-2 quarts (1-2 liters) ending up as urine\",\n\"The smooth muscles lining the ureter walls continuously tighten and relax\",\n\"It was the findings in 1991, describing the first olfactory receptors\",\n\"The olfactory receptors helped to prompt the research into taste\",\n\"Sour tastes are acidic which is often found in bad food\",\n\"The brain has to decide very quickly whether the food should be eaten or not\",\n\"Risk factors for coronary artery disease include obesity, smoking, high cholesterol, high blood pressure, lack of exercise and diabetes\",\n\"Cancer can affect the heart\",\n\"Bile acids, when present in specific regions of the digestive system at abnormally high levels, have been implicated as important carcinogens\",\n\"Gestation can predispose for certain digestive disorders\",\n\"Gestational diabetes can develop in the mother as a result of pregnancy\",\n\"The content, acidity and composition of the water inside and outside cells is carefully maintained\",\n\"The main electrolytes in body water outside cells are sodium and chloride\",\n\"The body contains trillions of cells\",\n\"Proteins dictate cell function and gene expression\",\n\"A cell is able to self-regulate by the amount of proteins produced\",\n\"The most common pathogenic parasitic infection in humans\",\n\"There are diagnostic tools mostly involving the ingestion of barium sulphate\",\n\"Incisors are used for cutting or biting off pieces of food\",\n\"Canines, are used for tearing\",\n\"Premolars and molars are used for chewing and grinding\",\n\"The olfactory recepto\"\n]\n```",
+      "strength": 1.0
+    }
+  ],
+  "edges": [
+    {
+      "source": "0",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "1",
+      "target": "0",
+      "relation": "support"
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "4",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "0",
+      "relation": "support"
+    },
+    {
+      "source": "2",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "0",
+      "relation": "support"
+    },
+    {
+      "source": "3",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "4",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "4",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "4",
+      "target": "3",
+      "relation": "support"
+    }
+  ]
+}

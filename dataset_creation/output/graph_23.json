@@ -1,0 +1,58 @@
+{
+  "question_id": 23,
+  "question": "What are people with osteoporosis at increased risk of?",
+  "nodes": [
+    {
+      "id": "0",
+      "text": "People with osteoporosis are at increased risk of epilepsy.",
+      "strength": 1.0
+    },
+    {
+      "id": "1",
+      "text": "People with osteoporosis are at increased risk of senility.",
+      "strength": 1.0
+    },
+    {
+      "id": "2",
+      "text": "People with osteoporosis are at increased risk of growth spurt.",
+      "strength": 1.0
+    },
+    {
+      "id": "3",
+      "text": "People with osteoporosis are at increased risk of bone fractures.",
+      "strength": 1.0
+    },
+    {
+      "id": "4",
+      "text": "```json\n[\n\"up to 37 million fragility fractures linked to osteoporosis were thought to occur in people over the age of 55 worldwide\",\n\"1 in 3 women and 1 in 5 men over the age of 50 will have an osteoporotic fracture\",\n\"Data from the United States shows a decrease in osteoporosis within the general population and in white women, from 18% in 1994 to 10% in 2006\",\n\"White and Asian people are at greater risk\",\n\"People of African descent are at a decreased risk of fractures due to osteoporosis\",\n\"Malnutrition, parenteral nutrition and malabsorption can lead to osteoporosis\",\n\"Nutritional and gastrointestinal disorders that can predispose to osteoporosis include undiagnosed and untreated coeliac disease\",\n\"Some sports have a relatively high risk of bone fractures\",\n\"Older people are respected for their wisdom\",\n\"Ageism cost the United States $63 billion in one year\",\n\"The bicarbonate buffering system of blood plasma effectively holds a steady pH\",\n\"the kidneys are responsible for the majority of acid-base regulation\",\n\"a 330mL can of cola, for example, usually ranging in pH from 2.8 to 3.2, would need to be diluted 100 fold before being excreted\",\n\"the Fiber Bundle Model was introduced to understand the strength of composite materials\",\n\"damage to adjacent structures such as nerves, muscles or blood vessels may cause other specific signs and symptoms\"\n]\n```",
+      "strength": 1.0
+    }
+  ],
+  "edges": [
+    {
+      "source": "2",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "4",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "3",
+      "relation": "support"
+    }
+  ]
+}

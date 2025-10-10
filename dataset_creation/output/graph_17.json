@@ -1,0 +1,128 @@
+{
+  "question_id": 17,
+  "question": "What do most living things use to make atp from glucose?",
+  "nodes": [
+    {
+      "id": "0",
+      "text": "Enzymes are what most living things use to make ATP from glucose.",
+      "strength": 1.0
+    },
+    {
+      "id": "1",
+      "text": "Carbon is used by most living things to make ATP from glucose.",
+      "strength": 1.0
+    },
+    {
+      "id": "2",
+      "text": "Nitrogen is what most living things use to make ATP from glucose.",
+      "strength": 1.0
+    },
+    {
+      "id": "3",
+      "text": "Oxygen is used by most living things to make ATP from glucose.",
+      "strength": 1.0
+    },
+    {
+      "id": "4",
+      "text": "```json\n[\n  \"Most of the ATP produced by aerobic cellular respiration is made by oxidative phosphorylation\",\n  \"This potential is then used to drive ATP synthase and produce ATP from ADP and a phosphate group\",\n  \"Biology textbooks often state that 38 ATP molecules can be made per oxidized glucose molecule\",\n  \"Many crops can be used as the source of starch\",\n  \"In the United States, corn starch (from maize) is used almost exclusively\",\n  \"Some commercial glucose occurs as a component of invert sugar\",\n  \"In principle, cellulose could be hydrolyzed to glucose\",\n  \"The ability of boiled extract plus dialyzed juice to complete fermentation suggests that the cofactors were non-protein in character\",\n  \"Meyerhof and his team were able to extract different glycolytic enzymes from muscle tissue, and combine them to artificially create the pathway from glycogen to lactic acid\",\n  \"These organisms are also remarkable because they consume minerals such as pyrite as their food source\",\n  \"Insulin resistance occurs when the pancreas tries to produce more and more insulin in response to persistently elevated blood glucose levels\",\n  \"The open-chain form is thermodynamically unstable\",\n  \"The ratio would be stable over time and is affected by temperature\",\n  \"ATP serves as a neurotransmitter in many parts of the nervous system\",\n  \"The blood sugar content of a healthy person in the short-time fasting state is about 70 to 100 mg/dL of blood\",\n  \"This high glycolysis rate has important medical applications\",\n  \"High aerobic glycolysis by malignant tumors is utilized clinically to diagnose and monitor treatment responses of cancers\",\n  \"There is ongoing research to affect mitochondrial metabolism and treat cancer\"\n]\n```",
+      "strength": 1.0
+    }
+  ],
+  "edges": [
+    {
+      "source": "0",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "4",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "0",
+      "relation": "support"
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "2",
+      "target": "0",
+      "relation": "support"
+    },
+    {
+      "source": "2",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "0",
+      "relation": "support"
+    },
+    {
+      "source": "3",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "0",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "1",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "4",
+      "target": "3",
+      "relation": "support"
+    }
+  ]
+}
