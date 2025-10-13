@@ -1,0 +1,68 @@
+{
+  "question_id": 35,
+  "question": "In what type of animals may a body cavity be present or absent?",
+  "nodes": [
+    {
+      "id": "0",
+      "text": "Vertebrates are animals in which a body cavity may be present or absent.",
+      "strength": 1.0
+    },
+    {
+      "id": "1",
+      "text": "Bicellular animals may have a body cavity that is present or absent.",
+      "strength": 1.0
+    },
+    {
+      "id": "2",
+      "text": "Nonvascular animals may have a body cavity that is present or absent.",
+      "strength": 1.0
+    },
+    {
+      "id": "3",
+      "text": "Triploblastic animals may have a body cavity that is present or absent.",
+      "strength": 1.0
+    },
+    {
+      "id": "4",
+      "text": "```json\n[\n  \"Animals were classified in three informal groups according to the type of body cavity they possess\",\n  \"These groups were never intended to represent related animals, or a sequence of evolutionary traits\",\n  \"The deuterostomes traditionally include the echinoderms, hemichordates, chordates, and the extinct Vetuli\",\n  \"The Bilateria are now by far the most successful animal lineage\",\n  \"The traditional division of Bilateria into Deuterostomia and Protostomia was challenged\",\n  \"Acoela and Nemertodermatida (together called Acoelomorpha), and the remaining bilaterians\",\n  \"The latter clade was called Nephrozoa\",\n  \"Eubilateria\",\n  \"A different hypothesis is that Ambulacraria is sister to Xenacoelomorpha\",\n  \"Xenambulacraria may be sister to Chordata\",\n  \"Xenambulacraria may be sister to Centroneuralia\",\n  \"The issue of which hypothesis is correct remains unresolved\",\n  \"The ventral body wall fails to close, ventral body wall defects can result\",\n  \"Another defect is gastroschisis\",\n  \"Another possibility is bladder exstrophy\",\n  \"The parietal mesoderm will form the parietal layer of serous membranes\",\n  \"The visceral layer will form the visceral layer of serous membranes\",\n  \"Animals were classified in three informal groups\",\n  \"These groups were not phylogenetically related\",\n  \"The coelom was apparently lost or reduced as a result of mutations\",\n  \"Pseudocoelomate is no longer considered a valid taxonomic group\",\n  \"Important characteristics include lack a vascular blood system\"\n]\n```",
+      "strength": 1.0
+    }
+  ],
+  "edges": [
+    {
+      "source": "0",
+      "target": "3",
+      "relation": "support"
+    },
+    {
+      "source": "1",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "relation": "support"
+    },
+    {
+      "source": "2",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "3",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "relation": "support"
+    }
+  ]
+}

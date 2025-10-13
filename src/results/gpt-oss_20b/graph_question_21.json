@@ -1,0 +1,139 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "claim",
+      "text": "Osmosis is the method by which paracrine signals move through the extracellular matrix.",
+      "strength": 2.17769726833974e-07,
+      "id": "0"
+    },
+    {
+      "type": "evidence",
+      "text": "Deposition is the method by which paracrine signals move through the extracellular matrix.",
+      "strength": 0.00042919382565592294,
+      "id": "1"
+    },
+    {
+      "type": "evidence",
+      "text": "Transfusion is the method by which paracrine signals move through the extracellular matrix.",
+      "strength": 0.00042919382565592294,
+      "id": "2"
+    },
+    {
+      "type": "evidence",
+      "text": "Diffusion is the method by which paracrine signals move through the extracellular matrix.",
+      "strength": 0.9992564991600128,
+      "id": "3"
+    },
+    {
+      "type": "evidence",
+      "text": "Factors then travel to nearby cells in which the gradient of factor received determines the outcome.",
+      "strength": 0.999571024058705,
+      "id": "4"
+    }
+  ],
+  "links": [
+    {
+      "relation": "attack",
+      "source": "0",
+      "target": "1"
+    },
+    {
+      "relation": "attack",
+      "source": "0",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "0",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "0",
+      "target": "2"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "1",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "0"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "2"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "1"
+    },
+    {
+      "relation": "support",
+      "source": "2",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "3"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "0"
+    },
+    {
+      "relation": "attack",
+      "source": "3",
+      "target": "0"
+    },
+    {
+      "relation": "attack",
+      "source": "3",
+      "target": "1"
+    },
+    {
+      "relation": "attack",
+      "source": "3",
+      "target": "2"
+    },
+    {
+      "relation": "support",
+      "source": "3",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "4",
+      "target": "1"
+    },
+    {
+      "relation": "attack",
+      "source": "4",
+      "target": "2"
+    },
+    {
+      "relation": "support",
+      "source": "4",
+      "target": "3"
+    },
+    {
+      "relation": "attack",
+      "source": "4",
+      "target": "0"
+    }
+  ]
+}

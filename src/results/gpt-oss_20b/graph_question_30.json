@@ -1,0 +1,139 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "claim",
+      "text": "Circulation is a method exhibited by many species of rotifers that practice haplodiploidy.",
+      "strength": 0.5,
+      "id": "0"
+    },
+    {
+      "type": "evidence",
+      "text": "Digestion is a method exhibited by many species of rotifers that exhibit haplodiploidy.",
+      "strength": 0.5,
+      "id": "1"
+    },
+    {
+      "type": "evidence",
+      "text": "Respiration is a method exhibited by many species of rotifers that involves haplodiploidy.",
+      "strength": 0.16686584815454042,
+      "id": "2"
+    },
+    {
+      "type": "evidence",
+      "text": "Haplodiploidy is a method of gender determination exhibited by many species of rotifers.",
+      "strength": 0.6664674852630829,
+      "id": "3"
+    },
+    {
+      "type": "evidence",
+      "text": "```json",
+      "strength": 0.5,
+      "id": "4"
+    }
+  ],
+  "links": [
+    {
+      "relation": "support",
+      "source": "0",
+      "target": "1"
+    },
+    {
+      "relation": "attack",
+      "source": "0",
+      "target": "3"
+    },
+    {
+      "relation": "attack",
+      "source": "0",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "0",
+      "target": "2"
+    },
+    {
+      "relation": "support",
+      "source": "1",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "1",
+      "target": "4"
+    },
+    {
+      "relation": "support",
+      "source": "1",
+      "target": "0"
+    },
+    {
+      "relation": "support",
+      "source": "1",
+      "target": "2"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "0"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "2",
+      "target": "4"
+    },
+    {
+      "relation": "support",
+      "source": "2",
+      "target": "1"
+    },
+    {
+      "relation": "support",
+      "source": "3",
+      "target": "0"
+    },
+    {
+      "relation": "attack",
+      "source": "3",
+      "target": "2"
+    },
+    {
+      "relation": "support",
+      "source": "3",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "3",
+      "target": "1"
+    },
+    {
+      "relation": "support",
+      "source": "4",
+      "target": "1"
+    },
+    {
+      "relation": "support",
+      "source": "4",
+      "target": "3"
+    },
+    {
+      "relation": "attack",
+      "source": "4",
+      "target": "0"
+    },
+    {
+      "relation": "support",
+      "source": "4",
+      "target": "2"
+    }
+  ]
+}

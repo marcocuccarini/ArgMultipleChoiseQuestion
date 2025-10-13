@@ -1,0 +1,139 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "claim",
+      "text": "The sun is something organisms that live deep in the ocean must be able to withstand.",
+      "strength": 0.5,
+      "id": "0"
+    },
+    {
+      "type": "evidence",
+      "text": "Significant water pressure is something organisms that live deep in the ocean must be able to withstand.",
+      "strength": 0.9998011872598469,
+      "id": "1"
+    },
+    {
+      "type": "evidence",
+      "text": "Tsunamis are something organisms that live deep in the ocean must be able to withstand.",
+      "strength": 0.5,
+      "id": "2"
+    },
+    {
+      "type": "evidence",
+      "text": "Extreme water pressure is something organisms that live deep in the ocean must be able to withstand.",
+      "strength": 0.9998011872598469,
+      "id": "3"
+    },
+    {
+      "type": "evidence",
+      "text": "```json",
+      "strength": 0.5,
+      "id": "4"
+    }
+  ],
+  "links": [
+    {
+      "relation": "attack",
+      "source": "0",
+      "target": "1"
+    },
+    {
+      "relation": "attack",
+      "source": "0",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "0",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "0",
+      "target": "2"
+    },
+    {
+      "relation": "support",
+      "source": "1",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "1",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "0"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "2"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "0"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "2",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "1"
+    },
+    {
+      "relation": "attack",
+      "source": "3",
+      "target": "0"
+    },
+    {
+      "relation": "attack",
+      "source": "3",
+      "target": "2"
+    },
+    {
+      "relation": "support",
+      "source": "3",
+      "target": "4"
+    },
+    {
+      "relation": "support",
+      "source": "3",
+      "target": "1"
+    },
+    {
+      "relation": "support",
+      "source": "4",
+      "target": "1"
+    },
+    {
+      "relation": "support",
+      "source": "4",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "4",
+      "target": "0"
+    },
+    {
+      "relation": "attack",
+      "source": "4",
+      "target": "2"
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "question_id": 5,
+  "question": "What chemical signals in plants control different processes?",
+  "nodes": [
+    {
+      "id": "0",
+      "text": "Hormones are chemical signals in plants that control different processes.",
+      "strength": 1.0
+    },
+    {
+      "id": "1",
+      "text": "Nitrogen hormones control different processes in plants.",
+      "strength": 1.0
+    },
+    {
+      "id": "2",
+      "text": "Human hormones are chemical signals in plants that control different processes.",
+      "strength": 1.0
+    },
+    {
+      "id": "3",
+      "text": "Plant hormones control different processes in plants.",
+      "strength": 1.0
+    },
+    {
+      "id": "4",
+      "text": "```json\n[\n\"pathogens and competition from other plants\",\n\"they do this by producing toxins and foul-tasting or smelling chemicals\",\n\"other compounds defend plants against disease\",\n\"other compounds permit survival during drought\",\n\"other compounds prepare plants for dormancy\",\n\"other compounds are used to attract pollinators or herbivores to spread ripe seeds\",\n\"hormone concentration does not incite behavior\",\n\"it influences the system by increasing the probability of a certain event to occur\",\n\"not only can hormones influence behavior, but also behavior and the environment can influence hormone concentration\",\n\"neural signals can be transmitted much more quickly than can hormonal signals\",\n\"neural signals can be sent at speeds up to 100 meters per second\",\n\"neural signalling is an all-or-nothing (digital) action\",\n\"hormonal signalling is an action that can be continuously variable\",\n\"if the shoot does not reach the surface and the ethylene stimulus becomes prolonged, it affects the stem's natural geotropic response\",\n\"ethylene affects stem diameter and height\",\n\"plants get all their weight from water, not soil\",\n\"plants grow much better in water\",\n\"this organ was essential for these behaviors\",\n\"location of the testes does not matter\",\n\"the location of the testes does not matter\",\n\"such micronutrients are usually absorbed as ions dissolved in water\",\n\"a short day plant requires a minimal length of uninterrupted darkness in each 24-hour period\",\n\"the mixture is the first known fungicide\",\n\"plants cannot usually spread infection through casual physical contact\",\n\"plant pathogens tend to spread via spores or are carried by animal vectors\",\n\"carotenoids function as accessory pigments in plants\",\n\"the effects of pharmacologic d\",\n\"plants get all their weight from water\"\n]\n```",
+      "strength": 1.0
+    }
+  ],
+  "edges": [
+    {
+      "source": "0",
+      "target": "1",
+      "relation": "support"
+    },
+    {
+      "source": "0",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "3",
+      "relation": "support"
+    },
+    {
+      "source": "0",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "1",
+      "target": "0",
+      "relation": "support"
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "relation": "support"
+    },
+    {
+      "source": "1",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "2",
+      "target": "0",
+      "relation": "support"
+    },
+    {
+      "source": "2",
+      "target": "1",
+      "relation": "support"
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "relation": "support"
+    },
+    {
+      "source": "3",
+      "target": "0",
+      "relation": "support"
+    },
+    {
+      "source": "3",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "0",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "2",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "3",
+      "relation": "support"
+    }
+  ]
+}

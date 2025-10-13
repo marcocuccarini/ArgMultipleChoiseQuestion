@@ -1,0 +1,139 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "claim",
+      "text": "Flowering is an ability lost by only about one percent of plants, turning them into consumers and even predators instead of producers.",
+      "strength": 0.5,
+      "id": "0"
+    },
+    {
+      "type": "evidence",
+      "text": "Rooting is an ability lost by about one percent of plants, turning them into consumers and even predators instead of producers.",
+      "strength": 0.33333442069154334,
+      "id": "1"
+    },
+    {
+      "type": "evidence",
+      "text": "Growth is the ability lost by approximately one percent of plants, transforming them into consumers and even predators instead of producers.",
+      "strength": 0.33333442069154334,
+      "id": "2"
+    },
+    {
+      "type": "evidence",
+      "text": "Photosynthesis is the ability lost by about one percent of plants, turning them into consumers and even predators instead of producers.",
+      "strength": 0.11121003533078759,
+      "id": "3"
+    },
+    {
+      "type": "evidence",
+      "text": "Approximately half of the plant species assessed by the IUCN are considered threatened (vulnerable, endangered or critically endangered).",
+      "strength": 0.5,
+      "id": "4"
+    }
+  ],
+  "links": [
+    {
+      "relation": "attack",
+      "source": "0",
+      "target": "1"
+    },
+    {
+      "relation": "attack",
+      "source": "0",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "0",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "0",
+      "target": "2"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "1",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "0"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "2"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "1"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "3"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "0"
+    },
+    {
+      "relation": "attack",
+      "source": "3",
+      "target": "0"
+    },
+    {
+      "relation": "attack",
+      "source": "3",
+      "target": "1"
+    },
+    {
+      "relation": "attack",
+      "source": "3",
+      "target": "2"
+    },
+    {
+      "relation": "support",
+      "source": "3",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "4",
+      "target": "1"
+    },
+    {
+      "relation": "attack",
+      "source": "4",
+      "target": "2"
+    },
+    {
+      "relation": "support",
+      "source": "4",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "4",
+      "target": "0"
+    }
+  ]
+}

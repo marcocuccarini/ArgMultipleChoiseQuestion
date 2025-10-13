@@ -1,0 +1,128 @@
+{
+  "question_id": 20,
+  "question": "Paracrine signals move by what method through the extracellular matrix?",
+  "nodes": [
+    {
+      "id": "0",
+      "text": "Osmosis is the method by which paracrine signals move through the extracellular matrix.",
+      "strength": 1.0
+    },
+    {
+      "id": "1",
+      "text": "Deposition is the method by which paracrine signals move through the extracellular matrix.",
+      "strength": 1.0
+    },
+    {
+      "id": "2",
+      "text": "Transfusion is the method by which paracrine signals move through the extracellular matrix.",
+      "strength": 1.0
+    },
+    {
+      "id": "3",
+      "text": "Diffusion is the method by which paracrine signals move through the extracellular matrix.",
+      "strength": 1.0
+    },
+    {
+      "id": "4",
+      "text": "```json\n[\n  \"the exact distance that paracrine factors can travel is not certain\",\n  \"Paracrine signals such as retinoic acid target only cells in the vicinity of the emitting cell\",\n  \"Neurotransmitters represent another example of a paracrine signal\",\n  \"Some signaling molecules can function as both a hormone and a neurotransmitter\",\n  \"The JAK-STAT signaling pathway is instrumental in the development of limbs\",\n  \"mutations in this pathway have been implicated in severe forms of dwarfism\",\n  \"this is due to a mutation in a Fgf gene\",\n  \"this causing a premature and constitutive activation of the Stat1\",\n  \"The air arriving in the alveoli has a higher concentration of oxygen than the stale air in the alveoli\",\n  \"the increase in oxygen concentration creates a concentration gradient for oxygen between the air in the alveoli and the blood in the capillaries\",\n  \"oxygen then moves by diffusion, down the concentration gradient, into the blood\",\n  \"Hedgehog proteins were first discovered and studied in Drosophila\",\n  \"Hedgehog proteins produce key signals for the establishment of limb and body plan of fruit flies\",\n  \"GPCRs are targets for about 50% of drugs currently on the market\",\n  \"diffusion of reagents on the surface of a catalyst may play an important role in heterogeneous catalysis\"\n]\n```",
+      "strength": 1.0
+    }
+  ],
+  "edges": [
+    {
+      "source": "0",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "4",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "4",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "4",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "4",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "4",
+      "target": "3",
+      "relation": "support"
+    }
+  ]
+}

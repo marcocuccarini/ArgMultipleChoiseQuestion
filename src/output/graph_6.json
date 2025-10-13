@@ -1,0 +1,118 @@
+{
+  "question_id": 6,
+  "question": "Meiosis is part of the process of gametogenesis, which is the production of what?",
+  "nodes": [
+    {
+      "id": "0",
+      "text": "Chromosomes are produced during gametogenesis, which is part of the process of meiosis.",
+      "strength": 1.0
+    },
+    {
+      "id": "1",
+      "text": "Egg is produced as part of gametogenesis, which includes meiosis.",
+      "strength": 1.0
+    },
+    {
+      "id": "2",
+      "text": "Sperm are produced as part of gametogenesis, which includes meiosis.",
+      "strength": 1.0
+    },
+    {
+      "id": "3",
+      "text": "Sperm and eggs are the products of gametogenesis, which includes meiosis.",
+      "strength": 1.0
+    },
+    {
+      "id": "4",
+      "text": "```json\n[\n\"Gametogenesis is a biological process\",\n\"Diploid or haploid precursor cells undergo cell division and differentiation\",\n\"Gametogenesis occurs by meiotic division of diploid gametocytes into various gametes\",\n\"Gametogenesis occurs by mitosis\",\n\"Plants produce gametes through mitosis\",\n\"The gametophytes grow from haploid spores\",\n\"Specific genes are more highly transcribed\",\n\"There are pervasive translational controls\",\n\"Both transcriptional and translational controls\",\n\"Trick or treaters have been known to throw eggs\",\n\"Eggs are inexpensive and nonlethal\",\n\"Egg collecting was a popular hobby\",\n\"The embryo would be removed before a collector stored the egg shell\",\n\"Collecting eggs of wild birds is now banned\",\n\"Scientists produced cells resembling mouse spermatids from mouse embryonic stem cells artificially\",\n\"They injected these spermatids into mouse eggs and produced pups\",\n\"Sperm quantity and quality are the main parameters\",\n\"Synapsis is thought to occur in a zipper-like fashion\",\n\"All autosomal chromosomes have synapsed\",\n\"Homologous recombination occurs\",\n\"Chromosomal crossover occurs\",\n\"The largest recorded egg is from a whale shark\",\n\"Whale shark eggs typically hatch within the mother\",\n\"The ostrich egg is the largest egg of any living bird\",\n\"The bee hummingbird produces the smallest known bird egg\",\n\"Genetic recombination is fundamentally a DNA repair process\",\n\"Meiosis is an adaptation for repairing the genomic DNA that is passed on to progeny\",\n\"Hydrogen peroxide causes oxidative stress\",\n\"Illegal collection and trading persists\",\n\"Early collections have come to the museums as curiosities\",\n\"Clb1 is the main meiotic regulatory cyclin\",\n\"Clb3 and Clb4 are also expressed during meiosis\",\n\"IME1 drives entry into meiotic S-phase\",\n\"a1/α2 represses a repressor of IME1\",\n\"LH-induced epidermal growth factor-like factors reduce levels of cGMP in oocytes\",\n\"LH-induced epidermal growth factor-like factors may cause the destabilization of gap junctions\",\n\"Nordic sperm donors tend to be tall and highly educated\",\n\"Nordic sperm donors have altruistic motives\",\n\"The FDA has banned import of any sperm\",\n\"There is a risk of tran\",\n\"Down syndrome is a condition\",\n\"Patau syndrome is a condition\",\n\"Edwards syndrome is a condition\",\n\"Klinefelter syndrome is a condition\",\n\"Turner syndrome is a condition\",\n\"Triple X syndrome is a condition\",\n\"Jacobs syndrome is a condition\",\n\"Bird eggshells are diverse\",\n\"Cormorant eggs are rough and chalky\",\n\"Duck eggs are oily and waterproof\",\n\"Cassowary eggs are heavily pitted\",\n\"Jacanas eggs appear lacquered\",\n\"Tiny pores in bird eggshells allow the embryo to breathe\",\n\"The addition of paternal care usually doesn't provide sufficient evolutionary advantage\",\n\"The dung beetle provides an example\",\n\"Many insect species are capable of parthenogenesis\",\n\"Eggs are considered pareve\",\n\"Many vaccines for infectious diseases are produced in fertile chicken eggs\",\n\"Chicken embryos will grow rickettsia and viruses\",\n\"CDK1 activity is suppressed\",\n\"Some sperm banks hold up to 170 litres of sperm\",\n\"It is possible to extract sperm through testicular sperm extraction\",\n\"Denmark has a well-developed system of human sperm export\",\n\"Shell colours are secreted by the same oviduct shell gland\",\n\"Non-passeri produce coloured eggs\",\n\"Isogamy is the ancestral state\",\n\"Intermediate gamete sizes are eliminated\"\n]\n```",
+      "strength": 1.0
+    }
+  ],
+  "edges": [
+    {
+      "source": "0",
+      "target": "1",
+      "relation": "support"
+    },
+    {
+      "source": "0",
+      "target": "2",
+      "relation": "support"
+    },
+    {
+      "source": "0",
+      "target": "3",
+      "relation": "support"
+    },
+    {
+      "source": "1",
+      "target": "0",
+      "relation": "support"
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "relation": "support"
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "relation": "support"
+    },
+    {
+      "source": "2",
+      "target": "0",
+      "relation": "support"
+    },
+    {
+      "source": "2",
+      "target": "1",
+      "relation": "support"
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "relation": "support"
+    },
+    {
+      "source": "2",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "3",
+      "target": "0",
+      "relation": "support"
+    },
+    {
+      "source": "3",
+      "target": "1",
+      "relation": "support"
+    },
+    {
+      "source": "3",
+      "target": "2",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "0",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "1",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "2",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "3",
+      "relation": "support"
+    }
+  ]
+}

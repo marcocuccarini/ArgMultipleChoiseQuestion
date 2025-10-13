@@ -1,0 +1,139 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "claim",
+      "text": "Enamel fragments can travel via the bloodstream and become lodged in other arteries after rupture.",
+      "strength": 0.5,
+      "id": "0"
+    },
+    {
+      "type": "evidence",
+      "text": "Red blood cells can cause fragments to travel via the bloodstream and become lodged in other arteries if ruptured.",
+      "strength": 0.16686584815454042,
+      "id": "1"
+    },
+    {
+      "type": "evidence",
+      "text": "White blood cells can cause fragments to travel via the bloodstream and become lodged in other arteries when rupture occurs.",
+      "strength": 0.6664674852630829,
+      "id": "2"
+    },
+    {
+      "type": "evidence",
+      "text": "Plaque rupture can cause fragments to travel via the bloodstream and become lodged in other arteries.",
+      "strength": 0.16686584815454042,
+      "id": "3"
+    },
+    {
+      "type": "evidence",
+      "text": "```json",
+      "strength": 0.5,
+      "id": "4"
+    }
+  ],
+  "links": [
+    {
+      "relation": "support",
+      "source": "0",
+      "target": "1"
+    },
+    {
+      "relation": "support",
+      "source": "0",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "0",
+      "target": "4"
+    },
+    {
+      "relation": "support",
+      "source": "0",
+      "target": "2"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "1",
+      "target": "4"
+    },
+    {
+      "relation": "support",
+      "source": "1",
+      "target": "0"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "2"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "0"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "2",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "1"
+    },
+    {
+      "relation": "attack",
+      "source": "3",
+      "target": "0"
+    },
+    {
+      "relation": "attack",
+      "source": "3",
+      "target": "2"
+    },
+    {
+      "relation": "support",
+      "source": "3",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "3",
+      "target": "1"
+    },
+    {
+      "relation": "support",
+      "source": "4",
+      "target": "1"
+    },
+    {
+      "relation": "support",
+      "source": "4",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "4",
+      "target": "0"
+    },
+    {
+      "relation": "attack",
+      "source": "4",
+      "target": "2"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "claim",
+      "text": "Spores are a type of reproduction used by most insects who reproduce quickly.",
+      "strength": 0.48199549309988376,
+      "id": "0"
+    },
+    {
+      "type": "evidence",
+      "text": "Photosynthesis is not the method of reproduction used by most insects.",
+      "strength": 0.9307514452255613,
+      "id": "1"
+    },
+    {
+      "type": "evidence",
+      "text": "Asexual reproduction is the primary mode of reproduction for most insects.",
+      "strength": 0.7229391443832592,
+      "id": "2"
+    },
+    {
+      "type": "evidence",
+      "text": "Sexual reproduction is the typical mode of reproduction for insects, allowing them to reproduce quickly.",
+      "strength": 0.035917916457807224,
+      "id": "3"
+    },
+    {
+      "type": "evidence",
+      "text": "The size of the population determines if sexual reproduction is entirely beneficial",
+      "strength": 0.5,
+      "id": "4"
+    }
+  ],
+  "links": [
+    {
+      "relation": "support",
+      "source": "0",
+      "target": "1"
+    },
+    {
+      "relation": "attack",
+      "source": "0",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "0",
+      "target": "4"
+    },
+    {
+      "relation": "support",
+      "source": "0",
+      "target": "2"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "1",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "0"
+    },
+    {
+      "relation": "support",
+      "source": "1",
+      "target": "2"
+    },
+    {
+      "relation": "support",
+      "source": "2",
+      "target": "1"
+    },
+    {
+      "relation": "support",
+      "source": "2",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "3"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "0"
+    },
+    {
+      "relation": "attack",
+      "source": "3",
+      "target": "0"
+    },
+    {
+      "relation": "support",
+      "source": "3",
+      "target": "1"
+    },
+    {
+      "relation": "attack",
+      "source": "3",
+      "target": "2"
+    },
+    {
+      "relation": "support",
+      "source": "3",
+      "target": "4"
+    },
+    {
+      "relation": "support",
+      "source": "4",
+      "target": "1"
+    },
+    {
+      "relation": "attack",
+      "source": "4",
+      "target": "2"
+    },
+    {
+      "relation": "attack",
+      "source": "4",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "4",
+      "target": "0"
+    }
+  ]
+}

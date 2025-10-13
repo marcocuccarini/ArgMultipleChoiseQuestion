@@ -1,0 +1,139 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "claim",
+      "text": "Mid-ocean ridges can be about 2 meters tall.",
+      "strength": 0.006654596264093903,
+      "id": "0"
+    },
+    {
+      "type": "evidence",
+      "text": "Mid-ocean ridges can be about 2 feet tall.",
+      "strength": 0.006654596264093903,
+      "id": "1"
+    },
+    {
+      "type": "evidence",
+      "text": "Mid-ocean ridges can be about 2 inches tall.",
+      "strength": 0.006654596264093903,
+      "id": "2"
+    },
+    {
+      "type": "evidence",
+      "text": "Mid-ocean ridges can be about 2 km tall.",
+      "strength": 0.986612025264367,
+      "id": "3"
+    },
+    {
+      "type": "evidence",
+      "text": "A mid-ocean ridge (MOR) is a seafloor mountain system formed by plate tectonics.",
+      "strength": 0.993255258160432,
+      "id": "4"
+    }
+  ],
+  "links": [
+    {
+      "relation": "attack",
+      "source": "0",
+      "target": "1"
+    },
+    {
+      "relation": "attack",
+      "source": "0",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "0",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "0",
+      "target": "2"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "1",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "0"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "2"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "1"
+    },
+    {
+      "relation": "support",
+      "source": "2",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "3"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "0"
+    },
+    {
+      "relation": "attack",
+      "source": "3",
+      "target": "0"
+    },
+    {
+      "relation": "attack",
+      "source": "3",
+      "target": "1"
+    },
+    {
+      "relation": "attack",
+      "source": "3",
+      "target": "2"
+    },
+    {
+      "relation": "support",
+      "source": "3",
+      "target": "4"
+    },
+    {
+      "relation": "support",
+      "source": "4",
+      "target": "1"
+    },
+    {
+      "relation": "attack",
+      "source": "4",
+      "target": "2"
+    },
+    {
+      "relation": "support",
+      "source": "4",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "4",
+      "target": "0"
+    }
+  ]
+}

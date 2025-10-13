@@ -1,0 +1,128 @@
+{
+  "question_id": 33,
+  "question": "The body cannot sustain for very long the bursts of energy mediated by epinephrine and norepinephrine, hormones associated with what stress response?",
+  "nodes": [
+    {
+      "id": "0",
+      "text": "The do-or-die stress response is associated with bursts of energy mediated by epinephrine and norepinephrine that the body cannot sustain for very long.",
+      "strength": 1.0
+    },
+    {
+      "id": "1",
+      "text": "Fainting is associated with the stress response the body cannot sustain for very long, mediated by epinephrine and norepinephrine.",
+      "strength": 1.0
+    },
+    {
+      "id": "2",
+      "text": "The sink-or-swim response is associated with bursts of energy mediated by epinephrine and norepinephrine that the body cannot sustain for very long.",
+      "strength": 1.0
+    },
+    {
+      "id": "3",
+      "text": "Fight-or-flight is the stress response associated with bursts of energy mediated by epinephrine and norepinephrine that the body cannot sustain for very long.",
+      "strength": 1.0
+    },
+    {
+      "id": "4",
+      "text": "```json\n[\n\"Stress, to a physiologist, means any situation that threatens the continued stability of the body and its functions\",\n\"Stress affects a wide variety of body systems\",\n\"Neural signals can be transmitted much more quickly (in the range of milliseconds) than can hormonal signals\",\n\"Neural signals can be sent at speeds up to 100 meters per second\",\n\"Neural signalling is an all-or-nothing (digital) action\",\n\"hormonal signalling is an action that can be continuously variable\",\n\"Phenylalanine is converted into tyrosine\",\n\"Tyrosine is converted into L-DOPA\",\n\"L-DOPA is converted into dopamine\",\n\"Animals respond to threats in many complex ways\",\n\"Rats try to escape when threatened but will fight when cornered\",\n\"Some animals stand perfectly still so that predators will not see them\",\n\"Many animals freeze or play dead when touched in the hope that the predator will lose interest\",\n\"the benefits to the mother must be taken into account\",\n\"a case has been made for the use of adrenaline infusion in place of inotropes\",\n\"more trials are needed to conclusively determine that these infusions will successfully reduce morbidity and mortality rates\",\n\"Perceived control should be differentiated from actual control\",\n\"an individual’s beliefs about their abilities may not reflect their actual abilities\",\n\"overestimation or underestimation of perceived control can lead\",\n\"the active component of adrenal gland extract causing the increase in blood pressure and heart rate was from the medulla, but not the cortex of the adrenal gland\",\n\"Norepinephrine is synthesized from the amino acid tyrosine\",\n\"the formation of a complex with a binding protein has several benefits\",\n\"the effective half-life of the bound hormone is increased\",\n\"a reservoir of bound hormones is created\",\n\"the variations in concentration of unbound hormones are evened\"\n]\n```",
+      "strength": 1.0
+    }
+  ],
+  "edges": [
+    {
+      "source": "0",
+      "target": "1",
+      "relation": "support"
+    },
+    {
+      "source": "0",
+      "target": "2",
+      "relation": "support"
+    },
+    {
+      "source": "0",
+      "target": "3",
+      "relation": "support"
+    },
+    {
+      "source": "0",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "1",
+      "target": "0",
+      "relation": "support"
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "relation": "support"
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "relation": "support"
+    },
+    {
+      "source": "1",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "2",
+      "target": "0",
+      "relation": "support"
+    },
+    {
+      "source": "2",
+      "target": "1",
+      "relation": "support"
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "relation": "support"
+    },
+    {
+      "source": "2",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "3",
+      "target": "0",
+      "relation": "support"
+    },
+    {
+      "source": "3",
+      "target": "1",
+      "relation": "support"
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "0",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "1",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "2",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "3",
+      "relation": "support"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "claim",
+      "text": "highly viscous",
+      "strength": 0.9998927674476905,
+      "id": "0"
+    },
+    {
+      "type": "evidence",
+      "text": "increased viscosity",
+      "strength": 0.9998927674476905,
+      "id": "1"
+    },
+    {
+      "type": "evidence",
+      "text": "low viscosity",
+      "strength": 1.5769337313086372e-05,
+      "id": "2"
+    },
+    {
+      "type": "evidence",
+      "text": "intense viscosity",
+      "strength": 0.9998927674476905,
+      "id": "3"
+    },
+    {
+      "type": "evidence",
+      "text": "Combustion of hydrocarbons is the main source of the world's energy.",
+      "strength": 0.5,
+      "id": "4"
+    }
+  ],
+  "links": [
+    {
+      "relation": "support",
+      "source": "0",
+      "target": "1"
+    },
+    {
+      "relation": "attack",
+      "source": "0",
+      "target": "2"
+    },
+    {
+      "relation": "support",
+      "source": "0",
+      "target": "4"
+    },
+    {
+      "relation": "support",
+      "source": "0",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "1",
+      "target": "0"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "2"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "4"
+    },
+    {
+      "relation": "support",
+      "source": "1",
+      "target": "3"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "0"
+    },
+    {
+      "relation": "support",
+      "source": "2",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "3"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "1"
+    },
+    {
+      "relation": "support",
+      "source": "3",
+      "target": "1"
+    },
+    {
+      "relation": "support",
+      "source": "3",
+      "target": "0"
+    },
+    {
+      "relation": "attack",
+      "source": "3",
+      "target": "2"
+    },
+    {
+      "relation": "attack",
+      "source": "3",
+      "target": "4"
+    },
+    {
+      "relation": "support",
+      "source": "4",
+      "target": "0"
+    },
+    {
+      "relation": "attack",
+      "source": "4",
+      "target": "2"
+    },
+    {
+      "relation": "attack",
+      "source": "4",
+      "target": "3"
+    }
+  ]
+}

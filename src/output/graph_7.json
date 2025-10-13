@@ -1,0 +1,63 @@
+{
+  "question_id": 7,
+  "question": "Which type of tree is dominant in temperate forests?",
+  "nodes": [
+    {
+      "id": "0",
+      "text": "Vines are not the dominant type of tree in temperate forests.\n\n\n\n",
+      "strength": 1.0
+    },
+    {
+      "id": "1",
+      "text": "Fungus is not the dominant type of tree in temperate forests.",
+      "strength": 1.0
+    },
+    {
+      "id": "2",
+      "text": "Shrubs are not the dominant type of tree in temperate forests.",
+      "strength": 1.0
+    },
+    {
+      "id": "3",
+      "text": "Deciduous trees are dominant in temperate forests.",
+      "strength": 1.0
+    },
+    {
+      "id": "4",
+      "text": "```json\n[\n  \"forests dominated by angiosperms (broadleaf forests) are more species-rich than those dominated by gymnosperms (conifer, montane, or needleleaf forests)\",\n  \"exceptions exist\",\n  \"the gradient runs from favorable to the extreme, with corresponding changes in productivity\",\n  \"changes in physiognomic complexity vary with how favorable of an environment exists (decreasing community structure and reduction of str\",\n  \"Whittaker classified biomes using two abiotic factors: precipitation and temperature\",\n  \"His scheme can be seen as a simplification of Holdridge's\",\n  \"Whittaker based his approach on theoretical assertions and empirical sampling\",\n  \"Parts of the world that have showy displays of bright autumn colors are limited to locations where days become short and nights are cool\",\n  \"The New England region of the United States and southeastern Canada tend to produce particularly good autumn colors for this reason\",\n  \"Europe produces generally poorer colors due to the humid maritime climate and lower overall species diversity\",\n  \"the continental United States and southern Canada are at a lower latitude than northern Europe, so the sun during the fall months is higher and stronger\",\n  \"this combination of strong sun and cool temperatures leads to more intense fall colors\",\n  \"at least 120 drugs come from plant sources\",\n  \"quinine originates from the cinchona tree (Cinchona) and was for a long time the remedy of choice for the treatment of malaria\",\n  \"aspirin was synthesised to replace the sodium salicylate derived from the bark of willow trees (Salix) which had unpleasant side effects\",\n  \"uses of forest in English to denote any uninhabited and unenclosed area are presently considered archaic\"\n]\n```",
+      "strength": 1.0
+    }
+  ],
+  "edges": [
+    {
+      "source": "0",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "1",
+      "relation": "support"
+    },
+    {
+      "source": "3",
+      "target": "2",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "3",
+      "relation": "support"
+    }
+  ]
+}

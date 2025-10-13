@@ -1,0 +1,139 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "claim",
+      "text": "Amps are a unit used to measure electrical current, not heat energy transferred in chemical reactions.",
+      "strength": 0.4140127688109652,
+      "id": "0"
+    },
+    {
+      "type": "evidence",
+      "text": "Amperes are used to measure the transfer of heat energy in chemical reactions.",
+      "strength": 0.17179024516742006,
+      "id": "1"
+    },
+    {
+      "type": "evidence",
+      "text": "Thermals are measurements of heat energy transferred in chemical reactions.",
+      "strength": 0.5,
+      "id": "2"
+    },
+    {
+      "type": "evidence",
+      "text": "Joules are the unit used to measure heat energy transferred in chemical reactions.",
+      "strength": 0.4140127688109652,
+      "id": "3"
+    },
+    {
+      "type": "evidence",
+      "text": "Entropy determinations are used to predict whether a reaction is spontaneous or non-spontaneous, favorable or unfavorable.",
+      "strength": 0.5,
+      "id": "4"
+    }
+  ],
+  "links": [
+    {
+      "relation": "attack",
+      "source": "0",
+      "target": "1"
+    },
+    {
+      "relation": "support",
+      "source": "0",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "0",
+      "target": "4"
+    },
+    {
+      "relation": "support",
+      "source": "0",
+      "target": "2"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "1",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "0"
+    },
+    {
+      "relation": "support",
+      "source": "1",
+      "target": "2"
+    },
+    {
+      "relation": "support",
+      "source": "2",
+      "target": "0"
+    },
+    {
+      "relation": "support",
+      "source": "2",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "2",
+      "target": "4"
+    },
+    {
+      "relation": "support",
+      "source": "2",
+      "target": "1"
+    },
+    {
+      "relation": "support",
+      "source": "3",
+      "target": "0"
+    },
+    {
+      "relation": "attack",
+      "source": "3",
+      "target": "2"
+    },
+    {
+      "relation": "support",
+      "source": "3",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "3",
+      "target": "1"
+    },
+    {
+      "relation": "support",
+      "source": "4",
+      "target": "1"
+    },
+    {
+      "relation": "support",
+      "source": "4",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "4",
+      "target": "0"
+    },
+    {
+      "relation": "support",
+      "source": "4",
+      "target": "2"
+    }
+  ]
+}

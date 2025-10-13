@@ -1,0 +1,68 @@
+{
+  "question_id": 37,
+  "question": "Trees and shrubs are example of what type of plant?",
+  "nodes": [
+    {
+      "id": "0",
+      "text": "Biennials are trees and shrubs.",
+      "strength": 1.0
+    },
+    {
+      "id": "1",
+      "text": "Annuals are not trees and shrubs.",
+      "strength": 1.0
+    },
+    {
+      "id": "2",
+      "text": "Trees and shrubs are not grasses.\n\n\n\n",
+      "strength": 1.0
+    },
+    {
+      "id": "3",
+      "text": "Perennials are trees and shrubs.",
+      "strength": 1.0
+    },
+    {
+      "id": "4",
+      "text": "```json\n[\n\"Human cultivation of plants is the core of agriculture\",\n\"agriculture has played a key role in the history of world civilizations\",\n\"Humans depend on flowering plants for food\",\n\"agriculture includes agronomy for arable crops\",\n\"agriculture includes horticulture for vegetables and fruit\",\n\"agriculture includes forestry\",\n\"About 7,000 species of plant have been used for food\",\n\"most of today's food is derived from only 30 species\",\n\"the major staples include cereals such as rice and wheat\",\n\"starchy roots and tubers such as cassava and potato are major staples\",\n\"legumes such as peas and beans are major staples\",\n\"vegetable oils such as olive oil and palm oil provide lipids\",\n\"fruit and vegetables contribute vitamins and minerals to the diet\",\n\"Coffee, tea, and chocolate are major crops\",\n\"their caffeine-containing products serve as mild stimulants\",\n\"the study of plant uses by people is called econom\",\n\"Plants grown as industrial crops are the source of a wide range of products used in manufacturing\",\n\"Nonfood products include essential oils\",\n\"Nonfood products include natural dyes\",\n\"Products derived from plants include soaps\",\n\"Products derived from plants include shampoos\",\n\"Products derived from plants include perfumes\",\n\"Plants have some of the largest genomes of all organisms\",\n\"the largest plant genome is that of wheat\",\n\"wheat is predicted to encode ≈94,000 genes\",\n\"wheat encodes almost 5 times as many genes as the human genome\",\n\"the first plant genome sequenced was that of Arabidopsis thaliana\",\n\"Arabidopsis thaliana encodes about 25,500 genes\",\n\"the smallest published genome is that of the carnivorous bladderwort\",\n\"stamens create pollen\",\n\"pollen produces male gametes\",\n\"Fertilization takes place within the carpels or ovaries\",\n\"fruits develop into fruits\",\n\"Fruits may be dispersed whole\",\n\"Fruits may split open\",\n\"the seeds are dispersed individually\",\n\"Plants reproduce asexually\",\n\"Shrubs have persistent woody stems above the ground\",\n\"Shrubs can be either deciduous or evergreen\",\n\"Small shrubs, less than 2 metres tall are sometimes termed as subshrubs\",\n\"most of humanity is fed by the re-sowing of the seeds of annual grain crops\",\n\"Shrubs can be either deciduous or evergreen\"\n]\n```",
+      "strength": 1.0
+    }
+  ],
+  "edges": [
+    {
+      "source": "1",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "relation": "attack"
+    },
+    {
+      "source": "4",
+      "target": "0",
+      "relation": "attack"
+    }
+  ]
+}

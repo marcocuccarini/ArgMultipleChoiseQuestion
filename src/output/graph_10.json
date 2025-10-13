@@ -1,0 +1,118 @@
+{
+  "question_id": 10,
+  "question": "About how tall can mid-ocean ridges be?",
+  "nodes": [
+    {
+      "id": "0",
+      "text": "Mid-ocean ridges can be about 2 meters tall.",
+      "strength": 1.0
+    },
+    {
+      "id": "1",
+      "text": "Mid-ocean ridges can be about 2 feet tall.",
+      "strength": 1.0
+    },
+    {
+      "id": "2",
+      "text": "Mid-ocean ridges can be about 2 inches tall.",
+      "strength": 1.0
+    },
+    {
+      "id": "3",
+      "text": "Mid-ocean ridges can be about 2 km tall.",
+      "strength": 1.0
+    },
+    {
+      "id": "4",
+      "text": "```json\n[\n\"A mid-ocean ridge (MOR) is a seafloor mountain system formed by plate tectonics\",\n\"It typically has a depth of about 2,600 meters (8,500 ft)\",\n\"It rises about 2,000 meters (6,600 ft) above the deepest portion of an ocean basin\",\n\"This feature is where seafloor spreading takes place along a divergent plate boundary\",\n\"The rate of seafloor spreading determines the morphology of the crest of the mid-ocean ridge and its width in an ocean basin\",\n\"The production of new seafloor and oceanic lithosphere results\",\n\"This force is regarded as a secondary force\",\n\"There is no force \\\"pushing\\\" horizontally\",\n\"tensional features are dominant along ridges\",\n\"“gravitational sliding”\",\n\"Features of the seabed are gov\",\n\"Venusian surface (since there are thus far no known samples of Venusian rock to be dated by more reliable methods)\",\n\"ages of up to 1,200 million years ago have been calculated\",\n\"Venus has undergone an essentially sform faults occur across a spreading center\",\n\"Tectonic plates are able to move because of\",\n\"They found the highly variable microplastic counts to be proportionate to plastic on the surface and the angle of the seafloor slope\",\n\"Earth's seafloor contains ~14 million tons of microplastic\"\n]\n```",
+      "strength": 1.0
+    }
+  ],
+  "edges": [
+    {
+      "source": "0",
+      "target": "1",
+      "relation": "support"
+    },
+    {
+      "source": "0",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "0",
+      "relation": "support"
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "relation": "support"
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "0",
+      "relation": "support"
+    },
+    {
+      "source": "2",
+      "target": "1",
+      "relation": "support"
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "4",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "4",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "4",
+      "target": "3",
+      "relation": "support"
+    }
+  ]
+}

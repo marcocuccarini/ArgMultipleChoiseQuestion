@@ -1,0 +1,139 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "claim",
+      "text": "The do-or-die stress response is associated with bursts of energy mediated by epinephrine and norepinephrine that the body cannot sustain for very long.",
+      "strength": 0.9999942547129551,
+      "id": "0"
+    },
+    {
+      "type": "evidence",
+      "text": "Fainting is associated with the stress response the body cannot sustain for very long, mediated by epinephrine and norepinephrine.",
+      "strength": 0.9999642722608296,
+      "id": "1"
+    },
+    {
+      "type": "evidence",
+      "text": "The sink-or-swim response is associated with bursts of energy mediated by epinephrine and norepinephrine that the body cannot sustain for very long.",
+      "strength": 0.9998833465945958,
+      "id": "2"
+    },
+    {
+      "type": "evidence",
+      "text": "Fight-or-flight is the stress response associated with bursts of energy mediated by epinephrine and norepinephrine that the body cannot sustain for very long.",
+      "strength": 0.5,
+      "id": "3"
+    },
+    {
+      "type": "evidence",
+      "text": "The most effective treatment is surgical removal of the tumor.",
+      "strength": 0.5,
+      "id": "4"
+    }
+  ],
+  "links": [
+    {
+      "relation": "support",
+      "source": "0",
+      "target": "1"
+    },
+    {
+      "relation": "attack",
+      "source": "0",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "0",
+      "target": "4"
+    },
+    {
+      "relation": "support",
+      "source": "0",
+      "target": "2"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "1",
+      "target": "4"
+    },
+    {
+      "relation": "support",
+      "source": "1",
+      "target": "0"
+    },
+    {
+      "relation": "support",
+      "source": "1",
+      "target": "2"
+    },
+    {
+      "relation": "support",
+      "source": "2",
+      "target": "0"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "2",
+      "target": "4"
+    },
+    {
+      "relation": "support",
+      "source": "2",
+      "target": "1"
+    },
+    {
+      "relation": "support",
+      "source": "3",
+      "target": "0"
+    },
+    {
+      "relation": "attack",
+      "source": "3",
+      "target": "2"
+    },
+    {
+      "relation": "support",
+      "source": "3",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "3",
+      "target": "1"
+    },
+    {
+      "relation": "support",
+      "source": "4",
+      "target": "1"
+    },
+    {
+      "relation": "support",
+      "source": "4",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "4",
+      "target": "0"
+    },
+    {
+      "relation": "support",
+      "source": "4",
+      "target": "2"
+    }
+  ]
+}

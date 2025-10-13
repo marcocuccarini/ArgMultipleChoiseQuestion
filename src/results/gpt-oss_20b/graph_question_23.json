@@ -1,0 +1,139 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "claim",
+      "text": "Bleeding does not happen when mammals raise their hair with tiny muscles in the skin.",
+      "strength": 0.5,
+      "id": "0"
+    },
+    {
+      "type": "evidence",
+      "text": "Balding does not happen when mammals raise their hair with tiny muscles in the skin.",
+      "strength": 0.5,
+      "id": "1"
+    },
+    {
+      "type": "evidence",
+      "text": "Bruising happens when mammals raise their hair with tiny muscles in the skin.",
+      "strength": 0.0001988127401530023,
+      "id": "2"
+    },
+    {
+      "type": "evidence",
+      "text": "Goosebumps happen when mammals raise their hair with tiny muscles in the skin.",
+      "strength": 0.9998011872598469,
+      "id": "3"
+    },
+    {
+      "type": "evidence",
+      "text": "se bumps is known as piloerection or the pilomotor reflex, or, more traditionally, horripilation.",
+      "strength": 0.9998011872598469,
+      "id": "4"
+    }
+  ],
+  "links": [
+    {
+      "relation": "attack",
+      "source": "0",
+      "target": "1"
+    },
+    {
+      "relation": "support",
+      "source": "0",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "0",
+      "target": "4"
+    },
+    {
+      "relation": "support",
+      "source": "0",
+      "target": "2"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "1",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "0"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "2"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "1"
+    },
+    {
+      "relation": "support",
+      "source": "2",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "2",
+      "target": "0"
+    },
+    {
+      "relation": "attack",
+      "source": "3",
+      "target": "0"
+    },
+    {
+      "relation": "attack",
+      "source": "3",
+      "target": "1"
+    },
+    {
+      "relation": "attack",
+      "source": "3",
+      "target": "2"
+    },
+    {
+      "relation": "support",
+      "source": "3",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "4",
+      "target": "1"
+    },
+    {
+      "relation": "attack",
+      "source": "4",
+      "target": "2"
+    },
+    {
+      "relation": "support",
+      "source": "4",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "4",
+      "target": "0"
+    }
+  ]
+}

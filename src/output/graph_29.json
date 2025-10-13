@@ -1,0 +1,68 @@
+{
+  "question_id": 29,
+  "question": "Many species of rotifers exhibit haplodiploidy, which is a method of what?",
+  "nodes": [
+    {
+      "id": "0",
+      "text": "Circulation is a method exhibited by many species of rotifers that practice haplodiploidy.",
+      "strength": 1.0
+    },
+    {
+      "id": "1",
+      "text": "Digestion is a method exhibited by many species of rotifers that exhibit haplodiploidy.",
+      "strength": 1.0
+    },
+    {
+      "id": "2",
+      "text": "Respiration is a method exhibited by many species of rotifers that involves haplodiploidy.",
+      "strength": 1.0
+    },
+    {
+      "id": "3",
+      "text": "Haplodiploidy is a method of gender determination exhibited by many species of rotifers.",
+      "strength": 1.0
+    },
+    {
+      "id": "4",
+      "text": "```json\n[\n  \"Haplodiploidy is a sex-determination system\",\n  \"Males develop from unfertilized eggs and are haploid\",\n  \"Females develop from fertilized eggs and are diploid\",\n  \"Haplodiploidy determines the sex in all members of the insect orders Hymenoptera\",\n  \"Rotifers eat particulate organic detritus, dead bacteria, algae, and protozoans\",\n  \"Rotifers contribute to nutrient recycling\",\n  \"Rotifers affect the species composition of algae in ecosystems through their choice in grazing\",\n  \"Rotifers may compete with cladocera and copepods for planktonic food sources\",\n  \"Measurement of the heritability of a trait is relative\",\n  \"the environment has a bigger influence on the total variation of the trait\",\n  \"human height is a trait with complex causes\",\n  \"exposure of hyperthermophilic archaeal Sulfolobus species to DNA damaging conditions induces cellular aggregation\",\n  \"exposure of hyperthermophilic archaeal Sulfolobus species to DNA damaging conditions induces cellular aggregation enhances species-specific DNA repair\",\n  \"A gene is expressed when it is being transcribed into mRNA\",\n  \"Transcription factors are regulatory proteins that bind to DNA\"\n]\n```",
+      "strength": 1.0
+    }
+  ],
+  "edges": [
+    {
+      "source": "0",
+      "target": "3",
+      "relation": "support"
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "relation": "support"
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "relation": "support"
+    },
+    {
+      "source": "3",
+      "target": "1",
+      "relation": "support"
+    },
+    {
+      "source": "3",
+      "target": "2",
+      "relation": "support"
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "1",
+      "relation": "support"
+    }
+  ]
+}

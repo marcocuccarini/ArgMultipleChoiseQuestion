@@ -1,0 +1,1191 @@
+[
+  {
+    "question": "Compounds that are capable of accepting electrons, such as o 2 or f2, are called what?",
+    "hypotheses": [
+      "Antioxidants are compounds capable of accepting electrons, such as O2 or F2.",
+      "Oxygen is a compound capable of accepting electrons, such as O2 or F2.",
+      "Residues are compounds capable of accepting electrons, such as o2 or f2.",
+      "Oxidants are compounds capable of accepting electrons, such as O2 or F2."
+    ],
+    "predicted_answer": "oxidants",
+    "correct_answer": "oxidants",
+    "strengths": {
+      "Antioxidants are compounds capable of accepting electrons, such as O2 or F2.": 0.11103873567713407,
+      "Oxidants are compounds capable of accepting electrons, such as O2 or F2.": 0.777723727480529,
+      "Oxygen is a compound capable of accepting electrons, such as O2 or F2.": 0.5554291117135672,
+      "Residues are compounds capable of accepting electrons, such as o2 or f2.": 0.11103873567713407
+    },
+    "used_intervals": [
+      "ectrons) are said to be oxidative or oxidizing, and are known as oxidizing agents, oxidants, or oxidizers. The oxidant removes electrons from another substance, and is thus itself reduced. Because it \"accepts\" electrons, the oxidizing agent is also called an electron acceptor. Oxidants are usually chemical substances with elements in high oxidation states (e.g., N2O4, MnO−4, CrO3, Cr2O2−7, OsO4), or else highly electronegative elements (e.g. O2, F2, Cl2, Br2, I2) that can gain extra electrons by",
+      "weight, although nitrogen trifluoride resists hydrolysis and is not basic. The pentafluorides of phosphorus, arsenic, and antimony are more reactive than their respective trifluorides, with antimony pentafluoride the strongest neutral Lewis acid known, only behind gold pentafluoride.\nChalcogens have diverse fluorides: unstable difluorides have been reported for oxygen (the only known compound with oxygen in an oxidation state of +2), sulfur, and selenium; tetrafluorides and hexafluorides exist f",
+      " The bond can be variously described based on level of theory, but is reasonably and simply described as a covalent double bond that results from the filling of molecular orbitals formed from the atomic orbitals of the individual oxygen atoms, the filling of which results in a bond order of two. More specifically, the double bond is the result of sequential, low-to-high energy, or Aufbau, filling of orbitals, and the resulting cancellation of contributions from the 2s electrons, after sequential",
+      "osed using the measurement of the radiance coming from vegetation canopies in those bands to characterize plant health status from a satellite platform. This approach exploits the fact that in those bands it is possible to discriminate the vegetation's reflectance from its fluorescence, which is much weaker. The measurement is technically difficult owing to the low signal-to-noise ratio and the physical structure of vegetation; but it has been proposed as a possible method of monitoring the carb",
+      "ures more than 50 kilopascals (kPa), equal to about 50% oxygen composition at standard pressure or 2.5 times the normal sea-level O2 partial pressure of about 21 kPa. This is not a problem except for patients on mechanical ventilators, since gas supplied through oxygen masks in medical applications is typically composed of only 30–50% O2 by volume (about 30 kPa at standard pressure).\nAt one time, premature babies were placed in incubators containing O2-rich air, but this practice was discontinue"
+    ]
+  },
+  {
+    "question": "What term in biotechnology means a genetically exact copy of an organism?",
+    "hypotheses": [
+      "Adults are a genetically exact copy of an organism.",
+      "Male is a genetically exact copy of an organism.",
+      "Phenotype is a genetically exact copy of an organism.",
+      "A clone is a genetically exact copy of an organism."
+    ],
+    "predicted_answer": "clone",
+    "correct_answer": "clone",
+    "strengths": {
+      "Adults are a genetically exact copy of an organism.": 0.5,
+      "Male is a genetically exact copy of an organism.": 0.0001988127401530023,
+      "Phenotype is a genetically exact copy of an organism.": 0.0001988127401530023,
+      "A clone is a genetically exact copy of an organism.": 0.9998011872598469
+    },
+    "used_intervals": [
+      "that inherit their genome from a single parent. Offspring that are genetically identical to their parents are called clones.\nEukaryotic organisms often use sexual reproduction to generate offspring that contain a mixture of genetic material inherited from two different parents. The process of sexual reproduction alternates between forms that contain single copies of the genome (haploid) and double copies (diploid). Haploid cells fuse and combine genetic material to create a diploid cell with pai",
+      "d organisms, such as pharmaceuticals, crops, and livestock. As per the European Federation of Biotechnology, biotechnology is the integration of natural science and organisms, cells, parts thereof, and molecular analogues for products and services. Biotechnology is based on the basic biological sciences (e.g., molecular biology, biochemistry, cell biology, embryology, genetics, microbiology) and conversely provides methods to support and perform basic research in biology.\n\nBiotechnology is the r",
+      "between Europe and the United States.\n\nOne of the key issues concerning regulators is whether GM products should be labeled.  The European Commission says that mandatory labeling and traceability are needed to allow for informed choice, avoid potential false advertising and facilitate the withdrawal of products if adverse effects on health or the environment are discovered. The American Medical Association and the American Association for the Advancement of Science say that absent scientific evi",
+      "Clones is a civil parish located in the barony of Clankelly in County Fermanagh, Northern Ireland, and in County Monaghan, Republic of Ireland.\n\n\n== See also ==\nClones, County Monaghan\n\n\n== References ==",
+      "oteins, but it never transfers from protein back into the sequence of DNA—a phenomenon Francis Crick called the central dogma of molecular biology.\nThe specific sequence of amino acids results in a unique three-dimensional structure for that protein, and the three-dimensional structures of proteins are related to their functions. Some are simple structural molecules, like the fibers formed by the protein collagen. Proteins can bind to other proteins and simple molecules, sometimes acting as enzy"
+    ]
+  },
+  {
+    "question": "Vertebrata are characterized by the presence of what?",
+    "hypotheses": [
+      "Bones characterize Vertebrata.",
+      "Muscles are a characteristic of Vertebrata.",
+      "Thumbs are a characteristic of Vertebrata.",
+      "Vertebrata are characterized by the presence of a backbone."
+    ],
+    "predicted_answer": "Bones",
+    "correct_answer": "backbone",
+    "strengths": {
+      "Bones characterize Vertebrata.": 0.7499005936298626,
+      "Muscles are a characteristic of Vertebrata.": 0.5,
+      "Thumbs are a characteristic of Vertebrata.": 0.5,
+      "Vertebrata are characterized by the presence of a backbone.": 0.5
+    },
+    "used_intervals": [
+      "ven the arches are discontinuous, consisting of separate pieces of arch-shaped cartilage around the spinal cord in most parts of the body, changing to long strips of cartilage above and below in the tail region. Hagfishes lack a true vertebral column, and are therefore not properly considered vertebrates, but a few tiny neural arches are present in the tail.\n\n\n=== Other vertebrates ===\nThe general structure of human vertebrae is fairly typical of that found in other mammals, reptiles, and birds ",
+      "complete transection, hemisection, central spinal cord lesions, posterior spinal cord lesions, and anterior spinal cord lesions.\nScalloping vertebrae is the increase in the concavity of the posterior vertebral body. It can be seen on lateral X-ray and sagittal views of CT and MRI scans. Its concavity is due to the increased pressure exerting on the vertebrae due to a mass. Internal spinal mass such as spinal astrocytoma, ependymoma, schwannoma, neurofibroma, and achondroplasia causes vertebrae s",
+      "00+ species; paraphyletic when tetrapods are excluded)\nSubclass Actinopterygii (ray-finned fish; about 30,000 species)\nSubclass \"Sarcopterygii\" (lobe-finned fish: 8 species; paraphyletic when tetrapods are excluded)\nSuperclass Tetrapoda (four-limbed vertebrates; 35,100+ species)\nClass Amphibia (amphibians; 8,100+ species)\nClass Sauropsida (reptiles (including birds); 21,300+ species – 10,000+ species of birds and 11,300+ species of reptiles)\nClass Synapsida (mammals; 5,700+ species)\n\n\n== Subphyl",
+      "ry approach (7. ed.). Belmont, Calif. [u.a.]: Thomson, Brooks/Cole. ISBN 0-03-025982-7.\nForbes, R. M.; Mitchell, H. H.; Cooper, A. R. (1956). \"Further studies on the gross composition and mineral elements of the adult human body\". Journal of Biological Chemistry. 223 (2). American Society for Biochemistry and Molecular Biology: 969–975. doi:10.1016/S0021-9258(18)65095-1. PMID 13385244.\nMish, Frederick C., ed. (2003). Merriam-Webster's Collegiate Dictionary (11th ed.). Merriam-Webster. ISBN 978-0",
+      "ng fetal development. The secondary curves develop after birth. The cervical curvature forms as a result of lifting the head and the lumbar curvature forms as a result of walking.\n\n\n== Function ==\n\n\n=== Spinal cord ===\n\nThe vertebral column surrounds the spinal cord which travels within the spinal canal, formed from a central hole within each vertebra. The spinal cord is part of the central nervous system that supplies nerves and receives information from the peripheral nervous system within the"
+    ]
+  },
+  {
+    "question": "What is the height above or below sea level called?",
+    "hypotheses": [
+      "Depth is the height above or below sea level.",
+      "Latitude is the height above or below sea level.",
+      "Variation is the height above or below sea level.",
+      "Elevation is the height above or below sea level."
+    ],
+    "predicted_answer": "depth",
+    "correct_answer": "elevation",
+    "strengths": {
+      "Depth is the height above or below sea level.": 0.7499005936298626,
+      "Latitude is the height above or below sea level.": 0.5,
+      "Variation is the height above or below sea level.": 0.2500994063701377,
+      "Elevation is the height above or below sea level.": 0.5
+    },
+    "used_intervals": [
+      "e and, consequently, aircraft flight levels. A common and relatively straightforward mean sea-level standard is instead a long-term average of tide gauge readings at a particular reference location.\nThe term above sea level generally refers to the height above mean sea level (AMSL). The term APSL means above present sea level, comparing sea levels in the past with the level today.\nEarth's radius at sea level is 6,378.137 km (3,963.191 mi) at the equator. It is 6,356.752 km (3,949.903 mi) at the ",
+      "upward. This is the process of convection. Convection comes to equilibrium when a parcel of air at a given altitude has the same density as its surroundings. Air is a poor conductor of heat, so a parcel of air will rise and fall without exchanging heat. This is known as an adiabatic process, which has a characteristic pressure-temperature curve. As the pressure gets lower, the temperature decreases. The rate of decrease of temperature with elevation is known as the adiabatic lapse rate, which is",
+      "r antenna towers\nList of places on land with elevations below sea level\nMeltwater pulse 1A – Period of rapid post-glacial sea level rise\nMetres above the Adriatic – Vertical datum used in parts of Europe\nNormal height – Altitude above quasigeoid or mean sea level\nNormalhöhennull – Vertical datum used in Germany\nNormalnull – Outdated official vertical datum used in Germany\nNorth West Shelf Operational Oceanographic System – Oceanography facility\nOrdnance datum – Vertical datum used as the basis f",
+      " could be protective against Alzheimer's disease via action of erythropoietin, a hormone released by kidney in response to hypoxia.\nHowever, people living at higher elevations have a statistically significant higher rate of suicide. The cause for the increased suicide risk is unknown so far.\n\n\n==== Athletes ====\nFor athletes, high altitude produces two contradictory effects on performance. For explosive events (sprints up to 400 metres, long jump, triple jump) the reduction in atmospheric pressu",
+      "2 Raw Data Database (2 minute grid)\nDownloadable ETOPO5 Raw Data Database (5 minute grid)"
+    ]
+  },
+  {
+    "question": "Ice cores, varves and what else indicate the environmental conditions at the time of their creation?",
+    "hypotheses": [
+      "Mountain ranges indicate the environmental conditions at the time of their creation, along with ice cores and varves.",
+      "Fossils indicate the environmental conditions at the time of their creation, along with ice cores and varves.",
+      "Magma indicates the environmental conditions at the time of its creation, alongside ice cores and varves.",
+      "Tree rings, ice cores, and varves indicate the environmental conditions at the time of their creation."
+    ],
+    "predicted_answer": "mountain ranges",
+    "correct_answer": "tree rings",
+    "strengths": {
+      "Mountain ranges indicate the environmental conditions at the time of their creation, along with ice cores and varves.": 0.9999816155179397,
+      "Fossils indicate the environmental conditions at the time of their creation, along with ice cores and varves.": 0.999978248030631,
+      "Magma indicates the environmental conditions at the time of its creation, alongside ice cores and varves.": 0.9998923111613843,
+      "Tree rings, ice cores, and varves indicate the environmental conditions at the time of their creation.": 0.9999814255580174
+    },
+    "used_intervals": [
+      "or of temperature in the past.  This data can be combined to find the climate model that best fits all the available data.\nImpurities in ice cores may depend on location.  Coastal areas are more likely to include material of marine origin, such as sea salt ions.  Greenland ice cores contain layers of wind-blown dust that correlate with cold, dry periods in the past, when cold deserts were scoured by wind.  Radioactive elements, either of natural origin or created by nuclear testing, can be used ",
+      "ts from seasonal variation in clastic, biological, and chemical sedimentary processes.\nThe classic varve archetype is a light / dark coloured couplet deposited in a lake basin. During summer months, light laminae (thin layers) composed of silica and calcium carbonate are deposited. This is the consequence of dead phytoplankton, and other micro-organisms that create their skeletons or shells out of silica or calcium carbonate, falling to the lake bottom. This process of the precipitation and depo",
+      "           \n                  \n                    1\n                    3\n                  \n                \n              \n              \n                \n                  (\n                  \n                    \n                      c\n                      \n                        4\n                      \n                    \n                    +\n                    \n                      c\n                      \n                        1\n                      \n                    \n     ",
+      "n 2010 from a site further north, extending the climatic record to 128,500 years ago; NEEM was followed by EastGRIP, which began in 2015 in east Greenland and was planned to be completed in 2020.\nIn March 2020, the 2020 EGRIP field campaign was cancelled due to the ongoing COVID-19 pandemic. EastGRIP reopened for field work in 2022, where the CryoEgg reached new depths in the ice, under pressures in excess of 200 bar and temperatures of around -30c.\n\n\n=== Non-polar cores ===\nIce cores have been ",
+      "ri D. Grissino-Mayer, Department of Geography, The University of Tennessee, and the Laboratory of Tree-Ring Science\nBriand, Christopher H.; Brazer, Susan E.; Harter-Dennis, Jeannine M. (December 2006). \"Tree Rings and the Aging of Trees: A Controversy in 19th Century America\". Tree-Ring Research. 62 (2): 51–65. doi:10.3959/1536-1098-62.2.51. hdl:10150/262645. S2CID 162884050."
+    ]
+  },
+  {
+    "question": "What chemical signals in plants control different processes?",
+    "hypotheses": [
+      "Hormones are chemical signals in plants that control different processes.",
+      "Nitrogen hormones control different processes in plants.",
+      "Human hormones are chemical signals in plants that control different processes.",
+      "Plant hormones control different processes in plants."
+    ],
+    "predicted_answer": "plant hormones",
+    "correct_answer": "plant hormones",
+    "strengths": {
+      "Hormones are chemical signals in plants that control different processes.": 9.940643183320506e-05,
+      "Nitrogen hormones control different processes in plants.": 0.5,
+      "Human hormones are chemical signals in plants that control different processes.": 9.940643183320506e-05,
+      "Plant hormones control different processes in plants.": 0.9998011864649291
+    },
+    "used_intervals": [
+      ", pathogens and competition from other plants.  They do this by producing toxins and foul-tasting or smelling chemicals.  Other compounds defend plants against disease, permit survival during drought, and prepare plants for dormancy, while other compounds are used to attract pollinators or herbivores to spread ripe seeds.\nSecondly, plant physiology includes the study of biological and chemical processes of individual plant cells. Plant cells have a number of features that distinguish them from c",
+      "e influenced by hormone-release patterns; the numbers and locations of hormone receptors; and the efficiency of hormone receptors for those involved in gene transcription. Hormone concentration does not incite behavior, as that would undermine other external stimuli; however, it influences the system by increasing the probability of a certain event to occur.\nNot only can hormones influence behavior, but also behavior and the environment can influence hormone concentration. Thus, a feedback loop ",
+      "ssed through the leaf and reflects it back towards regions bearing chlorophyll, in order to maximize the use of available light\nBetalains are red or yellow pigments.  Like anthocyanins they are water-soluble, but unlike anthocyanins they are indole-derived compounds synthesized from tyrosine.  This class of pigments is found only in the Caryophyllales (including cactus and amaranth), and never co-occur in plants with anthocyanins. Betalains are responsible for the deep red color of beets, and ar",
+      "ively, wanted to see if the nervous system had an impact on the digestive system. From the work of Martin Heidenhain and Claude Bernard, they knew that the pancreas was involved in the secretion of digestive fluids after the passage of food from the stomach to the intestines, which they believed to be due to the nervous system. They cut the nerves to the pancreas in an animal model and discovered that it was not nerve impulses that controlled secretion from the pancreas. It was determined that a",
+      "d photoperiodism. Broadly speaking, flowering plants can be classified as long day plants, short day plants, or day neutral plants, depending on their particular response to changes in day length.  Long day plants require a certain minimum length of daylight to start flowering, so these plants flower in the spring or summer. Conversely, short day plants flower when the length of daylight falls below a certain critical level. Day neutral plants do not initiate flowering based on photoperiodism, t"
+    ]
+  },
+  {
+    "question": "Meiosis is part of the process of gametogenesis, which is the production of what?",
+    "hypotheses": [
+      "Chromosomes are produced during gametogenesis, which is part of the process of meiosis.",
+      "Egg is produced as part of gametogenesis, which includes meiosis.",
+      "Sperm are produced as part of gametogenesis, which includes meiosis.",
+      "Sperm and eggs are the products of gametogenesis, which includes meiosis."
+    ],
+    "predicted_answer": "egg only",
+    "correct_answer": "sperm and eggs",
+    "strengths": {
+      "Chromosomes are produced during gametogenesis, which is part of the process of meiosis.": 0.5,
+      "Egg is produced as part of gametogenesis, which includes meiosis.": 0.9999808980955412,
+      "Sperm are produced as part of gametogenesis, which includes meiosis.": 0.9998910414723077,
+      "Sperm and eggs are the products of gametogenesis, which includes meiosis.": 0.9999808980955412
+    },
+    "used_intervals": [
+      "Gametogenesis is a biological process by which diploid or haploid precursor cells undergo cell division and differentiation to form mature haploid gametes. Depending on the biological life cycle of the organism, gametogenesis occurs by meiotic division of diploid gametocytes into various gametes, or by mitosis. For example, plants produce gametes through mitosis in gametophytes. The gametophytes grow from haploid spores after sporic meiosis. The existence of a multicellular, haploid phase in the",
+      "ges of meiosis I (prophase I, metaphase I, anaphase I, telophase I) and meiosis II (prophase II, metaphase II, anaphase II, telophase II).\n\nDuring meiosis, specific genes are more highly transcribed. In addition to strong meiotic stage-specific expression of mRNA, there are also pervasive translational controls (e.g. selective usage of preformed mRNA), regulating the ultimate meiotic stage-specific protein expression of genes during meiosis.  Thus, both transcriptional and translational controls",
+      "or example, trick or treaters have been known to throw eggs (and sometimes flour) at property or people from whom they received nothing. Eggs are also often thrown in protests, as they are inexpensive and nonlethal, yet very messy when broken.\n\n\n== Collecting ==\n\nEgg collecting was a popular hobby in some cultures, including European Australians. Traditionally, the embryo would be removed before a collector stored the egg shell.\nCollecting eggs of wild birds is now banned by many jurisdictions, ",
+      "alian sperm cells are ejaculated through the penis in a fluid known as semen, which is produced in the seminal vesicles, prostate gland and urethral glands.\nIn 2016, scientists at Nanjing Medical University claimed they had produced cells resembling mouse spermatids from mouse embryonic stem cells artificially. They injected these spermatids into mouse eggs and produced pups.\n\n\n=== Sperm quality ===\n\nSperm quantity and quality are the main parameters in semen quality, which is a measure of the a",
+      "nsverse and central elements of the synaptonemal complex. Synapsis is thought to occur in a zipper-like fashion starting from a recombination nodule. The paired chromosomes are called bivalent or tetrad chromosomes.\n\n\n===== Pachytene =====\n\nThe pachytene stage ( PAK-i-teen), also known as pachynema, from Greek words meaning \"thick threads\". is the stage at which all autosomal chromosomes have synapsed. In this stage homologous recombination, including chromosomal crossover (crossing over), is co"
+    ]
+  },
+  {
+    "question": "Which type of tree is dominant in temperate forests?",
+    "hypotheses": [
+      "Vines are not the dominant type of tree in temperate forests.",
+      "Fungus is not the dominant type of tree in temperate forests.",
+      "Shrubs are not the dominant type of tree in temperate forests.",
+      "Deciduous trees are dominant in temperate forests."
+    ],
+    "predicted_answer": null,
+    "correct_answer": "deciduous",
+    "strengths": {
+      "Vines are not the dominant type of tree in temperate forests.": 0.7499005936298626,
+      "Fungus is not the dominant type of tree in temperate forests.": 0.7499005936298626,
+      "Shrubs are not the dominant type of tree in temperate forests.": 0.7499005936298626,
+      "Deciduous trees are dominant in temperate forests.": 0.5
+    },
+    "used_intervals": [
+      "n 53°N and 67°N have boreal forest. As a general rule, forests dominated by angiosperms (broadleaf forests) are more species-rich than those dominated by gymnosperms (conifer, montane, or needleleaf forests), although exceptions exist. The trees that form the principal structural and defining component of a forest may be of a great variety of species (as in tropical rainforests and temperate deciduous forests), or relatively few species over large areas (e.g., taiga and arid montane coniferous f",
+      "th particularly large regions in eastern North America, East Asia, and a large portion of Europe, though smaller regions of temperate deciduous forests are also located in South America. Examples of trees typically growing in the Northern Hemisphere's deciduous forests include oak, maple, basswood, beech and elm, while in the Southern Hemisphere, trees of the genus Nothofagus dominate this type of forest. Temperate deciduous forests provide several unique ecosystem services, including habitats f",
+      "in turning colors as early as August. However, for most temperate regions it takes place in late September through early November and in subtropical climates such as the southern United States, it may be November into December.\nLeaf drop or abscission involves complex physiological signals and changes within plants. When leafout is completed (marked by the transition from bright green spring leaves to dark green summer ones) the chlorophyll level in the leaves remains stable until cool temperatu",
+      "adhesives to form composite materials. Plastics have taken over from wood for some traditional uses.\nWood is used in the construction of buildings, bridges, trackways, piles, poles for power lines, masts for boats, pit props, railway sleepers, fencing, hurdles, shuttering for concrete, pipes, scaffolding and pallets. In housebuilding it is used in joinery, for making joists, roof trusses, roofing shingles, thatching, staircases, doors, window frames, floor boards, parquet flooring, panelling and",
+      "ness with intensities that vary by location from high to low tide\nClimatic moisture gradient\nTemperature gradient by altitude\nTemperature gradient by latitude\nAlong these gradients, Whittaker noted several trends that allowed him to qualitatively establish biome-types:\n\nThe gradient runs from favorable to the extreme, with corresponding changes in productivity.\nChanges in physiognomic complexity vary with how favorable of an environment exists (decreasing community structure and reduction of str"
+    ]
+  },
+  {
+    "question": "What kind of viscosity is found in long-chain hydrocarbons?",
+    "hypotheses": [
+      "Increased viscosity is found in long-chain hydrocarbons.",
+      "Long-chain hydrocarbons have low viscosity.",
+      "Intense viscosity is found in long-chain hydrocarbons.",
+      "Long-chain hydrocarbons are highly viscous."
+    ],
+    "predicted_answer": "increased viscosity",
+    "correct_answer": "highly viscous",
+    "strengths": {
+      "Increased viscosity is found in long-chain hydrocarbons.": 0.9998924992701883,
+      "Long-chain hydrocarbons have low viscosity.": 1.719117297063555e-05,
+      "Intense viscosity is found in long-chain hydrocarbons.": 0.9998924992701883,
+      "Long-chain hydrocarbons are highly viscous.": 0.9998924992701883
+    },
+    "used_intervals": [
+      "ures. With the progressive addition of carbon units, the simple non-ring structured hydrocarbons have higher viscosities, lubricating indices, boiling points, and solidification temperatures. At the opposite extreme from methane lie the heavy tars that remain as the lowest fraction in a crude oil refining retort. They are collected and widely utilized as roofing compounds, pavement material (bitumen), wood preservatives (the creosote series) and as extremely high viscosity shear-resisting liquid",
+      "tical interest. Foregoing simplicity in favor of precision, it is possible to write rigorous expressions for viscosity starting from the fundamental equations of motion for molecules. A classic example of this approach is Irving–Kirkwood theory. On the other hand, such expressions are given as averages over multiparticle correlation functions and are therefore difficult to apply in practice.\nIn general, empirically derived expressions (based on existing viscosity measurements) appear to be the o",
+      "lled structural isomers. As given in the example of 3-methylhexane and its higher homologues, branched hydrocarbons can be chiral. Chiral saturated hydrocarbons constitute the side chains of biomolecules such as chlorophyll and tocopherol.\nUnsaturated hydrocarbons, which have one or more double or triple bonds between carbon atoms. Those with one or more double bonds are called alkenes. Those with one double bond have the formula CnH2n (assuming non-cyclic structures). Those containing triple bo",
+      " 1990s. Traces of chlorine in the water supply attacked polymers present in the plumbing, a problem which occurs faster if any of the parts have been poorly extruded or injection molded. Attack of the acetal joint occurred because of faulty molding, leading to cracking along the threads of the fitting where there is stress concentration.\n\nPolymer oxidation has caused accidents involving medical devices. One of the oldest known failure modes is ozone cracking caused by chain scission when ozone g",
+      "the right). If the velocity does not vary linearly with \n  \n    \n      \n        y\n      \n    \n    {\\displaystyle y}\n  \n, then the appropriate generalization is:\n\n  \n    \n      \n        τ\n        =\n        μ\n        \n          \n            \n              ∂\n              u\n            \n            \n              ∂\n              y\n            \n          \n        \n        ,\n      \n    \n    {\\displaystyle \\tau =\\mu {\\frac {\\partial u}{\\partial y}},}\n  \n\nwhere \n  \n    \n      \n        τ\n        =\n     "
+    ]
+  },
+  {
+    "question": "Ionic compounds have strong electrostatic attractions between oppositely charged ions in this?",
+    "hypotheses": [
+      "Ionic compounds have strong electrostatic attractions between oppositely charged ions in an incorrect array.",
+      "Normal arrays exhibit strong electrostatic attractions between oppositely charged ions in ionic compounds.",
+      "Ionic compounds have strong electrostatic attractions between oppositely charged ions in an occasional array.",
+      "Ionic compounds have strong electrostatic attractions between oppositely charged ions in a regular array."
+    ],
+    "predicted_answer": "normal array",
+    "correct_answer": "regular array",
+    "strengths": {
+      "Ionic compounds have strong electrostatic attractions between oppositely charged ions in an incorrect array.": 0.01062427030767378,
+      "Normal arrays exhibit strong electrostatic attractions between oppositely charged ions in ionic compounds.": 0.8213200360679206,
+      "Ionic compounds have strong electrostatic attractions between oppositely charged ions in an occasional array.": 0.6573458448595745,
+      "Ionic compounds have strong electrostatic attractions between oppositely charged ions in a regular array.": 0.6534634332562814
+    },
+    "used_intervals": [
+      "ostatic attraction between the positive and negatively charged ions. Ionic bonds may be seen as extreme examples of polarization in covalent bonds. Often, such bonds have no particular orientation in space, since they result from equal electrostatic attraction of each ion to all ions around them. Ionic bonds are strong (and thus ionic substances require high temperatures to melt) but also brittle, since the forces between ions are short-range and do not easily bridge cracks and fractures. This t",
+      "{\\displaystyle \\mathbf {r} _{1}}\n  \n, in the vicinity of another charge, \n  \n    \n      \n        \n          q\n          \n            2\n          \n        \n      \n    \n    {\\displaystyle q_{2}}\n  \n at position \n  \n    \n      \n        \n          \n            r\n          \n          \n            2\n          \n        \n      \n    \n    {\\displaystyle \\mathbf {r} _{2}}\n  \n, in a vacuum is equal to\n\n  \n    \n      \n        \n          \n            F\n          \n          \n            1\n          \n        \n ",
+      ") sulfate and iron(III) sulfate respectively. For simple ions the ionic charge and the oxidation number are identical, but for polyatomic ions they often differ. For example, the uranyl(2+) ion, UO2+2, has uranium in an oxidation state of +6, so would be called a dioxouranium(VI) ion in Stock nomenclature. An even older naming system for metal cations, also still widely used, appended the suffixes -ous and -ic to the Latin root of the name, to give special names for the low and high oxidation st",
+      "d History. Walker Publishing Company. ISBN 0-14-200161-9.\n\n\n=== Bibliography ===",
+      " \n              \n                N\n                \n                  \n                    p\n                    a\n                    r\n                    t\n                    i\n                    c\n                    l\n                    e\n                  \n                \n              \n              \n                V\n                \n                  \n                    p\n                    a\n                    r\n                    t\n                    i\n                    c\n "
+    ]
+  },
+  {
+    "question": "About how tall can mid-ocean ridges be?",
+    "hypotheses": [
+      "Mid-ocean ridges can be about 2 meters tall.",
+      "Mid-ocean ridges can be about 2 feet tall.",
+      "Mid-ocean ridges can be about 2 inches tall.",
+      "Mid-ocean ridges can be about 2 km tall."
+    ],
+    "predicted_answer": "about 2 meters",
+    "correct_answer": "about 2 km",
+    "strengths": {
+      "Mid-ocean ridges can be about 2 meters tall.": 0.22908644154970226,
+      "Mid-ocean ridges can be about 2 feet tall.": 0.22908644154970226,
+      "Mid-ocean ridges can be about 2 inches tall.": 0.22908644154970226,
+      "Mid-ocean ridges can be about 2 km tall.": 0.22908644154970226
+    },
+    "used_intervals": [
+      "A mid-ocean ridge (MOR) is a seafloor mountain system formed by plate tectonics. It typically has a depth of about 2,600 meters (8,500 ft) and rises about 2,000 meters (6,600 ft) above the deepest portion of an ocean basin. This feature is where seafloor spreading takes place along a divergent plate boundary. The rate of seafloor spreading determines the morphology of the crest of the mid-ocean ridge and its width in an ocean basin.\nThe production of new seafloor and oceanic lithosphere results ",
+      "  \n                    h\n                    \n                      0\n                    \n                  \n                  −\n                  390\n                  \n                    \n                      t\n                    \n                  \n                \n                \n                  \n                    for the Atlantic and Indian oceans\n                  \n                \n              \n              \n                \n                  \n                    h\n            ",
+      "axis.\nThis force is regarded as a secondary force and is often referred to as \"ridge push\". This is a misnomer as there is no force \"pushing\" horizontally, indeed tensional features are dominant along ridges. It is more accurate to refer to this mechanism as \"gravitational sliding\", since the topography across the whole plate can vary considerably and spreading ridges are only the most prominent feature. Other mechanisms generating this gravitational secondary force include flexural bulging of t",
+      "hipwrecks and sunken towns. This underwater cultural heritage is protected by the UNESCO Convention on the Protection of the Underwater Cultural Heritage. The convention aims at preventing looting and the destruction or loss of historic and cultural information by providing an international legal framework.\n\n\n== See also ==\n\n\n== References ==\n\n\n== Further reading ==\nRoger Hekinian: Sea Floor Exploration: Scientific Adventures Diving into the Abyss. Springer, 2014. ISBN 978-3-319-03202-3 (print);",
+      "\n                    m\n                  \n                  \n                    2\n                  \n                \n                ⋅\n                \n                  \n                    s\n                  \n                  \n                    −\n                    1\n                  \n                \n              \n            \n            \n              \n                α\n              \n              \n                \n                ∼\n                4\n                ⋅\n            "
+    ]
+  },
+  {
+    "question": "What are by far the most common type of invertebrate?",
+    "hypotheses": [
+      "Spiders are by far the most common type of invertebrate.",
+      "Crustaceans are by far the most common type of invertebrate.",
+      "Corals are by far the most common type of invertebrate.",
+      "Insects are by far the most common type of invertebrate."
+    ],
+    "predicted_answer": "insects",
+    "correct_answer": "insects",
+    "strengths": {
+      "Spiders are by far the most common type of invertebrate.": 2.2140309578174835e-07,
+      "Crustaceans are by far the most common type of invertebrate.": 2.2140309578174835e-07,
+      "Corals are by far the most common type of invertebrate.": 0.0003234552880499375,
+      "Insects are by far the most common type of invertebrate.": 0.9994763996591727
+    },
+    "used_intervals": [
+      "achnids.\n\n\n== Number of extant species ==\nBy far the largest number of described invertebrate species are insects. The following table lists the number of described extant species for major invertebrate groups as estimated in the IUCN Red List of Threatened Species, 2014.3.\n\nThe IUCN estimates that 66,178 extant vertebrate species have been described, which means that over 95% of the described animal species in the world are invertebrates.\n\n\n== Characteristics ==\nThe trait that is common to all ",
+      "rnal fertilization, but this is sometimes by indirect transfer of the sperm via an appendage or the ground, rather than by direct injection. Aquatic species use either internal or external fertilization. Almost all arthropods lay eggs, with many species giving birth to live young after the eggs have hatched inside the mother. Still, a few are genuinely viviparous, such as aphids. Arthropod hatchlings vary from miniature adults to grubs and caterpillars that lack jointed limbs and eventually unde",
+      "to an undulating pattern according to whether they tend to fold up or down when the wing is relaxed. The basal shafts of the veins are convex, but each vein forks distally into an anterior convex branch and a posterior concave branch. Thus, the costa and subcosta are regarded as convex and concave branches of a primary first vein, Rs is the concave branch of the radius, posterior media is the concave branch of the media, Cu1 and Cu2 are respectively convex and concave, while the primitive postcu",
+      " regarded as the subject's foundational text. He also helped found the Royal Entomological Society in London in 1833, one of the earliest such societies in the world; earlier antecedents, such as the Aurelian society date back to the 1740s. In the late 19th century, the growth of agriculture, and colonial trade spawned the \"era of economic entomology\" which created the professional entomologist associated with the rise of the university and training in the field of biology.\nEntomology developed ",
+      "ly few serious bites and stings on humans. Far more serious are the effects on humans of diseases like malaria carried by blood-sucking insects. Other blood-sucking insects infect livestock with diseases that kill many animals and greatly reduce the usefulness of others. Ticks can cause tick paralysis and several parasite-borne diseases in humans. A few of the closely related mites also infest humans, causing intense itching, and others cause allergic diseases, including hay fever, asthma, and e"
+    ]
+  },
+  {
+    "question": "What do waves deposit to form sandbars and barrier islands?",
+    "hypotheses": [
+      "Magma deposits waves to form sandbars and barrier islands.",
+      "Organisms deposit waves to form sandbars and barrier islands.",
+      "Glaciers deposit waves to form sandbars and barrier islands.",
+      "Sediments are deposited by waves to form sandbars and barrier islands."
+    ],
+    "predicted_answer": "organisms",
+    "correct_answer": "sediments",
+    "strengths": {
+      "Magma deposits waves to form sandbars and barrier islands.": 0.19399574271428605,
+      "Organisms deposit waves to form sandbars and barrier islands.": 0.40290267953687675,
+      "Glaciers deposit waves to form sandbars and barrier islands.": 0.19399574271428605,
+      "Sediments are deposited by waves to form sandbars and barrier islands.": 0.19399574271428605
+    },
+    "used_intervals": [
+      "ntinuous. They are less frequently formed in mesotidal coasts, where they are typically short with tidal inlets common. Barrier islands are very rare along macrotidal coasts. Along with a small tidal range and a wave-dominated coast, there must be a relatively low gradient shelf. Otherwise, sand accumulation into a sandbar would not occur and instead would be dispersed throughout the shore. An ample sediment supply is also a requirement for barrier island formation. This often includes fluvial d",
+      ". For example, if waves pass over a sloping bank which is shallower at one end than the other, then the shoaling effect will result in the waves slowing more at the shallow end. Thus, the wave fronts will refract, changing direction like light passing through a prism. Refraction also occurs as waves move towards a beach if the waves come in at an angle to the beach, or if the beach slopes more gradually at one end than the other.\n\n\n=== Types ===\n\n\n==== Sandbars and longshore bars ====\n\nSandbars,",
+      "\n  \n    \n      \n        \n          u\n          \n            ∗\n          \n        \n        =\n        \n          \n            \n              (\n              \n                \n                  \n                    τ\n                    \n                      b\n                    \n                  \n                  ρ\n                \n              \n              )\n            \n          \n        \n      \n    \n    {\\displaystyle u_{*}={\\sqrt {\\left({\\frac {\\tau _{b}}{\\rho }}\\right)}}}\n  \n,\nThe dep",
+      "ion dedicated to ocean research, exploration, and education",
+      "ts related to the shape and smoothness of the grains.\n\nThe expression for fall velocity can be simplified so that it can be solved only in terms of D. We use the sieve diameters for natural grains, \n  \n    \n      \n        g\n        =\n        9.8\n      \n    \n    {\\displaystyle g=9.8}\n  \n, and values given above for \n  \n    \n      \n        ν\n      \n    \n    {\\displaystyle \\nu }\n  \n and \n  \n    \n      \n        R\n      \n    \n    {\\displaystyle R}\n  \n. From these parameters, the fall velocity is give"
+    ]
+  },
+  {
+    "question": "Penis, testes, and epididymis are organs in what system?",
+    "hypotheses": [
+      "Penis, testes, and epididymis are organs in the virus reproductive system.",
+      "Penis, testes, and epididymis are organs in the plant reproductive system.",
+      "The female reproductive system includes the penis, testes, and epididymis.",
+      "The male reproductive system includes the penis, testes, and epididymis."
+    ],
+    "predicted_answer": "male reproductive system",
+    "correct_answer": "male reproductive system",
+    "strengths": {
+      "Penis, testes, and epididymis are organs in the virus reproductive system.": 0.00019825082661059293,
+      "Penis, testes, and epididymis are organs in the plant reproductive system.": 2.519810818366271e-07,
+      "The female reproductive system includes the penis, testes, and epididymis.": 2.5889317148552e-07,
+      "The male reproductive system includes the penis, testes, and epididymis.": 0.9998006419079545
+    },
+    "used_intervals": [
+      "The epididymis (; pl.: epididymides  or ) is an elongated tubular genital organ attached to the posterior side of each one of the two male reproductive glands, the testicles. It is a single, narrow, tightly coiled tube in adult humans, 6 to 7 centimetres (2.4 to 2.8 in) in length; uncoiled the tube would be approximately 6 m (20 feet) long. It connects the testicle to the vas deferens in the male reproductive system. The epididymis serves as an interconnection between the multiple efferent ducts",
+      "aterial between two individuals, which allows for the possibility of greater genetic fitness of the offspring.\n\n\n== Animals ==\n\nIn mammals, the major organs of the reproductive system include the external genitalia (penis and vulva) as well as a number of internal organs, including the gamete-producing gonads (testicles and ovaries). Diseases of the human reproductive system are very common and widespread, particularly communicable sexually transmitted infections.\nMost other vertebrates have sim",
+      "n; Home Edition. Whitehouse Station, New Jersey: Merck Research Laboratories. ISBN 0911910875.\nFauci, Anthony S.; Braunwald, Eugene; Kasper, Dennis L.; Hauser, Stephen L.; Longo, Dan L.; Jameson, J. Larry; Loscalzo, Joseph (2008). Harrison's Principles of Internal Medicine (17th ed.). McGraw-Hill Medical. pp. 2339–2346. ISBN 9780071466332.",
+      "    \n      \n        V\n        o\n        l\n        u\n        m\n        e\n        =\n        \n          \n            4\n            3\n          \n        \n        ⋅\n        π\n        ⋅\n        \n          \n            \n              l\n              e\n              n\n              g\n              t\n              h\n            \n            2\n          \n        \n        ⋅\n        \n          \n            \n              w\n              i\n              d\n              t\n              h\n            \n        ",
+      " supplies.\nLymphatic drainage of the testes follows the testicular arteries back to the paraaortic lymph nodes, while lymph from the scrotum drains to the inguinal lymph nodes.\n\n\n==== Layers ====\n\nMany anatomical features of the adult testis reflect its developmental origin in the abdomen. The layers of tissue enclosing each testicle are derived from the layers of the anterior abdominal wall. The cremasteric muscle arises from the internal oblique muscle.\n\n\n==== The blood–testis barrier ====\n\nLa"
+    ]
+  },
+  {
+    "question": "Only about one percent of plants have lost what ability, turning them into consumers and even predators, instead of producers?",
+    "hypotheses": [
+      "Flowering is an ability lost by only about one percent of plants, turning them into consumers and even predators instead of producers.",
+      "Rooting is an ability lost by about one percent of plants, turning them into consumers and even predators instead of producers.",
+      "Growth is the ability lost by approximately one percent of plants, transforming them into consumers and even predators instead of producers.",
+      "Photosynthesis is the ability lost by about one percent of plants, turning them into consumers and even predators instead of producers."
+    ],
+    "predicted_answer": "rooting",
+    "correct_answer": "photosynthesis",
+    "strengths": {
+      "Flowering is an ability lost by only about one percent of plants, turning them into consumers and even predators instead of producers.": 0.25004238432140563,
+      "Rooting is an ability lost by about one percent of plants, turning them into consumers and even predators instead of producers.": 0.999812750657408,
+      "Growth is the ability lost by approximately one percent of plants, transforming them into consumers and even predators instead of producers.": 9.377721869210354e-05,
+      "Photosynthesis is the ability lost by about one percent of plants, turning them into consumers and even predators instead of producers.": 0.4999620157762186
+    },
+    "used_intervals": [
+      "ed plants, the short-term loss of reproduction may be offset by the future growth made possible by resources obtained from prey. Other plants might \"target\" different species of insect for pollination and prey using different olfactory and visual cues.\n\n\n== Conservation threats ==\nApproximately half of the plant species assessed by the IUCN are considered threatened (vulnerable, endangered or critically endangered). Common threats are habitat loss as a result of agriculture, collection of wild p",
+      "ane, and millet. Plants that do not use PEP-carboxylase in carbon fixation are called C3 plants because the primary carboxylation reaction, catalyzed by RuBisCO, produces the three-carbon 3-phosphoglyceric acids directly in the Calvin-Benson cycle. Over 90% of plants use C3 carbon fixation, compared to 3% that use C4 carbon fixation; however, the evolution of C4 in over sixty plant lineages makes it a striking example of convergent evolution. C2 photosynthesis, which involves carbon-concentratio",
+      "ifferent plants and even between different species or individuals of a given clone. Elements present at low levels may cause deficiency symptoms, and toxicity is possible at levels that are too high. Furthermore, deficiency of one element may present as symptoms of toxicity from another element, and vice versa. An abundance of one nutrient may cause a deficiency of another nutrient. For example, K+ uptake can be influenced by the amount of NH+4 available.\nNitrogen is plentiful in the Earth's atm",
+      " the New York World on 26 April 1874, and again in the weekly edition two days later. It purported to be from a German explorer named \"Karl Leche\" (also spelled as Karl or Carl Liche in later accounts), who described seeing a woman fed to a tree as a sacrifice by the \"little known but cruel\" \"Mkodo tribe\" of Madagascar.\nAuthorship of the fantastical story would later be attributed by Frederick Maxwell Somers to one Edmund Spencer in the August 1888 issue of the magazine Current Literature. The s",
+      "g it to instantaneously \"choose\" the most efficient route, where it will have the highest probability of arriving at its destination in the minimum possible time.\nBecause that quantum walking takes place at temperatures far higher than quantum phenomena usually occur, it is only possible over very short distances. Obstacles in the form of destructive interference cause the particle to lose its wave properties for an instant before it regains them once again after it is freed from its locked posi"
+    ]
+  },
+  {
+    "question": "How does a neon light produce visible light?",
+    "hypotheses": [
+      "Luminescence is the process by which a neon light produces visible light.",
+      "Radiation produces visible light in a neon light.",
+      "Mitosis does not explain how a neon light produces visible light.",
+      "Electroluminescence is the process by which a neon light produces visible light."
+    ],
+    "predicted_answer": null,
+    "correct_answer": "electroluminescence",
+    "strengths": {
+      "Luminescence is the process by which a neon light produces visible light.": 0.43884167167003496,
+      "Radiation produces visible light in a neon light.": 0.7499899334686086,
+      "Mitosis does not explain how a neon light produces visible light.": 0.9649216253748203,
+      "Electroluminescence is the process by which a neon light produces visible light.": 0.43884167167003496
+    },
+    "used_intervals": [
+      "ristic frequency is thus emitted. In this way, electrons are relayed through the gas from the cathode to the anode.\nThe color of the light produced depends on the emission spectra of the atoms making up the gas, as well as the pressure of the gas, current density, and other variables.  Gas discharge lamps can produce a wide range of colors.  Some lamps produce ultraviolet radiation which is converted to visible light by a fluorescent coating on the inside of the lamp's glass surface. The fluores",
+      " in 1857 constructed colorful artistic cold cathode tubes with different gases in them which glowed with many different colors, called Geissler tubes.  It was found that inert gases such as the noble gases neon, argon, krypton or xenon, as well as carbon dioxide worked well in tubes.  This technology was commercialized by the French engineer Georges Claude in 1910 and became neon lighting, used in neon signs.\nThe introduction of the metal vapor lamp, including various metals within the discharge",
+      "          n\n          \n            e\n          \n        \n        =\n        ⟨\n        \n          Z\n          \n            i\n          \n        \n        ⟩\n        \n          n\n          \n            i\n          \n        \n      \n    \n    {\\displaystyle n_{e}=\\langle Z_{i}\\rangle n_{i}}\n  \n, where \n  \n    \n      \n        ⟨\n        \n          Z\n          \n            i\n          \n        \n        ⟩\n      \n    \n    {\\displaystyle \\langle Z_{i}\\rangle }\n  \n is the average ion charge (in units of the el",
+      "diately after the source of excitation is removed. As the definition does not fully describe the phenomenon, quantum mechanics is employed where it is defined as there is no change in spin multiplicity from the state of excitation to emission of light.\nPhosphorescence, traditionally defined as persistent emission of light after the end of excitation. As the definition does not fully describe the phenomenon, quantum mechanics is employed where it is defined as there is a change in spin multiplici",
+      "mitting capacitor (HLEC) can endure more than twice the strain of previously tested stretchable displays. It consists of layers of transparent hydrogel electrodes sandwiching an insulating elastomer sheet. The elastomer changes luminance and capacitance when stretched, rolled, and otherwise deformed. In addition to its ability to emit light under a strain of greater than 480% of its original size, the group's HLEC was shown to be capable of being integrated into a soft robotic system. Three six-"
+    ]
+  },
+  {
+    "question": "The bird ancestor that lived in trees developed what feature commonly associated with birds?",
+    "hypotheses": [
+      "Tails are a feature developed by the bird ancestor that lived in trees.",
+      "Webbed feet are a feature developed by the bird ancestor that lived in trees.",
+      "Beaks are a feature developed by the bird ancestor that lived in trees.",
+      "Wings developed in the tree-dwelling bird ancestor."
+    ],
+    "predicted_answer": "webbed feet",
+    "correct_answer": "wings",
+    "strengths": {
+      "Tails are a feature developed by the bird ancestor that lived in trees.": 0.5,
+      "Webbed feet are a feature developed by the bird ancestor that lived in trees.": 0.7499005936298626,
+      "Beaks are a feature developed by the bird ancestor that lived in trees.": 0.5,
+      "Wings developed in the tree-dwelling bird ancestor.": 0.5
+    },
+    "used_intervals": [
+      " Anew by A. Feduccia\". Auk. 132 (2): 467–480. doi:10.1642/AUK-14-203.1. hdl:2152/43319. S2CID 85772056.\nXing Xu; Zhonghe Zhou; Robert Dudley; Susan Mackem; Cheng-Ming Chuong; Gregory M. Erickson; David J. Varricchio (12 December 2014). \"An integrative approach to understanding bird origins\". Science. 346 (6215) 1253293. doi:10.1126/science.1253293. PMID 25504729. S2CID 24228777.\nFutuyma, Douglas J. (2024). How Birds Evolve: What Science Reveals about Their Origin, Lives, and Diversity. Princeton",
+      "ecent common ancestor of a specific modern bird species (such as the house sparrow, Passer domesticus), and either Archaeopteryx, or some prehistoric species closer to Neornithes (to avoid the problems caused by the unclear relationships of Archaeopteryx to other theropods). If the latter classification is used then the larger group is termed Avialae. Currently, the relationship between non-avian dinosaurs, Archaeopteryx, and modern birds is still under debate.\n\n\n== Origins ==\n\nThere is signific",
+      "they switched to a parasagittal orientation. At the same time, the forelimbs, freed from the support function, had ample opportunities for evolutionary changes. Proponents of the running hypothesis believe that flight was formed through fast running, bouncing, and then gliding. The forelimbs could be used for grasping after a jump or as \"insect trapping nets\", animals could wave them, helping themselves during the jump. According to the arboreal hypothesis, the ancestors of birds climbed trees w",
+      "t is heated, humidified, and filtered in the nasal passages and upper parts of the trachea. From there, the air enters the lower trachea and continues to just beyond the syrinx, at which point the trachea branches into two primary bronchi, going to the two lungs. The primary bronchi enter the lungs to become the intrapulmonary bronchi, which give off a set of parallel branches called ventrobronchi and, a little further on, an equivalent set of dorsobronchi. The ends of the intrapulmonary bronchi",
+      " farmer Jakob Niemeyer. He sold this precious fossil for the money to buy a cow in 1876, to innkeeper Johann Dörr, who again sold it to Ernst Otto Häberlein, the son of K. Häberlein. Placed on sale between 1877 and 1881, with potential buyers including O. C. Marsh of Yale University's Peabody Museum, it eventually was bought for 20,000 Goldmark by the Berlin's Natural History Museum, where it now is displayed. The transaction was financed by Ernst Werner von Siemens, founder of the company that "
+    ]
+  },
+  {
+    "question": "What do most living things use to make atp from glucose?",
+    "hypotheses": [
+      "Enzymes are what most living things use to make ATP from glucose.",
+      "Carbon is used by most living things to make ATP from glucose.",
+      "Nitrogen is what most living things use to make ATP from glucose.",
+      "Oxygen is used by most living things to make ATP from glucose."
+    ],
+    "predicted_answer": "enzymes",
+    "correct_answer": "oxygen",
+    "strengths": {
+      "Enzymes are what most living things use to make ATP from glucose.": 0.912862317615654,
+      "Carbon is used by most living things to make ATP from glucose.": 0.4962881111953273,
+      "Nitrogen is what most living things use to make ATP from glucose.": 0.007344137427457528,
+      "Oxygen is used by most living things to make ATP from glucose.": 0.6666155812088413
+    },
+    "used_intervals": [
+      "cceptors\". Most of the ATP produced by aerobic cellular respiration is made by oxidative phosphorylation. The energy released is used to create a chemiosmotic potential by pumping protons across a membrane. This potential is then used to drive ATP synthase and produce ATP from ADP and a phosphate group. Biology textbooks often state that 38 ATP molecules can be made per oxidized glucose molecule during cellular respiration (2 from glycolysis, 2 from the Krebs cycle, and about 34 from the electro",
+      "uame, is made from sweet potato or rice starch.\nMany crops can be used as the source of starch. Maize, rice, wheat, cassava, potato, barley, sweet potato, corn husk and sago are all used in various parts of the world. In the United States, corn starch (from maize) is used almost exclusively. Some commercial glucose occurs as a component of invert sugar, a roughly 1:1 mixture of glucose and fructose that is produced from sucrose. In principle, cellulose could be hydrolyzed to glucose, but this pr",
+      "    A\n                  D\n                  P\n                \n                ]\n                [\n                \n                  \n                    P\n                    \n                      i\n                    \n                  \n                \n                ]\n              \n              \n                [\n                \n                  A\n                  T\n                  P\n                \n                ]\n              \n            \n          \n          )\n        \n   ",
+      "enatures them). The ability of boiled extract plus dialyzed juice to complete fermentation suggests that the cofactors were non-protein in character.\n\nIn the 1920s Otto Meyerhof was able to link together some of the many individual pieces of glycolysis discovered by Buchner, Harden, and Young. Meyerhof and his team were able to extract different glycolytic enzymes from muscle tissue, and combine them to artificially create the pathway from glycogen to lactic acid.\nIn one paper, Meyerhof and scie",
+      "\nIn July 2019, a scientific study of Kidd Mine in Canada discovered sulfur-breathing organisms which live 7900 feet (2400 meters) below the surface. These organisms are also remarkable because they consume minerals such as pyrite as their food source.\n\n\n== See also ==\nMaintenance respiration: maintenance as a functional component of cellular respiration\nMicrophysiometry\nPasteur point\nRespirometry: research tool to explore cellular respiration\nTetrazolium chloride: cellular respiration indicator\n"
+    ]
+  },
+  {
+    "question": "What are the two most common silicates?",
+    "hypotheses": [
+      "Olivine and quartz are the two most common silicates.",
+      "Micas and feldspar are the two most common silicates.",
+      "Micas and quartz are the two most common silicates.",
+      "Feldspar and quartz are the two most common silicates."
+    ],
+    "predicted_answer": "Olivine and quartz",
+    "correct_answer": "feldspar and quartz",
+    "strengths": {
+      "Olivine and quartz are the two most common silicates.": 0.22913441326964676,
+      "Micas and feldspar are the two most common silicates.": 0.22913441326964676,
+      "Micas and quartz are the two most common silicates.": 0.22913441326964676,
+      "Feldspar and quartz are the two most common silicates.": 0.22913441326964676
+    },
+    "used_intervals": [
+      "silicates can be classified according to the length and crosslinking of the silicate anions.\n\n\n=== Isolated silicates ===\nIsolated orthosilicate anions have the formula SiO4−4. A common mineral in this group is olivine ((Mg,Fe)2SiO4).\nTwo or more silicon atoms can share oxygen atoms in various ways, to form more complex anions, such as pyrosilicate Si2O6−7.\n\n\n=== Chains ===\n\nWith two shared oxides bound to each silicon, cyclic or polymeric structures can result.  The cyclic metasilicate ring Si6",
+      " the Earth's crust means that clays are very abundant weathering products. About 40% of minerals in sedimentary rocks are clays and clays are the dominant minerals in the most common sedimentary rocks, mudrocks. They are also an important component of soils. Feldspar that has been replaced by clay looks chalky compared to more crystalline and glassy unweathered feldspar grains.\nFeldspars, especially plagioclase feldspars, are not very stable at the Earth's surface due to their high formation tem",
+      "ively transparent to radiation (such as alpha particles) while being impervious to most gases. It is therefore used as a window on radiation detectors such as Geiger–Müller tubes.\nIn 2008, mica splittings represented the largest part of the sheet mica industry in the United States. Consumption of muscovite and phlogopite splittings was about 308 t in 2008. Muscovite splittings from India accounted for essentially all US consumption. The remainder was primarily imported from Madagascar.\nSmall squ",
+      "ia Britannica. Vol. 10 (11th ed.). Cambridge University Press. p. 245.",
+      "t common piezoelectric uses of quartz today is as a crystal oscillator. Also called a quartz oscillator or resonator, it was first developed by Walter Guyton Cady in 1921. George Washington Pierce designed and patented quartz crystal oscillators in 1923. The quartz clock is a familiar device using the mineral; it is simply a clock that uses a quartz oscillator as its time reference. Warren Marrison created the first quartz oscillator clock based on the work of Cady and Pierce in 1927. The resona"
+    ]
+  },
+  {
+    "question": "What term means the amount of water vapor in the air?",
+    "hypotheses": [
+      "Temperature means the amount of water vapor in the air.",
+      "Pressure is the term for the amount of water vapor in the air.",
+      "Ambient is the amount of water vapor in the air.",
+      "Humidity is the amount of water vapor in the air."
+    ],
+    "predicted_answer": "humidity",
+    "correct_answer": "humidity",
+    "strengths": {
+      "Temperature means the amount of water vapor in the air.": 0.11637748278950588,
+      "Pressure is the term for the amount of water vapor in the air.": 0.10282422284296253,
+      "Ambient is the amount of water vapor in the air.": 0.2110254190718175,
+      "Humidity is the amount of water vapor in the air.": 0.5781045913184018
+    },
+    "used_intervals": [
+      "Humidity is the concentration of water vapor present in the air. Water vapor, the gaseous state of water, is generally invisible to the naked eye. Humidity indicates the likelihood for precipitation, dew, or fog to be present.\nHumidity depends on the temperature and pressure of the system of interest. The same amount of water vapor results in higher relative humidity in cool air than warm air. A related parameter is the dew point. The amount of water vapor needed to achieve saturation increases ",
+      "text{O}}})}\n  \n, divided by the volume of the air and water vapor mixture \n  \n    \n      \n        (\n        \n          V\n          \n            net\n          \n        \n        )\n      \n    \n    {\\displaystyle (V_{\\text{net}})}\n  \n, which can be expressed as:\n\n  \n    \n      \n        A\n        H\n        =\n        \n          \n            \n              m\n              \n                \n                  \n                    H\n                  \n                  \n                    2\n             ",
+      " and are similar to plumes of water vapor detected on Saturn's moon Enceladus. Traces of water vapor have also been detected in the stratosphere of Titan. Water vapor has been found to be a major constituent of the atmosphere of dwarf planet, Ceres, largest object in the asteroid belt The detection was made by using the far-infrared abilities of the Herschel Space Observatory. The finding is unexpected because comets, not asteroids, are typically considered to \"sprout jets and plumes.\" According",
+      "              \n            \n            \n              \n              \n                \n                +\n                8.1328\n                ×\n                \n                  10\n                  \n                    −\n                    3\n                  \n                \n                \n                  (\n                  \n                    \n                      10\n                      \n                        −\n                        3.49149\n                        \n        ",
+      "ding to short circuit inside the equipment. Such short circuits may cause substantial permanent damage if the equipment is powered on before the condensation has evaporated. A similar condensation effect can often be observed when a person wearing glasses comes in from the cold (i.e. the glasses become foggy). \nIt is advisable to allow electronic equipment to acclimatise for several hours, after being brought in from the cold, before powering on. Some electronic devices can detect such a change "
+    ]
+  },
+  {
+    "question": "Paracrine signals move by what method through the extracellular matrix?",
+    "hypotheses": [
+      "Osmosis is the method by which paracrine signals move through the extracellular matrix.",
+      "Deposition is the method by which paracrine signals move through the extracellular matrix.",
+      "Transfusion is the method by which paracrine signals move through the extracellular matrix.",
+      "Diffusion is the method by which paracrine signals move through the extracellular matrix."
+    ],
+    "predicted_answer": "diffusion",
+    "correct_answer": "diffusion",
+    "strengths": {
+      "Osmosis is the method by which paracrine signals move through the extracellular matrix.": 0.006018308191560597,
+      "Deposition is the method by which paracrine signals move through the extracellular matrix.": 0.006018308191560597,
+      "Transfusion is the method by which paracrine signals move through the extracellular matrix.": 0.006018308191560597,
+      "Diffusion is the method by which paracrine signals move through the extracellular matrix.": 0.9879176181272762
+    },
+    "used_intervals": [
+      "the immediate extracellular environment. Factors then travel to nearby cells in which the gradient of factor received determines the outcome. However, the exact distance that paracrine factors can travel is not certain. \nParacrine signals such as retinoic acid target only cells in the vicinity of the emitting cell. Neurotransmitters represent another example of a paracrine signal.\nSome signaling molecules can function as both a hormone and a neurotransmitter. For example, epinephrine and norepin",
+      "In biology, the extracellular matrix (ECM), also called intercellular matrix (ICM), is a network consisting of extracellular macromolecules and minerals, such as collagen, enzymes, glycoproteins and hydroxyapatite that provide structural and biochemical support to surrounding cells. Because multicellularity evolved independently in different multicellular lineages, the composition of ECM varies between multicellular structures; however, cell adhesion, cell-to-cell communication and differentiati",
+      "   \n            \n          \n        \n        \n          \n            \n              T\n              \n                3\n                \n                  /\n                \n                2\n              \n            \n            \n              P\n              \n                d\n                \n                  2\n                \n              \n            \n          \n        \n        \n        ,\n      \n    \n    {\\displaystyle D={\\frac {1}{3}}\\ell v_{T}={\\frac {2}{3}}{\\sqrt {\\frac {k_{\\rm {B}}",
+      "he U.S. National Library of Medicine Medical Subject Headings (MeSH)\n\"paracrine\" at Dorland's Medical Dictionary",
+      "   \n          c\n          \n            i\n          \n        \n        −\n        \n          c\n          \n            i\n          \n        \n        \n        ∇\n        \n          c\n          \n            j\n          \n        \n        ]\n      \n    \n    {\\displaystyle \\mathbf {J} _{i}=-\\sum _{j}D_{ij}[c_{j}\\,\\nabla c_{i}-c_{i}\\,\\nabla c_{j}]}\n  \n\n  \n    \n      \n        \n          \n            \n              ∂\n              \n                c\n                \n                  i\n                \n      "
+    ]
+  },
+  {
+    "question": "Presence of a cell wall, large central vacuole, and organelles called plastids distinguish what type of cell?",
+    "hypotheses": [
+      "Animal cells are not distinguished by the presence of a cell wall, large central vacuole, and plastids.",
+      "Reproductive cells are distinguished by the presence of a cell wall, large central vacuole, and organelles called plastids.",
+      "Heterotrophs are cells that lack a cell wall, large central vacuole, and organelles called plastids.",
+      "Plant cells are distinguished by the presence of a cell wall, a large central vacuole, and organelles called plastids."
+    ],
+    "predicted_answer": "animal",
+    "correct_answer": "plant",
+    "strengths": {
+      "Animal cells are not distinguished by the presence of a cell wall, large central vacuole, and plastids.": 0.7499005936298626,
+      "Reproductive cells are distinguished by the presence of a cell wall, large central vacuole, and organelles called plastids.": 0.2500994063701377,
+      "Heterotrophs are cells that lack a cell wall, large central vacuole, and organelles called plastids.": 0.5,
+      "Plant cells are distinguished by the presence of a cell wall, a large central vacuole, and organelles called plastids.": 0.5
+    },
+    "used_intervals": [
+      "eticulum in eukaryotes, or the cell membrane in prokaryotes).\nPlastids: Plastid are membrane-bound organelle generally found in plant cells and euglenoids and contain specific pigments, thus affecting the colour of the plant and organism. These pigments helps in food storage and tapping of light energy. There are three types of plastids based upon the specific pigments. Chloroplasts contain chlorophyll and some carotenoid pigments which helps in the tapping of light energy during photosynthesis.",
+      "n of vacuoles or vacuole-like structures, within or adjacent to cells. It is an unspecific sign of disease.\n\n\n== Notes ==\n\n\n== References ==\n\n\n== External links ==",
+      "wall is then deposited inside the middle lamella. The actual structure of the cell wall is not clearly defined and several models exist - the covalently linked cross model, the tether model, the diffuse layer model and the stratified layer model. However, the primary cell wall, can be defined as composed of cellulose microfibrils aligned at all angles. Cellulose microfibrils are produced at the plasma membrane by the cellulose synthase complex, which is proposed to be made of a hexameric rosette",
+      "phase of the cell cycle.\nIn meiosis, the DNA is replicated only once, while the cell divides twice. DNA replication only occurs before meiosis I. DNA replication does not occur when the cells divide the second time, in meiosis II. Replication, like all cellular activities, requires specialized proteins.\n\n\n=== DNA repair ===\n\nAll cells contain enzyme systems that scan for DNA damage and carry out repair. Diverse repair processes have evolved in all organisms. Repair is vital to maintain DNA integ",
+      "peared in plants during their transition to land in the Silurian period more than 425 million years ago (see Cooksonia). The possession of xylem tracheids defines the vascular plants or Tracheophytes. Tracheids are pointed, elongated xylem cells, the simplest of which have continuous primary cell walls and lignified secondary wall thickenings in the form of rings, hoops, or reticulate networks. More complex tracheids with valve-like perforations called bordered pits characterise the gymnosperms."
+    ]
+  },
+  {
+    "question": "What happens when mammals raise their hair with tiny muscles in the skin?",
+    "hypotheses": [
+      "Bleeding does not happen when mammals raise their hair with tiny muscles in the skin.",
+      "Balding does not happen when mammals raise their hair with tiny muscles in the skin.",
+      "Bruising happens when mammals raise their hair with tiny muscles in the skin.",
+      "Goosebumps happen when mammals raise their hair with tiny muscles in the skin."
+    ],
+    "predicted_answer": "goosebumps",
+    "correct_answer": "goosebumps",
+    "strengths": {
+      "Bleeding does not happen when mammals raise their hair with tiny muscles in the skin.": 0.5,
+      "Balding does not happen when mammals raise their hair with tiny muscles in the skin.": 0.5,
+      "Bruising happens when mammals raise their hair with tiny muscles in the skin.": 0.5,
+      "Goosebumps happen when mammals raise their hair with tiny muscles in the skin.": 0.9998011872598469
+    },
+    "used_intervals": [
+      "se bumps is known as piloerection or the pilomotor reflex, or, more traditionally, horripilation. It occurs in many mammals; a prominent example is porcupines, which raise their quills when threatened, or sea otters when they encounter sharks or other predators.\n\n\n== Anatomy and biology ==\nGoose bumps are created when tiny muscles at the base of each hair, known as arrector pili muscles, contract and pull the hair straight up. The reflex is started by the sympathetic nervous system, which is res",
+      "o \"hair erector\".\n\n\n== Additional images ==\n\n\n== Notes ==\n\n\n== References ==\nMyers, P., R. Espinosa, C. S. Parr, T. Jones, G. S. Hammond, and T. A. Dewey. 2006. The Animal Diversity Web; https://web.archive.org/web/20110903154915/http://animaldiversity.ummz.umich.edu/site/topics/mammal_anatomy/hair.html\nBurkitt, Young; et al. (1993). Wheater's Functional Histology: a text and colour atlas. Heath. p. 162.",
+      "etained control of book publishing and the TV series, but gave Parachute Press merchandising rights to the series. In September 1997, following a dispute between Scholastic and Parachute Press, Scholastic accused Parachute Press of violating the contract. Scholastic claimed that Parachute Press had been making merchandising deals and issuing press releases without Scholastic's required consent, and had begun withholding payments from them. In November 1997, Parachute responded by alleging Schola",
+      "nalized version of R. L. Stine \"whose scary characters literally leap off the page, forcing him to hide from his own creepy creations\" with Dylan Minnette as Zach Cooper, and Odeya Rush was cast as R. L. Stine's fictional daughter, Hannah. In the film, Hannah's father R. L. Stine keeps all the monsters in the series locked up in his books. When Zach unintentionally releases the monsters from the books, Zach, Hannah, and Stine team up in order to put the monsters back where they came from.\nA sequ",
+      "Swedish, Danish, Norwegian, Polish and Czech) as most other birds share this same anatomical feature. Other languages may use a different species. For example, the hen or chicken is used in Vietnamese, Korean, Japanese, Cantonese, Finnish, Dutch, Luxembourgish, French, Spanish, Portuguese, Romanian, and Galician; Irish uses both; Hebrew, the duck; the ants (referred to as \"murashki\", alluding to the feeling of ants crawling on one's skin) in Ukrainian and Russian; and a variety of synonyms in Ma"
+    ]
+  },
+  {
+    "question": "What are people with osteoporosis at increased risk of?",
+    "hypotheses": [
+      "People with osteoporosis are at increased risk of epilepsy.",
+      "People with osteoporosis are at increased risk of senility.",
+      "People with osteoporosis are at increased risk of growth spurt.",
+      "People with osteoporosis are at increased risk of bone fractures."
+    ],
+    "predicted_answer": "bone fractures",
+    "correct_answer": "bone fractures",
+    "strengths": {
+      "People with osteoporosis are at increased risk of epilepsy.": 0.5,
+      "People with osteoporosis are at increased risk of senility.": 0.3333333333438113,
+      "People with osteoporosis are at increased risk of growth spurt.": 0.3333333333438113,
+      "People with osteoporosis are at increased risk of bone fractures.": 0.9998011872598469
+    },
+    "used_intervals": [
+      "ause.\nIn 2019, up to 37 million fragility fractures linked to osteoporosis were thought to occur in people over the age of 55 worldwide. Globally, 1 in 3 women and 1 in 5 men over the age of 50 will have an osteoporotic fracture. Data from the United States shows a decrease in osteoporosis within the general population and in white women, from 18% in 1994 to 10% in 2006. White and Asian people are at greater risk. People of African descent are at a decreased risk of fractures due to osteoporosis",
+      ", hyperthyroidism, hypothyroidism, diabetes mellitus type 1 and 2, acromegaly, and adrenal insufficiency.\nMalnutrition, parenteral nutrition and malabsorption can lead to osteoporosis. Nutritional and gastrointestinal disorders that can predispose to osteoporosis include undiagnosed and untreated coeliac disease (both symptomatic and asymptomatic people), Crohn's disease, ulcerative colitis, cystic fibrosis, surgery (after gastrectomy, intestinal bypass surgery or bowel resection) and severe liv",
+      "          (\n          \n            1\n            +\n            2\n            \n              \n                \n                  a\n                  ρ\n                \n              \n            \n          \n          )\n        \n        =\n        2\n        \n          σ\n          \n            \n              a\n              p\n              p\n              l\n              i\n              e\n              d\n            \n          \n        \n        \n          \n            \n              a\n              ",
+      "erturbed recently by the discovery that the bacterium E. coli may split into distinguishable daughter cells, which opens the theoretical possibility of \"age classes\" among bacteria.\nEven within humans and other mortal species, there are cells with the potential for immortality: cancer cells which have lost the ability to die when maintained in a cell culture such as the HeLa cell line, and specific stem cells such as germ cells (producing ova and spermatozoa). In artificial cloning, adult cells ",
+      "e involved. There are concerns of atypical femoral fractures and osteonecrosis of the jaw with long-term use, but these risks are low. With evidence of little benefit when used for more than three to five years and in light of the potential adverse events, it may be appropriate to stop treatment after this time. One medical organization recommends that after five years of medications by mouth or three years of intravenous medication among those at low risk, bisphosphonate treatment can be stoppe"
+    ]
+  },
+  {
+    "question": "Where is energy stored in a chemical substance?",
+    "hypotheses": [
+      "Energy is stored on the surface of a chemical substance.",
+      "Energy is stored in molecules.",
+      "Energy is stored inside atoms.",
+      "Energy is stored between atoms in a chemical substance."
+    ],
+    "predicted_answer": "in molecules",
+    "correct_answer": "between atoms",
+    "strengths": {
+      "Energy is stored on the surface of a chemical substance.": 1.629872078997104e-05,
+      "Energy is stored in molecules.": 0.9998958698995184,
+      "Energy is stored inside atoms.": 0.49991571852713546,
+      "Energy is stored between atoms in a chemical substance.": 0.9998925866193026
+    },
+    "used_intervals": [
+      "Chemical energy is the energy of chemical substances that is released when the substances undergo a chemical reaction and transform into other substances. Some examples of storage media of chemical energy include batteries, food, and gasoline (as well as oxygen gas, which is of high chemical energy due to its relatively weak double bond  and indispensable for chemical-energy release in gasoline combustion). Breaking and re-making chemical bonds involves energy, which may be either absorbed by or",
+      "thesis produced most of the helium, lithium, and deuterium in the Universe, and perhaps some of the beryllium and boron.\nUbiquitousness and stability of atoms relies on their binding energy, which means that an atom has a lower energy than an unbound system of the nucleus and electrons. Where the temperature is much higher than ionization potential, the matter exists in the form of plasma—a gas of positively charged ions (possibly, bare nuclei) and electrons. When the temperature drops below the",
+      " \n                \n                  ∂\n                  \n                    U\n                    ′\n                  \n                \n                \n                  ∂\n                  x\n                \n              \n            \n            ,\n            \n              \n                \n                  ∂\n                  \n                    U\n                    ′\n                  \n                \n                \n                  ∂\n                  y\n                \n        ",
+      "\n          \n            \n              Q\n              q\n            \n            \n              r\n              \n                2\n              \n            \n          \n        \n        \n          \n            \n              r\n              ^\n            \n          \n        \n        ,\n      \n    \n    {\\displaystyle \\mathbf {F} ={\\frac {1}{4\\pi \\varepsilon _{0}}}{\\frac {Qq}{r^{2}}}\\mathbf {\\hat {r}} ,}\n  \n\nwhere \n  \n    \n      \n        \n          \n            \n              r\n              ^\n  ",
+      "y equally between the atoms in contrast to ionic bonding. Such bonding is shown by an arrow pointing to the Lewis acid. (In the Figure, solid lines are bonds in the plane of the diagram, wedged bonds point towards the observer, and dashed bonds point away from the observer.)\nTransition metal complexes are generally bound by coordinate covalent bonds. For example, the ion Ag+ reacts as a Lewis acid with two molecules of the Lewis base NH3 to form the complex ion Ag(NH3)2+, which has two Ag←N coor"
+    ]
+  },
+  {
+    "question": "By the year 2050, 25 percent of the population of the united states will be 60 years of age or older. the cdc estimates that 80 percent of those 60 years and older have one or more chronic disease associated with deficiencies of this?",
+    "hypotheses": [
+      "The respiratory system is estimated to be associated with deficiencies in 80 percent of United States residents aged 60 or older by the year 2050.",
+      "The cardiovascular system is estimated to be associated with deficiencies in 80 percent of United States residents aged 60 or older by the year 2050.",
+      "Blood vessels are associated with deficiencies in 80 percent of United States residents aged 60 or older, a population expected to comprise 25 percent of the total by 2050.",
+      "The immune system is estimated to be deficient in 80 percent of the United States population aged 60 or older by 2050."
+    ],
+    "predicted_answer": "cardiovascular system",
+    "correct_answer": "immune system",
+    "strengths": {
+      "The respiratory system is estimated to be associated with deficiencies in 80 percent of United States residents aged 60 or older by the year 2050.": 0.5,
+      "The cardiovascular system is estimated to be associated with deficiencies in 80 percent of United States residents aged 60 or older by the year 2050.": 0.9998011872598469,
+      "Blood vessels are associated with deficiencies in 80 percent of United States residents aged 60 or older, a population expected to comprise 25 percent of the total by 2050.": 0.9998011872598469,
+      "The immune system is estimated to be deficient in 80 percent of the United States population aged 60 or older by 2050.": 0.5
+    },
+    "used_intervals": [
+      "e 21st century, one of the most significant population trends is ageing. Currently, over 11% of the world's current population are people aged 60 and older and the United Nations Population Fund (UNFPA) estimates that by 2050 that number will rise to approximately 22%. Ageing has occurred due to development which has enabled better nutrition, sanitation, health care, education and economic well-being. Consequently, fertility rates have continued to decline and life expectancy has risen. Life exp",
+      "s were estimated to have one chronic illness, with about 40% having more than one; this rate appears to be mostly unchanged from 2008. MEPS data from 1998 showed 45% of adult Americans had at least one chronic illness, and 21% had more than one.\nAccording to research by the CDC, chronic disease is also especially a concern in the elderly population in America. Chronic diseases like stroke, heart disease, and cancer were among the leading causes of death among Americans aged 65 or older in 2002, ",
+      "ion network in their Kennesaw home when the phone rang. He picked up the phone and attempted to have a normal conversation with his son. White spoke to his father, \"I'm gonna shoot up the CDC\", before hanging up afterward. The couple immediately changed their channel to one of the Atlanta stations, where his father saw the unmistakable image of his car at the scene.\n\n\n==== 2025 leadership dispute ====\nOn May 14, 2025, HHS Secretary Robert F. Kennedy Jr. stated that lawyer Matthew Buzzelli is act",
+      "hat the positive effects of resistance exercise on strength, muscle mass, and motor coordination reduce the risk of falls in the elderly, which is a key factor for living a longer and healthier life. In terms of programming, there is no one-size-fits-all approach. General recommendations for improvements to gait speed, strength, and muscle size for reduced fall risk are resistance training programs with two to three 40-60 minute workouts per week, consisting of 1-2 sets of 5-8 repetitions of 2-3",
+      "illiam Bazalgette (1819–1891) created a sewer network for central London in response to the Great Stink of 1858. This proved instrumental in relieving the city from cholera epidemics.\nLouis Pasteur (1822–1895) conducted research that laid the foundation for our understanding of the causes and preventions of diseases.\nRobert Koch (1843–1910) used his discoveries to establish that germs \"could cause a specific disease\" and directly provided proofs for that germ theory of diseases, therefore creati"
+    ]
+  },
+  {
+    "question": "Upon death of an organism, during composition, what returns to the soil as ammonium ions?",
+    "hypotheses": [
+      "Potassium returns to the soil as ammonium ions upon the death of an organism during composition.",
+      "Calcium returns to the soil as ammonium ions upon the decomposition of an organism.",
+      "Hydrogen returns to the soil as ammonium ions upon the death of an organism during decomposition.",
+      "Nitrogen returns to the soil as ammonium ions upon the decomposition of an organism."
+    ],
+    "predicted_answer": "hydrogen",
+    "correct_answer": "nitrogen",
+    "strengths": {
+      "Potassium returns to the soil as ammonium ions upon the death of an organism during composition.": 0.4706561479394264,
+      "Calcium returns to the soil as ammonium ions upon the decomposition of an organism.": 0.5,
+      "Hydrogen returns to the soil as ammonium ions upon the death of an organism during decomposition.": 0.7647704058969979,
+      "Nitrogen returns to the soil as ammonium ions upon the decomposition of an organism.": 0.058729152634855654
+    },
+    "used_intervals": [
+      " a hydrogen ion, and thus allow for further acid excretion.\n\n\n=== Excretion ===\n\nAmmonium ions are a toxic waste product of metabolism in animals. In fish and aquatic invertebrates, it is excreted directly into the water. In mammals, sharks, and amphibians, it is converted in the urea cycle to urea, which is less toxic and can be stored more efficiently. In birds, reptiles, and terrestrial snails, metabolic ammonium is converted into uric acid, which is solid and can therefore be excreted with m",
+      "er rate) even after soils become too dry to support plant growth. When the rains return and soils become wet, the osmotic gradient between the bacterial cells and the soil water causes the cells to gain water quickly. Under these conditions, many bacterial cells burst, releasing a pulse of nutrients. Decomposition rates also tend to be slower in acidic soils. Soils which are rich in clay minerals tend to have lower decomposition rates, and thus, higher levels of organic matter. The smaller parti",
+      "ently dry environments, an embalmed body may end up mummified and it is not uncommon for bodies to remain preserved to a viewable extent after decades. Notable viewable embalmed bodies include those of:\n\nEva Perón of Argentina, whose body was injected with paraffin, was kept perfectly preserved for many years, and still is as far as is known (her body is no longer on public display).\nVladimir Lenin of the Soviet Union, whose body was kept submerged in a special tank of fluid for decades and is o",
+      "ned bond angle of 106.7°. The central nitrogen atom has five outer electrons with an additional electron from each hydrogen atom. This gives a total of eight electrons, or four electron pairs that are arranged tetrahedrally. Three of these electron pairs are used as bond pairs, which leaves one lone pair of electrons. The lone pair repels more strongly than bond pairs; therefore, the bond angle is not 109.5°, as expected for a regular tetrahedral arrangement, but 106.7°. This shape gives the mol",
+      " improvement commenced, other researchers began to study soil genesis and, as a result, soil types and classifications.\nIn 1860, while in Mississippi, Eugene W. Hilgard (1833–1916) studied the relationship between rock material, climate, vegetation, and the type of soils that were developed. He realised that the soils were dynamic and considered the classification of soil types. His work was not continued. At about the same time, Friedrich Albert Fallou described soil profiles and related soil c"
+    ]
+  },
+  {
+    "question": "Most insects reproduce quickly and through what type of reproduction?",
+    "hypotheses": [
+      "Spores are a type of reproduction used by most insects who reproduce quickly.",
+      "Photosynthesis is not the method of reproduction used by most insects.",
+      "Asexual reproduction is the primary mode of reproduction for most insects.",
+      "Sexual reproduction is the typical mode of reproduction for insects, allowing them to reproduce quickly."
+    ],
+    "predicted_answer": null,
+    "correct_answer": "sexual reproduction",
+    "strengths": {
+      "Spores are a type of reproduction used by most insects who reproduce quickly.": 0.45730126610495614,
+      "Photosynthesis is not the method of reproduction used by most insects.": 0.8562852939788491,
+      "Asexual reproduction is the primary mode of reproduction for most insects.": 0.6859056213877632,
+      "Sexual reproduction is the typical mode of reproduction for insects, allowing them to reproduce quickly.": 0.08529077835683586
+    },
+    "used_intervals": [
+      "\nSome insects are parthenogenetic, meaning that the female can reproduce and give birth without having the eggs fertilized by a male. Many aphids undergo a cyclical form of parthenogenesis in which they alternate between one or many generations of asexual and sexual reproduction. In summer, aphids are generally female and parthenogenetic; in the autumn, males may be produced for sexual reproduction. Other insects produced by parthenogenesis are bees, wasps and ants; in their haplodiploid system,",
+      "are generally supported, but ultimately the size of the population determines if sexual reproduction is entirely beneficial. Larger populations appear to respond more quickly to some of the benefits obtained through sexual reproduction than do smaller population sizes.\nHowever, newer models presented in recent years suggest a basic advantage for sexual reproduction in slowly reproducing complex organisms.\nSexual reproduction allows these species to exhibit characteristics that depend on the spec",
+      ". By moving its mouthparts the insect mixes its food with saliva. Some insects, like flies, expel digestive enzymes onto their food to break it down, but most insects digest their food in the gut. The foregut is lined with cuticule as protection from tough food. It includes the mouth, pharynx, and crop which stores food. Digestion starts in the mouth with enzymes in the saliva. Strong muscles in the pharynx pump fluid into the mouth, lubricating the food, and enabling certain insects to feed on ",
+      "specially in rainforests, than in temperate zones. The world's regions have received widely differing amounts of attention from entomologists. The British Isles have been thoroughly surveyed, so that Gullan and Cranston 2014 state that the total of around 22,500 species is probably within 5% of the actual number there; they comment that Canada's list of 30,000 described species is surely over half of the actual total. They add that the 3,000 species of the American Arctic must be broadly accurat",
+      "production of a new M. mycoides organism.\nThere is some debate within the scientific community over whether this cell can be considered completely synthetic on the grounds that the chemically synthesized genome was an almost 1:1 copy of a naturally occurring genome and, the recipient cell was a naturally occurring bacterium. The Craig Venter Institute maintains the term \"synthetic bacterial cell\" but they also clarify \"...we do not consider this to be \"creating life from scratch\" but rather we a"
+    ]
+  },
+  {
+    "question": "Digestion of proteins begins with acids in what organ?",
+    "hypotheses": [
+      "The colon is not the organ where digestion of proteins begins with acids.",
+      "The liver is the organ where protein digestion begins with acids.",
+      "The brain is not the organ where digestion of proteins begins with acids.",
+      "The stomach is where digestion of proteins begins with acids."
+    ],
+    "predicted_answer": "colon",
+    "correct_answer": "stomach",
+    "strengths": {
+      "The colon is not the organ where digestion of proteins begins with acids.": 0.8610117141428957,
+      "The liver is the organ where protein digestion begins with acids.": 0.16686584815454042,
+      "The brain is not the organ where digestion of proteins begins with acids.": 0.5,
+      "The stomach is where digestion of proteins begins with acids.": 0.6664674852630829
+    },
+    "used_intervals": [
+      "e environment for handling the digestion of food for uptake of nutrients. Highly stomach-specific proteins include gastrokine-1 expressed in the mucosa; pepsinogen and gastric lipase, expressed in gastric chief cells; and a gastric ATPase and gastric intrinsic factor, expressed in parietal cells.\n\n\n== Development ==\nIn the early part of the development of the human embryo, the ventral part of the embryo abuts the yolk sac. During the third week of development, as the embryo grows, it begins to s",
+      "arietal Cell: Mechanism of Acid Secretion; Colorado State University Archived 2021-05-02 at the Wayback Machine",
+      "in addition gain practical experience, for example by dissection of cadavers. Human anatomy, physiology, and biochemistry are basic medical sciences, generally taught to medical students in their first year at medical school.\n\n\n=== Depiction ===\n\nIn Western societies, the contexts for depictions of the human body include information, art and pornography. Information includes both science and education, such as anatomical drawings. Any ambiguous image not easily fitting into one of these categori",
+      "vitis which is caused by bacteria in plaque. The most common viral infection of the mouth is gingivostomatitis caused by herpes simplex. A common fungal infection is candidiasis commonly known as thrush which affects the mucous membranes of the mouth.\nThere are a number of esophageal diseases such as the development of Schatzki rings that can restrict the passageway, causing difficulties in swallowing. They can also completely block the esophagus.\nStomach diseases are often chronic conditions an",
+      " proper balance of electrolytes and turning the waste products into urine by combining them with water from the blood. The kidneys filter about 150 quarts (170 liters) of blood daily, but most of it is returned to the blood stream with only 1-2 quarts (1-2 liters) ending up as urine, which passes from the kidneys through the ureters into the bladder.\nThe smooth muscles lining the ureter walls continuously tighten and relax through a process called peristalsis, forcing small amounts of urine into"
+    ]
+  },
+  {
+    "question": "Many species of rotifers exhibit haplodiploidy, which is a method of what?",
+    "hypotheses": [
+      "Circulation is a method exhibited by many species of rotifers that practice haplodiploidy.",
+      "Digestion is a method exhibited by many species of rotifers that exhibit haplodiploidy.",
+      "Respiration is a method exhibited by many species of rotifers that involves haplodiploidy.",
+      "Haplodiploidy is a method of gender determination exhibited by many species of rotifers."
+    ],
+    "predicted_answer": "gender determination",
+    "correct_answer": "gender determination",
+    "strengths": {
+      "Circulation is a method exhibited by many species of rotifers that practice haplodiploidy.": 0.5,
+      "Digestion is a method exhibited by many species of rotifers that exhibit haplodiploidy.": 0.5,
+      "Respiration is a method exhibited by many species of rotifers that involves haplodiploidy.": 0.16686584815454042,
+      "Haplodiploidy is a method of gender determination exhibited by many species of rotifers.": 0.6664674852630829
+    },
+    "used_intervals": [
+      " is formed from sclerotized proteins.\nThe two most distinctive features of rotifers (in females of all species) are the presence of corona on the head, a structure ciliated in all genera except Cupelopagis and presence of mastax. In the more primitive species, the corona forms a simple ring of cilia around the mouth from which an additional band of cilia stretches over the back of the head. In the great majority of rotifers, however, this has evolved into a more complex structure.\nModifications ",
+      "Haplodiploidy is a sex-determination system in which males develop from unfertilized eggs and are haploid, and females develop from fertilized eggs and are diploid. Haplodiploidy is sometimes called arrhenotoky.\nHaplodiploidy determines the sex in all members of the insect orders Hymenoptera (bees, ants, and wasps) and Thysanoptera ('thrips'). The system also occurs sporadically in some spider mites, Hemiptera, Coleoptera (bark beetles), and rotifers.\nIn this system, sex is determined by the num",
+      "aph on The Rotifera (1886-9) by C.T. Hudson, assisted by P.H. Gosse, 400 British and foreign species were included; by 1912, the total reached 607 species. About 2,200 species of rotifers have now been described. Their taxonomy is currently in a state of flux. One treatment places them in the phylum Rotifera, with three classes: Seisonidea, Bdelloidea and Monogononta. The largest group is the Monogononta, with about 1,500 species, followed by the Bdelloidea, with about 350 species. There are onl",
+      "ssi has a \n  \n    \n      \n        \n          \n            X\n          \n          \n            1\n          \n        \n        \n          \n            X\n          \n          \n            1\n          \n        \n        \n          \n            X\n          \n          \n            2\n          \n        \n        \n          \n            X\n          \n          \n            2\n          \n        \n        \n          ♀\n        \n        \n          /\n        \n        \n          \n            X\n          \n         ",
+      " amplify from extremely small amounts of DNA, PCR is also often used to detect the presence of specific DNA sequences.\n\n\n=== DNA sequencing and genomics ===\n\nDNA sequencing, one of the most fundamental technologies developed to study genetics, allows researchers to determine the sequence of nucleotides in DNA fragments. The technique of chain-termination sequencing, developed in 1977 by a team led by Frederick Sanger, is still routinely used to sequence DNA fragments. Using this technology, rese"
+    ]
+  },
+  {
+    "question": "What is the most abundant metal of the earth's crust?",
+    "hypotheses": [
+      "Calcium is the most abundant metal of the earth's crust.",
+      "Copper is the most abundant metal of the earth's crust.",
+      "Magnetite is the most abundant metal of the earth's crust.",
+      "Aluminum is the most abundant metal of the earth's crust."
+    ],
+    "predicted_answer": "aluminum",
+    "correct_answer": "aluminum",
+    "strengths": {
+      "Calcium is the most abundant metal of the earth's crust.": 0.012942615181541635,
+      "Copper is the most abundant metal of the earth's crust.": 0.012942615181541635,
+      "Magnetite is the most abundant metal of the earth's crust.": 0.0003338499690029423,
+      "Aluminum is the most abundant metal of the earth's crust.": 0.9738659963796811
+    },
+    "used_intervals": [
+      " crust than in the universe at large. This is because aluminium easily forms the oxide and becomes bound into rocks and stays in the Earth's crust, while less reactive metals sink to the core. In the Earth's crust, aluminium is the most abundant metallic element (8.23% by mass) and the third most abundant of all elements (after oxygen and silicon). A large number of silicates in the Earth's crust contain aluminium. In contrast, the Earth's mantle is only 2.38% aluminium by mass. Aluminium also o",
+      "\n\n\"Crust of the Earth\" . Encyclopedia Americana. 1920.",
+      ") defines complexes of metals with more than one type of ligand, other than water, as mixed-ligand-complexes. In some cases, a ligand contains more than one donor atom, forming very strong complexes, also called chelates (the ligand is the chelator). One of the most common chelators is EDTA (ethylenediaminetetraacetic acid), which can replace six molecules of water and form strong bonds with metals that have a plus two charge.  With stronger complexation, lower activity of the free metal ion is ",
+      "ries to countries where production was cheaper. Production costs in the late 20th century changed because of advances in technology, lower energy prices, exchange rates of the United States dollar, and alumina prices. The BRIC countries' combined share in primary production and primary consumption grew substantially in the first decade of the 21st century. China is accumulating an especially large share of the world's production thanks to an abundance of resources, cheap energy, and governmental",
+      " in 1995; and the final mission of the Cassini probe in 2017 was to enter the atmosphere of Saturn. In the atmosphere of Jupiter, He was found to be depleted by a factor of 2 compared to solar composition and Ne by a factor of 10, a surprising result since the other noble gases and the elements C, N and S were enhanced by factors of 2 to 4 (oxygen was also depleted but this was attributed to the unusually dry region that Galileo sampled).\nSpectroscopic methods only penetrate the atmospheres of J"
+    ]
+  },
+  {
+    "question": "What is the term for the total kinetic energy of moving particles of matter?",
+    "hypotheses": [
+      "Heavy energy is the term for the total kinetic energy of moving particles of matter.",
+      "Mechanical energy is the term for the total kinetic energy of moving particles of matter.",
+      "Newton's energy is the term for the total kinetic energy of moving particles of matter.",
+      "Thermal energy is the total kinetic energy of moving particles of matter."
+    ],
+    "predicted_answer": "thermal energy",
+    "correct_answer": "thermal energy",
+    "strengths": {
+      "Heavy energy is the term for the total kinetic energy of moving particles of matter.": 9.951981915120231e-05,
+      "Mechanical energy is the term for the total kinetic energy of moving particles of matter.": 9.960377150265189e-05,
+      "Newton's energy is the term for the total kinetic energy of moving particles of matter.": 0.5,
+      "Thermal energy is the total kinetic energy of moving particles of matter.": 0.9998008627741957
+    },
+    "used_intervals": [
+      "In physics, the kinetic energy of an object is the form of energy that it possesses due to its motion.\nIn classical mechanics, the kinetic energy of a non-rotating object of mass m traveling at a speed v is \n  \n    \n      \n        \n          \n            1\n            2\n          \n        \n        m\n        \n          v\n          \n            2\n          \n        \n      \n    \n    {\\textstyle {\\frac {1}{2}}mv^{2}}\n  \n. \nThe kinetic energy of an object is equal to the work, or force (F) in the dir",
+      "le E_{0}}\n  \n is the rest energy.\nFor example, consider electron–positron annihilation, in which the rest energy of these two individual particles (equivalent to their rest mass) is converted to the radiant energy of the photons produced in the process. In this system the matter and antimatter (electrons and positrons) are destroyed and changed to non-matter (the photons). However, the total mass and total energy do not change during this interaction. The photons each have no rest mass but nonet",
+      "ccessful experiments of this same kind that directly use the Fermi–Dirac distribution for thermometry, but perhaps that will be achieved in the future.\nThe speed of sound in a gas can be calculated theoretically from the gas's molecular character, temperature, pressure, and the Boltzmann constant. For a gas of known molecular character and pressure, this provides a relation between temperature and the Boltzmann constant. Those quantities can be known or measured more precisely than can the therm",
+      "           ∇\n              ρ\n              (\n              \n                r\n              \n              )\n            \n            \n              ρ\n              (\n              \n                r\n              \n              )\n            \n          \n        \n        \n          d\n          \n            3\n          \n        \n        r\n      \n    \n    {\\displaystyle T[\\rho ]={\\frac {1}{8}}\\int {\\frac {\\nabla \\rho (\\mathbf {r} )\\cdot \\nabla \\rho (\\mathbf {r} )}{\\rho (\\mathbf {r} )}}d^{3}r}\n  \n\n",
+      "              \n            \n            \n              \n              \n                \n                =\n                Q\n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n  "
+    ]
+  },
+  {
+    "question": "What part of the eye allows light to enter?",
+    "hypotheses": [
+      "The eyelid allows light to enter the eye.",
+      "The retina allows light to enter the eye.",
+      "The iris allows light to enter the eye.",
+      "The pupil allows light to enter the eye."
+    ],
+    "predicted_answer": "retina",
+    "correct_answer": "pupil",
+    "strengths": {
+      "The eyelid allows light to enter the eye.": 0.4614626952221404,
+      "The retina allows light to enter the eye.": 0.6924041528987819,
+      "The iris allows light to enter the eye.": 0.5,
+      "The pupil allows light to enter the eye.": 0.07695374222641369
+    },
+    "used_intervals": [
+      " cells lie innermost in the eye while the photoreceptive cells lie beyond. Because of this counter-intuitive arrangement, light must first pass through and around the ganglion cells and through the thickness of the retina, (including its capillary vessels, not shown) before reaching the rods and cones. Light is absorbed by the retinal pigment epithelium or the choroid (both of which are opaque).\nThe white blood cells in the capillaries in front of the photoreceptors can be perceived as tiny brig",
+      "The pupil is a hole located in the center of the iris of the eye that allows light to strike the retina. It appears black because light rays entering the pupil are either absorbed by the tissues inside the eye directly, or absorbed after diffuse reflections within the eye that mostly miss exiting the narrow pupil. The size of the pupil is controlled by the iris, and varies depending on many factors, the most significant being the amount of light in the environment. The term \"pupil\" was coined by",
+      "ities of management for retinal disease:\n\nIntravitreal medication, such as anti-VEGF or corticosteroid agents\nVitreoretinal surgery\nUse of nutritional supplements\nModification of systemic risk factors for retinal disease\n\n\n==== Uncommon treatment modalities ====\nRetinal gene therapy\n\nGene therapy holds promise as a potential avenue to cure a wide range of retinal diseases. This involves using a non-infectious virus to shuttle a gene into a part of the retina. Recombinant adeno-associated virus (",
+      "es brighter than equivalent apposition eyes, though at the cost of reduced resolution. In the parabolic superposition compound eye type, seen in arthropods such as mayflies, the parabolic surfaces of the inside of each facet focus light from a reflector to a sensor array. Long-bodied decapod crustaceans such as shrimp, prawns, crayfish and lobsters are alone in having reflecting superposition eyes, which also have a transparent gap but use corner mirrors instead of lenses.\n\n\n==== Parabolic super",
+      "re restricted to a small range of electromagnetic spectrum; this varies from creature to creature, but is mainly between wavelengths of 400 and 700 nm. This is a rather small section of the electromagnetic spectrum, probably reflecting the submarine evolution of the organ: water blocks out all but two small windows of the EM spectrum, and there has been no evolutionary pressure among land animals to broaden this range.\nThe most sensitive pigment, rhodopsin, has a peak response at 500 nm. Small c"
+    ]
+  },
+  {
+    "question": "The body cannot sustain for very long the bursts of energy mediated by epinephrine and norepinephrine, hormones associated with what stress response?",
+    "hypotheses": [
+      "The do-or-die stress response is associated with bursts of energy mediated by epinephrine and norepinephrine that the body cannot sustain for very long.",
+      "Fainting is associated with the stress response the body cannot sustain for very long, mediated by epinephrine and norepinephrine.",
+      "The sink-or-swim response is associated with bursts of energy mediated by epinephrine and norepinephrine that the body cannot sustain for very long.",
+      "Fight-or-flight is the stress response associated with bursts of energy mediated by epinephrine and norepinephrine that the body cannot sustain for very long."
+    ],
+    "predicted_answer": "do-or-die",
+    "correct_answer": "fight-or-flight",
+    "strengths": {
+      "The do-or-die stress response is associated with bursts of energy mediated by epinephrine and norepinephrine that the body cannot sustain for very long.": 0.9999942547129551,
+      "Fainting is associated with the stress response the body cannot sustain for very long, mediated by epinephrine and norepinephrine.": 0.9999642722608296,
+      "The sink-or-swim response is associated with bursts of energy mediated by epinephrine and norepinephrine that the body cannot sustain for very long.": 0.9998833465945958,
+      "Fight-or-flight is the stress response associated with bursts of energy mediated by epinephrine and norepinephrine that the body cannot sustain for very long.": 0.5
+    },
+    "used_intervals": [
+      "f the body to endure under stress and highlighting the significant effects of adrenaline in unlocking extraordinary physical abilities.\n\n\n== See also ==\nNoradrenaline\nCatecholamines\nAdrenal gland\nFight-or-flight response\n\n\n== References ==\n\n\n== External links ==\n\n Media related to Epinephrine at Wikimedia Commons\n\"U.S. National Library of Medicine: Drug Information Portal – Epinephrine\". Archived from the original on 14 December 2019.",
+      "ponsible for regulating a wide range of processes including both physiological processes and behavioral activities such as digestion, metabolism, respiration, sensory perception, sleep, excretion, lactation, stress induction, growth and development, movement, reproduction, and mood manipulation. In plants, hormones modulate almost all aspects of development, from germination to senescence.\nHormones affect distant cells by binding to specific receptor proteins in the target cell, resulting in a c",
+      "inephrine and epinephrine released into the bloodstream.  The most obvious symptoms are those of sympathetic hyperactivation, including particularly a rise in blood pressure that can reach fatal levels.  The most effective treatment is surgical removal of the tumor.\n\n\n=== Stress ===\nStress, to a physiologist, means any situation that threatens the continued stability of the body and its functions. Stress affects a wide variety of body systems:  the two most consistently activated are the hypotha",
+      ". He noticed in castrated roosters that they did not have the same sexual behaviors as roosters with their testes intact. He decided to run an experiment on male roosters to examine this phenomenon. He kept a group of roosters with their testes intact, and saw that they had normal sized wattles and combs (secondary sexual organs), a normal crow, and normal sexual and aggressive behaviors. He also had a group with their testes surgically removed, and noticed that their secondary sexual organs wer",
+      "nals are restricted to pre-existing nerve tracts.\nAssuming the travel distance is equivalent, neural signals can be transmitted much more quickly (in the range of milliseconds) than can hormonal signals (in the range of seconds, minutes, or hours). Neural signals can be sent at speeds up to 100 meters per second.\nNeural signalling is an all-or-nothing (digital) action, whereas hormonal signalling is an action that can be continuously variable as it is dependent upon hormone concentration.\nNeuroh"
+    ]
+  },
+  {
+    "question": "What system enters the brain stem and influences activity in the cerebellum, spinal cord, and cerebral cortex?",
+    "hypotheses": [
+      "The vasculature system enters the brain stem and influences activity in the cerebellum, spinal cord, and cerebral cortex.",
+      "The ventricular system enters the brain stem and influences activity in the cerebellum, spinal cord, and cerebral cortex.",
+      "The lipids system enters the brain stem and influences activity in the cerebellum, spinal cord, and cerebral cortex.",
+      "The vestibular system enters the brain stem and influences activity in the cerebellum, spinal cord, and cerebral cortex."
+    ],
+    "predicted_answer": "vasculature system",
+    "correct_answer": "vestibular system",
+    "strengths": {
+      "The vasculature system enters the brain stem and influences activity in the cerebellum, spinal cord, and cerebral cortex.": 0.5,
+      "The ventricular system enters the brain stem and influences activity in the cerebellum, spinal cord, and cerebral cortex.": 0.2500994063701377,
+      "The lipids system enters the brain stem and influences activity in the cerebellum, spinal cord, and cerebral cortex.": 0.5,
+      "The vestibular system enters the brain stem and influences activity in the cerebellum, spinal cord, and cerebral cortex.": 0.5
+    },
+    "used_intervals": [
+      "sends fibers to deep cerebellar nuclei that, in turn, project to both the cerebral cortex and the brain stem, thus providing modulation of descending motor systems.\nThe lateral zone, which in humans is by far the largest part, constitutes the cerebrocerebellum, also known as neocerebellum. It receives input exclusively from the cerebral cortex (especially the parietal lobe) via the pontine nuclei (forming cortico-ponto-cerebellar pathways), and sends output mainly to the ventrolateral thalamus (",
+      "ons.\n\n\n== Spinal cord tracts ==\n\nThe spinal cord mainly functions to carry information to and from the brain, in ascending and descending tracts.\n\n\n=== Ascending tracts ===\n\nThere are two ascending somatosensory pathways in the spinal cord. The dorsal column–medial lemniscus pathway (DCML pathway), and the anterolateral system (ALS).\n\n\n==== DCML ====\nIn the dorsal column-medial lemniscus pathway, a primary neuron's axon enters the spinal cord and then enters the dorsal column. Here the dorsal co",
+      "an involve damage to a specific lobe such as in frontal lobe disorder, and associated functions will be affected. The blood–brain barrier that serves to protect the brain from infection can become compromised allowing entry to pathogens.\nThe developing fetus is susceptible to a range of environmental factors that can cause birth defects and problems in later development. Maternal alcohol consumption for example can cause fetal alcohol spectrum disorder. Other factors that can cause neurodevelopm",
+      "          1\n              )\n              (\n              \n                T\n                \n                  2\n                \n              \n              s\n              +\n              1\n              )\n            \n          \n        \n        \n          \n            \n              q\n              ˙\n            \n          \n        \n        (\n        s\n        )\n      \n    \n    {\\displaystyle \\theta (s)={\\frac {\\alpha s}{(T_{1}s+1)(T_{2}s+1)}}{\\dot {q}}(s)}\n  \n\nα is a proportionality facto",
+      "ived 2007-05-20 at the Wayback Machine, which contains animations of all sensory systems, and additional links.\nDizzytimes.com Archived 2010-08-05 at the Wayback Machine Online Community for people with vertigo and dizziness.\nVestibular System, Neuroscience Online (electronic neuroscience textbook)"
+    ]
+  },
+  {
+    "question": "In what type of animals may a body cavity be present or absent?",
+    "hypotheses": [
+      "Vertebrates are animals in which a body cavity may be present or absent.",
+      "Bicellular animals may have a body cavity that is present or absent.",
+      "Nonvascular animals may have a body cavity that is present or absent.",
+      "Triploblastic animals may have a body cavity that is present or absent."
+    ],
+    "predicted_answer": "vertebrate",
+    "correct_answer": "triploblastic",
+    "strengths": {
+      "Vertebrates are animals in which a body cavity may be present or absent.": 0.7499005936298626,
+      "Bicellular animals may have a body cavity that is present or absent.": 0.5,
+      "Nonvascular animals may have a body cavity that is present or absent.": 0.5,
+      "Triploblastic animals may have a body cavity that is present or absent.": 0.5
+    },
+    "used_intervals": [
+      ", have no body cavity at all. Semi-solid mesodermal tissues between the gut and body wall hold their organs in place.\n\n\n== Coelomates ==\nCoeloms developed in triploblasts but were subsequently lost in several lineages. The lack of a coelom is correlated with a reduction in body size. Coelom is sometimes incorrectly used to refer to any developed digestive tract. Some organisms may not possess a coelom or may have a false coelom (pseudocoelom). Animals having coeloms are called coelomates, and th",
+      "A body cavity is any space or compartment, or potential space, in an animal body. Cavities accommodate organs and other structures; cavities as potential spaces contain fluid.\nThe two largest human body cavities are the ventral body cavity, and the dorsal body cavity. In the dorsal body cavity the brain and spinal cord are located.\nThe membranes that surround the central nervous system organs (the brain and the spinal cord, in the cranial and spinal cavities) are the three meninges. The differen",
+      "und in the Tacuarí Formation of Uruguay, and were believed to be at least 585 million years old. However, more recent evidence shows these fossils are actually late Paleozoic, not Ediacaran.\n\n\n=== Phylogeny ===\n\nThe Bilateria are now by far the most successful animal lineage, with over 98% of known animal species. The group has traditionally been divided into two main lineages or superphyla. The deuterostomes traditionally include the echinoderms, hemichordates, chordates, and the extinct Vetuli",
+      " of Anatomy & Physiology [2] text-book by OpenStax College\n\n\n== External links ==\nFurther discussion",
+      "brain and spinal cord are protected by the bones of the skull and vertebral column and by cerebrospinal fluid, a colorless fluid produced by the brain, which cushions the brain and spinal cord within the dorsal body cavity.\n\n\n== Development ==\nAt the end of the third week of gestation, the neural tube, which is a fold of one of the layers of the trilaminar germ disc, called the ectoderm, appears. This layer elevates and closes dorsally, while the gut tube rolls up and closes ventrally to create "
+    ]
+  },
+  {
+    "question": "Chemical reactions involve a transfer of heat energy. measured in what?",
+    "hypotheses": [
+      "Amps are a unit used to measure electrical current, not heat energy transferred in chemical reactions.",
+      "Amperes are used to measure the transfer of heat energy in chemical reactions.",
+      "Thermals are measurements of heat energy transferred in chemical reactions.",
+      "Joules are the unit used to measure heat energy transferred in chemical reactions."
+    ],
+    "predicted_answer": "thermals",
+    "correct_answer": "joules",
+    "strengths": {
+      "Amps are a unit used to measure electrical current, not heat energy transferred in chemical reactions.": 0.4140127688109652,
+      "Amperes are used to measure the transfer of heat energy in chemical reactions.": 0.17179024516742006,
+      "Thermals are measurements of heat energy transferred in chemical reactions.": 0.5,
+      "Joules are the unit used to measure heat energy transferred in chemical reactions.": 0.4140127688109652
+    },
+    "used_intervals": [
+      "ation with entropy determinations, it is also used to predict whether a reaction is spontaneous or non-spontaneous, favorable or unfavorable.\nEndothermic reactions absorb heat, while exothermic reactions release heat.  Thermochemistry coalesces the concepts of thermodynamics with the concept of energy in the form of chemical bonds.  The subject commonly includes calculations of such quantities as heat capacity, heat of combustion, heat of formation, enthalpy, entropy, and free energy.\n\nThermoche",
+      "d then transfers (advects) this increased internal energy (not heat) from one location to another, and this is then followed by a second thermal interaction which transfers heat to a second body or system, again by diffusion. This entire process is often regarded as an additional mechanism of heat transfer, although technically, \"heat transfer\" and thus heating and cooling occurs only on either end of such a conductive flow, but not as a result of flow. Thus, conduction can be said to \"transfer\"",
+      "_{\\text{total}}}\n  \n.\n\n\n=== Conservation of energy and mass in transformation ===\nWithin a gravitational field, both mass and energy give rise to a measureable weight when trapped in a system with zero momentum. The formula E = mc2, derived by Albert Einstein (1905) quantifies this mass–energy equivalence between relativistic mass and energy within the concept of special relativity. In different theoretical frameworks, similar formulas were derived by J. J. Thomson (1881), Henri Poincaré (1900),",
+      "ash welding, it requires much less equipment and is still used to mend rails, especially in remote areas.\n\n\n== Monitoring ==\nMechanisms of monitoring chemical reactions depend strongly on the reaction rate. Relatively slow processes can be analyzed in situ for the concentrations and identities of the individual ingredients. Important tools of real-time analysis are the measurement of pH and analysis of optical absorption (color) and emission spectra. A less accessible but rather efficient method",
+      "              \n            \n            \n              \n              \n                \n                =\n                Q\n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n                \n  "
+    ]
+  },
+  {
+    "question": "Trees and shrubs are example of what type of plant?",
+    "hypotheses": [
+      "Biennials are trees and shrubs.",
+      "Annuals are not trees and shrubs.",
+      "Trees and shrubs are not grasses.",
+      "Perennials are trees and shrubs."
+    ],
+    "predicted_answer": "biennial",
+    "correct_answer": "perennials",
+    "strengths": {
+      "Biennials are trees and shrubs.": 0.5,
+      "Annuals are not trees and shrubs.": 0.5,
+      "Trees and shrubs are not grasses.": 0.5,
+      "Perennials are trees and shrubs.": 0.2500994063701377
+    },
+    "used_intervals": [
+      "ers.\nWoody – plants with persistent above ground stem that survive from one growing season to the next, with primary and secondary growth, or growth in width protected by an outer cortex. Some may be deciduous. Examples of many shrubs, lianas and trees such as Ipomeas, banana, lilacs, Geraniums, Lantanas, Hydrangeas, Nandinas, Pandoreas, grape, Hederas, pine, apple, Jasmines, Trachelospermums, Gardenias, Plumbagos, Cistus and Rosas, among others.\nMonocarpic – plants that flower, set seeds once a",
+      "or shrubs less than 2 metres (6.6 ft) high, the following structural forms are categorized:\n\ndense foliage cover (70–100%) — closed-heath or closed low shrubland—(North America)\nmid-dense foliage cover (30–70%) — open-heath or mid-dense low shrubland—(North America)\nsparse foliage cover (10–30%) — low shrubland\nvery sparse foliage cover (<10%) — low open shrubland\n\n\n== List ==\nThose marked with * can also develop into tree form if in ideal conditions.\n\n\n== References ==",
+      "=\n\nHuman cultivation of plants is the core of agriculture, which in turn has played a key role in the history of world civilizations. Humans depend on flowering plants for food, either directly or as feed in animal husbandry. More broadly, agriculture includes agronomy for arable crops, horticulture for vegetables and fruit, and forestry, including both flowering plants and conifers, for timber. About 7,000 species of plant have been used for food, though most of today's food is derived from onl",
+      "\n        \n          6\n          \n          \n            CO\n            \n              2\n            \n            \n              \n            \n          \n          \n\n          \n          +\n          6\n          \n          \n            H\n            \n              2\n            \n            \n              \n            \n          \n          O\n          \n\n          \n          \n            \n              →\n              \n                \n                  light\n                \n              \n       ",
+      "hived 16 June 2007.\nLady Bird Johnson Wildflower Center – Native Plant Information Network at University of Texas, Austin\nUnited States Department of Agriculture not limited to continental US species."
+    ]
+  },
+  {
+    "question": "The products of what process are needed for cellular respiration, and vice versa?",
+    "hypotheses": [
+      "Digestion produces the products needed for cellular respiration, and vice versa.",
+      "Spermatogenesis products are needed for cellular respiration, and vice versa.",
+      "Circulation provides the products needed for cellular respiration, and vice versa.",
+      "Photosynthesis produces the products needed for cellular respiration, and vice versa."
+    ],
+    "predicted_answer": "circulation",
+    "correct_answer": "photosynthesis",
+    "strengths": {
+      "Digestion produces the products needed for cellular respiration, and vice versa.": 0.5,
+      "Spermatogenesis products are needed for cellular respiration, and vice versa.": 0.5,
+      "Circulation provides the products needed for cellular respiration, and vice versa.": 0.999846138466979,
+      "Photosynthesis produces the products needed for cellular respiration, and vice versa.": 0.5
+    },
+    "used_intervals": [
+      "Cellular respiration is the process of oxidizing biological fuels using an inorganic electron acceptor, such as oxygen, to drive production of adenosine triphosphate (ATP), which stores chemical energy in a biologically accessible form. Cellular respiration may be described as a set of metabolic reactions and processes that take place in the cells to transfer chemical energy from nutrients to ATP, with the flow of electrons to an electron acceptor, and then release waste products.\nIf the electro",
+      " while in plants and bacteria the non-mevalonate pathway uses pyruvate and glyceraldehyde 3-phosphate as substrates. One important reaction that uses these activated isoprene donors is sterol biosynthesis. Here, the isoprene units are joined to make squalene and then folded up and formed into a set of rings to make lanosterol. Lanosterol can then be converted into other sterols such as cholesterol and ergosterol.\n\n\n=== Proteins ===\n\nOrganisms vary in their ability to synthesize the 20 common ami",
+      "st and minister, discovered that when he isolated a volume of air under an inverted jar and burned a candle in it (which gave off CO2), the candle would burn out very quickly, much before it ran out of wax. He further discovered that a mouse could similarly \"injure\" air. He then showed that a plant could restore the air the candle and the mouse had \"injured.\"\nIn 1779, Jan Ingenhousz repeated Priestley's experiments. He discovered that it was the influence of sunlight on the plant that could caus",
+      "d proteins ===\n\nProteins are made of amino acids arranged in a linear chain joined by peptide bonds. Many proteins are enzymes that catalyze the chemical reactions in metabolism. Other proteins have structural or mechanical functions, such as those that form the cytoskeleton, a system of scaffolding that maintains the cell shape. Proteins are also important in cell signaling, immune responses, cell adhesion, active transport across membranes, and the cell cycle. Amino acids also contribute to ce",
+      "– Light Dependent & Light Independent Stages Archived 2011-09-10 at the Wayback Machine\nKhan Academy, video introduction"
+    ]
+  },
+  {
+    "question": "Most fungi get organic compounds from what?",
+    "hypotheses": [
+      "Inorganic material is what most fungi get organic compounds from.",
+      "Living organisms are the source of organic compounds for most fungi.",
+      "Carnivorous organisms are what most fungi get organic compounds from.",
+      "Dead organisms are the source of organic compounds for most fungi."
+    ],
+    "predicted_answer": "dead organisms",
+    "correct_answer": "dead organisms",
+    "strengths": {
+      "Inorganic material is what most fungi get organic compounds from.": 9.887799121068744e-08,
+      "Living organisms are the source of organic compounds for most fungi.": 0.00024116906743221588,
+      "Carnivorous organisms are what most fungi get organic compounds from.": 9.895071093172542e-08,
+      "Dead organisms are the source of organic compounds for most fungi.": 0.9996589097354651
+    },
+    "used_intervals": [
+      " mushrooms or as molds. Fungi perform an essential role in the decomposition of organic matter and have fundamental roles in nutrient cycling and exchange in the environment. They have long been used as a direct source of human food, in the form of mushrooms and truffles; as a leavening agent for bread; and in the fermentation of various food products, such as wine, beer, and soy sauce. Since the 1940s, fungi have been used for the production of antibiotics, and, more recently, various enzymes p",
+      "al secondary metabolites that are similar or identical in structure to those made by plants. Many of the plant and fungal enzymes that make these compounds differ from each other in sequence and other characteristics, which indicates separate origins and convergent evolution of these enzymes in the fungi and plants.\n\n\n== Diversity ==\n\nFungi have a worldwide distribution, and grow in a wide range of habitats, including extreme environments such as deserts or areas with high salt concentrations or",
+      "gus, named Ourasphaira giraldae, in the Canadian Arctic, that may have grown on land a billion years ago, well before plants were living on land. Pyritized fungus-like microfossils preserved in the basal Ediacaran Doushantuo Formation (~635 Ma) have been reported in South China. Earlier, it had been presumed that the fungi colonized the land during the Cambrian (542–488.3 Ma), also long before land plants. Fossilized hyphae and spores recovered from the Ordovician of Wisconsin (460 Ma) resemble ",
+      "==\n\n\n==== Modern chemotherapeutics ====\n\nMany species produce metabolites that are major sources of pharmacologically active drugs.\n\n\n===== Antibiotics =====\nParticularly important are the antibiotics, including the penicillins, a structurally related group of β-lactam antibiotics that are synthesized from small peptides. Although naturally occurring penicillins such as penicillin G (produced by Penicillium chrysogenum) have a relatively narrow spectrum of biological activity, a wide range of ot",
+      "ant produces reactive oxygen species at the site of the attempted invasion. U. maydis can respond to the oxidative burst with an oxidative stress response, regulated by the gene YAP1. The response protects U. maydis from the host defense, and is necessary for the pathogen's virulence. Furthermore, U. maydis has a well-established recombinational DNA repair system which acts during mitosis and meiosis. The system may assist the pathogen in surviving DNA damage arising from the host plant's oxidat"
+    ]
+  },
+  {
+    "question": "How do very massive stars end their lives?",
+    "hypotheses": [
+      "Very massive stars become super novas at the end of their lives.",
+      "Very massive stars explode at the end of their lives.",
+      "Very massive stars end their lives consumed by a black hole.",
+      "Very massive stars become red supergiants at the end of their lives."
+    ],
+    "predicted_answer": "become super novas",
+    "correct_answer": "become red supergiants",
+    "strengths": {
+      "Very massive stars become super novas at the end of their lives.": 0.9994770254587766,
+      "Very massive stars explode at the end of their lives.": 0.9994770254587766,
+      "Very massive stars end their lives consumed by a black hole.": 0.0003232160417269345,
+      "Very massive stars become red supergiants at the end of their lives.": 0.0003232160417269345
+    },
+    "used_intervals": [
+      "s observably (in ways other than size) from a supernova produced by the collapse of an iron core.\nThe most massive stars that exist today may be completely destroyed by a supernova with an energy greatly exceeding its gravitational binding energy. This rare event, caused by pair-instability, leaves behind no black hole remnant. In the past history of the universe, some stars were even larger than the largest that exists today, and they would immediately collapse into a black hole at the end of t",
+      "Stellar evolution is the process by which a star changes over the course of time. Depending on the mass of the star, its lifetime can range from a few million years for the most massive to trillions of years for the least massive, which is considerably longer than the current age of the universe. The table shows the lifetimes of stars as a function of their masses. All stars are formed from collapsing clouds of gas and dust, often called nebulae or molecular clouds.  Over the course of millions ",
+      "          \n            \n              2\n              3\n            \n          \n        \n      \n    \n    {\\displaystyle E_{0}=\\left({\\frac {1}{2}}kT{\\sqrt {E_{\\text{G}}}}\\right)^{\\frac {2}{3}}}\n  \n and \n  \n    \n      \n        \n          \n            \n              E\n              \n                G\n              \n            \n          \n        \n        =\n        \n          E\n          \n            0\n          \n          \n            \n              3\n              2\n            \n          \n     ",
+      "odel is not valid at the singularity, observers falling into a Schwarzschild black hole (i.e., non-rotating and not charged) cannot avoid being carried into the singularity once they cross the event horizon. They can prolong the experience by accelerating away to slow their descent, but only up to a limit. When they reach the singularity, they are crushed to infinite density and their mass is added to the total of the black hole. Before that happens, they will have been torn apart by the growing",
+      "            A\n                \n              \n              \n                m\n                \n                  B\n                \n              \n            \n            \n              \n                m\n                \n                  A\n                \n              \n              +\n              \n                m\n                \n                  B\n                \n              \n            \n          \n        \n      \n    \n    {\\displaystyle m_{\\text{R}}={\\frac {m_{A}m_{B}}{m_{A}+m_{"
+    ]
+  },
+  {
+    "question": "Pairs of nitrogenous bases are attached to each other by?",
+    "hypotheses": [
+      "Potassium bonds attach pairs of nitrogenous bases to each other.",
+      "Ionic bonds attach pairs of nitrogenous bases to each other.",
+      "Magnetism is what pairs of nitrogenous bases are attached to each other by.",
+      "Hydrogen bonds attach pairs of nitrogenous bases to each other."
+    ],
+    "predicted_answer": "ionic bonds",
+    "correct_answer": "hydrogen bonds",
+    "strengths": {
+      "Potassium bonds attach pairs of nitrogenous bases to each other.": 0.39719510579520384,
+      "Ionic bonds attach pairs of nitrogenous bases to each other.": 0.595751023136484,
+      "Magnetism is what pairs of nitrogenous bases are attached to each other by.": 0.10864911506248812,
+      "Hydrogen bonds attach pairs of nitrogenous bases to each other.": 0.10864911506248812
+    },
+    "used_intervals": [
+      "iester linkage) between the sugar of one nucleotide and the phosphate of the next, resulting in an alternating sugar-phosphate backbone. The nitrogenous bases of the two separate polynucleotide strands are bound together, according to base pairing rules (A with T and C with G), with hydrogen bonds to make double-stranded DNA. The complementary nitrogenous bases are divided into two groups, the single-ringed pyrimidines and the double-ringed purines. In DNA, the pyrimidines are thymine and cytosi",
+      "nding arises from charge transfer (nB → σ*AH), orbital interactions, and quantum mechanical delocalization, making it a resonance-assisted interaction rather than a mere electrostatic attraction.\nThe general notation for hydrogen bonding is Dn−H···Ac, where the solid line represents a polar covalent bond, and the dotted or dashed line indicates the hydrogen bond. The most frequent donor and acceptor atoms are nitrogen (N), oxygen (O), and fluorine (F), due to their high electronegativity and abi",
+      "y be found tracing the spaces, or grooves, between the strands. These voids are adjacent to the base pairs and may provide a binding site. As the strands are not symmetrically located with respect to each other, the grooves are unequally sized. The major groove is 22 ångströms (2.2 nm) wide, while the minor groove is 12 Å (1.2 nm) in width. Due to the larger width of the major groove, the edges of the bases are more accessible in the major groove than in the minor groove. As a result, proteins s",
+      "derby murders case.\nThe development of forensic science and the ability to now obtain genetic matching on minute samples of blood, skin, saliva, or hair has led to re-examining many cases. Evidence can now be uncovered that was scientifically impossible at the time of the original examination. Combined with the removal of the double jeopardy law in some places, this can allow cases to be reopened where prior trials have failed to produce sufficient evidence to convince a jury. People charged wit",
+      "for osmolyte action relies on excluded volume effects that are entropic in nature, circular dichroism (CD) experiments have shown osmolyte to act through an enthalpic effect. The molecular mechanism for their role in protein stabilization is still not well established, though several mechanisms have been proposed. Computer molecular dynamics simulations suggest that osmolytes stabilize proteins by modifying the hydrogen bonds in the protein hydration layer.\nSeveral studies have shown that hydrog"
+    ]
+  },
+  {
+    "question": "Rupture can cause fragments of what to travel via the bloodstream and become lodged in other arteries?",
+    "hypotheses": [
+      "Enamel fragments can travel via the bloodstream and become lodged in other arteries after rupture.",
+      "Red blood cells can cause fragments to travel via the bloodstream and become lodged in other arteries if ruptured.",
+      "White blood cells can cause fragments to travel via the bloodstream and become lodged in other arteries when rupture occurs.",
+      "Plaque rupture can cause fragments to travel via the bloodstream and become lodged in other arteries."
+    ],
+    "predicted_answer": "white blood cells",
+    "correct_answer": "plaque",
+    "strengths": {
+      "Enamel fragments can travel via the bloodstream and become lodged in other arteries after rupture.": 0.5,
+      "Red blood cells can cause fragments to travel via the bloodstream and become lodged in other arteries if ruptured.": 0.16686584815454042,
+      "White blood cells can cause fragments to travel via the bloodstream and become lodged in other arteries when rupture occurs.": 0.6664674852630829,
+      "Plaque rupture can cause fragments to travel via the bloodstream and become lodged in other arteries.": 0.16686584815454042
+    },
+    "used_intervals": [
+      "o other blood vessels, where the blood clot may partially or completely block blood flow. If the blood flow is completely blocked, cell deaths occur due to the lack of oxygen supply to nearby cells, resulting in necrosis. The narrowing or obstruction of blood flow can occur in any artery within the body. Obstruction of arteries supplying the heart muscle results in a heart attack, while the obstruction of arteries supplying the brain results in an ischaemic stroke.\n\nLumen stenosis that is greate",
+      "ded into two types—muscular and elastic—according to the relative compositions of elastic and muscle tissue in their tunica media as well as their size and the makeup of the internal and external elastic lamina. The larger arteries (>10  mm diameter) are generally elastic and the smaller ones (0.1–10 mm) tend to be muscular. Systemic arteries deliver blood to the arterioles, and then to the capillaries, where nutrients and gasses are exchanged.\nAfter traveling from the aorta, blood travels throu",
+      "0th anniversary of the 1965 Freedom Ride in which a group of students toured country towns to highlight discrimination against Aboriginal Australians, in February 2025 the Government of New South Wales unveiled a blue plaque commemorating in Walgett, the first of several to be installed in key locations along the route.\n\n\n=== Austria ===\nBundesdenkmalamt\n\n\n=== Belgium ===\nInstitut du Patrimoine wallon\n\n\n=== Canada ===\nNational Historic Sites of Canada\nIndex: National Historic Sites of Canada\n\n\n=",
+      "to stick out the tongue or move it from side to side)\nIf the cerebral cortex is involved, the central nervous system pathways can again be affected, but can also produce the following symptoms:\n\naphasia (difficulty with verbal expression, auditory comprehension, reading and writing; Broca's or Wernicke's area typically involved)\ndysarthria (motor speech disorder resulting from neurological injury)\napraxia (altered voluntary movements)\nvisual field defect\nmemory deficits (involvement of temporal ",
+      "terial bloodstream originating from elsewhere. An embolus is most frequently a thrombus, but it can also be a number of other substances including fat (e.g., from bone marrow in a broken bone), air, cancer cells or clumps of bacteria (usually from infectious endocarditis).\nBecause an embolus arises from elsewhere, local therapy solves the problem only temporarily. Thus, the source of the embolus must be identified. Because the embolic blockage is sudden in onset, symptoms are usually maximal at "
+    ]
+  },
+  {
+    "question": "The strength of a base depends on the concentration of _______ it produces when dissolved in water?",
+    "hypotheses": [
+      "Combustion ions are the concentration that determines the strength of a base when dissolved in water.",
+      "Calcium ions are the concentration that determines the strength of a base when dissolved in water.",
+      "Monoxide ions determine the strength of a base when dissolved in water.",
+      "Hydroxide ions are the concentration that determines the strength of a base when dissolved in water."
+    ],
+    "predicted_answer": "monoxide ions",
+    "correct_answer": "hydroxide ions",
+    "strengths": {
+      "Combustion ions are the concentration that determines the strength of a base when dissolved in water.": 0.18323812060890746,
+      "Calcium ions are the concentration that determines the strength of a base when dissolved in water.": 0.24173533270105527,
+      "Monoxide ions determine the strength of a base when dissolved in water.": 0.4083077862525992,
+      "Hydroxide ions are the concentration that determines the strength of a base when dissolved in water.": 0.18323812060890746
+    },
+    "used_intervals": [
+      "ion. When the concentration of dissolved salt is much higher than the analytical concentrations of the reagents, the ions originating from the dissolved salt determine the ionic strength, and the ionic strength is effectively constant. Since activity coefficients depend on ionic strength, the activity coefficients of the species are effectively independent of concentration. Thus, the assumption that Γ is constant is justified. The concentration quotient is a simple multiple of the equilibrium co",
+      "oncentration; the pH of pure water is close to 7 at ambient temperatures. The concentration of hydroxide ions can be expressed in terms of pOH, which is close to (14 − pH), so the pOH of pure water is also close to 7. Addition of a base to water will reduce the hydrogen cation concentration and therefore increase the hydroxide ion concentration (decrease pH, increase pOH) even if the base does not itself contain hydroxide. For example, ammonia solutions have a pH greater than 7 due to the reacti",
+      "             \n              \n            \n            )\n          \n          \n            T\n            ,\n            p\n          \n        \n        =\n        \n          Δ\n          \n            \n              r\n            \n          \n        \n        \n          G\n          \n            T\n            ,\n            p\n          \n        \n        =\n        \n          Δ\n          \n            \n              r\n            \n          \n        \n        \n          G\n          \n            ⊖\n          \n ",
+      " 2014.\nIn April 2015, news got out that Base is being bought by Telenet for 1,325 billion euros, which will give Telenet access to a mobile network.\nBase has an estimated 98% coverage of the country and 26% market share in mobile communications.\n\n\n=== Technical information ===\nThe operator's display logo is BASE, the net code is 206 20 and operates under 900/1800 MHz GSM, 900/2100 MHz UMTS, 800/1800/2600 MHz LTE.\n\n\n== References ==\n\n\n== External links ==\nOfficial website",
+      " dissociation. \nSolvent molecules cannot build up such solvating layers. However, the neutral molecules of the solute do have some dipole moments at their polar heads. These dipoles would be attracted by primary ions right after dissociation. This attraction creates a layer of the neutral solute molecules around central ions, which can be considered as solvation layer. Such solvated ions look like charged inverse micelles. Basically, solute amphiphilic molecules in nonpolar liquids are source of"
+    ]
+  },
+  {
+    "question": "The overall voltage of the battery is therefore the sum of ________ of the individual cells.",
+    "hypotheses": [
+      "Currents are the sum of the overall voltage of the battery of the individual cells.",
+      "Resistances are the sum of the overall voltage of the battery of the individual cells.",
+      "Weights are the sum of the overall voltage of the battery of the individual cells.",
+      "Voltages are the sum of the overall voltage of the battery's individual cells."
+    ],
+    "predicted_answer": "currents",
+    "correct_answer": "voltages",
+    "strengths": {
+      "Currents are the sum of the overall voltage of the battery of the individual cells.": 0.5,
+      "Resistances are the sum of the overall voltage of the battery of the individual cells.": 0.5,
+      "Weights are the sum of the overall voltage of the battery of the individual cells.": 0.5,
+      "Voltages are the sum of the overall voltage of the battery's individual cells.": 0.12509895659361397
+    },
+    "used_intervals": [
+      "    \n      \n        \n          \n            Δ\n            \n              V\n              \n                b\n                a\n                t\n              \n            \n          \n        \n      \n    \n    {\\displaystyle \\displaystyle {\\Delta V_{bat}}}\n  \n across the terminals of a cell is known as the terminal voltage (difference) and is measured in volts. The terminal voltage of a cell that is neither charging nor discharging is called the open-circuit voltage and equals the emf of the cell.",
+      "  \n                  2\n                \n              \n              \n                R\n                \n                  3\n                \n              \n            \n          \n        \n        .\n      \n    \n    {\\displaystyle R_{1}\\parallel R_{2}\\parallel R_{3}\\equiv {\\frac {R_{1}R_{2}R_{3}}{R_{1}R_{2}+R_{1}R_{3}+R_{2}R_{3}}}.}\n  \n\n\n== Applications ==\nA common application of series circuit in consumer electronics is in batteries, where several cells connected in series are used to obtain a ",
+      "        \n              M\n              \n                23\n              \n            \n          \n          )\n        \n        +\n        \n          (\n          \n            \n              M\n              \n                21\n              \n            \n            +\n            \n              M\n              \n                31\n              \n            \n            +\n            \n              M\n              \n                32\n              \n            \n          \n          )\n        \n      ",
+      "led with sulfuric acid and a zinc electrode.\nThese wet cells used liquid electrolytes, which were prone to leakage and spillage if not handled correctly. Many used glass jars to hold their components, which made them fragile and potentially dangerous. These characteristics made wet cells unsuitable for portable appliances. Near the end of the nineteenth century, the invention of dry cell batteries, which replaced the liquid electrolyte with a paste, made portable electrical devices practical.\nBa",
+      "         =\n            1\n          \n          \n            n\n          \n        \n        \n          \n            1\n            \n              R\n              \n                i\n              \n            \n          \n        \n        .\n      \n    \n    {\\displaystyle I=\\sum _{i=1}^{n}I_{i}=V\\sum _{i=1}^{n}{1 \\over R_{i}}.}\n  \n\n\n=== Resistance units ===\nTo find the total resistance of all components, add the reciprocals of the resistances \n  \n    \n      \n        \n          R\n          \n            "
+    ]
+  },
+  {
+    "question": "Organisms that live deep in the ocean must be able to withstand what?",
+    "hypotheses": [
+      "The sun is something organisms that live deep in the ocean must be able to withstand.",
+      "Significant water pressure is something organisms that live deep in the ocean must be able to withstand.",
+      "Tsunamis are something organisms that live deep in the ocean must be able to withstand.",
+      "Extreme water pressure is something organisms that live deep in the ocean must be able to withstand."
+    ],
+    "predicted_answer": "significant water pressure",
+    "correct_answer": "extreme water pressure",
+    "strengths": {
+      "The sun is something organisms that live deep in the ocean must be able to withstand.": 0.5,
+      "Significant water pressure is something organisms that live deep in the ocean must be able to withstand.": 0.9998011872598469,
+      "Tsunamis are something organisms that live deep in the ocean must be able to withstand.": 0.5,
+      "Extreme water pressure is something organisms that live deep in the ocean must be able to withstand.": 0.9998011872598469
+    },
+    "used_intervals": [
+      "xperienced by many marine organisms is extreme. Until recent years, the scientific community lacked detailed information about the effects of pressure on most deep sea organisms because the specimens encountered arrived at the surface dead or dying and weren't observable at the pressures at which they lived. With the advent of traps that incorporate a special pressure-maintaining chamber, undamaged larger metazoan animals have been retrieved from the deep sea in good condition.\n\n\n=== Salinity ==",
+      "eries of three dives to depths exceeding 10,900 m (35,800 ft; 6.8 mi).\n\n\n== Environmental characteristics ==\n\n\n=== Light ===\nNatural light does not penetrate the deep ocean, with the exception of the upper parts of the mesopelagic. Since photosynthesis is not possible, plants and phytoplankton cannot live in this zone, and as these are the primary producers of almost all of earth's ecosystems, life in this area of the ocean must depend on energy sources from elsewhere. Except for the areas close",
+      "e mudflats below) is a sediment made from particles finer than sand. This small particle size means that mud particles tend to stick together, whereas sand particles do not. Mud is not easily shifted by waves and currents, and when it dries out, cakes into a solid. By contrast, sand is easily shifted by waves and currents, and when sand dries out it can be blown in the wind, accumulating into shifting sand dunes. Beyond the high tide mark, if the beach is low-lying, the wind can form rolling hil",
+      "      ^\n            \n          \n        \n      \n    \n    {\\displaystyle \\mathbf {g} =-g(x,y,z){\\hat {k}}}\n  \n\nthe generalised Stevin's law above becomes:\n\n  \n    \n      \n        \n          \n            \n              ∂\n              p\n            \n            \n              ∂\n              z\n            \n          \n        \n        =\n        −\n        ρ\n        (\n        x\n        ,\n        y\n        ,\n        z\n        )\n        g\n        (\n        x\n        ,\n        y\n        ,\n        z\n    ",
+      " not responsible for absorbing and delivering nutrients to the rest of the thallus;\nThe stipe is analogous to a plant stalk, extending vertically from the holdfast and providing a support framework for other morphological features;\nThe fronds are leaf- or blade-like attachments extending from the stipe, sometimes along its full length, and are the sites of nutrient uptake and photosynthetic activity.\nIn addition, many kelp species have pneumatocysts, or gas-filled bladders, usually located at th"
+    ]
+  },
+  {
+    "question": "Which system are the brain and spinal cord apart of?",
+    "hypotheses": [
+      "The large nervous system includes the brain and spinal cord.",
+      "The cerebral cortex is part of the system comprised of the brain and spinal cord.",
+      "The limbic system includes the brain and spinal cord.",
+      "The central nervous system comprises the brain and spinal cord."
+    ],
+    "predicted_answer": "cerebral cortex",
+    "correct_answer": "central nervous system",
+    "strengths": {
+      "The large nervous system includes the brain and spinal cord.": 0.9998910414723077,
+      "The cerebral cortex is part of the system comprised of the brain and spinal cord.": 0.9999808980955412,
+      "The limbic system includes the brain and spinal cord.": 0.5,
+      "The central nervous system comprises the brain and spinal cord.": 0.9998910414723077
+    },
+    "used_intervals": [
+      "of vertebrates (including humans) is divided into the central nervous system (CNS) and the peripheral nervous system (PNS).\nThe CNS is the major division, and consists of the brain and the spinal cord. The spinal canal contains the spinal cord, while the cranial cavity contains the brain. The CNS is enclosed and protected by the meninges, a three-layered system of membranes, including a tough, leathery outer layer called the dura mater. The brain is also protected by the skull, and the spinal co",
+      " spinal cord or brain, where they transmit their signals to a first-order sensory nucleus dedicated to one specific sensory modality. This primary sensory nucleus sends information to higher-order sensory areas that are dedicated to the same modality. Eventually, via a way-station in the thalamus, the signals are sent to the cerebral cortex, where they are processed to extract the relevant features, and integrated with signals coming from other sensory systems.\n\n\n=== Motor control ===\nMotor syst",
+      "s such as Alzheimer's disease, Parkinson's disease, and essential tremor, autoimmune and inflammatory diseases such as multiple sclerosis and acute disseminated encephalomyelitis, genetic disorders such as Krabbe's disease and Huntington's disease, as well as amyotrophic lateral sclerosis and adrenoleukodystrophy. Lastly, cancers of the central nervous system can cause severe illness and, when malignant, can have very high mortality rates. Symptoms depend on the size, growth rate, location and m",
+      "ion comes from the radially arranged posterior and anterior radicular arteries, which run into the spinal cord alongside the dorsal and ventral nerve roots, but with one exception do not connect directly with any of the three longitudinal arteries. These intercostal and lumbar radicular arteries arise from the aorta, provide major anastomoses and supplement the blood flow to the spinal cord. In humans the largest of the anterior radicular arteries is known as the artery of Adamkiewicz, or anteri",
+      "tween insects and mammals, many aspects of Drosophila neurogenetics have been shown to be relevant to humans. The first biological clock genes, for example, were identified by examining Drosophila mutants that showed disrupted daily activity cycles. A search in the genomes of vertebrates revealed a set of analogous genes, which were found to play similar roles in the mouse biological clock—and therefore almost certainly in the human biological clock as well. Studies done on Drosophila, also show"
+    ]
+  },
+  {
+    "question": "What are biochemical catalysts that speed up biochemical reactions?",
+    "hypotheses": [
+      "Inhibitors are biochemical catalysts that speed up biochemical reactions.",
+      "Metabolites are biochemical catalysts that speed up biochemical reactions.",
+      "Polymers are biochemical catalysts that speed up biochemical reactions.",
+      "Enzymes are biochemical catalysts that speed up biochemical reactions."
+    ],
+    "predicted_answer": "enzymes",
+    "correct_answer": "enzymes",
+    "strengths": {
+      "Inhibitors are biochemical catalysts that speed up biochemical reactions.": 0.03135659977050943,
+      "Metabolites are biochemical catalysts that speed up biochemical reactions.": 0.5,
+      "Polymers are biochemical catalysts that speed up biochemical reactions.": 0.5,
+      "Enzymes are biochemical catalysts that speed up biochemical reactions.": 0.8749704914129997
+    },
+    "used_intervals": [
+      "times classified as enzymes despite being composed of RNA rather than protein. More recently, biomolecular condensates have been recognized as a third category of biocatalysts, capable of catalyzing reactions by creating interfaces and gradients—such as ionic gradients—that drive biochemical processes, even when their component proteins are not intrinsically catalytic.\nEnzymes increase the reaction rate by lowering a reaction's activation energy, often by factors of millions. A striking example ",
+      " long-chain hydrocarbons into smaller pieces), naphtha reforming and steam reforming (conversion of hydrocarbons into synthesis gas). Even the exhaust from the burning of fossil fuels is treated via catalysis: Catalytic converters, typically composed of platinum and rhodium, break down some of the more harmful byproducts of automobile exhaust.\n\n2 CO + 2 NO → 2 CO2 + N2\nWith regard to synthetic fuels, an old but still important process is the Fischer–Tropsch synthesis of hydrocarbons from synthes",
+      "       \n            −\n            1\n          \n        \n      \n    \n    {\\displaystyle 10^{5}{\\rm {s}}^{-1}{\\rm {M}}^{-1}}\n  \n and \n  \n    \n      \n        10\n        \n          \n            \n              s\n            \n          \n          \n            −\n            1\n          \n        \n      \n    \n    {\\displaystyle 10{\\rm {s}}^{-1}}\n  \n, respectively.\nMichaelis–Menten kinetics relies on the law of mass action, which is derived from the assumptions of free diffusion and thermodynamically driv",
+      "ial to various kinds of biological life. Most rare elements on Earth are not needed by life (exceptions being  selenium and iodine), while a few common ones (aluminium and titanium) are not used. Most organisms share element needs, but there are a few differences between plants and animals. For example, ocean algae use bromine, but land plants and animals do not seem to need any. All animals require sodium, but is not an essential element for plants. Plants need boron and silicon, but animals ma",
+      "ific receptors on the cell surface. These signals are then transmitted inside the cell by second messenger systems that often involved the phosphorylation of proteins.\nA very well understood example of extrinsic control is the regulation of glucose metabolism by the hormone insulin. Insulin is produced in response to rises in blood glucose levels. Binding of the hormone to insulin receptors on cells then activates a cascade of protein kinases that cause the cells to take up glucose and convert i"
+    ]
+  },
+  {
+    "question": "What process can cause harmful alleles to become fixed?",
+    "hypotheses": [
+      "Natural selection is a process that can cause harmful alleles to become fixed.",
+      "Migration can cause harmful alleles to become fixed.",
+      "Mutation can cause harmful alleles to become fixed.",
+      "Genetic drift is a process that can cause harmful alleles to become fixed."
+    ],
+    "predicted_answer": "natural selection",
+    "correct_answer": "genetic drift",
+    "strengths": {
+      "Natural selection is a process that can cause harmful alleles to become fixed.": 0.5,
+      "Migration can cause harmful alleles to become fixed.": 0.5,
+      "Mutation can cause harmful alleles to become fixed.": 0.5,
+      "Genetic drift is a process that can cause harmful alleles to become fixed.": 0.5
+    },
+    "used_intervals": [
+      "deleterious mutations, in a process known as inbreeding depression. The worst of these mutations are selected against, leading to the loss of other alleles that are genetically linked to them, in a process of background selection. For recessive harmful mutations, this selection can be enhanced as a consequence of the bottleneck, due to genetic purging. This leads to a further loss of genetic diversity. In addition, a sustained reduction in population size increases the likelihood of further alle",
+      "of cancers, other disorders and have impaired vision.\nDNA damage can cause an error when the DNA is replicated, and this error of replication can cause a gene mutation that, in turn, could cause a genetic disorder. DNA damages are repaired by the DNA repair system of the cell. Each cell has a number of pathways through which enzymes recognize and repair damages in DNA. Because DNA can be damaged in many ways, the process of DNA repair is an important way in which the body protects itself from di",
+      "hree alleles:\n\n  \n    \n      \n        p\n        +\n        q\n        +\n        r\n        =\n        1\n        \n      \n    \n    {\\displaystyle p+q+r=1\\,}\n  \n and\n\n  \n    \n      \n        \n          p\n          \n            2\n          \n        \n        +\n        \n          q\n          \n            2\n          \n        \n        +\n        \n          r\n          \n            2\n          \n        \n        +\n        2\n        p\n        q\n        +\n        2\n        p\n        r\n        +\n        2\n       ",
+      "rly 19th century, the prevailing view in Western societies was that differences between individuals of a species were uninteresting departures from their Platonic ideals (or typus) of created kinds. However, the theory of uniformitarianism in geology promoted the idea that simple, weak forces could act continuously over long periods of time to produce radical changes in the Earth's landscape. The success of this theory raised awareness of the vast scale of geological time and made plausible the ",
+      "microbial resistance to antibiotics in clinical use, to the point that the methicillin-resistant Staphylococcus aureus (MRSA) has been described as a \"superbug\" because of the threat it poses to health and its relative invulnerability to existing drugs. Response strategies typically include the use of different, stronger antibiotics; however, new strains of MRSA have recently emerged that are resistant even to these drugs. This is an evolutionary arms race, in which bacteria develop strains less"
+    ]
+  },
+  {
+    "question": "What record shows that dinosaurs originated 200-250 million years ago?",
+    "hypotheses": [
+      "Ancient record shows that dinosaurs originated 200-250 million years ago.",
+      "The biological record shows that dinosaurs originated 200-250 million years ago.",
+      "The species record shows that dinosaurs originated 200-250 million years ago.",
+      "The fossil record shows that dinosaurs originated 200-250 million years ago."
+    ],
+    "predicted_answer": null,
+    "correct_answer": "fossil record",
+    "strengths": {},
+    "used_intervals": []
+  }
+]

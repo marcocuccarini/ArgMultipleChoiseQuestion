@@ -1,0 +1,133 @@
+{
+  "question_id": 12,
+  "question": "What do waves deposit to form sandbars and barrier islands?",
+  "nodes": [
+    {
+      "id": "0",
+      "text": "Magma deposits waves to form sandbars and barrier islands.",
+      "strength": 1.0
+    },
+    {
+      "id": "1",
+      "text": "Organisms deposit waves to form sandbars and barrier islands.",
+      "strength": 1.0
+    },
+    {
+      "id": "2",
+      "text": "Glaciers deposit waves to form sandbars and barrier islands.",
+      "strength": 1.0
+    },
+    {
+      "id": "3",
+      "text": "Sediments are deposited by waves to form sandbars and barrier islands.",
+      "strength": 1.0
+    },
+    {
+      "id": "4",
+      "text": "```json\n[\n\"Sandbars are less frequently formed in mesotidal coasts\",\n\"Barrier islands are very rare along macrotidal coasts\",\n\"Along with a small tidal range and a wave-dominated coast, there must be a relatively low gradient shelf\",\n\"An ample sediment supply is also a requirement for barrier island formation\",\n\"waves pass over a sloping bank\",\n\"the shoaling effect will result in the waves slowing more at the shallow end\",\n\"Sediment transport is the movement of solid particles (sediment)\",\n\"Sediment transport occurs in natural systems\",\n\"Sediment discharge into a reservoir formed by a dam forms a reservoir delta\",\n\"Barrier Islands lie off the western coast of Sumatra\",\n\"Barrier islands can be observed in the Baltic Sea\",\n\"Barrier islands can be fo nt-starved due to dams\",\n\"Knowledge of sediment transport can be used to pro\"\n]\n```",
+      "strength": 1.0
+    }
+  ],
+  "edges": [
+    {
+      "source": "0",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "3",
+      "relation": "support"
+    },
+    {
+      "source": "0",
+      "target": "4",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "relation": "support"
+    },
+    {
+      "source": "1",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "2",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "relation": "support"
+    },
+    {
+      "source": "2",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "3",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "4",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "4",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "4",
+      "target": "3",
+      "relation": "support"
+    }
+  ]
+}

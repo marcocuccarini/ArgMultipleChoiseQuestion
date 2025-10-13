@@ -1,0 +1,139 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "claim",
+      "text": "Inhibitors are biochemical catalysts that speed up biochemical reactions.",
+      "strength": 0.03135659977050943,
+      "id": "0"
+    },
+    {
+      "type": "evidence",
+      "text": "Metabolites are biochemical catalysts that speed up biochemical reactions.",
+      "strength": 0.5,
+      "id": "1"
+    },
+    {
+      "type": "evidence",
+      "text": "Polymers are biochemical catalysts that speed up biochemical reactions.",
+      "strength": 0.5,
+      "id": "2"
+    },
+    {
+      "type": "evidence",
+      "text": "Enzymes are biochemical catalysts that speed up biochemical reactions.",
+      "strength": 0.8749704914129997,
+      "id": "3"
+    },
+    {
+      "type": "evidence",
+      "text": "Biomolecular condensates have been recognized as a third category of biocatalysts, capable of catalyzing reactions by creating interfaces and gradients\u2014such as ionic gradients\u2014that drive biochemical processes, even when their component proteins are not intrinsically catalytic.",
+      "strength": 0.5,
+      "id": "4"
+    }
+  ],
+  "links": [
+    {
+      "relation": "support",
+      "source": "0",
+      "target": "1"
+    },
+    {
+      "relation": "support",
+      "source": "0",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "0",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "0",
+      "target": "2"
+    },
+    {
+      "relation": "support",
+      "source": "1",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "1",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "0"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "2"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "0"
+    },
+    {
+      "relation": "support",
+      "source": "2",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "2",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "1"
+    },
+    {
+      "relation": "attack",
+      "source": "3",
+      "target": "0"
+    },
+    {
+      "relation": "attack",
+      "source": "3",
+      "target": "2"
+    },
+    {
+      "relation": "support",
+      "source": "3",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "3",
+      "target": "1"
+    },
+    {
+      "relation": "support",
+      "source": "4",
+      "target": "1"
+    },
+    {
+      "relation": "support",
+      "source": "4",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "4",
+      "target": "0"
+    },
+    {
+      "relation": "support",
+      "source": "4",
+      "target": "2"
+    }
+  ]
+}

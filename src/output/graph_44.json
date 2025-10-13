@@ -1,0 +1,93 @@
+{
+  "question_id": 44,
+  "question": "The overall voltage of the battery is therefore the sum of ________ of the individual cells.",
+  "nodes": [
+    {
+      "id": "0",
+      "text": "Currents are the sum of the overall voltage of the battery of the individual cells.",
+      "strength": 1.0
+    },
+    {
+      "id": "1",
+      "text": "Resistances are the sum of the overall voltage of the battery of the individual cells.",
+      "strength": 1.0
+    },
+    {
+      "id": "2",
+      "text": "Weights are the sum of the overall voltage of the battery of the individual cells.",
+      "strength": 1.0
+    },
+    {
+      "id": "3",
+      "text": "Voltages are the sum of the overall voltage of the battery's individual cells.",
+      "strength": 1.0
+    },
+    {
+      "id": "4",
+      "text": "```json\n[\n\"The terminal voltage of a cell that is neither charging nor discharging is called the open-circuit voltage\",\n\"The open-circuit voltage equals the emf of the cell\",\n\"If even one of the light bulbs in an older-style string of Christmas tree lights burns out or is removed, the entire string becomes inoperable\",\n\"Batteries may be harmful or fatal if swallowed\",\n\"Small button cells can be swallowed, in particular by young children\",\n\"The battery's electrical discharge may lead to tissue damage\",\n\"Tissue damage is occasionally serious and can lead to death\",\n\"Disk batteries do not usually cause problems unless they become lodged in the gastrointestinal tract\",\n\"Disk batteries may become lodged in the esophagus\",\n\"Lodging disk batteries in the esophagus results in clinical sequelae\",\n\"Rechargeable batteries must meet specific requirements\",\n\"Rechargeable batteries should be easily removable\",\n\"California and New York City prohibit the disposal of rechargeable batteries in solid waste\",\n\"The Battery Directive of the European Union has similar requirements\",\n\"The Battery Directive of the European Union promotes research on improved battery technology\",\n\"Each organ is supplied by an artery that branches off the aorta\",\n\"The total resistance of the parallel circulatory arrangement is expressed by the following equation\",\n\"The largest proportion of resistance in the circulatory series is contributed by the arterioles\"\n]\n```",
+      "strength": 1.0
+    }
+  ],
+  "edges": [
+    {
+      "source": "0",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "relation": "support"
+    },
+    {
+      "source": "3",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "2",
+      "relation": "attack"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "question_id": 11,
+  "question": "What are by far the most common type of invertebrate?",
+  "nodes": [
+    {
+      "id": "0",
+      "text": "Spiders are by far the most common type of invertebrate.",
+      "strength": 1.0
+    },
+    {
+      "id": "1",
+      "text": "Crustaceans are by far the most common type of invertebrate.",
+      "strength": 1.0
+    },
+    {
+      "id": "2",
+      "text": "Corals are by far the most common type of invertebrate.",
+      "strength": 1.0
+    },
+    {
+      "id": "3",
+      "text": "Insects are by far the most common type of invertebrate.",
+      "strength": 1.0
+    },
+    {
+      "id": "4",
+      "text": "```json\n[\n\"By far the largest number of described invertebrate species are insects.\",\n\"The IUCN estimates that 66,178 extant vertebrate species have been described.\",\n\"over 95% of the described animal species in the world are invertebrates.\",\n\"Almost all arthropods lay eggs.\",\n\"Entomology developed ly few serious bites and stings on humans.\",\n\"Far more serious are the effects on humans of diseases like malaria carried by blood-sucking insects.\",\n\"Ticks can cause tick paralysis and several parasite-borne diseases in humans.\",\n\"A few of the closely related mites also infest humans, causing intense itching, and others cause allergic diseases, including hay fever, asthma, and e maxillary stipites.\",\n\"Scarab beetles held religious and cultural symbolism in ancient Egypt, Greece and some shamanistic Old World cultures.\",\n\"The ancient Chinese regarded cicadas as symbols of rebirth or immortality.\",\n\"In Mesopotamian literature, the epic poem of Gilgamesh has allusions to Odonata that signify the impossibility of immortality.\",\n\"The blood of horseshoe crabs contains a clotting agent\",\n\"The earliest fossil of likely pancrustacean larvae date from about 514 million years ago in the Cambrian\",\n\"The purported pancrustacean/crustacean affinity of some cambri\",\n\"Pheromones are used for attracting mates of the opposite sex\",\n\"Allomones benefit their producer by the effect they have upon the receiver\",\n\"Kairomones benefit their receiver instead of their producer\",\n\"Synomones benefit the producer and the receiver\"\n]\n```",
+      "strength": 1.0
+    }
+  ],
+  "edges": [
+    {
+      "source": "0",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "4",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "4",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "4",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "4",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "4",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "4",
+      "target": "3",
+      "relation": "support"
+    }
+  ]
+}

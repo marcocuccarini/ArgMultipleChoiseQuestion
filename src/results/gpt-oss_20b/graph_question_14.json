@@ -1,0 +1,139 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "claim",
+      "text": "Penis, testes, and epididymis are organs in the virus reproductive system.",
+      "strength": 2.369846016015651e-07,
+      "id": "0"
+    },
+    {
+      "type": "evidence",
+      "text": "Penis, testes, and epididymis are organs in the plant reproductive system.",
+      "strength": 2.3607081651709923e-07,
+      "id": "1"
+    },
+    {
+      "type": "evidence",
+      "text": "The female reproductive system includes the penis, testes, and epididymis.",
+      "strength": 2.369846016015651e-07,
+      "id": "2"
+    },
+    {
+      "type": "evidence",
+      "text": "The male reproductive system includes the penis, testes, and epididymis.",
+      "strength": 0.9998005550395734,
+      "id": "3"
+    },
+    {
+      "type": "evidence",
+      "text": "The epididymis is an elongated tubular genital organ attached to the posterior side of each one of the two male reproductive glands, the testicles",
+      "strength": 0.9998007530158939,
+      "id": "4"
+    }
+  ],
+  "links": [
+    {
+      "relation": "attack",
+      "source": "0",
+      "target": "1"
+    },
+    {
+      "relation": "attack",
+      "source": "0",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "0",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "0",
+      "target": "2"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "3"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "0"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "2"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "1"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "3"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "0"
+    },
+    {
+      "relation": "attack",
+      "source": "3",
+      "target": "0"
+    },
+    {
+      "relation": "attack",
+      "source": "3",
+      "target": "1"
+    },
+    {
+      "relation": "attack",
+      "source": "3",
+      "target": "2"
+    },
+    {
+      "relation": "support",
+      "source": "3",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "4",
+      "target": "1"
+    },
+    {
+      "relation": "attack",
+      "source": "4",
+      "target": "2"
+    },
+    {
+      "relation": "support",
+      "source": "4",
+      "target": "3"
+    },
+    {
+      "relation": "attack",
+      "source": "4",
+      "target": "0"
+    }
+  ]
+}

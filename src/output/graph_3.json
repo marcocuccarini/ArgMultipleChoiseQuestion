@@ -1,0 +1,128 @@
+{
+  "question_id": 3,
+  "question": "What is the height above or below sea level called?",
+  "nodes": [
+    {
+      "id": "0",
+      "text": "Depth is the height above or below sea level.",
+      "strength": 1.0
+    },
+    {
+      "id": "1",
+      "text": "Latitude is the height above or below sea level.",
+      "strength": 1.0
+    },
+    {
+      "id": "2",
+      "text": "Variation is the height above or below sea level.",
+      "strength": 1.0
+    },
+    {
+      "id": "3",
+      "text": "Elevation is the height above or below sea level.",
+      "strength": 1.0
+    },
+    {
+      "id": "4",
+      "text": "```json\n[\n\"A common and relatively straightforward mean sea-level standard is instead a long-term average of tide gauge readings at a particular reference location.\",\n\"The term above sea level generally refers to the height above mean sea level (AMSL).\",\n\"The term APSL means above present sea level, comparing sea levels in the past with the level today.\",\n\"It is not to be confused with terms such as the altitude or height.\",\n\"Air is a poor conductor of heat, so a parcel of air will rise and fall without exchanging heat.\",\n\"As the pressure gets lower, the temperature decreases.\",\n\"The rate of decrease of temperature with elevation is known as the adiabatic lapse rate.\",\n\"The presence of water in the atmosphere complicates the process of convection.\",\n\"Water vapor contains latent heat of vaporization.\",\n\"There is a significantly lower overall mortality rate for permanent residents at higher altitudes.\",\n\"There is a dose response relationship between increasing elevation and decreasing obesity prevalence in the United States.\",\n\"The recent hypothesis suggests that high altitude could be protective against Alzheimer's disease.\",\n\"For explosive events (sprints up to 400 metres, long jump, triple jump) the reduction in atmospheric pressure signifies less atmospheric resistance, which generally results in improved athletic performance.\",\n\"For endurance events (races of 5,000 metres or more) the predominant effect is the reduction in oxygen which generally reduces the athlete's performance at high altitude.\",\n\"Sports organizations acknowledge the effects of altitude on performance.\",\n\"Generally, the pressure used to set the altimeter is the barometric pressure that would exist at MSL in the region being flown over.\",\n\"One often measures the values of MSL with respect to the land.\",\n\"There is also a general trend of smaller body sizes and lower species richness at high altitudes.\",\n\"As oxygen is used as a source of metabolic heat production, the hypobaric hypoxia at high altitudes is problematic.\",\n\"Digital elevation models (DEM) are commonly used to represent the surface (topography) of a place.\",\n\"USGS (United States Geologic Survey) is developing a 3D Elevation Program (3DEP) to keep\"\n]\n```",
+      "strength": 1.0
+    }
+  ],
+  "edges": [
+    {
+      "source": "0",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "3",
+      "relation": "support"
+    },
+    {
+      "source": "0",
+      "target": "4",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "relation": "support"
+    },
+    {
+      "source": "1",
+      "target": "4",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "relation": "support"
+    },
+    {
+      "source": "2",
+      "target": "4",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "4",
+      "target": "2",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "3",
+      "relation": "support"
+    }
+  ]
+}

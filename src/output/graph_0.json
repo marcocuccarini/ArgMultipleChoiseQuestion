@@ -1,0 +1,128 @@
+{
+  "question_id": 0,
+  "question": "Compounds that are capable of accepting electrons, such as o 2 or f2, are called what?",
+  "nodes": [
+    {
+      "id": "0",
+      "text": "Antioxidants are compounds capable of accepting electrons, such as O2 or F2.",
+      "strength": 1.0
+    },
+    {
+      "id": "1",
+      "text": "Oxygen is a compound capable of accepting electrons, such as O2 or F2.",
+      "strength": 1.0
+    },
+    {
+      "id": "2",
+      "text": "Residues are compounds capable of accepting electrons, such as o2 or f2.",
+      "strength": 1.0
+    },
+    {
+      "id": "3",
+      "text": "Oxidants are compounds capable of accepting electrons, such as O2 or F2.",
+      "strength": 1.0
+    },
+    {
+      "id": "4",
+      "text": "```json\n[\n\"electrons are said to be oxidative or oxidizing\",\n\"oxidant removes electrons from another substance\",\n\"oxidizing agent is also called an electron acceptor\",\n\"polymers exhibit the same stability increases afforded by fluorine substitution\",\n\"melting points generally increase\",\n\"various PTFE derivatives are less temperature-tolerant\",\n\"twenty percent of modern pharmaceuticals contain fluorine\",\n\"Many drugs are fluorinated to delay inactivation and lengthen dosage periods\",\n\"highly combust\",\n\"increasing its partial pressure helps kill them\",\n\"Decompression sickness occurs in divers who decompress too quickly\",\n\"increasing the pressure of O2 helps to redissolve the bubbles\",\n\"Normobaric oxygen administration helps\",\n\"Established in 1667 by the German alchemist J. J. Becher\",\n\"phlogiston theory stated that all combustible materials were made of two parts\",\n\"phlogiston was given off when the substance containing it was burned\",\n\"dephlogisticated part was thought to be its true form\",\n\"oxygen presents two spectrophotometric absorption bands\",\n\"some remote sensing scientists have proposed using the measurement of the radiance\",\n\"Analysis of bond energies and ionization energies allows calculation of the thermodynamic aspects of redox reactions\"\n]\n```",
+      "strength": 1.0
+    }
+  ],
+  "edges": [
+    {
+      "source": "0",
+      "target": "1",
+      "relation": "support"
+    },
+    {
+      "source": "0",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "1",
+      "target": "0",
+      "relation": "support"
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "relation": "support"
+    },
+    {
+      "source": "1",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "2",
+      "target": "0",
+      "relation": "support"
+    },
+    {
+      "source": "2",
+      "target": "1",
+      "relation": "support"
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "relation": "support"
+    },
+    {
+      "source": "2",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "3",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "1",
+      "relation": "support"
+    },
+    {
+      "source": "3",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "0",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "1",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "2",
+      "relation": "support"
+    },
+    {
+      "source": "4",
+      "target": "3",
+      "relation": "support"
+    }
+  ]
+}

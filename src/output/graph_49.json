@@ -1,0 +1,93 @@
+{
+  "question_id": 49,
+  "question": "What record shows that dinosaurs originated 200-250 million years ago?",
+  "nodes": [
+    {
+      "id": "0",
+      "text": "Ancient record shows that dinosaurs originated 200-250 million years ago.",
+      "strength": 1.0
+    },
+    {
+      "id": "1",
+      "text": "The biological record shows that dinosaurs originated 200-250 million years ago.",
+      "strength": 1.0
+    },
+    {
+      "id": "2",
+      "text": "The species record shows that dinosaurs originated 200-250 million years ago.",
+      "strength": 1.0
+    },
+    {
+      "id": "3",
+      "text": "The fossil record shows that dinosaurs originated 200-250 million years ago.",
+      "strength": 1.0
+    },
+    {
+      "id": "4",
+      "text": "```json\n[]\n```",
+      "strength": 1.0
+    }
+  ],
+  "edges": [
+    {
+      "source": "0",
+      "target": "1",
+      "relation": "support"
+    },
+    {
+      "source": "0",
+      "target": "2",
+      "relation": "support"
+    },
+    {
+      "source": "0",
+      "target": "3",
+      "relation": "support"
+    },
+    {
+      "source": "1",
+      "target": "0",
+      "relation": "support"
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "relation": "support"
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "relation": "support"
+    },
+    {
+      "source": "2",
+      "target": "0",
+      "relation": "support"
+    },
+    {
+      "source": "2",
+      "target": "1",
+      "relation": "support"
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "relation": "support"
+    },
+    {
+      "source": "3",
+      "target": "0",
+      "relation": "support"
+    },
+    {
+      "source": "3",
+      "target": "1",
+      "relation": "support"
+    },
+    {
+      "source": "3",
+      "target": "2",
+      "relation": "support"
+    }
+  ]
+}

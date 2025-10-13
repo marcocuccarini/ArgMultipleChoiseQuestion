@@ -1,0 +1,89 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "claim",
+      "text": "oxidants",
+      "strength": 0.9998009888351306,
+      "id": "0"
+    },
+    {
+      "type": "evidence",
+      "text": "antioxidants",
+      "strength": 0.00019901085167851288,
+      "id": "1"
+    },
+    {
+      "type": "evidence",
+      "text": "Oxygen",
+      "strength": 0.9999996472649728,
+      "id": "2"
+    },
+    {
+      "type": "evidence",
+      "text": "residues",
+      "strength": 0.5,
+      "id": "3"
+    },
+    {
+      "type": "evidence",
+      "text": "An oxidizing agent (also known as an oxidant, oxidizer, electron recipient, or electron acceptor) is a substance in a redox chemical reaction that gains or \"accepts\"/\"receives\" an electron from a reducing agent (called the reductant, reducer, or electron donor).",
+      "strength": 0.9998009888351306,
+      "id": "4"
+    }
+  ],
+  "links": [
+    {
+      "relation": "attack",
+      "source": "0",
+      "target": "1"
+    },
+    {
+      "relation": "support",
+      "source": "0",
+      "target": "2"
+    },
+    {
+      "relation": "support",
+      "source": "0",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "0"
+    },
+    {
+      "relation": "support",
+      "source": "1",
+      "target": "2"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "4"
+    },
+    {
+      "relation": "support",
+      "source": "2",
+      "target": "0"
+    },
+    {
+      "relation": "support",
+      "source": "2",
+      "target": "4"
+    },
+    {
+      "relation": "support",
+      "source": "4",
+      "target": "0"
+    },
+    {
+      "relation": "support",
+      "source": "4",
+      "target": "2"
+    }
+  ]
+}

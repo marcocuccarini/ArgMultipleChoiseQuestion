@@ -1,0 +1,93 @@
+{
+  "question_id": 18,
+  "question": "What are the two most common silicates?",
+  "nodes": [
+    {
+      "id": "0",
+      "text": "Olivine and quartz are the two most common silicates.",
+      "strength": 1.0
+    },
+    {
+      "id": "1",
+      "text": "Micas and feldspar are the two most common silicates.",
+      "strength": 1.0
+    },
+    {
+      "id": "2",
+      "text": "Micas and quartz are the two most common silicates.",
+      "strength": 1.0
+    },
+    {
+      "id": "3",
+      "text": "Feldspar and quartz are the two most common silicates.",
+      "strength": 1.0
+    },
+    {
+      "id": "4",
+      "text": "```json\n[\n\"silicates can be classified according to the length and crosslinking of the silicate anions\",\n\"Two or more silicon atoms can share oxygen atoms\",\n\"Feldspars, especially plagioclase feldspars, are not very stable at the Earth's surface\",\n\"mica splittings represented the largest part of the sheet mica industry\",\n\"consumption of muscovite and phlogopite splittings was about 308 t in 2008\",\n\"the pressure at depths of about 360 km (220 mi) can contain at least as much as about 8900 parts per million (weight) of water\",\n\"more water may be dissolved in olivine of the mantle than is contained in Earth's oceans\",\n\"the spectral signature of olivine has been seen in the dust disks around young stars\",\n\"the tails of comets often have the spectral signature of olivine\",\n\"the presence of olivine was verified in samples of a comet\",\n\"comet-like (magnesium-rich) olivine has also been detected in the planetesimal belt around the star Beta Pictoris\",\n\"soluble silicate anions also play a major role in the polymerization mechanism of geopolymers\",\n\"geopolymers could contribute to limiting the CO2 emissions in the Earth atmosphere and the global warming\",\n\"the word quartz is derived from the German word Quarz\",\n\"the word 'quartz' came from the Polish dialect term twardy\",\n\"the Ancient Greeks referred to quartz as κρύσταλλος\",\n\"hydrolysis of feldspars begins with the feldspar dissolving\",\n\"Ayurveda, the Hindu system of ancient medicine prevalent in India, includes the purification and processing of mica\",\n\"Abhraka bhasma is claimed as a treatment for diseases of the respiratory and digestive tracts\",\n\"Mica dust in the workplace is regarded as a hazardous substance\",\n\"the Occupational Safety and Health Administration (OSHA) has set the legal limit (permissible exposure limit)\",\n\"the National Institute for Occupational Safety and Health (NIOSH) has set a recommended exposure limit (REL)\",\n\"mica was found within the Pyramid of the Sun\",\n\"natural mica was used by the Taos and Picuris Pueblos Indians in north-central New Mexico\",\n\"the hexagons in the T and O sheets are slightly different\",\n\"soluble silicate anions play a major role in the polymerization mechanism of geopolymers\"\n]\n```",
+      "strength": 1.0
+    }
+  ],
+  "edges": [
+    {
+      "source": "0",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "0",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "1",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "0",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "1",
+      "relation": "attack"
+    },
+    {
+      "source": "3",
+      "target": "2",
+      "relation": "attack"
+    },
+    {
+      "source": "4",
+      "target": "1",
+      "relation": "support"
+    }
+  ]
+}
