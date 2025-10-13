@@ -5,31 +5,31 @@
   "nodes": [
     {
       "type": "claim",
-      "text": "Combustion ions are the concentration that determines the strength of a base when dissolved in water.",
-      "strength": 0.18323812060890746,
+      "text": "hydroxide ions",
+      "strength": 0.5,
       "id": "0"
     },
     {
       "type": "evidence",
-      "text": "Calcium ions are the concentration that determines the strength of a base when dissolved in water.",
-      "strength": 0.24173533270105527,
+      "text": "combustion ions",
+      "strength": 0.5,
       "id": "1"
     },
     {
       "type": "evidence",
-      "text": "Monoxide ions determine the strength of a base when dissolved in water.",
-      "strength": 0.4083077862525992,
+      "text": "calcium ions",
+      "strength": 0.5,
       "id": "2"
     },
     {
       "type": "evidence",
-      "text": "Hydroxide ions are the concentration that determines the strength of a base when dissolved in water.",
-      "strength": 0.18323812060890746,
+      "text": "monoxide ions",
+      "strength": 0.5,
       "id": "3"
     },
     {
       "type": "evidence",
-      "text": "When the concentration of dissolved salt is much higher than the analytical concentrations of the reagents, the ions originating from the dissolved salt determine the ionic strength, and the ionic strength is effectively constant.",
+      "text": "```json",
       "strength": 0.5,
       "id": "4"
     }
@@ -41,49 +41,44 @@
       "target": "1"
     },
     {
-      "relation": "attack",
-      "source": "0",
-      "target": "3"
-    },
-    {
       "relation": "support",
-      "source": "0",
-      "target": "4"
-    },
-    {
-      "relation": "attack",
       "source": "0",
       "target": "2"
     },
     {
-      "relation": "attack",
-      "source": "1",
+      "relation": "support",
+      "source": "0",
+      "target": "4"
+    },
+    {
+      "relation": "support",
+      "source": "0",
       "target": "3"
     },
     {
       "relation": "support",
       "source": "1",
-      "target": "4"
-    },
-    {
-      "relation": "attack",
-      "source": "1",
       "target": "0"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "1",
       "target": "2"
     },
     {
+      "relation": "support",
+      "source": "1",
+      "target": "4"
+    },
+    {
       "relation": "attack",
-      "source": "2",
-      "target": "0"
+      "source": "1",
+      "target": "3"
     },
     {
       "relation": "attack",
       "source": "2",
-      "target": "3"
+      "target": "0"
     },
     {
       "relation": "support",
@@ -93,6 +88,16 @@
     {
       "relation": "attack",
       "source": "2",
+      "target": "3"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "1"
+    },
+    {
+      "relation": "attack",
+      "source": "3",
       "target": "1"
     },
     {
@@ -111,14 +116,14 @@
       "target": "4"
     },
     {
-      "relation": "attack",
-      "source": "3",
-      "target": "1"
-    },
-    {
       "relation": "support",
       "source": "4",
-      "target": "1"
+      "target": "0"
+    },
+    {
+      "relation": "attack",
+      "source": "4",
+      "target": "2"
     },
     {
       "relation": "support",
@@ -128,12 +133,7 @@
     {
       "relation": "support",
       "source": "4",
-      "target": "0"
-    },
-    {
-      "relation": "attack",
-      "source": "4",
-      "target": "2"
+      "target": "1"
     }
   ]
 }

@@ -5,45 +5,45 @@
   "nodes": [
     {
       "type": "claim",
-      "text": "The eyelid allows light to enter the eye.",
-      "strength": 0.4614626952221404,
+      "text": "pupil",
+      "strength": 0.9998011872598469,
       "id": "0"
     },
     {
       "type": "evidence",
-      "text": "The retina allows light to enter the eye.",
-      "strength": 0.6924041528987819,
+      "text": "eyelid",
+      "strength": 0.5,
       "id": "1"
     },
     {
       "type": "evidence",
-      "text": "The iris allows light to enter the eye.",
-      "strength": 0.5,
+      "text": "retina",
+      "strength": 0.9998011872598469,
       "id": "2"
     },
     {
       "type": "evidence",
-      "text": "The pupil allows light to enter the eye.",
-      "strength": 0.07695374222641369,
+      "text": "iris",
+      "strength": 0.5,
       "id": "3"
     },
     {
       "type": "evidence",
-      "text": "Light must first pass through and around the ganglion cells and through the thickness of the retina before reaching the rods and cones",
-      "strength": 0.9234845034872139,
+      "text": "The pupil is a hole located in the center of the iris of the eye that allows light to strike the retina.",
+      "strength": 0.9998011872598469,
       "id": "4"
     }
   ],
   "links": [
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "0",
       "target": "1"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "0",
-      "target": "3"
+      "target": "2"
     },
     {
       "relation": "support",
@@ -53,12 +53,17 @@
     {
       "relation": "attack",
       "source": "0",
-      "target": "2"
+      "target": "3"
     },
     {
       "relation": "attack",
       "source": "1",
-      "target": "3"
+      "target": "0"
+    },
+    {
+      "relation": "support",
+      "source": "1",
+      "target": "2"
     },
     {
       "relation": "support",
@@ -66,24 +71,14 @@
       "target": "4"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "1",
-      "target": "0"
-    },
-    {
-      "relation": "attack",
-      "source": "1",
-      "target": "2"
-    },
-    {
-      "relation": "attack",
-      "source": "2",
-      "target": "0"
-    },
-    {
-      "relation": "attack",
-      "source": "2",
       "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "2",
+      "target": "0"
     },
     {
       "relation": "support",
@@ -91,17 +86,27 @@
       "target": "4"
     },
     {
-      "relation": "attack",
+      "relation": "support",
+      "source": "2",
+      "target": "3"
+    },
+    {
+      "relation": "support",
       "source": "2",
       "target": "1"
     },
     {
-      "relation": "attack",
+      "relation": "support",
+      "source": "3",
+      "target": "1"
+    },
+    {
+      "relation": "support",
       "source": "3",
       "target": "0"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "3",
       "target": "2"
     },
@@ -111,14 +116,14 @@
       "target": "4"
     },
     {
-      "relation": "attack",
-      "source": "3",
-      "target": "1"
+      "relation": "support",
+      "source": "4",
+      "target": "0"
     },
     {
       "relation": "support",
       "source": "4",
-      "target": "1"
+      "target": "2"
     },
     {
       "relation": "support",
@@ -126,14 +131,9 @@
       "target": "3"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "4",
-      "target": "0"
-    },
-    {
-      "relation": "attack",
-      "source": "4",
-      "target": "2"
+      "target": "1"
     }
   ]
 }

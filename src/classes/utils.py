@@ -2,6 +2,7 @@
 import wikipedia
 import json
 import re
+import time
 from requests.exceptions import RequestException
 
 def clean_json_response(raw_response: str) -> str:

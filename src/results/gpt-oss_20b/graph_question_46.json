@@ -5,32 +5,32 @@
   "nodes": [
     {
       "type": "claim",
-      "text": "The sun is something organisms that live deep in the ocean must be able to withstand.",
-      "strength": 0.5,
+      "text": "extreme water pressure",
+      "strength": 0.9999013320140051,
       "id": "0"
     },
     {
       "type": "evidence",
-      "text": "Significant water pressure is something organisms that live deep in the ocean must be able to withstand.",
-      "strength": 0.9998011872598469,
+      "text": "the sun",
+      "strength": 0.5,
       "id": "1"
     },
     {
       "type": "evidence",
-      "text": "Tsunamis are something organisms that live deep in the ocean must be able to withstand.",
-      "strength": 0.5,
+      "text": "significant water pressure",
+      "strength": 0.999980040459671,
       "id": "2"
     },
     {
       "type": "evidence",
-      "text": "Extreme water pressure is something organisms that live deep in the ocean must be able to withstand.",
-      "strength": 0.9998011872598469,
+      "text": "tsunamis",
+      "strength": 0.9999827981440306,
       "id": "3"
     },
     {
       "type": "evidence",
-      "text": "```json",
-      "strength": 0.5,
+      "text": "The deep sea is broadly defined as the ocean depth where light begins to fade at approximately 200 m or the point of transition from continental shelves to continental slopes.",
+      "strength": 0.9998907406087817,
       "id": "4"
     }
   ],
@@ -41,54 +41,54 @@
       "target": "1"
     },
     {
-      "relation": "attack",
-      "source": "0",
-      "target": "3"
-    },
-    {
       "relation": "support",
-      "source": "0",
-      "target": "4"
-    },
-    {
-      "relation": "attack",
       "source": "0",
       "target": "2"
     },
     {
       "relation": "support",
-      "source": "1",
+      "source": "0",
+      "target": "4"
+    },
+    {
+      "relation": "support",
+      "source": "0",
       "target": "3"
     },
     {
       "relation": "support",
       "source": "1",
-      "target": "4"
-    },
-    {
-      "relation": "attack",
-      "source": "1",
       "target": "0"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "1",
       "target": "2"
     },
     {
+      "relation": "support",
+      "source": "1",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "3"
+    },
+    {
       "relation": "attack",
       "source": "2",
       "target": "0"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "2",
-      "target": "3"
+      "target": "4"
     },
     {
       "relation": "support",
       "source": "2",
-      "target": "4"
+      "target": "3"
     },
     {
       "relation": "attack",
@@ -98,6 +98,11 @@
     {
       "relation": "attack",
       "source": "3",
+      "target": "1"
+    },
+    {
+      "relation": "support",
+      "source": "3",
       "target": "0"
     },
     {
@@ -112,13 +117,13 @@
     },
     {
       "relation": "support",
-      "source": "3",
-      "target": "1"
+      "source": "4",
+      "target": "0"
     },
     {
       "relation": "support",
       "source": "4",
-      "target": "1"
+      "target": "2"
     },
     {
       "relation": "support",
@@ -128,12 +133,7 @@
     {
       "relation": "support",
       "source": "4",
-      "target": "0"
-    },
-    {
-      "relation": "attack",
-      "source": "4",
-      "target": "2"
+      "target": "1"
     }
   ]
 }

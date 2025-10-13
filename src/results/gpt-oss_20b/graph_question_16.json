@@ -5,32 +5,32 @@
   "nodes": [
     {
       "type": "claim",
-      "text": "Luminescence is the process by which a neon light produces visible light.",
-      "strength": 0.9999837580196063,
+      "text": "electroluminescence",
+      "strength": 0.9998916769791204,
       "id": "0"
     },
     {
       "type": "evidence",
-      "text": "Radiation produces visible light in a neon light.",
-      "strength": 0.9998916218299752,
+      "text": "luminescence",
+      "strength": 0.9999855365798475,
       "id": "1"
     },
     {
       "type": "evidence",
-      "text": "Mitosis does not explain how a neon light produces visible light.",
-      "strength": 0.5,
+      "text": "radiation",
+      "strength": 0.9999855365798475,
       "id": "2"
     },
     {
       "type": "evidence",
-      "text": "Electroluminescence is the process by which a neon light produces visible light.",
-      "strength": 0.9999811299378926,
+      "text": "mitosis",
+      "strength": 0.5,
       "id": "3"
     },
     {
       "type": "evidence",
-      "text": "The color of the light produced depends on the emission spectra of the atoms making up the gas, as well as the pressure of the gas, current density, and other variables.",
-      "strength": 0.5,
+      "text": "Neon lighting consists of brightly glowing, electrified glass tubes or bulbs that contain rarefied neon or other gases",
+      "strength": 0.9999812021175528,
       "id": "4"
     }
   ],
@@ -43,7 +43,7 @@
     {
       "relation": "support",
       "source": "0",
-      "target": "3"
+      "target": "2"
     },
     {
       "relation": "support",
@@ -53,12 +53,17 @@
     {
       "relation": "support",
       "source": "0",
-      "target": "2"
+      "target": "3"
     },
     {
       "relation": "support",
       "source": "1",
-      "target": "3"
+      "target": "0"
+    },
+    {
+      "relation": "support",
+      "source": "1",
+      "target": "2"
     },
     {
       "relation": "support",
@@ -68,42 +73,37 @@
     {
       "relation": "support",
       "source": "1",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "2",
       "target": "0"
     },
     {
       "relation": "support",
-      "source": "1",
-      "target": "2"
-    },
-    {
-      "relation": "attack",
-      "source": "2",
-      "target": "1"
-    },
-    {
-      "relation": "attack",
       "source": "2",
       "target": "4"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "2",
       "target": "3"
     },
     {
-      "relation": "attack",
-      "source": "2",
-      "target": "0"
-    },
-    {
       "relation": "support",
-      "source": "3",
-      "target": "0"
+      "source": "2",
+      "target": "1"
     },
     {
       "relation": "support",
       "source": "3",
       "target": "1"
+    },
+    {
+      "relation": "support",
+      "source": "3",
+      "target": "0"
     },
     {
       "relation": "support",
@@ -118,7 +118,7 @@
     {
       "relation": "support",
       "source": "4",
-      "target": "1"
+      "target": "0"
     },
     {
       "relation": "support",
@@ -133,7 +133,7 @@
     {
       "relation": "support",
       "source": "4",
-      "target": "0"
+      "target": "1"
     }
   ]
 }

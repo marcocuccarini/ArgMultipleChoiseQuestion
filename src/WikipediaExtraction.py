@@ -40,6 +40,7 @@ def main():
             "choices": choiceses[i],
             "explanation": explanations[i],
             "retrieved_page": fetch_wikipedia_pages(sorted(title, key=lambda x: x[1])),
+            "retrieved_page_name": title
 }
             )
 

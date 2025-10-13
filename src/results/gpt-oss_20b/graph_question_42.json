@@ -5,26 +5,26 @@
   "nodes": [
     {
       "type": "claim",
-      "text": "Potassium bonds attach pairs of nitrogenous bases to each other.",
-      "strength": 0.39719510579520384,
+      "text": "hydrogen bonds",
+      "strength": 0.5,
       "id": "0"
     },
     {
       "type": "evidence",
-      "text": "Ionic bonds attach pairs of nitrogenous bases to each other.",
-      "strength": 0.595751023136484,
+      "text": "potassium bonds",
+      "strength": 0.5,
       "id": "1"
     },
     {
       "type": "evidence",
-      "text": "Magnetism is what pairs of nitrogenous bases are attached to each other by.",
-      "strength": 0.10864911506248812,
+      "text": "ionic bonds",
+      "strength": 0.7499005936298626,
       "id": "2"
     },
     {
       "type": "evidence",
-      "text": "Hydrogen bonds attach pairs of nitrogenous bases to each other.",
-      "strength": 0.10864911506248812,
+      "text": "magnetism",
+      "strength": 0.5,
       "id": "3"
     },
     {
@@ -41,29 +41,19 @@
       "target": "1"
     },
     {
-      "relation": "attack",
-      "source": "0",
-      "target": "3"
-    },
-    {
       "relation": "support",
-      "source": "0",
-      "target": "4"
-    },
-    {
-      "relation": "attack",
       "source": "0",
       "target": "2"
     },
     {
-      "relation": "attack",
-      "source": "1",
-      "target": "3"
+      "relation": "support",
+      "source": "0",
+      "target": "4"
     },
     {
       "relation": "support",
-      "source": "1",
-      "target": "4"
+      "source": "0",
+      "target": "3"
     },
     {
       "relation": "support",
@@ -71,14 +61,29 @@
       "target": "0"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "1",
       "target": "2"
+    },
+    {
+      "relation": "support",
+      "source": "1",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "3"
     },
     {
       "relation": "attack",
       "source": "2",
       "target": "0"
+    },
+    {
+      "relation": "support",
+      "source": "2",
+      "target": "4"
     },
     {
       "relation": "attack",
@@ -88,11 +93,11 @@
     {
       "relation": "attack",
       "source": "2",
-      "target": "4"
+      "target": "1"
     },
     {
       "relation": "attack",
-      "source": "2",
+      "source": "3",
       "target": "1"
     },
     {
@@ -111,14 +116,14 @@
       "target": "4"
     },
     {
-      "relation": "attack",
-      "source": "3",
-      "target": "1"
-    },
-    {
       "relation": "support",
       "source": "4",
-      "target": "1"
+      "target": "0"
+    },
+    {
+      "relation": "attack",
+      "source": "4",
+      "target": "2"
     },
     {
       "relation": "support",
@@ -128,12 +133,7 @@
     {
       "relation": "support",
       "source": "4",
-      "target": "0"
-    },
-    {
-      "relation": "attack",
-      "source": "4",
-      "target": "2"
+      "target": "1"
     }
   ]
 }

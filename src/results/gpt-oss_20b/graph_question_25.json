@@ -5,26 +5,26 @@
   "nodes": [
     {
       "type": "claim",
-      "text": "Energy is stored on the surface of a chemical substance.",
-      "strength": 0.00032244599700140627,
+      "text": "between atoms",
+      "strength": 0.17179024516742006,
       "id": "0"
     },
     {
       "type": "evidence",
-      "text": "Energy is stored in molecules.",
-      "strength": 0.9994782404108568,
+      "text": "on the surface",
+      "strength": 0.4140127688109652,
       "id": "1"
     },
     {
       "type": "evidence",
-      "text": "Energy is stored inside atoms.",
-      "strength": 0.00032244599700140627,
+      "text": "in molecules",
+      "strength": 0.7069214496068793,
       "id": "2"
     },
     {
       "type": "evidence",
-      "text": "Energy is stored between atoms in a chemical substance.",
-      "strength": 0.9994781651423308,
+      "text": "inside atoms",
+      "strength": 0.4140127688109652,
       "id": "3"
     },
     {
@@ -41,29 +41,19 @@
       "target": "1"
     },
     {
-      "relation": "attack",
-      "source": "0",
-      "target": "3"
-    },
-    {
       "relation": "support",
-      "source": "0",
-      "target": "4"
-    },
-    {
-      "relation": "attack",
       "source": "0",
       "target": "2"
     },
     {
       "relation": "support",
-      "source": "1",
-      "target": "3"
+      "source": "0",
+      "target": "4"
     },
     {
-      "relation": "support",
-      "source": "1",
-      "target": "4"
+      "relation": "attack",
+      "source": "0",
+      "target": "3"
     },
     {
       "relation": "attack",
@@ -71,34 +61,39 @@
       "target": "0"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "1",
       "target": "2"
+    },
+    {
+      "relation": "support",
+      "source": "1",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "2",
+      "target": "0"
+    },
+    {
+      "relation": "support",
+      "source": "2",
+      "target": "4"
+    },
+    {
+      "relation": "support",
+      "source": "2",
+      "target": "3"
     },
     {
       "relation": "support",
       "source": "2",
       "target": "1"
-    },
-    {
-      "relation": "support",
-      "source": "2",
-      "target": "4"
-    },
-    {
-      "relation": "attack",
-      "source": "2",
-      "target": "3"
-    },
-    {
-      "relation": "attack",
-      "source": "2",
-      "target": "0"
-    },
-    {
-      "relation": "attack",
-      "source": "3",
-      "target": "0"
     },
     {
       "relation": "support",
@@ -108,6 +103,11 @@
     {
       "relation": "attack",
       "source": "3",
+      "target": "0"
+    },
+    {
+      "relation": "support",
+      "source": "3",
       "target": "2"
     },
     {
@@ -118,7 +118,7 @@
     {
       "relation": "support",
       "source": "4",
-      "target": "1"
+      "target": "0"
     },
     {
       "relation": "support",
@@ -131,9 +131,9 @@
       "target": "3"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "4",
-      "target": "0"
+      "target": "1"
     }
   ]
 }

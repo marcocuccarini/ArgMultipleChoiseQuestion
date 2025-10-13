@@ -5,65 +5,55 @@
   "nodes": [
     {
       "type": "claim",
-      "text": "Potassium returns to the soil as ammonium ions upon the death of an organism during composition.",
-      "strength": 0.07194284771863514,
+      "text": "nitrogen",
+      "strength": 0.5,
       "id": "0"
     },
     {
       "type": "evidence",
-      "text": "Calcium returns to the soil as ammonium ions upon the decomposition of an organism.",
-      "strength": 0.1341602668258606,
+      "text": "potasium",
+      "strength": 0.5,
       "id": "1"
     },
     {
       "type": "evidence",
-      "text": "Hydrogen returns to the soil as ammonium ions upon the death of an organism during decomposition.",
-      "strength": 0.4639430902955174,
+      "text": "calcium",
+      "strength": 0.5,
       "id": "2"
     },
     {
       "type": "evidence",
-      "text": "Nitrogen returns to the soil as ammonium ions upon the decomposition of an organism.",
-      "strength": 0.731878856368184,
+      "text": "hydrogen",
+      "strength": 0.5,
       "id": "3"
     },
     {
       "type": "evidence",
-      "text": "Ammonium ions are a toxic waste product of metabolism in animals.",
-      "strength": 0.731878856368184,
+      "text": "Ammonium is a modified form of ammonia that has an extra hydrogen atom",
+      "strength": 0.5,
       "id": "4"
     }
   ],
   "links": [
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "0",
       "target": "1"
     },
     {
-      "relation": "attack",
-      "source": "0",
-      "target": "3"
-    },
-    {
       "relation": "support",
-      "source": "0",
-      "target": "4"
-    },
-    {
-      "relation": "attack",
       "source": "0",
       "target": "2"
     },
     {
-      "relation": "attack",
-      "source": "1",
-      "target": "3"
+      "relation": "support",
+      "source": "0",
+      "target": "4"
     },
     {
-      "relation": "support",
-      "source": "1",
-      "target": "4"
+      "relation": "attack",
+      "source": "0",
+      "target": "3"
     },
     {
       "relation": "attack",
@@ -76,9 +66,19 @@
       "target": "2"
     },
     {
+      "relation": "support",
+      "source": "1",
+      "target": "4"
+    },
+    {
       "relation": "attack",
+      "source": "1",
+      "target": "3"
+    },
+    {
+      "relation": "support",
       "source": "2",
-      "target": "1"
+      "target": "0"
     },
     {
       "relation": "support",
@@ -91,22 +91,22 @@
       "target": "3"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "2",
-      "target": "0"
+      "target": "1"
     },
     {
-      "relation": "attack",
-      "source": "3",
-      "target": "0"
-    },
-    {
-      "relation": "attack",
+      "relation": "support",
       "source": "3",
       "target": "1"
     },
     {
-      "relation": "attack",
+      "relation": "support",
+      "source": "3",
+      "target": "0"
+    },
+    {
+      "relation": "support",
       "source": "3",
       "target": "2"
     },
@@ -118,7 +118,7 @@
     {
       "relation": "support",
       "source": "4",
-      "target": "1"
+      "target": "0"
     },
     {
       "relation": "support",
@@ -133,7 +133,7 @@
     {
       "relation": "support",
       "source": "4",
-      "target": "0"
+      "target": "1"
     }
   ]
 }

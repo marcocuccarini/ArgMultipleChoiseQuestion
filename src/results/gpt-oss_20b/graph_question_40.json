@@ -5,32 +5,32 @@
   "nodes": [
     {
       "type": "claim",
-      "text": "Inorganic material is what most fungi get organic compounds from.",
-      "strength": 9.887799121068744e-08,
+      "text": "dead organisms",
+      "strength": 0.5,
       "id": "0"
     },
     {
       "type": "evidence",
-      "text": "Living organisms are the source of organic compounds for most fungi.",
-      "strength": 0.00024116906743221588,
+      "text": "inorganic material",
+      "strength": 0.2500994063701377,
       "id": "1"
     },
     {
       "type": "evidence",
-      "text": "Carnivorous organisms are what most fungi get organic compounds from.",
-      "strength": 9.895071093172542e-08,
+      "text": "living organisms",
+      "strength": 0.7499005936298626,
       "id": "2"
     },
     {
       "type": "evidence",
-      "text": "Dead organisms are the source of organic compounds for most fungi.",
-      "strength": 0.9996589097354651,
+      "text": "carnivorous organisms",
+      "strength": 0.5,
       "id": "3"
     },
     {
       "type": "evidence",
-      "text": "Fungi perform an essential role in the decomposition of organic matter and have fundamental roles in nutrient cycling and exchange in the environment.",
-      "strength": 0.9997588310412765,
+      "text": "The backtick ` is a typographical mark used mainly in computing.",
+      "strength": 0.5,
       "id": "4"
     }
   ],
@@ -43,22 +43,27 @@
     {
       "relation": "attack",
       "source": "0",
-      "target": "3"
+      "target": "2"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "0",
       "target": "4"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "0",
-      "target": "2"
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "1",
+      "target": "0"
     },
     {
       "relation": "attack",
       "source": "1",
-      "target": "3"
+      "target": "2"
     },
     {
       "relation": "support",
@@ -68,31 +73,31 @@
     {
       "relation": "attack",
       "source": "1",
-      "target": "0"
-    },
-    {
-      "relation": "support",
-      "source": "1",
-      "target": "2"
-    },
-    {
-      "relation": "attack",
-      "source": "2",
-      "target": "0"
-    },
-    {
-      "relation": "attack",
-      "source": "2",
       "target": "3"
     },
     {
       "relation": "attack",
+      "source": "2",
+      "target": "0"
+    },
+    {
+      "relation": "support",
       "source": "2",
       "target": "4"
     },
     {
       "relation": "support",
       "source": "2",
+      "target": "3"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "1"
+    },
+    {
+      "relation": "support",
+      "source": "3",
       "target": "1"
     },
     {
@@ -101,7 +106,7 @@
       "target": "0"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "3",
       "target": "2"
     },
@@ -111,14 +116,14 @@
       "target": "4"
     },
     {
-      "relation": "attack",
-      "source": "3",
-      "target": "1"
+      "relation": "support",
+      "source": "4",
+      "target": "0"
     },
     {
       "relation": "support",
       "source": "4",
-      "target": "1"
+      "target": "2"
     },
     {
       "relation": "support",
@@ -126,14 +131,9 @@
       "target": "3"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "4",
-      "target": "0"
-    },
-    {
-      "relation": "attack",
-      "source": "4",
-      "target": "2"
+      "target": "1"
     }
   ]
 }

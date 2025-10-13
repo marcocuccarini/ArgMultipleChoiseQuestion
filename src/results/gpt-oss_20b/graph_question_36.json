@@ -5,26 +5,26 @@
   "nodes": [
     {
       "type": "claim",
-      "text": "Vertebrates are animals in which a body cavity may be present or absent.",
-      "strength": 0.7499005936298626,
+      "text": "triploblastic",
+      "strength": 0.3452096651950219,
       "id": "0"
     },
     {
       "type": "evidence",
-      "text": "Bicellular animals may have a body cavity that is present or absent.",
-      "strength": 0.5,
+      "text": "vertebrate",
+      "strength": 0.2301121080025496,
       "id": "1"
     },
     {
       "type": "evidence",
-      "text": "Nonvascular animals may have a body cavity that is present or absent.",
-      "strength": 0.5,
+      "text": "bicellular",
+      "strength": 0.2519756562237538,
       "id": "2"
     },
     {
       "type": "evidence",
-      "text": "Triploblastic animals may have a body cavity that is present or absent.",
-      "strength": 0.5,
+      "text": "nonvascular",
+      "strength": 0.38490244280752767,
       "id": "3"
     },
     {
@@ -36,34 +36,24 @@
   ],
   "links": [
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "0",
       "target": "1"
     },
     {
-      "relation": "support",
-      "source": "0",
-      "target": "3"
-    },
-    {
-      "relation": "support",
-      "source": "0",
-      "target": "4"
-    },
-    {
-      "relation": "support",
+      "relation": "attack",
       "source": "0",
       "target": "2"
     },
     {
-      "relation": "attack",
-      "source": "1",
-      "target": "3"
+      "relation": "support",
+      "source": "0",
+      "target": "4"
     },
     {
-      "relation": "support",
-      "source": "1",
-      "target": "4"
+      "relation": "attack",
+      "source": "0",
+      "target": "3"
     },
     {
       "relation": "support",
@@ -71,19 +61,24 @@
       "target": "0"
     },
     {
-      "relation": "support",
+      "relation": "attack",
       "source": "1",
       "target": "2"
     },
     {
       "relation": "support",
-      "source": "2",
-      "target": "0"
+      "source": "1",
+      "target": "4"
     },
     {
-      "relation": "support",
-      "source": "2",
+      "relation": "attack",
+      "source": "1",
       "target": "3"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "0"
     },
     {
       "relation": "support",
@@ -93,15 +88,25 @@
     {
       "relation": "support",
       "source": "2",
+      "target": "3"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
       "target": "1"
     },
     {
-      "relation": "support",
+      "relation": "attack",
+      "source": "3",
+      "target": "1"
+    },
+    {
+      "relation": "attack",
       "source": "3",
       "target": "0"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "3",
       "target": "2"
     },
@@ -109,21 +114,6 @@
       "relation": "support",
       "source": "3",
       "target": "4"
-    },
-    {
-      "relation": "attack",
-      "source": "3",
-      "target": "1"
-    },
-    {
-      "relation": "support",
-      "source": "4",
-      "target": "1"
-    },
-    {
-      "relation": "support",
-      "source": "4",
-      "target": "3"
     },
     {
       "relation": "support",
@@ -134,6 +124,16 @@
       "relation": "support",
       "source": "4",
       "target": "2"
+    },
+    {
+      "relation": "support",
+      "source": "4",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "4",
+      "target": "1"
     }
   ]
 }

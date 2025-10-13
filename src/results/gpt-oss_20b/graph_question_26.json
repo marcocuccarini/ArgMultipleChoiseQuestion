@@ -5,65 +5,55 @@
   "nodes": [
     {
       "type": "claim",
-      "text": "The respiratory system is estimated to be associated with deficiencies in 80 percent of United States residents aged 60 or older by the year 2050.",
-      "strength": 0.5,
+      "text": "immune system",
+      "strength": 0.9998831861955066,
       "id": "0"
     },
     {
       "type": "evidence",
-      "text": "The cardiovascular system is estimated to be associated with deficiencies in 80 percent of United States residents aged 60 or older by the year 2050.",
-      "strength": 0.9998011872598469,
+      "text": "respiratory system",
+      "strength": 0.9999928663694604,
       "id": "1"
     },
     {
       "type": "evidence",
-      "text": "Blood vessels are associated with deficiencies in 80 percent of United States residents aged 60 or older, a population expected to comprise 25 percent of the total by 2050.",
-      "strength": 0.9998011872598469,
+      "text": "cardiovascular system",
+      "strength": 0.9999943044059367,
       "id": "2"
     },
     {
       "type": "evidence",
-      "text": "The immune system is estimated to be deficient in 80 percent of the United States population aged 60 or older by 2050.",
-      "strength": 0.5,
+      "text": "blood vessels",
+      "strength": 0.999964226275871,
       "id": "3"
     },
     {
       "type": "evidence",
-      "text": "```json",
+      "text": "Ageing is the process of becoming older until death",
       "strength": 0.5,
       "id": "4"
     }
   ],
   "links": [
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "0",
       "target": "1"
     },
     {
-      "relation": "attack",
-      "source": "0",
-      "target": "3"
-    },
-    {
       "relation": "support",
-      "source": "0",
-      "target": "4"
-    },
-    {
-      "relation": "attack",
       "source": "0",
       "target": "2"
     },
     {
       "relation": "support",
-      "source": "1",
-      "target": "3"
+      "source": "0",
+      "target": "4"
     },
     {
-      "relation": "support",
-      "source": "1",
-      "target": "4"
+      "relation": "attack",
+      "source": "0",
+      "target": "3"
     },
     {
       "relation": "attack",
@@ -77,8 +67,18 @@
     },
     {
       "relation": "support",
+      "source": "1",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "3"
+    },
+    {
+      "relation": "support",
       "source": "2",
-      "target": "1"
+      "target": "0"
     },
     {
       "relation": "support",
@@ -86,19 +86,14 @@
       "target": "4"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "2",
       "target": "3"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "2",
-      "target": "0"
-    },
-    {
-      "relation": "attack",
-      "source": "3",
-      "target": "0"
+      "target": "1"
     },
     {
       "relation": "support",
@@ -106,7 +101,12 @@
       "target": "1"
     },
     {
-      "relation": "attack",
+      "relation": "support",
+      "source": "3",
+      "target": "0"
+    },
+    {
+      "relation": "support",
       "source": "3",
       "target": "2"
     },
@@ -118,7 +118,7 @@
     {
       "relation": "support",
       "source": "4",
-      "target": "1"
+      "target": "0"
     },
     {
       "relation": "support",
@@ -133,7 +133,7 @@
     {
       "relation": "support",
       "source": "4",
-      "target": "0"
+      "target": "1"
     }
   ]
 }

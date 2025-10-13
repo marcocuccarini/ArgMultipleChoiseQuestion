@@ -5,31 +5,31 @@
   "nodes": [
     {
       "type": "claim",
-      "text": "Tails are a feature developed by the bird ancestor that lived in trees.",
+      "text": "wings",
       "strength": 0.5,
       "id": "0"
     },
     {
       "type": "evidence",
-      "text": "Webbed feet are a feature developed by the bird ancestor that lived in trees.",
-      "strength": 0.2500994063701377,
+      "text": "tails",
+      "strength": 0.5,
       "id": "1"
     },
     {
       "type": "evidence",
-      "text": "Beaks are a feature developed by the bird ancestor that lived in trees.",
+      "text": "webbed feet",
       "strength": 0.5,
       "id": "2"
     },
     {
       "type": "evidence",
-      "text": "Wings developed in the tree-dwelling bird ancestor.",
-      "strength": 0.7499005936298626,
+      "text": "beaks",
+      "strength": 0.5,
       "id": "3"
     },
     {
       "type": "evidence",
-      "text": "They switched to a parasagittal orientation.",
+      "text": "```json",
       "strength": 0.5,
       "id": "4"
     }
@@ -43,7 +43,7 @@
     {
       "relation": "support",
       "source": "0",
-      "target": "3"
+      "target": "2"
     },
     {
       "relation": "support",
@@ -53,12 +53,17 @@
     {
       "relation": "support",
       "source": "0",
-      "target": "2"
+      "target": "3"
     },
     {
       "relation": "support",
       "source": "1",
-      "target": "3"
+      "target": "0"
+    },
+    {
+      "relation": "support",
+      "source": "1",
+      "target": "2"
     },
     {
       "relation": "support",
@@ -68,20 +73,15 @@
     {
       "relation": "support",
       "source": "1",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "2",
       "target": "0"
     },
     {
       "relation": "support",
-      "source": "1",
-      "target": "2"
-    },
-    {
-      "relation": "attack",
-      "source": "2",
-      "target": "1"
-    },
-    {
-      "relation": "attack",
       "source": "2",
       "target": "4"
     },
@@ -91,19 +91,19 @@
       "target": "3"
     },
     {
-      "relation": "attack",
-      "source": "2",
-      "target": "0"
-    },
-    {
       "relation": "support",
-      "source": "3",
-      "target": "0"
+      "source": "2",
+      "target": "1"
     },
     {
       "relation": "support",
       "source": "3",
       "target": "1"
+    },
+    {
+      "relation": "support",
+      "source": "3",
+      "target": "0"
     },
     {
       "relation": "support",
@@ -116,9 +116,9 @@
       "target": "4"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "4",
-      "target": "1"
+      "target": "0"
     },
     {
       "relation": "support",
@@ -133,7 +133,7 @@
     {
       "relation": "support",
       "source": "4",
-      "target": "0"
+      "target": "1"
     }
   ]
 }

@@ -5,32 +5,32 @@
   "nodes": [
     {
       "type": "claim",
-      "text": "Natural selection is a process that can cause harmful alleles to become fixed.",
-      "strength": 0.5,
+      "text": "fossil record",
+      "strength": 0.9999029601357551,
       "id": "0"
     },
     {
       "type": "evidence",
-      "text": "Migration can cause harmful alleles to become fixed.",
-      "strength": 0.5,
+      "text": "ancient record",
+      "strength": 0.9999009337612036,
       "id": "1"
     },
     {
       "type": "evidence",
-      "text": "Mutation can cause harmful alleles to become fixed.",
-      "strength": 0.5,
+      "text": "biological record",
+      "strength": 0.9999192215778838,
       "id": "2"
     },
     {
       "type": "evidence",
-      "text": "Genetic drift is a process that can cause harmful alleles to become fixed.",
-      "strength": 0.5,
+      "text": "species record",
+      "strength": 0.9999029601357551,
       "id": "3"
     },
     {
       "type": "evidence",
-      "text": "```json",
-      "strength": 0.5,
+      "text": "The fossil record is incomplete",
+      "strength": 0.9999192215778838,
       "id": "4"
     }
   ],
@@ -43,17 +43,32 @@
     {
       "relation": "support",
       "source": "0",
-      "target": "3"
+      "target": "2"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "0",
       "target": "4"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "0",
+      "target": "3"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "0"
+    },
+    {
+      "relation": "support",
+      "source": "1",
       "target": "2"
+    },
+    {
+      "relation": "support",
+      "source": "1",
+      "target": "4"
     },
     {
       "relation": "support",
@@ -61,24 +76,14 @@
       "target": "3"
     },
     {
-      "relation": "attack",
-      "source": "1",
-      "target": "4"
-    },
-    {
-      "relation": "attack",
-      "source": "1",
-      "target": "0"
-    },
-    {
-      "relation": "attack",
-      "source": "1",
-      "target": "2"
-    },
-    {
-      "relation": "attack",
+      "relation": "support",
       "source": "2",
       "target": "0"
+    },
+    {
+      "relation": "support",
+      "source": "2",
+      "target": "4"
     },
     {
       "relation": "support",
@@ -88,52 +93,47 @@
     {
       "relation": "attack",
       "source": "2",
-      "target": "4"
-    },
-    {
-      "relation": "attack",
-      "source": "2",
       "target": "1"
     },
     {
-      "relation": "attack",
+      "relation": "support",
+      "source": "3",
+      "target": "1"
+    },
+    {
+      "relation": "support",
       "source": "3",
       "target": "0"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "3",
       "target": "2"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "3",
       "target": "4"
     },
     {
-      "relation": "attack",
-      "source": "3",
-      "target": "1"
-    },
-    {
-      "relation": "attack",
+      "relation": "support",
       "source": "4",
-      "target": "1"
+      "target": "0"
     },
     {
-      "relation": "attack",
+      "relation": "support",
+      "source": "4",
+      "target": "2"
+    },
+    {
+      "relation": "support",
       "source": "4",
       "target": "3"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "4",
-      "target": "0"
-    },
-    {
-      "relation": "attack",
-      "source": "4",
-      "target": "2"
+      "target": "1"
     }
   ]
 }

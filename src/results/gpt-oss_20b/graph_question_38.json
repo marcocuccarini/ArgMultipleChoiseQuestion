@@ -5,31 +5,31 @@
   "nodes": [
     {
       "type": "claim",
-      "text": "Biennials are trees and shrubs.",
-      "strength": 0.5,
+      "text": "perennials",
+      "strength": 0.7499947448098002,
       "id": "0"
     },
     {
       "type": "evidence",
-      "text": "Annuals are not trees and shrubs.",
-      "strength": 0.5,
+      "text": "biennial",
+      "strength": 0.12503618198451405,
       "id": "1"
     },
     {
       "type": "evidence",
-      "text": "Trees and shrubs are not grasses.",
-      "strength": 0.5,
+      "text": "annuals",
+      "strength": 0.437382669404864,
       "id": "2"
     },
     {
       "type": "evidence",
-      "text": "Perennials are trees and shrubs.",
-      "strength": 0.2500994063701377,
+      "text": "grasses",
+      "strength": 0.5,
       "id": "3"
     },
     {
       "type": "evidence",
-      "text": "Human cultivation of plants is the core of agriculture",
+      "text": "In botany, a tree is a perennial plant with an elongated stem, or trunk, usually supporting branches and leaves.",
       "strength": 0.5,
       "id": "4"
     }
@@ -43,7 +43,7 @@
     {
       "relation": "attack",
       "source": "0",
-      "target": "3"
+      "target": "2"
     },
     {
       "relation": "support",
@@ -51,14 +51,19 @@
       "target": "4"
     },
     {
-      "relation": "support",
+      "relation": "attack",
       "source": "0",
-      "target": "2"
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "1",
+      "target": "0"
     },
     {
       "relation": "attack",
       "source": "1",
-      "target": "3"
+      "target": "2"
     },
     {
       "relation": "support",
@@ -68,22 +73,12 @@
     {
       "relation": "attack",
       "source": "1",
-      "target": "0"
-    },
-    {
-      "relation": "support",
-      "source": "1",
-      "target": "2"
-    },
-    {
-      "relation": "support",
-      "source": "2",
-      "target": "0"
-    },
-    {
-      "relation": "support",
-      "source": "2",
       "target": "3"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "0"
     },
     {
       "relation": "support",
@@ -93,15 +88,25 @@
     {
       "relation": "support",
       "source": "2",
+      "target": "3"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
       "target": "1"
     },
     {
-      "relation": "support",
+      "relation": "attack",
+      "source": "3",
+      "target": "1"
+    },
+    {
+      "relation": "attack",
       "source": "3",
       "target": "0"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "3",
       "target": "2"
     },
@@ -111,14 +116,14 @@
       "target": "4"
     },
     {
-      "relation": "attack",
-      "source": "3",
-      "target": "1"
+      "relation": "support",
+      "source": "4",
+      "target": "0"
     },
     {
       "relation": "support",
       "source": "4",
-      "target": "1"
+      "target": "2"
     },
     {
       "relation": "support",
@@ -128,12 +133,7 @@
     {
       "relation": "support",
       "source": "4",
-      "target": "0"
-    },
-    {
-      "relation": "support",
-      "source": "4",
-      "target": "2"
+      "target": "1"
     }
   ]
 }

@@ -5,32 +5,32 @@
   "nodes": [
     {
       "type": "claim",
-      "text": "Mid-ocean ridges can be about 2 meters tall.",
-      "strength": 0.006654596264093903,
+      "text": "about 2 km",
+      "strength": 0.22913441326964676,
       "id": "0"
     },
     {
       "type": "evidence",
-      "text": "Mid-ocean ridges can be about 2 feet tall.",
-      "strength": 0.006654596264093903,
+      "text": "about 2 meters",
+      "strength": 0.22913441326964676,
       "id": "1"
     },
     {
       "type": "evidence",
-      "text": "Mid-ocean ridges can be about 2 inches tall.",
-      "strength": 0.006654596264093903,
+      "text": "about 2 feet",
+      "strength": 0.22913441326964676,
       "id": "2"
     },
     {
       "type": "evidence",
-      "text": "Mid-ocean ridges can be about 2 km tall.",
-      "strength": 0.986612025264367,
+      "text": "2 inches",
+      "strength": 0.22913441326964676,
       "id": "3"
     },
     {
       "type": "evidence",
-      "text": "A mid-ocean ridge (MOR) is a seafloor mountain system formed by plate tectonics.",
-      "strength": 0.993255258160432,
+      "text": "Mid-ocean ridges around the globe are linked by plate tectonic boundaries and the trace of the ridges across the ocean floor appears similar to the seam of a baseball.",
+      "strength": 0.5,
       "id": "4"
     }
   ],
@@ -43,7 +43,7 @@
     {
       "relation": "attack",
       "source": "0",
-      "target": "3"
+      "target": "2"
     },
     {
       "relation": "support",
@@ -53,17 +53,7 @@
     {
       "relation": "attack",
       "source": "0",
-      "target": "2"
-    },
-    {
-      "relation": "attack",
-      "source": "1",
       "target": "3"
-    },
-    {
-      "relation": "support",
-      "source": "1",
-      "target": "4"
     },
     {
       "relation": "attack",
@@ -74,31 +64,36 @@
       "relation": "attack",
       "source": "1",
       "target": "2"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "3"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "0"
+    },
+    {
+      "relation": "support",
+      "source": "2",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "3"
     },
     {
       "relation": "attack",
       "source": "2",
       "target": "1"
-    },
-    {
-      "relation": "support",
-      "source": "2",
-      "target": "4"
-    },
-    {
-      "relation": "attack",
-      "source": "2",
-      "target": "3"
-    },
-    {
-      "relation": "attack",
-      "source": "2",
-      "target": "0"
-    },
-    {
-      "relation": "attack",
-      "source": "3",
-      "target": "0"
     },
     {
       "relation": "attack",
@@ -108,17 +103,22 @@
     {
       "relation": "attack",
       "source": "3",
+      "target": "0"
+    },
+    {
+      "relation": "attack",
+      "source": "3",
       "target": "2"
     },
     {
-      "relation": "support",
+      "relation": "attack",
       "source": "3",
       "target": "4"
     },
     {
       "relation": "support",
       "source": "4",
-      "target": "1"
+      "target": "0"
     },
     {
       "relation": "attack",
@@ -126,14 +126,9 @@
       "target": "2"
     },
     {
-      "relation": "support",
+      "relation": "attack",
       "source": "4",
       "target": "3"
-    },
-    {
-      "relation": "support",
-      "source": "4",
-      "target": "0"
     }
   ]
 }

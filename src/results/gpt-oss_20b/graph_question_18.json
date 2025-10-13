@@ -5,95 +5,100 @@
   "nodes": [
     {
       "type": "claim",
-      "text": "Enzymes are what most living things use to make ATP from glucose.",
-      "strength": 0.49995464963800823,
+      "text": "oxygen",
+      "strength": 0.5,
       "id": "0"
     },
     {
       "type": "evidence",
-      "text": "Carbon is used by most living things to make ATP from glucose.",
-      "strength": 0.49992041814915567,
+      "text": "enzymes",
+      "strength": 0.5,
       "id": "1"
     },
     {
       "type": "evidence",
-      "text": "Nitrogen is what most living things use to make ATP from glucose.",
-      "strength": 5.05835490766894e-05,
+      "text": "carbon",
+      "strength": 0.5,
       "id": "2"
     },
     {
       "type": "evidence",
-      "text": "Oxygen is used by most living things to make ATP from glucose.",
-      "strength": 0.999773991798754,
+      "text": "nitrogen",
+      "strength": 0.5,
       "id": "3"
     },
     {
       "type": "evidence",
-      "text": "Most of the ATP produced by aerobic cellular respiration is made by oxidative phosphorylation.",
-      "strength": 0.9997978882731935,
+      "text": "Glucose is a sugar with the molecular formula C6H12O6.",
+      "strength": 0.5,
       "id": "4"
     }
   ],
   "links": [
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "0",
       "target": "1"
     },
     {
       "relation": "support",
       "source": "0",
-      "target": "3"
-    },
-    {
-      "relation": "support",
-      "source": "0",
-      "target": "4"
-    },
-    {
-      "relation": "attack",
-      "source": "0",
       "target": "2"
     },
     {
-      "relation": "attack",
-      "source": "1",
+      "relation": "support",
+      "source": "0",
+      "target": "4"
+    },
+    {
+      "relation": "support",
+      "source": "0",
       "target": "3"
     },
     {
       "relation": "support",
-      "source": "1",
-      "target": "4"
-    },
-    {
-      "relation": "attack",
       "source": "1",
       "target": "0"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "1",
       "target": "2"
     },
     {
-      "relation": "attack",
+      "relation": "support",
+      "source": "1",
+      "target": "4"
+    },
+    {
+      "relation": "support",
+      "source": "1",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "2",
+      "target": "0"
+    },
+    {
+      "relation": "support",
+      "source": "2",
+      "target": "4"
+    },
+    {
+      "relation": "support",
+      "source": "2",
+      "target": "3"
+    },
+    {
+      "relation": "support",
       "source": "2",
       "target": "1"
     },
     {
-      "relation": "attack",
-      "source": "2",
-      "target": "4"
-    },
-    {
-      "relation": "attack",
-      "source": "2",
-      "target": "3"
-    },
-    {
-      "relation": "attack",
-      "source": "2",
-      "target": "0"
+      "relation": "support",
+      "source": "3",
+      "target": "1"
     },
     {
       "relation": "support",
@@ -101,12 +106,7 @@
       "target": "0"
     },
     {
-      "relation": "attack",
-      "source": "3",
-      "target": "1"
-    },
-    {
-      "relation": "attack",
+      "relation": "support",
       "source": "3",
       "target": "2"
     },
@@ -118,10 +118,10 @@
     {
       "relation": "support",
       "source": "4",
-      "target": "1"
+      "target": "0"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "4",
       "target": "2"
     },
@@ -133,7 +133,7 @@
     {
       "relation": "support",
       "source": "4",
-      "target": "0"
+      "target": "1"
     }
   ]
 }

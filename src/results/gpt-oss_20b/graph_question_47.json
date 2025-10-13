@@ -5,45 +5,45 @@
   "nodes": [
     {
       "type": "claim",
-      "text": "The large nervous system includes the brain and spinal cord.",
-      "strength": 0.9998910414723077,
+      "text": "central nervous system",
+      "strength": 0.9998011872598469,
       "id": "0"
     },
     {
       "type": "evidence",
-      "text": "The cerebral cortex is part of the system comprised of the brain and spinal cord.",
-      "strength": 0.9999808980955412,
+      "text": "large nervous system",
+      "strength": 0.5,
       "id": "1"
     },
     {
       "type": "evidence",
-      "text": "The limbic system includes the brain and spinal cord.",
-      "strength": 0.5,
+      "text": "cerebral cortex",
+      "strength": 0.9998011872598469,
       "id": "2"
     },
     {
       "type": "evidence",
-      "text": "The central nervous system comprises the brain and spinal cord.",
-      "strength": 0.9998910414723077,
+      "text": "limbic system",
+      "strength": 0.5,
       "id": "3"
     },
     {
       "type": "evidence",
-      "text": "The nervous system of vertebrates (including humans) is divided into the central nervous system (CNS) and the peripheral nervous system (PNS).",
-      "strength": 0.9999808980955412,
+      "text": "```json",
+      "strength": 0.5,
       "id": "4"
     }
   ],
   "links": [
     {
-      "relation": "support",
+      "relation": "attack",
       "source": "0",
       "target": "1"
     },
     {
       "relation": "support",
       "source": "0",
-      "target": "3"
+      "target": "2"
     },
     {
       "relation": "support",
@@ -51,19 +51,9 @@
       "target": "4"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "0",
-      "target": "2"
-    },
-    {
-      "relation": "support",
-      "source": "1",
       "target": "3"
-    },
-    {
-      "relation": "support",
-      "source": "1",
-      "target": "4"
     },
     {
       "relation": "support",
@@ -71,19 +61,24 @@
       "target": "0"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "1",
       "target": "2"
     },
     {
-      "relation": "attack",
-      "source": "2",
-      "target": "0"
+      "relation": "support",
+      "source": "1",
+      "target": "4"
     },
     {
       "relation": "attack",
-      "source": "2",
+      "source": "1",
       "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "2",
+      "target": "0"
     },
     {
       "relation": "support",
@@ -91,8 +86,18 @@
       "target": "4"
     },
     {
+      "relation": "support",
+      "source": "2",
+      "target": "3"
+    },
+    {
       "relation": "attack",
       "source": "2",
+      "target": "1"
+    },
+    {
+      "relation": "attack",
+      "source": "3",
       "target": "1"
     },
     {
@@ -112,13 +117,13 @@
     },
     {
       "relation": "support",
-      "source": "3",
-      "target": "1"
+      "source": "4",
+      "target": "0"
     },
     {
       "relation": "support",
       "source": "4",
-      "target": "1"
+      "target": "2"
     },
     {
       "relation": "support",
@@ -128,12 +133,7 @@
     {
       "relation": "support",
       "source": "4",
-      "target": "0"
-    },
-    {
-      "relation": "attack",
-      "source": "4",
-      "target": "2"
+      "target": "1"
     }
   ]
 }

@@ -5,32 +5,32 @@
   "nodes": [
     {
       "type": "claim",
-      "text": "Digestion produces the products needed for cellular respiration, and vice versa.",
+      "text": "photosynthesis",
       "strength": 0.5,
       "id": "0"
     },
     {
       "type": "evidence",
-      "text": "Spermatogenesis products are needed for cellular respiration, and vice versa.",
-      "strength": 0.5,
+      "text": "digestion",
+      "strength": 0.8748923406726904,
       "id": "1"
     },
     {
       "type": "evidence",
-      "text": "Circulation provides the products needed for cellular respiration, and vice versa.",
-      "strength": 0.999846138466979,
+      "text": "spermatogenesis",
+      "strength": 0.8748923406726904,
       "id": "2"
     },
     {
       "type": "evidence",
-      "text": "Photosynthesis produces the products needed for cellular respiration, and vice versa.",
-      "strength": 0.5,
+      "text": "circulation",
+      "strength": 0.749982897644584,
       "id": "3"
     },
     {
       "type": "evidence",
-      "text": "Cellular respiration is the process of oxidizing biological fuels using an inorganic electron acceptor, such as oxygen, to drive production of adenosine triphosphate (ATP), which stores chemical energy in a biologically accessible form.",
-      "strength": 0.9998911990882163,
+      "text": "Cellular respiration is the process of oxidizing biological fuels using an inorganic electron acceptor, such as oxygen, to drive production of adenosine triphosphate (ATP).",
+      "strength": 0.749982897644584,
       "id": "4"
     }
   ],
@@ -43,7 +43,7 @@
     {
       "relation": "attack",
       "source": "0",
-      "target": "3"
+      "target": "2"
     },
     {
       "relation": "support",
@@ -53,12 +53,17 @@
     {
       "relation": "support",
       "source": "0",
-      "target": "2"
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "1",
+      "target": "0"
     },
     {
       "relation": "attack",
       "source": "1",
-      "target": "3"
+      "target": "2"
     },
     {
       "relation": "support",
@@ -68,22 +73,12 @@
     {
       "relation": "attack",
       "source": "1",
-      "target": "0"
-    },
-    {
-      "relation": "support",
-      "source": "1",
-      "target": "2"
-    },
-    {
-      "relation": "support",
-      "source": "2",
-      "target": "0"
-    },
-    {
-      "relation": "support",
-      "source": "2",
       "target": "3"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "0"
     },
     {
       "relation": "support",
@@ -93,15 +88,25 @@
     {
       "relation": "support",
       "source": "2",
+      "target": "3"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
       "target": "1"
     },
     {
       "relation": "support",
       "source": "3",
-      "target": "0"
+      "target": "1"
     },
     {
       "relation": "attack",
+      "source": "3",
+      "target": "0"
+    },
+    {
+      "relation": "support",
       "source": "3",
       "target": "2"
     },
@@ -111,14 +116,14 @@
       "target": "4"
     },
     {
-      "relation": "attack",
-      "source": "3",
-      "target": "1"
+      "relation": "support",
+      "source": "4",
+      "target": "0"
     },
     {
       "relation": "support",
       "source": "4",
-      "target": "1"
+      "target": "2"
     },
     {
       "relation": "support",
@@ -128,12 +133,7 @@
     {
       "relation": "support",
       "source": "4",
-      "target": "0"
-    },
-    {
-      "relation": "support",
-      "source": "4",
-      "target": "2"
+      "target": "1"
     }
   ]
 }

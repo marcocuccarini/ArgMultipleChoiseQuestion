@@ -16,19 +16,19 @@
         0.95
       ],
       [
-        "Electron acceptor",
+        "Oxidant",
         0.9
       ],
       [
-        "Oxidation (chemistry)",
-        0.8
-      ],
-      [
         "Redox reaction",
-        0.75
+        0.6
       ],
       [
-        "Oxygen",
+        "Oxidation",
+        0.5
+      ],
+      [
+        "Electrochemical potential",
         0.4
       ]
     ],
@@ -53,23 +53,23 @@
     "retrieved_pages": [
       [
         "Clone",
+        0.99
+      ],
+      [
+        "Cloning",
         0.95
       ],
       [
-        "Cloning (biotechnology)",
-        0.9
-      ],
-      [
-        "Molecular cloning",
-        0.85
-      ],
-      [
-        "Somatic cell nuclear transfer",
+        "Genetic engineering",
         0.8
       ],
       [
-        "Cell clone",
-        0.75
+        "Biotechnology",
+        0.7
+      ],
+      [
+        "Reproduction",
+        0.6
       ]
     ],
     "choice_facts": {
@@ -92,24 +92,24 @@
     "explanation": "Figure 29.7 Vertebrata are characterized by the presence of a backbone, such as the one that runs through the middle of this fish. All vertebrates are in the Craniata clade and have a cranium. (credit: Ernest V. More; taken at Smithsonian Museum of Natural History, Washington, D.",
     "retrieved_pages": [
       [
-        "Vertebrate",
+        "Backbone",
         0.95
       ],
       [
-        "Vertebral column",
+        "Vertebrate",
         0.9
       ],
       [
-        "Backbone",
+        "Vertebral column",
         0.85
       ],
       [
         "Skeletal system",
-        0.8
+        0.75
       ],
       [
-        "Vertebrate skeleton",
-        0.75
+        "Musculoskeletal system",
+        0.6
       ]
     ],
     "choice_facts": {
@@ -133,23 +133,23 @@
     "retrieved_pages": [
       [
         "Elevation",
-        0.9
-      ],
-      [
-        "Depth",
-        0.6
+        1.0
       ],
       [
         "Altitude",
-        0.5
-      ],
-      [
-        "Vertical datum",
-        0.4
+        0.8
       ],
       [
         "Sea level",
-        0.4
+        0.7
+      ],
+      [
+        "Geodesy",
+        0.6
+      ],
+      [
+        "Vertical datum",
+        0.5
       ]
     ],
     "choice_facts": {
@@ -172,23 +172,23 @@
     "explanation": "Tree rings, ice cores, and varves indicate the environmental conditions at the time they were made.",
     "retrieved_pages": [
       [
-        "Tree rings",
+        "Tree ring",
         0.95
       ],
       [
-        "Paleoclimatology",
-        0.8
-      ],
-      [
         "Ice core",
-        0.75
+        0.9
       ],
       [
         "Varve",
+        0.85
+      ],
+      [
+        "Paleoclimatology",
         0.7
       ],
       [
-        "Fossil record",
+        "Proxy (climatology)",
         0.6
       ]
     ],
@@ -213,23 +213,23 @@
     "retrieved_pages": [
       [
         "Plant hormone",
-        1.0
+        0.95
       ],
       [
         "Phytohormone",
-        0.8
+        0.9
       ],
       [
-        "Plant hormone signaling pathway",
+        "Plant signaling",
+        0.85
+      ],
+      [
+        "Hormone (biology)",
         0.7
       ],
       [
-        "Hormone",
-        0.3
-      ],
-      [
-        "Plant physiology",
-        0.4
+        "Plant growth regulator",
+        0.6
       ]
     ],
     "choice_facts": {
@@ -253,23 +253,23 @@
     "retrieved_pages": [
       [
         "Gametogenesis",
-        1.0
+        0.95
       ],
       [
         "Meiosis",
-        0.9
-      ],
-      [
-        "Gamete",
         0.8
       ],
       [
         "Sperm",
+        0.75
+      ],
+      [
+        "Egg (cell)",
         0.7
       ],
       [
-        "Ovum",
-        0.7
+        "Sexual reproduction",
+        0.6
       ]
     ],
     "choice_facts": {
@@ -292,7 +292,7 @@
     "explanation": "Figure 44.18 Deciduous trees are the dominant plant in the temperate forest. (credit: Oliver Herold).",
     "retrieved_pages": [
       [
-        "Deciduous forest",
+        "Deciduous tree",
         0.95
       ],
       [
@@ -300,16 +300,16 @@
         0.9
       ],
       [
-        "Forest type",
+        "Temperate broadleaf and mixed forest",
+        0.85
+      ],
+      [
+        "Forest ecology",
         0.7
       ],
       [
-        "Tree (plant)",
+        "Tree",
         0.6
-      ],
-      [
-        "Plant ecology",
-        0.5
       ]
     ],
     "choice_facts": {
@@ -333,22 +333,22 @@
     "retrieved_pages": [
       [
         "Viscosity",
+        0.95
+      ],
+      [
+        "Hydrocarbons",
         0.9
       ],
       [
-        "Alkane",
+        "Alkanes",
         0.85
       ],
       [
-        "Hydrocarbon",
+        "Oil",
         0.8
       ],
       [
-        "Viscosity of oils",
-        0.75
-      ],
-      [
-        "Petroleum",
+        "Crude oil",
         0.7
       ]
     ],
@@ -372,24 +372,24 @@
     "explanation": "Ionic compounds have strong electrostatic attractions between oppositely charged ions in a regular array. The lattice energy (U) of an ionic substance is defined as the energy required to dissociate the solid into gaseous ions; U can be calculated from the charges on the ions, the arrangement of the ions in the solid, and the internuclear distance. Because U depends on the product of the ionic charges, substances with dior tripositive cations and/or di- or trinegative anions tend to have higher lattice energies than their singly charged counterparts. Higher lattice energies typically result in higher melting points and increased hardnessbecause more thermal energy is needed to overcome the forces that hold the ions together. Lattice energies cannot be measured directly but are obtained from a thermochemical cycle called the Born–Haber cycle, in which Hess’s law is used to calculate the lattice energy from the measured enthalpy of formation of the ionic compound, along with other thermochemical data. The Born–Haber cycle can be used to predict which ionic compounds are likely to form. Sublimation, the conversion of a solid directly to a gas, has an accompanying enthalpy change called the enthalpy of sublimation.",
     "retrieved_pages": [
       [
-        "Crystal lattice",
-        0.92
-      ],
-      [
-        "Ionic crystal",
-        0.85
-      ],
-      [
-        "Lattice energy",
-        0.78
+        "Ionic compound",
+        0.9
       ],
       [
         "Ionic bond",
-        0.65
+        0.85
+      ],
+      [
+        "Crystal lattice",
+        0.8
       ],
       [
         "Electrostatic force",
-        0.55
+        0.75
+      ],
+      [
+        "Lattice energy",
+        0.7
       ]
     ],
     "choice_facts": {
@@ -413,23 +413,23 @@
     "retrieved_pages": [
       [
         "Mid-ocean ridge",
-        1.0
+        0.95
       ],
       [
         "Mid-Atlantic Ridge",
-        0.9
+        0.85
       ],
       [
         "Seafloor spreading",
-        0.8
+        0.75
       ],
       [
-        "Oceanic ridges",
+        "Seafloor topography",
         0.7
       ],
       [
         "Oceanic crust",
-        0.6
+        0.65
       ]
     ],
     "choice_facts": {
@@ -452,24 +452,24 @@
     "explanation": "This Monarch caterpillar is an invertebrate. It is also an insect and an arthropod. Of all the animal species, it is estimated that well over 90% are invertebrates. Of all invertebrates, the insects are by far the most numerous. There are so many species of insects that scientists have yet to discover them all, let alone name or count them. Estimates of the total number of insect species fall in the range of 1 to 30 million. So, it helps if there are methods to classify not just the insects, but all invertebrates.",
     "retrieved_pages": [
       [
-        "Insects",
-        0.97
+        "Insect",
+        0.95
       ],
       [
-        "Arthropods",
-        0.9
-      ],
-      [
-        "Invertebrates",
+        "Arthropod",
         0.85
       ],
       [
-        "Invertebrate zoology",
+        "Invertebrate",
         0.8
       ],
       [
-        "Invertebrate classification",
-        0.7
+        "Biodiversity",
+        0.6
+      ],
+      [
+        "Animal",
+        0.55
       ]
     ],
     "choice_facts": {
@@ -496,20 +496,20 @@
         0.95
       ],
       [
-        "Sedimentation",
+        "Sandbar",
         0.85
       ],
       [
-        "Sandbar",
-        0.8
+        "Barrier island",
+        0.83
       ],
       [
-        "Barrier island",
+        "Sediment transport",
         0.75
       ],
       [
-        "Coastal processes",
-        0.7
+        "Coastal geomorphology",
+        0.65
       ]
     ],
     "choice_facts": {
@@ -533,23 +533,23 @@
     "retrieved_pages": [
       [
         "Male reproductive system",
-        0.9
+        0.95
       ],
       [
         "Reproductive system",
-        0.8
-      ],
-      [
-        "Testis",
-        0.6
-      ],
-      [
-        "Epididymis",
-        0.5
+        0.85
       ],
       [
         "Penis",
-        0.4
+        0.8
+      ],
+      [
+        "Testes",
+        0.75
+      ],
+      [
+        "Epididymis",
+        0.7
       ]
     ],
     "choice_facts": {
@@ -573,23 +573,23 @@
     "retrieved_pages": [
       [
         "Photosynthesis",
-        0.95
+        0.97
       ],
       [
-        "Carnivorous plant",
-        0.85
+        "Heterotrophic plant",
+        0.82
       ],
       [
-        "Plant nutrition",
-        0.75
-      ],
-      [
-        "Autotroph",
+        "Parasitic plant",
         0.65
       ],
       [
-        "Photosynthetic organism",
-        0.55
+        "Carnivorous plant",
+        0.58
+      ],
+      [
+        "Plant predation",
+        0.42
       ]
     ],
     "choice_facts": {
@@ -613,23 +613,23 @@
     "retrieved_pages": [
       [
         "Electroluminescence",
-        1.0
+        0.99
       ],
       [
-        "Neon lamp",
-        0.95
-      ],
-      [
-        "Gas discharge tube",
+        "Neon sign",
         0.85
       ],
       [
         "Luminescence",
+        0.7
+      ],
+      [
+        "Plasma (physics)",
         0.6
       ],
       [
-        "Neon lighting",
-        0.55
+        "Radiation",
+        0.2
       ]
     ],
     "choice_facts": {
@@ -652,24 +652,24 @@
     "explanation": "Wings evolved in a bird ancestor that lived in trees. Thus, wings are modified arms that helped the animal glide from branch to branch.",
     "retrieved_pages": [
       [
-        "Wings",
-        "0.92"
+        "Archaeopteryx",
+        0.9
       ],
       [
-        "Flight (bird)",
-        "0.88"
+        "Avian flight",
+        0.85
       ],
       [
-        "Avian evolution",
-        "0.85"
+        "Wing (bird)",
+        0.8
       ],
       [
         "Beak",
-        "0.68"
+        0.7
       ],
       [
-        "Arboreal animal",
-        "0.55"
+        "Bird anatomy",
+        0.6
       ]
     ],
     "choice_facts": {
@@ -692,24 +692,24 @@
     "explanation": "Today, most living things use oxygen to make ATP from glucose. However, many living things can also make ATP without oxygen. This is true of some plants and fungi and also of many bacteria. These organisms use aerobic respiration when oxygen is present, but when oxygen is in short supply, they use anaerobic respiration instead. Certain bacteria can only use anaerobic respiration. In fact, they may not be able to survive at all in the presence of oxygen.",
     "retrieved_pages": [
       [
-        "Oxygen",
-        1.0
-      ],
-      [
         "Cellular respiration",
-        0.98
-      ],
-      [
-        "Aerobic respiration",
-        0.95
-      ],
-      [
-        "Oxidative phosphorylation",
         0.9
       ],
       [
-        "Glucose",
-        0.85
+        "Enzymes",
+        0.8
+      ],
+      [
+        "Glycolysis",
+        0.7
+      ],
+      [
+        "ATP synthesis",
+        0.6
+      ],
+      [
+        "Oxidative phosphorylation",
+        0.6
       ]
     ],
     "choice_facts": {
@@ -737,19 +737,19 @@
       ],
       [
         "Quartz",
-        0.94
+        0.95
       ],
       [
         "Silicate minerals",
-        0.85
-      ],
-      [
-        "Minerals of the Earth's crust",
-        0.7
+        0.8
       ],
       [
         "Mineralogy",
         0.6
+      ],
+      [
+        "Olivine",
+        0.4
       ]
     ],
     "choice_facts": {
@@ -773,23 +773,23 @@
     "retrieved_pages": [
       [
         "Humidity",
-        1.0
+        0.97
       ],
       [
         "Relative humidity",
-        0.9
+        0.93
       ],
       [
         "Absolute humidity",
+        0.9
+      ],
+      [
+        "Atmospheric humidity",
+        0.85
+      ],
+      [
+        "Water vapor",
         0.8
-      ],
-      [
-        "Vapor pressure",
-        0.6
-      ],
-      [
-        "Atmospheric moisture",
-        0.5
       ]
     ],
     "choice_facts": {
@@ -812,24 +812,24 @@
     "explanation": "Paracrine Signaling Signals that act locally between cells that are close together are called paracrine signals. Paracrine signals move by diffusion through the extracellular matrix. These types of signals usually elicit quick responses that last only a short amount of time. In order to keep the response localized, paracrine ligand molecules are normally quickly degraded by enzymes or removed by neighboring cells. Removing the signals will reestablish the concentration gradient for the signal, allowing them to quickly diffuse through the intracellular space if released again. One example of paracrine signaling is the transfer of signals across synapses between nerve cells. A nerve cell consists of a cell body, several short, branched extensions called dendrites that receive stimuli, and a long extension called an axon, which transmits signals to other nerve cells or muscle cells. The junction between nerve cells where signal transmission occurs is called a synapse. A synaptic signal is a chemical signal that travels between nerve cells. Signals within the nerve cells are propagated by fast-moving electrical impulses. When these impulses reach the end of the axon, the signal continues on to a dendrite of the next cell by the release of chemical ligands called neurotransmitters by the presynaptic cell (the cell emitting the signal). The neurotransmitters are transported across the very small distances between nerve cells, which are called chemical synapses (Figure 9.3). The small distance between nerve cells allows the signal to travel quickly; this enables an immediate response, such as, Take your hand off the stove! When the neurotransmitter binds the receptor on the surface of the postsynaptic cell, the electrochemical potential of the target cell changes, and the next electrical impulse is launched. The neurotransmitters that are released into the chemical synapse are degraded quickly or get reabsorbed by the presynaptic cell so that the recipient nerve cell can recover quickly and be prepared to respond rapidly to the next synaptic signal.",
     "retrieved_pages": [
       [
-        "Diffusion",
-        0.95
+        "Paracrine signaling",
+        0.92
       ],
       [
-        "Paracrine signaling",
-        0.85
+        "Diffusion (physics)",
+        0.9
       ],
       [
         "Extracellular matrix",
-        0.75
+        0.85
       ],
       [
         "Cell signaling",
-        0.6
+        0.8
       ],
       [
-        "Transport across membranes",
-        0.5
+        "Osmosis",
+        0.45
       ]
     ],
     "choice_facts": {
@@ -853,23 +853,23 @@
     "retrieved_pages": [
       [
         "Plant cell",
-        1.0
+        0.95
       ],
       [
         "Cell wall",
-        0.9
-      ],
-      [
-        "Plastid",
         0.85
       ],
       [
         "Central vacuole",
-        0.75
+        0.8
+      ],
+      [
+        "Plastid",
+        0.7
       ],
       [
         "Animal cell",
-        0.5
+        0.4
       ]
     ],
     "choice_facts": {
@@ -891,26 +891,7 @@
     "correct_answer": "goosebumps",
     "explanation": "Mammals raise their hair with tiny muscles in the skin. Even humans automatically contract these muscles when they are cold. They cause “goosebumps,” as shown here.",
     "retrieved_pages": [
-      [
-        "Goosebumps",
-        0.92
-      ],
-      [
-        "Piloerection",
-        0.88
-      ],
-      [
-        "Hair follicle",
-        0.55
-      ],
-      [
-        "Adrenaline",
-        0.35
-      ],
-      [
-        "Mammal hair",
-        0.3
-      ]
+      "```json\n[\n  [\"Goosebumps\", 0.95],\n  [\"Piloerection\", 0.90],\n  [\"Arrector pili muscle\", 0.85],\n  [\"Hair follicle\", 0.60],\n  [\"Mammalian physiology\", 0.50]\n]\n```"
     ],
     "choice_facts": {
       "bleeding": "Bleeding does not happen when mammals raise their hair with tiny muscles in the skin.",
@@ -933,23 +914,23 @@
     "retrieved_pages": [
       [
         "Osteoporosis",
-        0.98
+        0.95
       ],
       [
         "Bone fracture",
-        0.94
-      ],
-      [
-        "Fracture",
         0.9
       ],
       [
         "Fragility fracture",
-        0.88
+        0.8
       ],
       [
         "Bone density",
-        0.8
+        0.7
+      ],
+      [
+        "Fracture (medicine)",
+        0.6
       ]
     ],
     "choice_facts": {
@@ -972,24 +953,24 @@
     "explanation": "energy that is stored in the connections between atoms in a chemical substance.",
     "retrieved_pages": [
       [
+        "Chemical bond",
+        0.98
+      ],
+      [
         "Chemical energy",
         0.95
       ],
       [
-        "Chemical bond",
+        "Bond energy",
         0.9
       ],
       [
-        "Bond energy",
+        "Bond enthalpy",
         0.85
       ],
       [
-        "Molecular orbital",
-        0.7
-      ],
-      [
-        "Thermochemistry",
-        0.6
+        "Chemical potential energy",
+        0.8
       ]
     ],
     "choice_facts": {
@@ -1012,24 +993,24 @@
     "explanation": "Immune System By the year 2050, 25 percent of the population of the United States will be 60 years of age or older. The CDC estimates that 80 percent of those 60 years and older have one or more chronic disease associated with deficiencies of the immune systems. This loss of immune function with age is called immunosenescence. To treat this growing population, medical professionals must better understand the aging process. One major cause of age-related immune deficiencies is thymic involution, the shrinking of the thymus gland that begins at birth, at a rate of about three percent tissue loss per year, and continues until 35–45 years of age, when the rate declines to about one percent loss per year for the rest of one’s life. At that pace, the total loss of thymic epithelial tissue and thymocytes would occur at about 120 years of age. Thus, this age is a theoretical limit to a healthy human lifespan. Thymic involution has been observed in all vertebrate species that have a thymus gland. Animal studies have shown that transplanted thymic grafts between inbred strains of mice involuted according to the age of the donor and not of the recipient, implying the process is genetically programmed. There is evidence that the thymic microenvironment, so vital to the development of naïve T cells, loses thymic epithelial cells according to the decreasing expression of the FOXN1 gene with age. It is also known that thymic involution can be altered by hormone levels. Sex hormones such as estrogen and testosterone enhance involution, and the hormonal changes in pregnant women cause a temporary thymic involution that reverses itself, when the size of the thymus and its hormone levels return to normal, usually after lactation ceases. What does all this tell us? Can we reverse immunosenescence, or at least slow it down? The potential is there for using thymic transplants from younger donors to keep thymic output of naïve T cells high. Gene therapies that target gene expression are also seen as future possibilities. The more we learn through immunosenescence research, the more opportunities there will be to develop therapies, even though these therapies will likely take decades to develop. The ultimate goal is for everyone to live and be healthy longer, but there may be limits to immortality imposed by our genes and hormones.",
     "retrieved_pages": [
       [
-        "Cardiovascular system",
+        "Immune system",
         0.95
       ],
       [
-        "Cardiovascular disease",
-        0.9
-      ],
-      [
-        "Chronic disease",
-        0.8
+        "Immunosenescence",
+        0.85
       ],
       [
         "Aging",
-        0.6
+        0.75
       ],
       [
-        "Immunosenescence",
-        0.4
+        "Chronic disease",
+        0.65
+      ],
+      [
+        "Health of the elderly",
+        0.6
       ]
     ],
     "choice_facts": {
@@ -1057,19 +1038,19 @@
       ],
       [
         "Ammonium",
-        0.9
+        0.92
+      ],
+      [
+        "Ammonification",
+        0.88
       ],
       [
         "Decomposition (biology)",
         0.85
       ],
       [
-        "Soil fertility",
-        0.7
-      ],
-      [
-        "Nutrient cycle",
-        0.65
+        "Compost",
+        0.8
       ]
     ],
     "choice_facts": {
@@ -1096,20 +1077,20 @@
         0.95
       ],
       [
-        "Parthenogenesis",
-        0.9
-      ],
-      [
-        "Sexual reproduction",
+        "Insect reproduction",
         0.85
       ],
       [
-        "Insect reproduction",
+        "Reproduction in insects",
         0.8
       ],
       [
-        "Insect life cycle",
-        0.7
+        "Reproductive rate",
+        0.65
+      ],
+      [
+        "Sexual reproduction",
+        0.3
       ]
     ],
     "choice_facts": {
@@ -1136,20 +1117,20 @@
         1.0
       ],
       [
-        "Gastric acid",
-        0.9
-      ],
-      [
         "Protein digestion",
-        0.8
-      ],
-      [
-        "Pepsin",
-        0.7
+        0.85
       ],
       [
         "Digestive system",
-        0.6
+        0.75
+      ],
+      [
+        "Hydrochloric acid",
+        0.65
+      ],
+      [
+        "Acidic digestion",
+        0.5
       ]
     ],
     "choice_facts": {
@@ -1173,7 +1154,7 @@
     "retrieved_pages": [
       [
         "Haplodiploidy",
-        0.95
+        1.0
       ],
       [
         "Sex determination",
@@ -1181,15 +1162,15 @@
       ],
       [
         "Rotifer",
-        0.85
+        0.6
       ],
       [
-        "Gender",
-        0.75
+        "Gender determination",
+        0.8
       ],
       [
         "Sexual reproduction",
-        0.7
+        0.5
       ]
     ],
     "choice_facts": {
@@ -1211,7 +1192,26 @@
     "correct_answer": "aluminum",
     "explanation": "Metals represent approximately 25% of the elemental makeup of the Earth's crust. The bulk of these metals, primarily aluminum, iron, calcium, sodium, potassium, and magnesium, are typically found in combined form. The most abundant metal is aluminum, which occurs almost exclusively as the ionic mineral bauxite. The other most common metals, including iron, sodium, potassium, magnesium, and calcium, are also found primarily as the cationic portion of an ionic compound. Very few metals actually occur naturally as pure substances. The ones that do are often referred to as precious or semi-precious metals.",
     "retrieved_pages": [
-      "```json\n[\n  [\"Aluminium\", 0.95],\n  [\"Earth's crust\", 0.80],\n  [\"Element abundance in Earth's crust\", 0.75],\n  [\"Calcium\", 0.40],\n  [\"Copper\", 0.30]\n]\n```"
+      [
+        "Aluminum",
+        0.92
+      ],
+      [
+        "Earth's crust",
+        0.85
+      ],
+      [
+        "Calcium",
+        0.7
+      ],
+      [
+        "Copper",
+        0.3
+      ],
+      [
+        "Magnetite",
+        0.2
+      ]
     ],
     "choice_facts": {
       "calcium": "Calcium is the most abundant metal of the earth's crust.",
@@ -1234,23 +1234,23 @@
     "retrieved_pages": [
       [
         "Thermal energy",
-        0.95
+        0.99
       ],
       [
-        "Kinetic theory of gases",
-        0.8
+        "Kinetic energy",
+        0.84
       ],
       [
         "Heat",
-        0.7
+        0.72
       ],
       [
         "Temperature",
-        0.6
+        0.66
       ],
       [
         "Thermodynamics",
-        0.5
+        0.58
       ]
     ],
     "choice_facts": {
@@ -1277,16 +1277,16 @@
         1.0
       ],
       [
-        "Eye",
-        0.9
-      ],
-      [
         "Iris (eye)",
         0.8
       ],
       [
-        "Eye anatomy",
+        "Eye",
         0.7
+      ],
+      [
+        "Eye anatomy",
+        0.6
       ],
       [
         "Retina",
@@ -1314,22 +1314,22 @@
     "retrieved_pages": [
       [
         "Fight-or-flight response",
-        0.95
-      ],
-      [
-        "Sympathetic nervous system",
-        0.9
+        1.0
       ],
       [
         "Adrenaline",
-        0.85
+        0.9
       ],
       [
         "Norepinephrine",
+        0.85
+      ],
+      [
+        "Sympathetic nervous system",
         0.8
       ],
       [
-        "Stress",
+        "Acute stress",
         0.7
       ]
     ],
@@ -1358,19 +1358,19 @@
       ],
       [
         "Brainstem",
-        0.6
+        0.85
       ],
       [
         "Cerebellum",
-        0.55
+        0.75
       ],
       [
         "Spinal cord",
-        0.5
+        0.7
       ],
       [
         "Cerebral cortex",
-        0.5
+        0.7
       ]
     ],
     "choice_facts": {
@@ -1393,23 +1393,23 @@
     "explanation": "",
     "retrieved_pages": [
       [
-        "Vertebrate",
-        0.9
+        "Triploblasty",
+        0.95
       ],
       [
         "Coelom",
+        0.9
+      ],
+      [
+        "Acoelomate",
         0.85
       ],
       [
-        "Body cavity",
-        0.8
-      ],
-      [
-        "Triploblastic organism",
+        "Vertebrate",
         0.6
       ],
       [
-        "Invertebrate",
+        "Animal body cavity",
         0.5
       ]
     ],
@@ -1434,23 +1434,23 @@
     "retrieved_pages": [
       [
         "Joule",
-        0.95
+        1.0
       ],
       [
-        "Energy",
-        0.85
+        "Heat transfer",
+        0.9
       ],
       [
-        "Heat",
+        "Chemical reaction",
         0.8
       ],
       [
-        "Thermodynamics",
+        "Energy (physics)",
         0.75
       ],
       [
-        "Chemical thermodynamics",
-        0.7
+        "Thermodynamics",
+        0.6
       ]
     ],
     "choice_facts": {
@@ -1473,24 +1473,24 @@
     "explanation": "",
     "retrieved_pages": [
       [
-        "Perennial (plant)",
-        1.0
-      ],
-      [
-        "Plant life cycle",
-        0.8
-      ],
-      [
-        "Annual (plant)",
-        0.5
-      ],
-      [
-        "Biennial (plant)",
-        0.4
+        "Perennial plant",
+        0.95
       ],
       [
         "Tree",
-        0.3
+        0.9
+      ],
+      [
+        "Shrub",
+        0.9
+      ],
+      [
+        "Plant life cycle",
+        0.75
+      ],
+      [
+        "Annual plant",
+        0.4
       ]
     ],
     "choice_facts": {
@@ -1518,18 +1518,18 @@
       ],
       [
         "Cellular respiration",
-        0.9
+        0.95
       ],
       [
-        "Photosynthetic reaction",
-        0.7
+        "Photosynthetic pathway",
+        0.85
       ],
       [
-        "Carbon cycle",
+        "Chlorophyll",
         0.6
       ],
       [
-        "Oxygen (element)",
+        "Glucose metabolism",
         0.5
       ]
     ],
@@ -1552,7 +1552,26 @@
     "correct_answer": "dead organisms",
     "explanation": "Most fungi get organic compounds from dead organisms. They are decomposers called saprotrophs. A saprotroph feeds on any remaining organic matter after other decomposers do their work. Fungi use enzymes to digest organic remains and then absorb the resulting organic compounds. As decomposers, fungi are vital for the health of ecosystems. They break down nonliving organic matter and release the nutrients into the soil. Plants can then use the nutrients and pass them on to herbivores and other consumers.",
     "retrieved_pages": [
-      "```json\n[\n  [\"Saprotroph\", 0.95],\n  [\"Fungi\", 0.9],\n  [\"Heterotrophy\", 0.7],\n  [\"Decomposition\", 0.6],\n  [\"Lignocellulose degradation\", 0.5]\n]\n```"
+      [
+        "Fungi",
+        0.95
+      ],
+      [
+        "Saprophytic organisms",
+        0.9
+      ],
+      [
+        "Decomposer",
+        0.9
+      ],
+      [
+        "Heterotroph",
+        0.8
+      ],
+      [
+        "Nutrient cycle",
+        0.6
+      ]
     ],
     "choice_facts": {
       "inorganic material": "Inorganic material is what most fungi get organic compounds from.",
@@ -1575,23 +1594,23 @@
     "retrieved_pages": [
       [
         "Supernova",
-        0.95
+        0.9
       ],
       [
-        "Stellar evolution",
+        "Core collapse supernova",
         0.85
       ],
       [
-        "Black hole",
-        0.8
+        "Red supergiant",
+        0.7
       ],
       [
-        "Red supergiant",
+        "Black hole",
         0.6
       ],
       [
-        "Pair-instability supernova",
-        0.7
+        "Stellar evolution",
+        0.5
       ]
     ],
     "choice_facts": {
@@ -1614,24 +1633,24 @@
     "explanation": "",
     "retrieved_pages": [
       [
-        "Base pairing",
+        "Hydrogen bond",
         0.95
       ],
       [
-        "Hydrogen bond",
+        "Base pairing (DNA)",
         0.9
       ],
       [
         "DNA",
-        0.85
-      ],
-      [
-        "Nitrogenous bases",
         0.8
       ],
       [
-        "DNA structure",
+        "Hydrogen bonding",
         0.75
+      ],
+      [
+        "Nucleobase",
+        0.7
       ]
     ],
     "choice_facts": {
@@ -1654,24 +1673,24 @@
     "explanation": "",
     "retrieved_pages": [
       [
-        "Plaque (atherosclerosis)",
-        0.95
+        "Atherosclerotic plaque",
+        0.92
+      ],
+      [
+        "Plaque (medicine)",
+        0.88
       ],
       [
         "Atherosclerosis",
-        0.9
-      ],
-      [
-        "Embolism",
         0.85
       ],
       [
         "Arterial embolism",
-        0.8
+        0.78
       ],
       [
         "Blood clot",
-        0.7
+        0.66
       ]
     ],
     "choice_facts": {
@@ -1695,23 +1714,23 @@
     "retrieved_pages": [
       [
         "Hydroxide ion",
-        0.99
+        1.0
       ],
       [
         "Base (chemistry)",
-        0.85
+        0.9
       ],
       [
-        "Acid–base equilibrium",
+        "Basicity",
         0.8
       ],
       [
         "pOH",
-        0.6
+        0.7
       ],
       [
-        "K_b",
-        0.5
+        "Strong base",
+        0.6
       ]
     ],
     "choice_facts": {
@@ -1738,7 +1757,7 @@
         0.95
       ],
       [
-        "Battery (electrochemical cell)",
+        "Battery (electricity)",
         0.9
       ],
       [
@@ -1747,11 +1766,11 @@
       ],
       [
         "Series circuit",
-        0.8
+        0.7
       ],
       [
-        "Cell (battery)",
-        0.75
+        "Electrochemical potential",
+        0.6
       ]
     ],
     "choice_facts": {
@@ -1774,23 +1793,23 @@
     "explanation": "Organisms that live deep in the ocean must be able to withstand extreme water pressure, very cold water, and complete darkness. However, even here, thriving communities of living things can be found. Organisms cluster around hydrothermal vents in the ocean floor. The vents release hot water containing chemicals that would be toxic to most other living things. The producers among them are single-celled chemoautotrophs. They make food using energy stored in the chemicals. The tube worms in this chapter's opening photo depend on these chemoautotrophs for food.",
     "retrieved_pages": [
       [
-        "Barophily",
-        0.95
-      ],
-      [
         "Hydrostatic pressure",
-        0.9
-      ],
-      [
-        "Deep-sea organisms",
-        0.85
-      ],
-      [
-        "Pressure (physics)",
-        0.8
+        1.0
       ],
       [
         "Deep sea",
+        0.9
+      ],
+      [
+        "Pressure in the ocean",
+        0.85
+      ],
+      [
+        "Deep-sea organisms",
+        0.8
+      ],
+      [
+        "Deep-sea biology",
         0.75
       ]
     ],
@@ -1815,23 +1834,23 @@
     "retrieved_pages": [
       [
         "Central nervous system",
-        0.95
+        1.0
       ],
       [
         "Nervous system",
-        0.9
-      ],
-      [
-        "Brain",
-        0.85
-      ],
-      [
-        "Spinal cord",
         0.8
       ],
       [
+        "Brain",
+        0.6
+      ],
+      [
+        "Spinal cord",
+        0.6
+      ],
+      [
         "Peripheral nervous system",
-        0.2
+        0.4
       ]
     ],
     "choice_facts": {
@@ -1854,24 +1873,24 @@
     "explanation": "Enzymes are biochemical catalysts that speed up biochemical reactions. Without enzymes, most chemical reactions in living things would occur too slowly to keep organisms alive.",
     "retrieved_pages": [
       [
-        "Enzyme",
-        0.98
-      ],
-      [
-        "Enzymology",
-        0.85
-      ],
-      [
-        "Enzyme kinetics",
-        0.8
+        "Enzymes",
+        1.0
       ],
       [
         "Catalysis",
+        0.8
+      ],
+      [
+        "Enzyme kinetics",
         0.7
       ],
       [
         "Biochemistry",
         0.6
+      ],
+      [
+        "Biochemical reaction",
+        0.5
       ]
     ],
     "choice_facts": {
@@ -1898,20 +1917,20 @@
         1.0
       ],
       [
-        "Fixation (population genetics)",
+        "Bottleneck effect",
         0.9
       ],
       [
-        "Population genetics",
+        "Founder effect",
         0.8
       ],
       [
-        "Allele",
-        0.5
+        "Population genetics",
+        0.7
       ],
       [
-        "Natural selection",
-        0.3
+        "Hardy–Weinberg equilibrium",
+        0.5
       ]
     ],
     "choice_facts": {
@@ -1935,23 +1954,23 @@
     "retrieved_pages": [
       [
         "Fossil record",
-        0.9
-      ],
-      [
-        "Paleontology",
-        0.8
-      ],
-      [
-        "Geologic timescale",
-        0.7
-      ],
-      [
-        "Mesozoic Era",
-        0.7
+        1.0
       ],
       [
         "Dinosaurs",
+        0.8
+      ],
+      [
+        "Paleontology",
+        0.7
+      ],
+      [
+        "Triassic",
         0.6
+      ],
+      [
+        "Geologic timescale",
+        0.5
       ]
     ],
     "choice_facts": {

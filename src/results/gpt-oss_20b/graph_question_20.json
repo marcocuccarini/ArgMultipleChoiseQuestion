@@ -5,45 +5,45 @@
   "nodes": [
     {
       "type": "claim",
-      "text": "Temperature means the amount of water vapor in the air.",
-      "strength": 0.00019853030104059646,
+      "text": "humidity",
+      "strength": 0.5,
       "id": "0"
     },
     {
       "type": "evidence",
-      "text": "Pressure is the term for the amount of water vapor in the air.",
-      "strength": 1.535958022678078e-07,
+      "text": "temperature",
+      "strength": 0.9998011872598469,
       "id": "1"
     },
     {
       "type": "evidence",
-      "text": "Ambient is the amount of water vapor in the air.",
-      "strength": 0.49999936622783153,
+      "text": "pressure",
+      "strength": 0.5,
       "id": "2"
     },
     {
       "type": "evidence",
-      "text": "Humidity is the amount of water vapor in the air.",
-      "strength": 0.999800818609083,
+      "text": "ambient",
+      "strength": 0.9998011872598469,
       "id": "3"
     },
     {
       "type": "evidence",
-      "text": "Humidity is the concentration of water vapor present in the air.",
-      "strength": 0.999800818609083,
+      "text": "```json",
+      "strength": 0.5,
       "id": "4"
     }
   ],
   "links": [
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "0",
       "target": "1"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "0",
-      "target": "3"
+      "target": "2"
     },
     {
       "relation": "support",
@@ -51,62 +51,62 @@
       "target": "4"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "0",
-      "target": "2"
-    },
-    {
-      "relation": "attack",
-      "source": "1",
       "target": "3"
     },
     {
-      "relation": "attack",
-      "source": "1",
-      "target": "4"
-    },
-    {
-      "relation": "attack",
+      "relation": "support",
       "source": "1",
       "target": "0"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "1",
       "target": "2"
     },
     {
-      "relation": "attack",
-      "source": "2",
-      "target": "1"
+      "relation": "support",
+      "source": "1",
+      "target": "4"
     },
     {
-      "relation": "attack",
+      "relation": "support",
+      "source": "1",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "2",
+      "target": "0"
+    },
+    {
+      "relation": "support",
       "source": "2",
       "target": "4"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "2",
       "target": "3"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "2",
-      "target": "0"
+      "target": "1"
     },
     {
-      "relation": "attack",
-      "source": "3",
-      "target": "0"
-    },
-    {
-      "relation": "attack",
+      "relation": "support",
       "source": "3",
       "target": "1"
     },
     {
-      "relation": "attack",
+      "relation": "support",
+      "source": "3",
+      "target": "0"
+    },
+    {
+      "relation": "support",
       "source": "3",
       "target": "2"
     },
@@ -116,12 +116,12 @@
       "target": "4"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "4",
-      "target": "1"
+      "target": "0"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "4",
       "target": "2"
     },
@@ -133,7 +133,7 @@
     {
       "relation": "support",
       "source": "4",
-      "target": "0"
+      "target": "1"
     }
   ]
 }

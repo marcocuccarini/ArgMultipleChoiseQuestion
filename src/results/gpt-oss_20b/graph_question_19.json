@@ -5,45 +5,45 @@
   "nodes": [
     {
       "type": "claim",
-      "text": "Olivine and quartz are the two most common silicates.",
-      "strength": 0.22913441326964676,
+      "text": "feldspar and quartz",
+      "strength": 0.5,
       "id": "0"
     },
     {
       "type": "evidence",
-      "text": "Micas and feldspar are the two most common silicates.",
-      "strength": 0.22913441326964676,
+      "text": "Olivine and quartz",
+      "strength": 0.5,
       "id": "1"
     },
     {
       "type": "evidence",
-      "text": "Micas and quartz are the two most common silicates.",
-      "strength": 0.22913441326964676,
+      "text": "Micas\t and feldspar",
+      "strength": 0.5,
       "id": "2"
     },
     {
       "type": "evidence",
-      "text": "Feldspar and quartz are the two most common silicates.",
-      "strength": 0.22913441326964676,
+      "text": "Micas\t and quartz",
+      "strength": 0.5,
       "id": "3"
     },
     {
       "type": "evidence",
-      "text": "Silicates can be classified according to the length and crosslinking of the silicate anions",
+      "text": "```json",
       "strength": 0.5,
       "id": "4"
     }
   ],
   "links": [
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "0",
       "target": "1"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "0",
-      "target": "3"
+      "target": "2"
     },
     {
       "relation": "support",
@@ -51,14 +51,19 @@
       "target": "4"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "0",
-      "target": "2"
+      "target": "3"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "1",
-      "target": "3"
+      "target": "0"
+    },
+    {
+      "relation": "support",
+      "source": "1",
+      "target": "2"
     },
     {
       "relation": "support",
@@ -66,47 +71,42 @@
       "target": "4"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "1",
+      "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "2",
       "target": "0"
     },
     {
-      "relation": "attack",
-      "source": "1",
-      "target": "2"
-    },
-    {
-      "relation": "attack",
-      "source": "2",
-      "target": "1"
-    },
-    {
-      "relation": "attack",
+      "relation": "support",
       "source": "2",
       "target": "4"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "2",
       "target": "3"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "2",
-      "target": "0"
+      "target": "1"
     },
     {
-      "relation": "attack",
-      "source": "3",
-      "target": "0"
-    },
-    {
-      "relation": "attack",
+      "relation": "support",
       "source": "3",
       "target": "1"
     },
     {
-      "relation": "attack",
+      "relation": "support",
+      "source": "3",
+      "target": "0"
+    },
+    {
+      "relation": "support",
       "source": "3",
       "target": "2"
     },
@@ -118,10 +118,10 @@
     {
       "relation": "support",
       "source": "4",
-      "target": "1"
+      "target": "0"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "4",
       "target": "2"
     },
@@ -133,7 +133,7 @@
     {
       "relation": "support",
       "source": "4",
-      "target": "0"
+      "target": "1"
     }
   ]
 }

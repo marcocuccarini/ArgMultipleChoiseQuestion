@@ -5,45 +5,45 @@
   "nodes": [
     {
       "type": "claim",
-      "text": "Heavy energy is the term for the total kinetic energy of moving particles of matter.",
-      "strength": 9.951981915120231e-05,
+      "text": "thermal energy",
+      "strength": 0.9998011872598469,
       "id": "0"
     },
     {
       "type": "evidence",
-      "text": "Mechanical energy is the term for the total kinetic energy of moving particles of matter.",
-      "strength": 9.960377150265189e-05,
+      "text": "heavy energy",
+      "strength": 0.5,
       "id": "1"
     },
     {
       "type": "evidence",
-      "text": "Newton's energy is the term for the total kinetic energy of moving particles of matter.",
-      "strength": 0.5,
+      "text": "mechanical energy",
+      "strength": 0.9998011872598469,
       "id": "2"
     },
     {
       "type": "evidence",
-      "text": "Thermal energy is the total kinetic energy of moving particles of matter.",
-      "strength": 0.9998008627741957,
+      "text": "Newton's energy",
+      "strength": 0.9998011872598469,
       "id": "3"
     },
     {
       "type": "evidence",
-      "text": "In physics, the kinetic energy of an object is the form of energy that it possesses due to its motion.",
-      "strength": 0.9999004764290196,
+      "text": "Internal energy: The energy contained within a body of matter or radiation, excluding the potential energy of the whole system",
+      "strength": 0.9998011872598469,
       "id": "4"
     }
   ],
   "links": [
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "0",
       "target": "1"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "0",
-      "target": "3"
+      "target": "2"
     },
     {
       "relation": "support",
@@ -53,37 +53,32 @@
     {
       "relation": "attack",
       "source": "0",
-      "target": "2"
-    },
-    {
-      "relation": "attack",
-      "source": "1",
       "target": "3"
     },
     {
       "relation": "attack",
+      "source": "1",
+      "target": "0"
+    },
+    {
+      "relation": "support",
+      "source": "1",
+      "target": "2"
+    },
+    {
+      "relation": "support",
       "source": "1",
       "target": "4"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "1",
-      "target": "0"
-    },
-    {
-      "relation": "attack",
-      "source": "1",
-      "target": "2"
-    },
-    {
-      "relation": "attack",
-      "source": "2",
-      "target": "0"
-    },
-    {
-      "relation": "attack",
-      "source": "2",
       "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "2",
+      "target": "0"
     },
     {
       "relation": "support",
@@ -91,17 +86,27 @@
       "target": "4"
     },
     {
-      "relation": "attack",
+      "relation": "support",
+      "source": "2",
+      "target": "3"
+    },
+    {
+      "relation": "support",
       "source": "2",
       "target": "1"
     },
     {
-      "relation": "attack",
+      "relation": "support",
+      "source": "3",
+      "target": "1"
+    },
+    {
+      "relation": "support",
       "source": "3",
       "target": "0"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "3",
       "target": "2"
     },
@@ -112,13 +117,13 @@
     },
     {
       "relation": "attack",
-      "source": "3",
-      "target": "1"
+      "source": "4",
+      "target": "0"
     },
     {
       "relation": "support",
       "source": "4",
-      "target": "1"
+      "target": "2"
     },
     {
       "relation": "support",
@@ -126,14 +131,9 @@
       "target": "3"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "4",
-      "target": "0"
-    },
-    {
-      "relation": "attack",
-      "source": "4",
-      "target": "2"
+      "target": "1"
     }
   ]
 }

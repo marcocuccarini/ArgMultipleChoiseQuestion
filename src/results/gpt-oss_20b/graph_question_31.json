@@ -5,40 +5,50 @@
   "nodes": [
     {
       "type": "claim",
-      "text": "Calcium is the most abundant metal of the earth's crust.",
-      "strength": 0.012942615181541635,
+      "text": "aluminum",
+      "strength": 0.5,
       "id": "0"
     },
     {
       "type": "evidence",
-      "text": "Copper is the most abundant metal of the earth's crust.",
-      "strength": 0.012942615181541635,
+      "text": "calcium",
+      "strength": 0.5,
       "id": "1"
     },
     {
       "type": "evidence",
-      "text": "Magnetite is the most abundant metal of the earth's crust.",
-      "strength": 0.0003338499690029423,
+      "text": "copper",
+      "strength": 0.5,
       "id": "2"
     },
     {
       "type": "evidence",
-      "text": "Aluminum is the most abundant metal of the earth's crust.",
-      "strength": 0.9738659963796811,
+      "text": "magnetite",
+      "strength": 0.5,
       "id": "3"
     },
     {
       "type": "evidence",
-      "text": "This is because aluminium easily forms the oxide and becomes bound into rocks and stays in the Earth's crust, while less reactive metals sink to the core.",
-      "strength": 0.9739749617258464,
+      "text": "The backtick is a typographical mark used mainly in computing",
+      "strength": 0.5,
       "id": "4"
     }
   ],
   "links": [
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "0",
       "target": "1"
+    },
+    {
+      "relation": "support",
+      "source": "0",
+      "target": "2"
+    },
+    {
+      "relation": "support",
+      "source": "0",
+      "target": "4"
     },
     {
       "relation": "attack",
@@ -47,43 +57,28 @@
     },
     {
       "relation": "attack",
-      "source": "0",
-      "target": "4"
-    },
-    {
-      "relation": "attack",
-      "source": "0",
-      "target": "2"
-    },
-    {
-      "relation": "attack",
-      "source": "1",
-      "target": "3"
-    },
-    {
-      "relation": "attack",
-      "source": "1",
-      "target": "4"
-    },
-    {
-      "relation": "attack",
       "source": "1",
       "target": "0"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "1",
       "target": "2"
     },
     {
-      "relation": "attack",
-      "source": "2",
-      "target": "0"
+      "relation": "support",
+      "source": "1",
+      "target": "4"
     },
     {
-      "relation": "attack",
-      "source": "2",
+      "relation": "support",
+      "source": "1",
       "target": "3"
+    },
+    {
+      "relation": "support",
+      "source": "2",
+      "target": "0"
     },
     {
       "relation": "support",
@@ -91,17 +86,27 @@
       "target": "4"
     },
     {
-      "relation": "attack",
+      "relation": "support",
+      "source": "2",
+      "target": "3"
+    },
+    {
+      "relation": "support",
       "source": "2",
       "target": "1"
     },
     {
-      "relation": "attack",
+      "relation": "support",
+      "source": "3",
+      "target": "1"
+    },
+    {
+      "relation": "support",
       "source": "3",
       "target": "0"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "3",
       "target": "2"
     },
@@ -109,16 +114,16 @@
       "relation": "support",
       "source": "3",
       "target": "4"
-    },
-    {
-      "relation": "attack",
-      "source": "3",
-      "target": "1"
     },
     {
       "relation": "support",
       "source": "4",
-      "target": "1"
+      "target": "0"
+    },
+    {
+      "relation": "support",
+      "source": "4",
+      "target": "2"
     },
     {
       "relation": "support",
@@ -126,14 +131,9 @@
       "target": "3"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "4",
-      "target": "0"
-    },
-    {
-      "relation": "attack",
-      "source": "4",
-      "target": "2"
+      "target": "1"
     }
   ]
 }

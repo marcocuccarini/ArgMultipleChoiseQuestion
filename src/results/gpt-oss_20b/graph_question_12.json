@@ -5,32 +5,32 @@
   "nodes": [
     {
       "type": "claim",
-      "text": "Spiders are by far the most common type of invertebrate.",
-      "strength": 0.07591185877645884,
+      "text": "insects",
+      "strength": 0.5,
       "id": "0"
     },
     {
       "type": "evidence",
-      "text": "Crustaceans are by far the most common type of invertebrate.",
-      "strength": 0.07591185877645884,
+      "text": "spiders",
+      "strength": 0.9998916564595279,
       "id": "1"
     },
     {
       "type": "evidence",
-      "text": "Corals are by far the most common type of invertebrate.",
-      "strength": 0.1688122001929623,
+      "text": "crustaceans",
+      "strength": 0.9998916564595279,
       "id": "2"
     },
     {
       "type": "evidence",
-      "text": "Insects are by far the most common type of invertebrate.",
-      "strength": 0.6047921092919584,
+      "text": "corals",
+      "strength": 0.9998916564595279,
       "id": "3"
     },
     {
       "type": "evidence",
-      "text": "By far the largest number of described invertebrate species are insects.",
-      "strength": 0.5,
+      "text": "Invertebrate zoology is the subdiscipline\u10d1\u10d8\u10da\u10d8\u10e1 of zoology that consists of the study of invertebrates",
+      "strength": 0.9999811084441604,
       "id": "4"
     }
   ],
@@ -43,7 +43,7 @@
     {
       "relation": "attack",
       "source": "0",
-      "target": "3"
+      "target": "2"
     },
     {
       "relation": "support",
@@ -53,17 +53,7 @@
     {
       "relation": "attack",
       "source": "0",
-      "target": "2"
-    },
-    {
-      "relation": "attack",
-      "source": "1",
       "target": "3"
-    },
-    {
-      "relation": "support",
-      "source": "1",
-      "target": "4"
     },
     {
       "relation": "attack",
@@ -74,31 +64,36 @@
       "relation": "attack",
       "source": "1",
       "target": "2"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "3"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "0"
+    },
+    {
+      "relation": "support",
+      "source": "2",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "3"
     },
     {
       "relation": "attack",
       "source": "2",
       "target": "1"
-    },
-    {
-      "relation": "support",
-      "source": "2",
-      "target": "4"
-    },
-    {
-      "relation": "attack",
-      "source": "2",
-      "target": "3"
-    },
-    {
-      "relation": "attack",
-      "source": "2",
-      "target": "0"
-    },
-    {
-      "relation": "attack",
-      "source": "3",
-      "target": "0"
     },
     {
       "relation": "attack",
@@ -108,6 +103,11 @@
     {
       "relation": "attack",
       "source": "3",
+      "target": "0"
+    },
+    {
+      "relation": "attack",
+      "source": "3",
       "target": "2"
     },
     {
@@ -116,12 +116,12 @@
       "target": "4"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "4",
-      "target": "1"
+      "target": "0"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "4",
       "target": "2"
     },
@@ -131,9 +131,9 @@
       "target": "3"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "4",
-      "target": "0"
+      "target": "1"
     }
   ]
 }

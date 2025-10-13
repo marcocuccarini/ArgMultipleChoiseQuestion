@@ -5,26 +5,26 @@
   "nodes": [
     {
       "type": "claim",
-      "text": "Very massive stars become super novas at the end of their lives.",
-      "strength": 0.9994770254587766,
+      "text": "become red supergiants",
+      "strength": 0.5,
       "id": "0"
     },
     {
       "type": "evidence",
-      "text": "Very massive stars explode at the end of their lives.",
-      "strength": 0.9994770254587766,
+      "text": "become super novas",
+      "strength": 0.5998789963438983,
       "id": "1"
     },
     {
       "type": "evidence",
-      "text": "Very massive stars end their lives consumed by a black hole.",
-      "strength": 0.0003232160417269345,
+      "text": "explode",
+      "strength": 0.7498140145846289,
       "id": "2"
     },
     {
       "type": "evidence",
-      "text": "Very massive stars become red supergiants at the end of their lives.",
-      "strength": 0.0003232160417269345,
+      "text": "consumed by black hole",
+      "strength": 0.30011254393105613,
       "id": "3"
     },
     {
@@ -41,29 +41,19 @@
       "target": "1"
     },
     {
-      "relation": "attack",
-      "source": "0",
-      "target": "3"
-    },
-    {
       "relation": "support",
-      "source": "0",
-      "target": "4"
-    },
-    {
-      "relation": "attack",
       "source": "0",
       "target": "2"
     },
     {
-      "relation": "attack",
-      "source": "1",
-      "target": "3"
+      "relation": "support",
+      "source": "0",
+      "target": "4"
     },
     {
       "relation": "support",
-      "source": "1",
-      "target": "4"
+      "source": "0",
+      "target": "3"
     },
     {
       "relation": "support",
@@ -71,9 +61,19 @@
       "target": "0"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "1",
       "target": "2"
+    },
+    {
+      "relation": "support",
+      "source": "1",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "3"
     },
     {
       "relation": "attack",
@@ -81,14 +81,14 @@
       "target": "0"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "2",
-      "target": "3"
+      "target": "4"
     },
     {
       "relation": "attack",
       "source": "2",
-      "target": "4"
+      "target": "3"
     },
     {
       "relation": "attack",
@@ -96,7 +96,12 @@
       "target": "1"
     },
     {
-      "relation": "support",
+      "relation": "attack",
+      "source": "3",
+      "target": "1"
+    },
+    {
+      "relation": "attack",
       "source": "3",
       "target": "0"
     },
@@ -112,13 +117,13 @@
     },
     {
       "relation": "support",
-      "source": "3",
-      "target": "1"
+      "source": "4",
+      "target": "0"
     },
     {
       "relation": "support",
       "source": "4",
-      "target": "1"
+      "target": "2"
     },
     {
       "relation": "support",
@@ -128,12 +133,7 @@
     {
       "relation": "support",
       "source": "4",
-      "target": "0"
-    },
-    {
-      "relation": "attack",
-      "source": "4",
-      "target": "2"
+      "target": "1"
     }
   ]
 }

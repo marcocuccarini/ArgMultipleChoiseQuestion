@@ -5,31 +5,31 @@
   "nodes": [
     {
       "type": "claim",
-      "text": "Magma deposits waves to form sandbars and barrier islands.",
-      "strength": 0.19399574271428605,
+      "text": "sediments",
+      "strength": 0.7499005936298626,
       "id": "0"
     },
     {
       "type": "evidence",
-      "text": "Organisms deposit waves to form sandbars and barrier islands.",
-      "strength": 0.19399574271428605,
+      "text": "magma",
+      "strength": 0.5,
       "id": "1"
     },
     {
       "type": "evidence",
-      "text": "Glaciers deposit waves to form sandbars and barrier islands.",
-      "strength": 0.4029026795368768,
+      "text": "organisms",
+      "strength": 0.2500994063701377,
       "id": "2"
     },
     {
       "type": "evidence",
-      "text": "Sediments are deposited by waves to form sandbars and barrier islands.",
-      "strength": 0.19399574271428602,
+      "text": "glaciers",
+      "strength": 0.5,
       "id": "3"
     },
     {
       "type": "evidence",
-      "text": "```json",
+      "text": "Barrier islands are a coastal landform, a type of dune system and sand island",
       "strength": 0.5,
       "id": "4"
     }
@@ -43,7 +43,7 @@
     {
       "relation": "attack",
       "source": "0",
-      "target": "3"
+      "target": "2"
     },
     {
       "relation": "support",
@@ -53,17 +53,7 @@
     {
       "relation": "attack",
       "source": "0",
-      "target": "2"
-    },
-    {
-      "relation": "attack",
-      "source": "1",
       "target": "3"
-    },
-    {
-      "relation": "support",
-      "source": "1",
-      "target": "4"
     },
     {
       "relation": "attack",
@@ -74,31 +64,36 @@
       "relation": "attack",
       "source": "1",
       "target": "2"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "1",
+      "target": "3"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "0"
+    },
+    {
+      "relation": "support",
+      "source": "2",
+      "target": "4"
+    },
+    {
+      "relation": "attack",
+      "source": "2",
+      "target": "3"
     },
     {
       "relation": "attack",
       "source": "2",
       "target": "1"
-    },
-    {
-      "relation": "support",
-      "source": "2",
-      "target": "4"
-    },
-    {
-      "relation": "attack",
-      "source": "2",
-      "target": "3"
-    },
-    {
-      "relation": "attack",
-      "source": "2",
-      "target": "0"
-    },
-    {
-      "relation": "attack",
-      "source": "3",
-      "target": "0"
     },
     {
       "relation": "attack",
@@ -108,6 +103,11 @@
     {
       "relation": "attack",
       "source": "3",
+      "target": "0"
+    },
+    {
+      "relation": "attack",
+      "source": "3",
       "target": "2"
     },
     {
@@ -116,12 +116,12 @@
       "target": "4"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "4",
-      "target": "1"
+      "target": "0"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "4",
       "target": "2"
     },
@@ -131,9 +131,9 @@
       "target": "3"
     },
     {
-      "relation": "attack",
+      "relation": "support",
       "source": "4",
-      "target": "0"
+      "target": "1"
     }
   ]
 }
