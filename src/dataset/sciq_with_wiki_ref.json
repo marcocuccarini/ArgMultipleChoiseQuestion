@@ -16,20 +16,20 @@
         0.95
       ],
       [
-        "Oxidant",
-        0.9
+        "Oxidation (chemistry)",
+        0.85
       ],
       [
         "Redox reaction",
-        0.6
+        0.8
       ],
       [
-        "Oxidation",
+        "Electrophile",
+        0.55
+      ],
+      [
+        "Electron transfer",
         0.5
-      ],
-      [
-        "Electrochemical potential",
-        0.4
       ]
     ],
     "choice_facts": {
@@ -52,24 +52,24 @@
     "explanation": "But transgenic animals just have one novel gene. What about an animal with a whole new genome? Could a clone , a genetically exact copy of an organism, be developed using techniques associated with biotechnology? It could be argued that human cloning is one of the inevitable outcomes of modern biotechnology. It \"simply\" involves the removal of the nucleus from a somatic cell and its placement into an unfertilized egg cell whose nucleus has either been deactivated or removed. This new cell would mimic the zygote, the first diploid cell of a new organism. This new zygote is allowed to become established, and a few days later is placed into the uterus of a surrogate mother. Theoretically this would result in an individual genetically identical to the donor. Obviously, there are many ethical and legal issues associated with human cloning, and of course, it is not a \"simple\" procedure. But animal cloning is arguably a different story.",
     "retrieved_pages": [
       [
-        "Clone",
-        0.99
+        "Clone (biology)",
+        1.0
       ],
       [
-        "Cloning",
+        "Cloning (biotechnology)",
         0.95
       ],
       [
-        "Genetic engineering",
-        0.8
+        "Clonal reproduction",
+        0.85
       ],
       [
-        "Biotechnology",
+        "Cell clone",
+        0.75
+      ],
+      [
+        "Genetic clone",
         0.7
-      ],
-      [
-        "Reproduction",
-        0.6
       ]
     ],
     "choice_facts": {
@@ -92,23 +92,23 @@
     "explanation": "Figure 29.7 Vertebrata are characterized by the presence of a backbone, such as the one that runs through the middle of this fish. All vertebrates are in the Craniata clade and have a cranium. (credit: Ernest V. More; taken at Smithsonian Museum of Natural History, Washington, D.",
     "retrieved_pages": [
       [
-        "Backbone",
-        0.95
-      ],
-      [
         "Vertebrate",
         0.9
       ],
       [
-        "Vertebral column",
+        "Vertebra",
         0.85
       ],
       [
-        "Skeletal system",
+        "Vertebral column",
+        0.8
+      ],
+      [
+        "Backbone",
         0.75
       ],
       [
-        "Musculoskeletal system",
+        "Skeletal system",
         0.6
       ]
     ],
@@ -136,20 +136,20 @@
         1.0
       ],
       [
+        "Sea level",
+        0.9
+      ],
+      [
         "Altitude",
         0.8
       ],
       [
-        "Sea level",
+        "Topography",
         0.7
       ],
       [
         "Geodesy",
         0.6
-      ],
-      [
-        "Vertical datum",
-        0.5
       ]
     ],
     "choice_facts": {
@@ -176,20 +176,20 @@
         0.95
       ],
       [
-        "Ice core",
-        0.9
-      ],
-      [
-        "Varve",
-        0.85
-      ],
-      [
         "Paleoclimatology",
+        0.8
+      ],
+      [
+        "Proxy (climate science)",
+        0.75
+      ],
+      [
+        "Ice core",
         0.7
       ],
       [
-        "Proxy (climatology)",
-        0.6
+        "Varve",
+        0.7
       ]
     ],
     "choice_facts": {
@@ -213,22 +213,22 @@
     "retrieved_pages": [
       [
         "Plant hormone",
-        0.95
+        0.98
       ],
       [
-        "Phytohormone",
+        "Plant hormone signaling",
         0.9
       ],
       [
-        "Plant signaling",
-        0.85
+        "Auxin",
+        0.8
       ],
       [
-        "Hormone (biology)",
+        "Cytokinin",
         0.7
       ],
       [
-        "Plant growth regulator",
+        "Gibberellin",
         0.6
       ]
     ],
@@ -252,24 +252,24 @@
     "explanation": "Gametogenesis (Spermatogenesis and Oogenesis) Gametogenesis, the production of sperm and eggs, involves the process of meiosis. During meiosis, two nuclear divisions separate the paired chromosomes in the nucleus and then separate the chromatids that were made during an earlier stage of the cell’s life cycle. Meiosis and its associated cell divisions produces haploid cells with half of each pair of chromosomes normally found in diploid cells. The production of sperm is called spermatogenesis and the production of eggs is called oogenesis. Spermatogenesis Spermatogenesis occurs in the wall of the seminiferous tubules, with the most primitive cells at the periphery of the tube and the most mature sperm at the lumen of the tube (Figure 18.14). Immediately under the capsule of the tubule are diploid, undifferentiated cells. These stem cells, each called a spermatogonium (pl. spermatogonia), go through mitosis to produce one cell that remains as a stem cell and a second cell called a primary spermatocyte that will undergo meiosis to produce sperm. The diploid primary spermatocyte goes through meiosis I to produce two haploid cells called secondary spermatocytes. Each secondary spermatocyte divides after meiosis II to produce two cells called spermatids. The spermatids eventually reach the lumen of the tubule and grow a flagellum, becoming sperm cells. Four sperm result from each primary spermatocyte that goes through meiosis.",
     "retrieved_pages": [
       [
-        "Gametogenesis",
+        "Gamete",
         0.95
       ],
       [
+        "Gametogenesis",
+        0.9
+      ],
+      [
         "Meiosis",
-        0.8
+        0.85
       ],
       [
         "Sperm",
+        0.8
+      ],
+      [
+        "Egg (biology)",
         0.75
-      ],
-      [
-        "Egg (cell)",
-        0.7
-      ],
-      [
-        "Sexual reproduction",
-        0.6
       ]
     ],
     "choice_facts": {
@@ -293,23 +293,23 @@
     "retrieved_pages": [
       [
         "Deciduous tree",
-        0.95
-      ],
-      [
-        "Temperate forest",
         0.9
       ],
       [
-        "Temperate broadleaf and mixed forest",
+        "Temperate forest",
         0.85
       ],
       [
-        "Forest ecology",
+        "Broadleaf forest",
         0.7
       ],
       [
-        "Tree",
+        "Forest ecology",
         0.6
+      ],
+      [
+        "Coniferous forest",
+        0.4
       ]
     ],
     "choice_facts": {
@@ -336,19 +336,19 @@
         0.95
       ],
       [
-        "Hydrocarbons",
-        0.9
-      ],
-      [
         "Alkanes",
         0.85
       ],
       [
-        "Oil",
+        "Petroleum",
         0.8
       ],
       [
-        "Crude oil",
+        "Oil",
+        0.75
+      ],
+      [
+        "Hydrocarbon",
         0.7
       ]
     ],
@@ -371,26 +371,7 @@
     "correct_answer": "regular array",
     "explanation": "Ionic compounds have strong electrostatic attractions between oppositely charged ions in a regular array. The lattice energy (U) of an ionic substance is defined as the energy required to dissociate the solid into gaseous ions; U can be calculated from the charges on the ions, the arrangement of the ions in the solid, and the internuclear distance. Because U depends on the product of the ionic charges, substances with dior tripositive cations and/or di- or trinegative anions tend to have higher lattice energies than their singly charged counterparts. Higher lattice energies typically result in higher melting points and increased hardnessbecause more thermal energy is needed to overcome the forces that hold the ions together. Lattice energies cannot be measured directly but are obtained from a thermochemical cycle called the Born–Haber cycle, in which Hess’s law is used to calculate the lattice energy from the measured enthalpy of formation of the ionic compound, along with other thermochemical data. The Born–Haber cycle can be used to predict which ionic compounds are likely to form. Sublimation, the conversion of a solid directly to a gas, has an accompanying enthalpy change called the enthalpy of sublimation.",
     "retrieved_pages": [
-      [
-        "Ionic compound",
-        0.9
-      ],
-      [
-        "Ionic bond",
-        0.85
-      ],
-      [
-        "Crystal lattice",
-        0.8
-      ],
-      [
-        "Electrostatic force",
-        0.75
-      ],
-      [
-        "Lattice energy",
-        0.7
-      ]
+      "```json\n[\n  [\"Crystal lattice\", 0.95],\n  [\"Ionic compound\", 0.90],\n  [\"Electrostatic force\", 0.85],\n  [\"Coulomb's law\", 0.80],\n  [\"Solid-state chemistry\", 0.75]\n]\n```"
     ],
     "choice_facts": {
       "incorrect array": "Ionic compounds have strong electrostatic attractions between oppositely charged ions in an incorrect array.",
@@ -413,23 +394,23 @@
     "retrieved_pages": [
       [
         "Mid-ocean ridge",
-        0.95
+        1.0
       ],
       [
         "Mid-Atlantic Ridge",
-        0.85
+        0.9
       ],
       [
-        "Seafloor spreading",
-        0.75
+        "Oceanic crust",
+        0.8
       ],
       [
         "Seafloor topography",
         0.7
       ],
       [
-        "Oceanic crust",
-        0.65
+        "Oceanic lithosphere",
+        0.6
       ]
     ],
     "choice_facts": {
@@ -453,22 +434,22 @@
     "retrieved_pages": [
       [
         "Insect",
-        0.95
-      ],
-      [
-        "Arthropod",
-        0.85
+        0.97
       ],
       [
         "Invertebrate",
-        0.8
+        0.93
       ],
       [
-        "Biodiversity",
-        0.6
+        "Arthropod",
+        0.88
       ],
       [
-        "Animal",
+        "Insect biodiversity",
+        0.82
+      ],
+      [
+        "Spiders",
         0.55
       ]
     ],
@@ -493,22 +474,22 @@
     "retrieved_pages": [
       [
         "Sediment",
-        0.95
+        0.92
+      ],
+      [
+        "Sedimentation",
+        0.88
       ],
       [
         "Sandbar",
-        0.85
+        0.8
       ],
       [
         "Barrier island",
-        0.83
+        0.78
       ],
       [
-        "Sediment transport",
-        0.75
-      ],
-      [
-        "Coastal geomorphology",
+        "Coastal sediment transport",
         0.65
       ]
     ],
@@ -533,23 +514,23 @@
     "retrieved_pages": [
       [
         "Male reproductive system",
-        0.95
+        1.0
+      ],
+      [
+        "Human reproductive system",
+        0.9
       ],
       [
         "Reproductive system",
-        0.85
-      ],
-      [
-        "Penis",
         0.8
       ],
       [
-        "Testes",
-        0.75
+        "Male genitalia",
+        0.7
       ],
       [
-        "Epididymis",
-        0.7
+        "Testis",
+        0.5
       ]
     ],
     "choice_facts": {
@@ -573,23 +554,23 @@
     "retrieved_pages": [
       [
         "Photosynthesis",
-        0.97
-      ],
-      [
-        "Heterotrophic plant",
-        0.82
+        0.9
       ],
       [
         "Parasitic plant",
-        0.65
+        0.7
       ],
       [
         "Carnivorous plant",
-        0.58
+        0.6
       ],
       [
-        "Plant predation",
-        0.42
+        "Plant metabolism",
+        0.4
+      ],
+      [
+        "Chlorophyll",
+        0.3
       ]
     ],
     "choice_facts": {
@@ -613,23 +594,23 @@
     "retrieved_pages": [
       [
         "Electroluminescence",
-        0.99
+        0.95
       ],
       [
         "Neon sign",
+        0.9
+      ],
+      [
+        "Glow discharge",
         0.85
+      ],
+      [
+        "Neon lamp",
+        0.8
       ],
       [
         "Luminescence",
         0.7
-      ],
-      [
-        "Plasma (physics)",
-        0.6
-      ],
-      [
-        "Radiation",
-        0.2
       ]
     ],
     "choice_facts": {
@@ -656,19 +637,19 @@
         0.9
       ],
       [
-        "Avian flight",
+        "Evolution of feathers",
         0.85
       ],
       [
-        "Wing (bird)",
+        "Flight (birds)",
         0.8
       ],
       [
-        "Beak",
-        0.7
+        "Avian evolution",
+        0.75
       ],
       [
-        "Bird anatomy",
+        "Archaeopterygidae",
         0.6
       ]
     ],
@@ -693,23 +674,23 @@
     "retrieved_pages": [
       [
         "Cellular respiration",
-        0.9
-      ],
-      [
-        "Enzymes",
-        0.8
-      ],
-      [
-        "Glycolysis",
-        0.7
-      ],
-      [
-        "ATP synthesis",
-        0.6
+        0.95
       ],
       [
         "Oxidative phosphorylation",
-        0.6
+        0.9
+      ],
+      [
+        "Mitochondria",
+        0.85
+      ],
+      [
+        "Electron transport chain",
+        0.8
+      ],
+      [
+        "Aerobic respiration",
+        0.75
       ]
     ],
     "choice_facts": {
@@ -744,12 +725,12 @@
         0.8
       ],
       [
-        "Mineralogy",
-        0.6
+        "Composition of Earth's crust",
+        0.7
       ],
       [
-        "Olivine",
-        0.4
+        "Mineralogy",
+        0.5
       ]
     ],
     "choice_facts": {
@@ -773,23 +754,23 @@
     "retrieved_pages": [
       [
         "Humidity",
-        0.97
+        1.0
       ],
       [
         "Relative humidity",
-        0.93
-      ],
-      [
-        "Absolute humidity",
         0.9
       ],
       [
-        "Atmospheric humidity",
-        0.85
+        "Absolute humidity",
+        0.8
       ],
       [
-        "Water vapor",
-        0.8
+        "Atmospheric humidity",
+        0.7
+      ],
+      [
+        "Atmospheric pressure",
+        0.4
       ]
     ],
     "choice_facts": {
@@ -812,11 +793,11 @@
     "explanation": "Paracrine Signaling Signals that act locally between cells that are close together are called paracrine signals. Paracrine signals move by diffusion through the extracellular matrix. These types of signals usually elicit quick responses that last only a short amount of time. In order to keep the response localized, paracrine ligand molecules are normally quickly degraded by enzymes or removed by neighboring cells. Removing the signals will reestablish the concentration gradient for the signal, allowing them to quickly diffuse through the intracellular space if released again. One example of paracrine signaling is the transfer of signals across synapses between nerve cells. A nerve cell consists of a cell body, several short, branched extensions called dendrites that receive stimuli, and a long extension called an axon, which transmits signals to other nerve cells or muscle cells. The junction between nerve cells where signal transmission occurs is called a synapse. A synaptic signal is a chemical signal that travels between nerve cells. Signals within the nerve cells are propagated by fast-moving electrical impulses. When these impulses reach the end of the axon, the signal continues on to a dendrite of the next cell by the release of chemical ligands called neurotransmitters by the presynaptic cell (the cell emitting the signal). The neurotransmitters are transported across the very small distances between nerve cells, which are called chemical synapses (Figure 9.3). The small distance between nerve cells allows the signal to travel quickly; this enables an immediate response, such as, Take your hand off the stove! When the neurotransmitter binds the receptor on the surface of the postsynaptic cell, the electrochemical potential of the target cell changes, and the next electrical impulse is launched. The neurotransmitters that are released into the chemical synapse are degraded quickly or get reabsorbed by the presynaptic cell so that the recipient nerve cell can recover quickly and be prepared to respond rapidly to the next synaptic signal.",
     "retrieved_pages": [
       [
-        "Paracrine signaling",
-        0.92
+        "Diffusion",
+        0.95
       ],
       [
-        "Diffusion (physics)",
+        "Paracrine signaling",
         0.9
       ],
       [
@@ -828,8 +809,8 @@
         0.8
       ],
       [
-        "Osmosis",
-        0.45
+        "Signal transduction",
+        0.7
       ]
     ],
     "choice_facts": {
@@ -853,11 +834,11 @@
     "retrieved_pages": [
       [
         "Plant cell",
-        0.95
+        1.0
       ],
       [
         "Cell wall",
-        0.85
+        0.9
       ],
       [
         "Central vacuole",
@@ -865,11 +846,11 @@
       ],
       [
         "Plastid",
-        0.7
+        0.8
       ],
       [
-        "Animal cell",
-        0.4
+        "Plant anatomy",
+        0.7
       ]
     ],
     "choice_facts": {
@@ -891,7 +872,26 @@
     "correct_answer": "goosebumps",
     "explanation": "Mammals raise their hair with tiny muscles in the skin. Even humans automatically contract these muscles when they are cold. They cause “goosebumps,” as shown here.",
     "retrieved_pages": [
-      "```json\n[\n  [\"Goosebumps\", 0.95],\n  [\"Piloerection\", 0.90],\n  [\"Arrector pili muscle\", 0.85],\n  [\"Hair follicle\", 0.60],\n  [\"Mammalian physiology\", 0.50]\n]\n```"
+      [
+        "Goosebumps",
+        0.95
+      ],
+      [
+        "Arrector pili muscle",
+        0.9
+      ],
+      [
+        "Piloerection",
+        0.85
+      ],
+      [
+        "Hair follicle",
+        0.8
+      ],
+      [
+        "Hair (anatomy)",
+        0.7
+      ]
     ],
     "choice_facts": {
       "bleeding": "Bleeding does not happen when mammals raise their hair with tiny muscles in the skin.",
@@ -922,15 +922,15 @@
       ],
       [
         "Fragility fracture",
+        0.85
+      ],
+      [
+        "Fracture (medical)",
         0.8
       ],
       [
         "Bone density",
         0.7
-      ],
-      [
-        "Fracture (medicine)",
-        0.6
       ]
     ],
     "choice_facts": {
@@ -953,24 +953,24 @@
     "explanation": "energy that is stored in the connections between atoms in a chemical substance.",
     "retrieved_pages": [
       [
-        "Chemical bond",
-        0.98
-      ],
-      [
         "Chemical energy",
         0.95
       ],
       [
-        "Bond energy",
+        "Chemical bond",
         0.9
       ],
       [
-        "Bond enthalpy",
+        "Bond energy",
         0.85
       ],
       [
-        "Chemical potential energy",
+        "Energy storage (chemistry)",
         0.8
+      ],
+      [
+        "Molecule",
+        0.75
       ]
     ],
     "choice_facts": {
@@ -993,23 +993,23 @@
     "explanation": "Immune System By the year 2050, 25 percent of the population of the United States will be 60 years of age or older. The CDC estimates that 80 percent of those 60 years and older have one or more chronic disease associated with deficiencies of the immune systems. This loss of immune function with age is called immunosenescence. To treat this growing population, medical professionals must better understand the aging process. One major cause of age-related immune deficiencies is thymic involution, the shrinking of the thymus gland that begins at birth, at a rate of about three percent tissue loss per year, and continues until 35–45 years of age, when the rate declines to about one percent loss per year for the rest of one’s life. At that pace, the total loss of thymic epithelial tissue and thymocytes would occur at about 120 years of age. Thus, this age is a theoretical limit to a healthy human lifespan. Thymic involution has been observed in all vertebrate species that have a thymus gland. Animal studies have shown that transplanted thymic grafts between inbred strains of mice involuted according to the age of the donor and not of the recipient, implying the process is genetically programmed. There is evidence that the thymic microenvironment, so vital to the development of naïve T cells, loses thymic epithelial cells according to the decreasing expression of the FOXN1 gene with age. It is also known that thymic involution can be altered by hormone levels. Sex hormones such as estrogen and testosterone enhance involution, and the hormonal changes in pregnant women cause a temporary thymic involution that reverses itself, when the size of the thymus and its hormone levels return to normal, usually after lactation ceases. What does all this tell us? Can we reverse immunosenescence, or at least slow it down? The potential is there for using thymic transplants from younger donors to keep thymic output of naïve T cells high. Gene therapies that target gene expression are also seen as future possibilities. The more we learn through immunosenescence research, the more opportunities there will be to develop therapies, even though these therapies will likely take decades to develop. The ultimate goal is for everyone to live and be healthy longer, but there may be limits to immortality imposed by our genes and hormones.",
     "retrieved_pages": [
       [
-        "Immune system",
+        "Cardiovascular system",
         0.95
       ],
       [
-        "Immunosenescence",
-        0.85
-      ],
-      [
-        "Aging",
-        0.75
+        "Cardiovascular disease",
+        0.9
       ],
       [
         "Chronic disease",
-        0.65
+        0.85
       ],
       [
-        "Health of the elderly",
+        "Population aging in the United States",
+        0.8
+      ],
+      [
+        "CDC",
         0.6
       ]
     ],
@@ -1038,19 +1038,19 @@
       ],
       [
         "Ammonium",
-        0.92
+        0.9
       ],
       [
-        "Ammonification",
-        0.88
-      ],
-      [
-        "Decomposition (biology)",
+        "Nitrogen",
         0.85
       ],
       [
-        "Compost",
-        0.8
+        "Soil fertility",
+        0.6
+      ],
+      [
+        "Decomposition (biology)",
+        0.5
       ]
     ],
     "choice_facts": {
@@ -1073,24 +1073,24 @@
     "explanation": "Most insects can reproduce very quickly within a short period of time. With a short generation time, they evolve faster and can quickly adjust to environmental changes. Most insects reproduce by sexual reproduction . The female produces eggs, which are fertilized by the male, and then the eggs are usually placed near the required food. In some insects, there is asexual reproduction during which the offspring come from a single parent. In this type of reproduction, the offspring are almost identical to the mother. This is most often seen in aphids and scale insects.",
     "retrieved_pages": [
       [
-        "Asexual reproduction",
-        0.95
+        "Sexual reproduction",
+        0.9
       ],
       [
-        "Insect reproduction",
+        "Insects",
         0.85
       ],
       [
-        "Reproduction in insects",
-        0.8
+        "Asexual reproduction",
+        0.6
       ],
       [
-        "Reproductive rate",
-        0.65
+        "Parthenogenesis",
+        0.5
       ],
       [
-        "Sexual reproduction",
-        0.3
+        "Insect reproduction",
+        0.4
       ]
     ],
     "choice_facts": {
@@ -1117,20 +1117,20 @@
         1.0
       ],
       [
-        "Protein digestion",
-        0.85
-      ],
-      [
         "Digestive system",
-        0.75
+        0.9
       ],
       [
-        "Hydrochloric acid",
-        0.65
+        "Protein digestion",
+        0.8
       ],
       [
-        "Acidic digestion",
-        0.5
+        "Gastric acid",
+        0.7
+      ],
+      [
+        "Proteolysis",
+        0.6
       ]
     ],
     "choice_facts": {
@@ -1154,23 +1154,23 @@
     "retrieved_pages": [
       [
         "Haplodiploidy",
-        1.0
-      ],
-      [
-        "Sex determination",
-        0.9
-      ],
-      [
-        "Rotifer",
-        0.6
+        0.99
       ],
       [
         "Gender determination",
-        0.8
+        0.88
+      ],
+      [
+        "Sex determination",
+        0.82
+      ],
+      [
+        "Rotifer",
+        0.75
       ],
       [
         "Sexual reproduction",
-        0.5
+        0.65
       ]
     ],
     "choice_facts": {
@@ -1193,24 +1193,24 @@
     "explanation": "Metals represent approximately 25% of the elemental makeup of the Earth's crust. The bulk of these metals, primarily aluminum, iron, calcium, sodium, potassium, and magnesium, are typically found in combined form. The most abundant metal is aluminum, which occurs almost exclusively as the ionic mineral bauxite. The other most common metals, including iron, sodium, potassium, magnesium, and calcium, are also found primarily as the cationic portion of an ionic compound. Very few metals actually occur naturally as pure substances. The ones that do are often referred to as precious or semi-precious metals.",
     "retrieved_pages": [
       [
-        "Aluminum",
-        0.92
+        "Aluminium",
+        1.0
       ],
       [
         "Earth's crust",
+        0.9
+      ],
+      [
+        "Chemical composition of the Earth's crust",
         0.85
       ],
       [
-        "Calcium",
+        "Aluminium (chemical element)",
+        0.8
+      ],
+      [
+        "Aluminium abundance",
         0.7
-      ],
-      [
-        "Copper",
-        0.3
-      ],
-      [
-        "Magnetite",
-        0.2
       ]
     ],
     "choice_facts": {
@@ -1234,23 +1234,23 @@
     "retrieved_pages": [
       [
         "Thermal energy",
-        0.99
+        0.95
       ],
       [
-        "Kinetic energy",
-        0.84
+        "Internal energy",
+        0.85
       ],
       [
         "Heat",
-        0.72
+        0.6
+      ],
+      [
+        "Kinetic theory of gases",
+        0.6
       ],
       [
         "Temperature",
-        0.66
-      ],
-      [
-        "Thermodynamics",
-        0.58
+        0.55
       ]
     ],
     "choice_facts": {
@@ -1277,16 +1277,16 @@
         1.0
       ],
       [
-        "Iris (eye)",
-        0.8
+        "Iris (anatomy)",
+        0.9
       ],
       [
         "Eye",
-        0.7
+        0.8
       ],
       [
-        "Eye anatomy",
-        0.6
+        "Human eye anatomy",
+        0.7
       ],
       [
         "Retina",
@@ -1314,11 +1314,11 @@
     "retrieved_pages": [
       [
         "Fight-or-flight response",
-        1.0
+        0.97
       ],
       [
-        "Adrenaline",
-        0.9
+        "Epinephrine",
+        0.85
       ],
       [
         "Norepinephrine",
@@ -1326,11 +1326,11 @@
       ],
       [
         "Sympathetic nervous system",
-        0.8
+        0.75
       ],
       [
-        "Acute stress",
-        0.7
+        "Stress (biological)",
+        0.6
       ]
     ],
     "choice_facts": {
@@ -1354,23 +1354,23 @@
     "retrieved_pages": [
       [
         "Vestibular system",
-        0.95
+        1.0
       ],
       [
         "Brainstem",
-        0.85
+        0.8
       ],
       [
         "Cerebellum",
-        0.75
+        0.7
       ],
       [
         "Spinal cord",
-        0.7
+        0.6
       ],
       [
         "Cerebral cortex",
-        0.7
+        0.6
       ]
     ],
     "choice_facts": {
@@ -1393,24 +1393,24 @@
     "explanation": "",
     "retrieved_pages": [
       [
-        "Triploblasty",
-        0.95
-      ],
-      [
-        "Coelom",
+        "Triploblastic",
         0.9
       ],
       [
-        "Acoelomate",
+        "Coelom",
         0.85
       ],
       [
-        "Vertebrate",
-        0.6
+        "Diploblastic",
+        0.8
       ],
       [
         "Animal body cavity",
-        0.5
+        0.75
+      ],
+      [
+        "Vertebrate",
+        0.4
       ]
     ],
     "choice_facts": {
@@ -1434,22 +1434,22 @@
     "retrieved_pages": [
       [
         "Joule",
-        1.0
+        0.95
       ],
       [
-        "Heat transfer",
-        0.9
-      ],
-      [
-        "Chemical reaction",
-        0.8
+        "Thermochemistry",
+        0.85
       ],
       [
         "Energy (physics)",
-        0.75
+        0.8
       ],
       [
         "Thermodynamics",
+        0.7
+      ],
+      [
+        "Heat",
         0.6
       ]
     ],
@@ -1474,23 +1474,23 @@
     "retrieved_pages": [
       [
         "Perennial plant",
-        0.95
-      ],
-      [
-        "Tree",
-        0.9
-      ],
-      [
-        "Shrub",
-        0.9
+        0.99
       ],
       [
         "Plant life cycle",
-        0.75
+        0.85
       ],
       [
-        "Annual plant",
-        0.4
+        "Trees",
+        0.7
+      ],
+      [
+        "Shrubs",
+        0.65
+      ],
+      [
+        "Plant classification",
+        0.5
       ]
     ],
     "choice_facts": {
@@ -1514,23 +1514,23 @@
     "retrieved_pages": [
       [
         "Photosynthesis",
-        1.0
-      ],
-      [
-        "Cellular respiration",
         0.95
       ],
       [
-        "Photosynthetic pathway",
-        0.85
+        "Cellular respiration",
+        0.9
       ],
       [
-        "Chlorophyll",
-        0.6
+        "Glucose",
+        0.7
       ],
       [
-        "Glucose metabolism",
-        0.5
+        "Oxygen",
+        0.68
+      ],
+      [
+        "Carbon dioxide",
+        0.65
       ]
     ],
     "choice_facts": {
@@ -1553,24 +1553,24 @@
     "explanation": "Most fungi get organic compounds from dead organisms. They are decomposers called saprotrophs. A saprotroph feeds on any remaining organic matter after other decomposers do their work. Fungi use enzymes to digest organic remains and then absorb the resulting organic compounds. As decomposers, fungi are vital for the health of ecosystems. They break down nonliving organic matter and release the nutrients into the soil. Plants can then use the nutrients and pass them on to herbivores and other consumers.",
     "retrieved_pages": [
       [
-        "Fungi",
+        "Decomposer",
         0.95
       ],
       [
-        "Saprophytic organisms",
+        "Saprophytic fungi",
         0.9
       ],
       [
-        "Decomposer",
-        0.9
+        "Fungi",
+        0.85
       ],
       [
-        "Heterotroph",
+        "Fungal nutrition",
         0.8
       ],
       [
-        "Nutrient cycle",
-        0.6
+        "Decomposition",
+        0.7
       ]
     ],
     "choice_facts": {
@@ -1594,10 +1594,14 @@
     "retrieved_pages": [
       [
         "Supernova",
+        0.95
+      ],
+      [
+        "Black hole",
         0.9
       ],
       [
-        "Core collapse supernova",
+        "Stellar evolution",
         0.85
       ],
       [
@@ -1605,12 +1609,8 @@
         0.7
       ],
       [
-        "Black hole",
-        0.6
-      ],
-      [
-        "Stellar evolution",
-        0.5
+        "Core-collapse supernova",
+        0.8
       ]
     ],
     "choice_facts": {
@@ -1637,19 +1637,19 @@
         0.95
       ],
       [
-        "Base pairing (DNA)",
+        "DNA",
         0.9
       ],
       [
-        "DNA",
-        0.8
-      ],
-      [
-        "Hydrogen bonding",
-        0.75
+        "Base pairing",
+        0.85
       ],
       [
         "Nucleobase",
+        0.8
+      ],
+      [
+        "RNA",
         0.7
       ]
     ],
@@ -1674,23 +1674,23 @@
     "retrieved_pages": [
       [
         "Atherosclerotic plaque",
-        0.92
+        0.95
       ],
       [
-        "Plaque (medicine)",
-        0.88
+        "Plaque (cardiology)",
+        0.9
       ],
       [
-        "Atherosclerosis",
+        "Plaque rupture",
         0.85
       ],
       [
-        "Arterial embolism",
-        0.78
+        "Atherosclerosis",
+        0.8
       ],
       [
-        "Blood clot",
-        0.66
+        "Arterial embolism",
+        0.7
       ]
     ],
     "choice_facts": {
@@ -1714,23 +1714,23 @@
     "retrieved_pages": [
       [
         "Hydroxide ion",
-        1.0
+        0.95
       ],
       [
         "Base (chemistry)",
         0.9
       ],
       [
+        "Acid–base equilibrium",
+        0.85
+      ],
+      [
         "Basicity",
         0.8
       ],
       [
-        "pOH",
-        0.7
-      ],
-      [
-        "Strong base",
-        0.6
+        "pH",
+        0.75
       ]
     ],
     "choice_facts": {
@@ -1753,11 +1753,11 @@
     "explanation": "Batteries There are two basic kinds of batteries: disposable, or primary, batteries, in which the electrode reactions are effectively irreversible and which cannot be recharged; andrechargeable, or secondary, batteries, which form an insoluble product that adheres to the electrodes. These batteries can be recharged by applying an electrical potential in the reverse direction. The recharging process temporarily converts a rechargeable battery from a galvanic cell to an electrolytic cell. Batteries are cleverly engineered devices that are based on the same fundamental laws as galvanic cells. The major difference between batteries and the galvanic cells we have previously described is that commercial batteries use solids or pastes rather than solutions as reactants to maximize the electrical output per unit mass. The use of highly concentrated or solid reactants has another beneficial effect: the concentrations of the reactants and the products do not change greatly as the battery is discharged; consequently, the output voltage remains remarkably constant during the discharge process. This behavior is in contrast to that of the Zn/Cu cell, whose output decreases logarithmically as the reaction proceeds (Figure 19.11 \"The Variation of \"). When a battery consists of more than one galvanic cell, the cells are usually connected in series—that is, with the positive (+) terminal of one cell connected to the negative (−) terminal of the next, and so forth. The overall voltage of the battery is therefore the sum of the voltages of the individual cells.",
     "retrieved_pages": [
       [
-        "Voltage",
+        "Battery (electricity)",
         0.95
       ],
       [
-        "Battery (electricity)",
+        "Voltage",
         0.9
       ],
       [
@@ -1765,12 +1765,12 @@
         0.85
       ],
       [
-        "Series circuit",
-        0.7
+        "Series connection",
+        0.8
       ],
       [
-        "Electrochemical potential",
-        0.6
+        "Electric battery",
+        0.75
       ]
     ],
     "choice_facts": {
@@ -1794,23 +1794,23 @@
     "retrieved_pages": [
       [
         "Hydrostatic pressure",
-        1.0
+        0.92
       ],
       [
-        "Deep sea",
-        0.9
-      ],
-      [
-        "Pressure in the ocean",
-        0.85
+        "Pressure (physical quantity)",
+        0.88
       ],
       [
         "Deep-sea organisms",
-        0.8
+        0.84
       ],
       [
-        "Deep-sea biology",
-        0.75
+        "Deep Sea",
+        0.78
+      ],
+      [
+        "Ocean depth",
+        0.65
       ]
     ],
     "choice_facts": {
@@ -1838,18 +1838,18 @@
       ],
       [
         "Nervous system",
-        0.8
-      ],
-      [
-        "Brain",
-        0.6
-      ],
-      [
-        "Spinal cord",
-        0.6
+        0.9
       ],
       [
         "Peripheral nervous system",
+        0.6
+      ],
+      [
+        "Cerebral cortex",
+        0.5
+      ],
+      [
+        "Limbic system",
         0.4
       ]
     ],
@@ -1873,24 +1873,24 @@
     "explanation": "Enzymes are biochemical catalysts that speed up biochemical reactions. Without enzymes, most chemical reactions in living things would occur too slowly to keep organisms alive.",
     "retrieved_pages": [
       [
-        "Enzymes",
-        1.0
+        "Enzyme",
+        0.95
       ],
       [
         "Catalysis",
-        0.8
+        0.85
       ],
       [
         "Enzyme kinetics",
+        0.8
+      ],
+      [
+        "Enzymology",
+        0.75
+      ],
+      [
+        "Biocatalyst",
         0.7
-      ],
-      [
-        "Biochemistry",
-        0.6
-      ],
-      [
-        "Biochemical reaction",
-        0.5
       ]
     ],
     "choice_facts": {
@@ -1914,23 +1914,23 @@
     "retrieved_pages": [
       [
         "Genetic drift",
-        1.0
+        0.95
       ],
       [
-        "Bottleneck effect",
-        0.9
-      ],
-      [
-        "Founder effect",
-        0.8
+        "Fixation (population genetics)",
+        0.85
       ],
       [
         "Population genetics",
         0.7
       ],
       [
-        "Hardy–Weinberg equilibrium",
-        0.5
+        "Random genetic drift",
+        0.7
+      ],
+      [
+        "Mutation",
+        0.3
       ]
     ],
     "choice_facts": {
@@ -1954,23 +1954,23 @@
     "retrieved_pages": [
       [
         "Fossil record",
-        1.0
+        0.95
       ],
       [
-        "Dinosaurs",
+        "Mesozoic Era",
+        0.85
+      ],
+      [
+        "Triassic period",
         0.8
       ],
       [
-        "Paleontology",
-        0.7
+        "Geologic time scale",
+        0.75
       ],
       [
-        "Triassic",
+        "Stratigraphy",
         0.6
-      ],
-      [
-        "Geologic timescale",
-        0.5
       ]
     ],
     "choice_facts": {
