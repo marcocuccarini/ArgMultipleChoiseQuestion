@@ -1,70 +1,123 @@
 import sys
 import os
 import json
+from pathlib import Path
 from datasets import load_dataset
+from tqdm import tqdm
+import random
 
 from classes.ServerOllama import *
 from classes.LLMUser import *
 
-
-LLM_name="gpt-oss:20b"
+LLM_name = "gpt-oss:20b"
 
 # -----------------------------
 # Main Script
 # -----------------------------
 if __name__ == "__main__":
-    print("🚀 Starting SciQ + Wikipedia Retrieval Pipeline...")
+    print("🚀 Starting Multi-Dataset QA Wikipedia Retrieval Pipeline (Test Splits Only)...")
 
-    # Load SciQ dataset
-    dataset = load_dataset("allenai/sciq")
+    # -----------------------------
+    # Load datasets
+    # -----------------------------
+    datasets_dict = {
+        "ARC-Challenge": load_dataset("allenai/ai2_arc", "ARC-Challenge")["test"],
+        "SciQ": load_dataset("allenai/sciq")["test"],
+        "GPQA": load_dataset("Idavidrein/gpqa", "gpqa_main")["test"]
+    }
 
-    # Load preprocessed facts
-    with open("preprocessed_fact/facts_only.json", "r", encoding="utf-8") as f:
-        facts_data = json.load(f)
-
-    # Initialize Ollama LLM and retriever
+    # -----------------------------
+    # Initialize LLM and retriever
+    # -----------------------------
     server = OllamaServer()
     llm = OllamaChat(server=server, model=LLM_name)
     retriever = LLMUser(llm=llm)
 
-    output_data = []
+    # -----------------------------
+    # Process each dataset
+    # -----------------------------
+    for dataset_name, subset in datasets_dict.items():
+        print(f"\n📂 Processing dataset: {dataset_name} (test split, {len(subset)} examples)")
 
-    subset = dataset["test"]  # ✅ Correct dataset iteration
+        # Load preprocessed facts
+        facts_file = Path(f"preprocessed_fact/{dataset_name.lower()}_preprocessed_fact.json")
+        if facts_file.exists():
+            with open(facts_file, "r", encoding="utf-8") as f:
+                facts_data = json.load(f)
+            print(f"✅ Loaded preprocessed facts: {facts_file}")
+        else:
+            facts_data = {}
+            print(f"⚠️ No preprocessed facts found for {dataset_name}")
 
-    # Process subset of SciQ dataset
-    for i, example in enumerate(subset):
-        question = example["question"]
-        choices = [
-            example["correct_answer"],
-            example["distractor1"],
-            example["distractor2"],
-            example["distractor3"],
-        ]
+        output_data = []
 
-        print(f"\n🔍 Processing Q{i}: {question[:60]}...")
+        for i, example in enumerate(tqdm(subset, desc=f"Processing {dataset_name}")):
+            # -----------------------------
+            # Extract question and choices
+            # -----------------------------
+            question = example.get("question", "")
+            explanation = example.get("explanation")  # Default None
 
-        # Retrieve Wikipedia pages
-        wikipedia_pages = retriever.get_candidate_pages(question, choices, max_pages=5)
+            if dataset_name == "SciQ":
+                choices = [
+                    example["correct_answer"],
+                    example["distractor1"],
+                    example["distractor2"],
+                    example["distractor3"]
+                ]
+                answer_key = example["correct_answer"]
+                random.shuffle(choices)  # Shuffle choices for robustness
 
-        # Get facts if available
-        choice_facts = facts_data[i] if i < len(facts_data) else {}
+            elif dataset_name == "ARC-Challenge":
+                choices = example.get("choices", [])
+                answer_key = example.get("answerKey")
+                explanation = example.get("support")  # Optional
 
-        # Build record
-        record = {
-            "id": i,
-            "question": question,
-            "choices": choices,
-            "correct_answer": example["correct_answer"],
-            "explanation": example["support"],
-            "retrieved_pages": wikipedia_pages,
-            "choice_facts": choice_facts,
-        }
+            elif dataset_name == "GPQA":
+                choices = example.get("choices", [])
+                answer_key = example.get("correct_answer")
+                explanation = None
 
-        output_data.append(record)
+            else:
+                choices = []
+                answer_key = None
 
-    # Save combined data
-    output_path = Path("dataset/sciq_with_wiki_ref.json")
-    with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(output_data, f, ensure_ascii=False, indent=2)
+            # -----------------------------
+            # Retrieve Wikipedia pages
+            # -----------------------------
+            try:
+                wikipedia_pages = retriever.get_candidate_pages(question, choices, max_pages=5)
+            except Exception as e:
+                print(f"❌ Retrieval failed for Q{i}: {e}")
+                wikipedia_pages = []
 
-    print(f"\n✅ Saved: {output_path.resolve()}")
+            # -----------------------------
+            # Load choice facts if available
+            # -----------------------------
+            choice_facts = facts_data.get(str(i), {})
+
+            # -----------------------------
+            # Build record
+            # -----------------------------
+            record = {
+                "dataset": dataset_name,
+                "id": i,
+                "question": question,
+                "choices": choices,
+                "answerKey": answer_key,
+                "explanation": explanation,
+                "retrieved_pages": wikipedia_pages,
+                "choice_facts": choice_facts,
+            }
+
+            output_data.append(record)
+
+        # -----------------------------
+        # Save dataset output
+        # -----------------------------
+        output_path = Path(f"dataset/{dataset_name.lower()}_test_with_wiki_ref.json")
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        with open(output_path, "w", encoding="utf-8") as f:
+            json.dump(output_data, f, ensure_ascii=False, indent=2)
+
+        print(f"\n✅ Saved {dataset_name} test data: {output_path.resolve()}")
