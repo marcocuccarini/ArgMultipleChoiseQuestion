@@ -4,101 +4,82 @@
   "graph": {},
   "nodes": [
     {
-      "type": "claim",
-      "text": "plant hormones",
-      "strength": 0.5,
-      "id": "0"
+      "type": "hypothesis",
+      "text": "Hormones are chemical signals in plants that control different processes.",
+      "strength": 0.836363019357629,
+      "id": "H0"
     },
     {
-      "type": "evidence",
-      "text": "produce hormones",
+      "type": "hypothesis",
+      "text": "Nitrogen hormones control different processes in plants.",
       "strength": 0.5,
-      "id": "1"
+      "id": "H1"
     },
     {
-      "type": "evidence",
-      "text": "nitrogen hormones",
-      "strength": 0.5,
-      "id": "2"
+      "type": "hypothesis",
+      "text": "Human hormones are chemical signals in plants that control different processes.",
+      "strength": 0.26709949564503427,
+      "id": "H2"
     },
     {
-      "type": "evidence",
-      "text": "Human Hormones",
-      "strength": 0.5,
-      "id": "3"
+      "type": "hypothesis",
+      "text": "Plant hormones control different processes in plants.",
+      "strength": 0.7329005043549659,
+      "id": "H3"
     },
     {
-      "type": "evidence",
-      "text": "```json",
+      "type": "argument",
+      "text": "Plant hormones are signal molecules.",
+      "strength": 0.9341617112936156,
+      "id": "A4"
+    },
+    {
+      "type": "argument",
+      "text": "Plant hormones occur in extremely low concentrations.",
       "strength": 0.5,
-      "id": "4"
+      "id": "A5"
     }
   ],
   "links": [
     {
       "relation": "support",
-      "source": "0",
-      "target": "1"
+      "source": "H0",
+      "target": "A4"
     },
     {
       "relation": "support",
-      "source": "0",
-      "target": "2"
+      "source": "H1",
+      "target": "A4"
     },
     {
       "relation": "support",
-      "source": "0",
-      "target": "4"
+      "source": "H3",
+      "target": "A4"
     },
     {
       "relation": "support",
-      "source": "1",
-      "target": "0"
-    },
-    {
-      "relation": "support",
-      "source": "1",
-      "target": "2"
+      "source": "A4",
+      "target": "H0"
     },
     {
       "relation": "attack",
-      "source": "1",
-      "target": "4"
+      "source": "A4",
+      "target": "H2"
     },
     {
       "relation": "support",
-      "source": "2",
-      "target": "0"
+      "source": "A4",
+      "target": "H3"
     },
     {
       "relation": "support",
-      "source": "2",
-      "target": "4"
+      "source": "A5",
+      "target": "H0"
     },
     {
       "relation": "support",
-      "source": "2",
-      "target": "3"
-    },
-    {
-      "relation": "support",
-      "source": "2",
-      "target": "1"
-    },
-    {
-      "relation": "support",
-      "source": "3",
-      "target": "1"
-    },
-    {
-      "relation": "support",
-      "source": "4",
-      "target": "0"
-    },
-    {
-      "relation": "support",
-      "source": "4",
-      "target": "2"
+      "source": "A5",
+      "target": "A4"
     }
   ]
 }

@@ -4,91 +4,83 @@
   "graph": {},
   "nodes": [
     {
-      "type": "claim",
-      "text": "clone",
-      "strength": 0.5,
-      "id": "0"
+      "type": "hypothesis",
+      "text": "Adults are a genetically exact copy of an organism.\n\n\n\n",
+      "strength": 0.2942002210170685,
+      "id": "H0"
     },
     {
-      "type": "evidence",
-      "text": "adult",
+      "type": "hypothesis",
+      "text": "Male is a genetically exact copy of an organism.\n\n\n\n",
       "strength": 0.5,
-      "id": "1"
+      "id": "H1"
     },
     {
-      "type": "evidence",
-      "text": "male",
+      "type": "hypothesis",
+      "text": "Phenotype is a genetically exact copy of an organism.",
       "strength": 0.5,
-      "id": "2"
+      "id": "H2"
     },
     {
-      "type": "evidence",
-      "text": "phenotype",
-      "strength": 0.7499005936298626,
-      "id": "3"
+      "type": "hypothesis",
+      "text": "A clone is a genetically exact copy of an organism.",
+      "strength": 0.6812434826460845,
+      "id": "H3"
     },
     {
-      "type": "evidence",
-      "text": "```json",
+      "type": "argument",
+      "text": "Clones is a civil parish located in the barony of Clankelly in County Fermanagh, Northern Ireland, and in County Monaghan, Republic of Ireland",
       "strength": 0.5,
-      "id": "4"
+      "id": "A4"
+    },
+    {
+      "type": "argument",
+      "text": "Cloning is the process of producing individual organisms with identical genomes, either by natural or artificial means.",
+      "strength": 0.7543146681405661,
+      "id": "A5"
+    },
+    {
+      "type": "argument",
+      "text": "In nature, some organisms produce clones through asexual reproduction.",
+      "strength": 0.8365723389434724,
+      "id": "A6"
     }
   ],
   "links": [
     {
       "relation": "attack",
-      "source": "0",
-      "target": "1"
+      "source": "H1",
+      "target": "A5"
     },
     {
       "relation": "support",
-      "source": "0",
-      "target": "2"
+      "source": "H3",
+      "target": "A5"
     },
     {
       "relation": "support",
-      "source": "0",
-      "target": "4"
+      "source": "H3",
+      "target": "A6"
+    },
+    {
+      "relation": "support",
+      "source": "A5",
+      "target": "H3"
+    },
+    {
+      "relation": "support",
+      "source": "A5",
+      "target": "A6"
     },
     {
       "relation": "attack",
-      "source": "1",
-      "target": "0"
+      "source": "A6",
+      "target": "H0"
     },
     {
       "relation": "support",
-      "source": "1",
-      "target": "2"
-    },
-    {
-      "relation": "attack",
-      "source": "1",
-      "target": "4"
-    },
-    {
-      "relation": "support",
-      "source": "2",
-      "target": "0"
-    },
-    {
-      "relation": "support",
-      "source": "2",
-      "target": "4"
-    },
-    {
-      "relation": "support",
-      "source": "2",
-      "target": "3"
-    },
-    {
-      "relation": "support",
-      "source": "4",
-      "target": "0"
-    },
-    {
-      "relation": "support",
-      "source": "4",
-      "target": "2"
+      "source": "A6",
+      "target": "A5"
     }
   ]
 }

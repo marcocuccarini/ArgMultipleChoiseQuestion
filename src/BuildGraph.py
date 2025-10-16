@@ -193,7 +193,9 @@ if __name__ == "__main__":
                 break  # stop processing this question when confident
 
             for section in ["summary_ranked", "other_ranked"]:
+
                 if done:
+
                     break
 
                 paragraphs = page_data.get(section, [])
@@ -252,9 +254,14 @@ if __name__ == "__main__":
         if not predicted_answer:
             predicted_answer = max(strengths_text, key=strengths_text.get) if strengths_text else "Unknown"
 
+            predicted_answer = next((k for k, v in hypotheses.items() if v == predicted_answer), None)
+
+
         # Step 5: Save results
         y_true.append(correct_answer)
         y_pred.append(predicted_answer)
+
+        
         combined_data.append({
             "question": question,
             "predicted_answer": predicted_answer,

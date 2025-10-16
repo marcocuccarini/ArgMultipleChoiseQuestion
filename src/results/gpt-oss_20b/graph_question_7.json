@@ -4,131 +4,144 @@
   "graph": {},
   "nodes": [
     {
-      "type": "claim",
-      "text": "sperm and eggs",
-      "strength": 0.9998888476901291,
-      "id": "0"
-    },
-    {
-      "type": "evidence",
-      "text": "chromosomes",
+      "type": "hypothesis",
+      "text": "Chromosomes are produced during gametogenesis, which is part of the process of meiosis.",
       "strength": 0.5,
-      "id": "1"
+      "id": "H0"
     },
     {
-      "type": "evidence",
-      "text": "egg only",
-      "strength": 8.62652943339303e-07,
-      "id": "2"
+      "type": "hypothesis",
+      "text": "Egg is produced as part of gametogenesis, which includes meiosis.",
+      "strength": 0.9450478675381532,
+      "id": "H1"
     },
     {
-      "type": "evidence",
-      "text": "sperm only",
-      "strength": 4.818857270688459e-07,
-      "id": "3"
+      "type": "hypothesis",
+      "text": "Sperm are produced as part of gametogenesis, which includes meiosis.",
+      "strength": 0.7438702823879106,
+      "id": "H2"
     },
     {
-      "type": "evidence",
-      "text": "Gametogenesis is a biological process by which diploid or haploid precursor cells undergo cell division and differentiation to form mature haploid gametes.",
-      "strength": 0.9998446700621713,
-      "id": "4"
+      "type": "hypothesis",
+      "text": "Sperm and eggs are the products of gametogenesis, which includes meiosis.",
+      "strength": 0.8888871409299857,
+      "id": "H3"
+    },
+    {
+      "type": "argument",
+      "text": "A gamete is a haploid cell that fuses with another haploid cell during fertilization in organisms that reproduce sexually.",
+      "strength": 0.9759321178815087,
+      "id": "A4"
+    },
+    {
+      "type": "argument",
+      "text": "Gametes are an organism's reproductive cells, also referred to as sex cells.",
+      "strength": 0.975938474835626,
+      "id": "A5"
+    },
+    {
+      "type": "argument",
+      "text": "```json",
+      "strength": 0.5,
+      "id": "A6"
+    },
+    {
+      "type": "argument",
+      "text": "\"Plants that reproduce sexually also produce gametes.\",",
+      "strength": 0.895955125856447,
+      "id": "A7"
     }
   ],
   "links": [
     {
       "relation": "support",
-      "source": "0",
-      "target": "1"
-    },
-    {
-      "relation": "attack",
-      "source": "0",
-      "target": "2"
+      "source": "H1",
+      "target": "A4"
     },
     {
       "relation": "support",
-      "source": "0",
-      "target": "4"
-    },
-    {
-      "relation": "attack",
-      "source": "0",
-      "target": "3"
+      "source": "H1",
+      "target": "A5"
     },
     {
       "relation": "support",
-      "source": "1",
-      "target": "0"
+      "source": "H2",
+      "target": "A4"
     },
     {
       "relation": "support",
-      "source": "1",
-      "target": "2"
-    },
-    {
-      "relation": "attack",
-      "source": "1",
-      "target": "4"
-    },
-    {
-      "relation": "attack",
-      "source": "1",
-      "target": "3"
-    },
-    {
-      "relation": "attack",
-      "source": "2",
-      "target": "0"
+      "source": "H2",
+      "target": "A5"
     },
     {
       "relation": "support",
-      "source": "2",
-      "target": "4"
-    },
-    {
-      "relation": "attack",
-      "source": "2",
-      "target": "3"
+      "source": "H3",
+      "target": "A4"
     },
     {
       "relation": "support",
-      "source": "2",
-      "target": "1"
+      "source": "H3",
+      "target": "A5"
     },
     {
       "relation": "support",
-      "source": "3",
-      "target": "1"
-    },
-    {
-      "relation": "attack",
-      "source": "3",
-      "target": "0"
-    },
-    {
-      "relation": "attack",
-      "source": "3",
-      "target": "2"
-    },
-    {
-      "relation": "attack",
-      "source": "3",
-      "target": "4"
+      "source": "A4",
+      "target": "H1"
     },
     {
       "relation": "support",
-      "source": "4",
-      "target": "0"
+      "source": "A4",
+      "target": "H2"
     },
     {
-      "relation": "attack",
-      "source": "4",
-      "target": "2"
+      "relation": "support",
+      "source": "A4",
+      "target": "H3"
     },
     {
-      "relation": "attack",
-      "source": "4",
-      "target": "3"
+      "relation": "support",
+      "source": "A4",
+      "target": "A5"
+    },
+    {
+      "relation": "support",
+      "source": "A4",
+      "target": "A7"
+    },
+    {
+      "relation": "support",
+      "source": "A5",
+      "target": "H1"
+    },
+    {
+      "relation": "support",
+      "source": "A5",
+      "target": "A4"
+    },
+    {
+      "relation": "support",
+      "source": "A5",
+      "target": "A7"
+    },
+    {
+      "relation": "support",
+      "source": "A7",
+      "target": "H1"
+    },
+    {
+      "relation": "support",
+      "source": "A7",
+      "target": "H3"
+    },
+    {
+      "relation": "support",
+      "source": "A7",
+      "target": "A4"
+    },
+    {
+      "relation": "support",
+      "source": "A7",
+      "target": "A5"
     }
   ]
 }

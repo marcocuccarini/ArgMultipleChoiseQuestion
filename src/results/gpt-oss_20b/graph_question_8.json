@@ -4,131 +4,377 @@
   "graph": {},
   "nodes": [
     {
-      "type": "claim",
-      "text": "deciduous",
-      "strength": 0.5,
-      "id": "0"
+      "type": "hypothesis",
+      "text": "Vines are not the dominant type of tree in temperate forests.\n\n\n\n",
+      "strength": 0.7816471351220328,
+      "id": "H0"
     },
     {
-      "type": "evidence",
-      "text": "vines",
-      "strength": 0.7499005936298626,
-      "id": "1"
+      "type": "hypothesis",
+      "text": "Fungus is not the dominant type of tree in temperate forests.",
+      "strength": 0.9078009452983666,
+      "id": "H1"
     },
     {
-      "type": "evidence",
-      "text": "fungus",
-      "strength": 0.5,
-      "id": "2"
+      "type": "hypothesis",
+      "text": "Shrubs are not the dominant type of tree in temperate forests.",
+      "strength": 0.8886895011333346,
+      "id": "H2"
     },
     {
-      "type": "evidence",
-      "text": "shrubs",
-      "strength": 0.5,
-      "id": "3"
+      "type": "hypothesis",
+      "text": "Deciduous trees are dominant in temperate forests.",
+      "strength": 0.5052336154682041,
+      "id": "H3"
     },
     {
-      "type": "evidence",
+      "type": "argument",
+      "text": "The term deciduous means falling off at maturity",
+      "strength": 0.8713684837416426,
+      "id": "A4"
+    },
+    {
+      "type": "argument",
+      "text": "The term deciduous means tending to fall off",
+      "strength": 0.8713684837416426,
+      "id": "A5"
+    },
+    {
+      "type": "argument",
+      "text": "Forests where a majority of the trees lose their foliage at the end of the typical growing season are called deciduous forests.",
+      "strength": 0.8273705384842499,
+      "id": "A6"
+    },
+    {
+      "type": "argument",
+      "text": "These forests are found in many areas worldwide and have distinctive ecosystems, understory growth, and soil dynamics.",
+      "strength": 0.9863808554581884,
+      "id": "A7"
+    },
+    {
+      "type": "argument",
+      "text": "A temperate forest is a forest found between the tropical and boreal regions",
+      "strength": 0.937180406345635,
+      "id": "A8"
+    },
+    {
+      "type": "argument",
+      "text": "A temperate forest is located in the temperate zone",
+      "strength": 0.9379058537268252,
+      "id": "A9"
+    },
+    {
+      "type": "argument",
+      "text": "Conifers and broadleaf trees grow in the same area.",
+      "strength": 0.8823449022874158,
+      "id": "A10"
+    },
+    {
+      "type": "argument",
+      "text": "The main trees found in these forests in North America and Eurasia include fir, oak, ash, maple, birch, beech, poplar, elm and pine.",
+      "strength": 0.9857086254455241,
+      "id": "A11"
+    },
+    {
+      "type": "argument",
       "text": "```json",
       "strength": 0.5,
-      "id": "4"
+      "id": "A12"
+    },
+    {
+      "type": "argument",
+      "text": "\"A forest is an ecosystem characterized by a dense community of trees.\",",
+      "strength": 0.9675583222827868,
+      "id": "A13"
+    },
+    {
+      "type": "argument",
+      "text": "Temperate needleleaf forests mostly occupy the higher latitudes of the Northern Hemisphere, as well as some warm temperate areas, especially on nutrient-poor or otherwise unfavourable soils",
+      "strength": 0.7337040465718129,
+      "id": "A14"
+    },
+    {
+      "type": "argument",
+      "text": "These forests are composed entirely, or nearly so, of coniferous species (Coniferophyta)",
+      "strength": 0.14966999031969055,
+      "id": "A15"
     }
   ],
   "links": [
     {
       "relation": "support",
-      "source": "0",
-      "target": "1"
-    },
-    {
-      "relation": "attack",
-      "source": "0",
-      "target": "2"
+      "source": "H0",
+      "target": "A11"
     },
     {
       "relation": "support",
-      "source": "0",
-      "target": "4"
-    },
-    {
-      "relation": "attack",
-      "source": "0",
-      "target": "3"
+      "source": "H0",
+      "target": "A15"
     },
     {
       "relation": "support",
-      "source": "1",
-      "target": "0"
+      "source": "H1",
+      "target": "A11"
     },
     {
       "relation": "support",
-      "source": "1",
-      "target": "2"
-    },
-    {
-      "relation": "attack",
-      "source": "1",
-      "target": "4"
-    },
-    {
-      "relation": "attack",
-      "source": "1",
-      "target": "3"
-    },
-    {
-      "relation": "attack",
-      "source": "2",
-      "target": "0"
+      "source": "H2",
+      "target": "A11"
     },
     {
       "relation": "support",
-      "source": "2",
-      "target": "4"
-    },
-    {
-      "relation": "attack",
-      "source": "2",
-      "target": "3"
+      "source": "H2",
+      "target": "A13"
     },
     {
       "relation": "support",
-      "source": "2",
-      "target": "1"
+      "source": "H2",
+      "target": "A15"
     },
     {
       "relation": "support",
-      "source": "3",
-      "target": "1"
-    },
-    {
-      "relation": "attack",
-      "source": "3",
-      "target": "0"
-    },
-    {
-      "relation": "attack",
-      "source": "3",
-      "target": "2"
-    },
-    {
-      "relation": "attack",
-      "source": "3",
-      "target": "4"
+      "source": "H3",
+      "target": "A6"
     },
     {
       "relation": "support",
-      "source": "4",
-      "target": "0"
+      "source": "H3",
+      "target": "A7"
+    },
+    {
+      "relation": "support",
+      "source": "H3",
+      "target": "A11"
     },
     {
       "relation": "attack",
-      "source": "4",
-      "target": "2"
+      "source": "H3",
+      "target": "A15"
+    },
+    {
+      "relation": "support",
+      "source": "A4",
+      "target": "A5"
+    },
+    {
+      "relation": "support",
+      "source": "A4",
+      "target": "A6"
+    },
+    {
+      "relation": "support",
+      "source": "A5",
+      "target": "A4"
+    },
+    {
+      "relation": "support",
+      "source": "A5",
+      "target": "A6"
+    },
+    {
+      "relation": "support",
+      "source": "A5",
+      "target": "A7"
+    },
+    {
+      "relation": "support",
+      "source": "A6",
+      "target": "A4"
+    },
+    {
+      "relation": "support",
+      "source": "A6",
+      "target": "A5"
+    },
+    {
+      "relation": "support",
+      "source": "A6",
+      "target": "A7"
     },
     {
       "relation": "attack",
-      "source": "4",
-      "target": "3"
+      "source": "A6",
+      "target": "A11"
+    },
+    {
+      "relation": "attack",
+      "source": "A6",
+      "target": "A15"
+    },
+    {
+      "relation": "support",
+      "source": "A7",
+      "target": "A13"
+    },
+    {
+      "relation": "support",
+      "source": "A8",
+      "target": "A9"
+    },
+    {
+      "relation": "support",
+      "source": "A8",
+      "target": "A7"
+    },
+    {
+      "relation": "support",
+      "source": "A8",
+      "target": "A11"
+    },
+    {
+      "relation": "support",
+      "source": "A8",
+      "target": "A13"
+    },
+    {
+      "relation": "support",
+      "source": "A8",
+      "target": "A14"
+    },
+    {
+      "relation": "support",
+      "source": "A9",
+      "target": "A8"
+    },
+    {
+      "relation": "support",
+      "source": "A9",
+      "target": "A11"
+    },
+    {
+      "relation": "support",
+      "source": "A10",
+      "target": "A7"
+    },
+    {
+      "relation": "support",
+      "source": "A10",
+      "target": "A11"
+    },
+    {
+      "relation": "attack",
+      "source": "A10",
+      "target": "A15"
+    },
+    {
+      "relation": "support",
+      "source": "A11",
+      "target": "H0"
+    },
+    {
+      "relation": "support",
+      "source": "A11",
+      "target": "H1"
+    },
+    {
+      "relation": "support",
+      "source": "A11",
+      "target": "H2"
+    },
+    {
+      "relation": "support",
+      "source": "A11",
+      "target": "A10"
+    },
+    {
+      "relation": "support",
+      "source": "A11",
+      "target": "H3"
+    },
+    {
+      "relation": "support",
+      "source": "A11",
+      "target": "A9"
+    },
+    {
+      "relation": "support",
+      "source": "A11",
+      "target": "A13"
+    },
+    {
+      "relation": "support",
+      "source": "A11",
+      "target": "A7"
+    },
+    {
+      "relation": "attack",
+      "source": "A11",
+      "target": "A15"
+    },
+    {
+      "relation": "support",
+      "source": "A13",
+      "target": "H1"
+    },
+    {
+      "relation": "support",
+      "source": "A13",
+      "target": "A8"
+    },
+    {
+      "relation": "support",
+      "source": "A13",
+      "target": "A11"
+    },
+    {
+      "relation": "support",
+      "source": "A13",
+      "target": "A7"
+    },
+    {
+      "relation": "support",
+      "source": "A13",
+      "target": "A10"
+    },
+    {
+      "relation": "support",
+      "source": "A14",
+      "target": "H2"
+    },
+    {
+      "relation": "attack",
+      "source": "A14",
+      "target": "H3"
+    },
+    {
+      "relation": "support",
+      "source": "A14",
+      "target": "A8"
+    },
+    {
+      "relation": "support",
+      "source": "A14",
+      "target": "A9"
+    },
+    {
+      "relation": "support",
+      "source": "A15",
+      "target": "H0"
+    },
+    {
+      "relation": "support",
+      "source": "A15",
+      "target": "H1"
+    },
+    {
+      "relation": "support",
+      "source": "A15",
+      "target": "H2"
+    },
+    {
+      "relation": "attack",
+      "source": "A15",
+      "target": "H3"
+    },
+    {
+      "relation": "attack",
+      "source": "A15",
+      "target": "A10"
+    },
+    {
+      "relation": "attack",
+      "source": "A15",
+      "target": "A11"
     }
   ]
 }

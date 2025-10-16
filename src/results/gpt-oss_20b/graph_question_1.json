@@ -4,86 +4,239 @@
   "graph": {},
   "nodes": [
     {
-      "type": "claim",
-      "text": "oxidants",
-      "strength": 0.9998009888351306,
-      "id": "0"
+      "type": "hypothesis",
+      "text": "Antioxidants are compounds capable of accepting electrons, such as O2 or F2.",
+      "strength": 0.10291511400983727,
+      "id": "H0"
     },
     {
-      "type": "evidence",
-      "text": "antioxidants",
-      "strength": 0.00019901085167851288,
-      "id": "1"
+      "type": "hypothesis",
+      "text": "Oxygen is a compound capable of accepting electrons, such as O2 or F2.",
+      "strength": 0.9694924806919091,
+      "id": "H1"
     },
     {
-      "type": "evidence",
-      "text": "Oxygen",
-      "strength": 0.9999996472649728,
-      "id": "2"
+      "type": "hypothesis",
+      "text": "Residues are compounds capable of accepting electrons, such as o2 or f2.",
+      "strength": 0.9482797908184777,
+      "id": "H2"
     },
     {
-      "type": "evidence",
-      "text": "residues",
-      "strength": 0.5,
-      "id": "3"
+      "type": "hypothesis",
+      "text": "Oxidants are compounds capable of accepting electrons, such as O2 or F2.",
+      "strength": 0.9694924806919091,
+      "id": "H3"
     },
     {
-      "type": "evidence",
-      "text": "An oxidizing agent (also known as an oxidant, oxidizer, electron recipient, or electron acceptor) is a substance in a redox chemical reaction that gains or \"accepts\"/\"receives\" an electron from a reducing agent (called the reductant, reducer, or electron donor).",
-      "strength": 0.9998009888351306,
-      "id": "4"
+      "type": "argument",
+      "text": "An oxidizing agent (also known as an oxidant, oxidizer, electron recipient, or electron acceptor) is a substance in a redox chemical reaction that gains or 'accepts'/'receives' an electron from a reducing agent (called the reductant, reducer, or electron donor).",
+      "strength": 0.9798681044077121,
+      "id": "A4"
+    },
+    {
+      "type": "argument",
+      "text": "In other words, an oxidizer is any substance that oxidizes another substance.",
+      "strength": 0.9798649857340795,
+      "id": "A5"
+    },
+    {
+      "type": "argument",
+      "text": "Electron acceptors participate in electron-transfer reactions.",
+      "strength": 0.9803007688855467,
+      "id": "A6"
+    },
+    {
+      "type": "argument",
+      "text": "In this context, the oxidizing agent is called an electron acceptor and the reducing agent is called an electron donor.",
+      "strength": 0.985598381344649,
+      "id": "A7"
     }
   ],
   "links": [
     {
+      "relation": "support",
+      "source": "H0",
+      "target": "A4"
+    },
+    {
+      "relation": "support",
+      "source": "H0",
+      "target": "A6"
+    },
+    {
+      "relation": "support",
+      "source": "H1",
+      "target": "A4"
+    },
+    {
+      "relation": "support",
+      "source": "H1",
+      "target": "A5"
+    },
+    {
+      "relation": "support",
+      "source": "H1",
+      "target": "A6"
+    },
+    {
+      "relation": "support",
+      "source": "H1",
+      "target": "A7"
+    },
+    {
       "relation": "attack",
-      "source": "0",
-      "target": "1"
+      "source": "H2",
+      "target": "A4"
     },
     {
       "relation": "support",
-      "source": "0",
-      "target": "2"
+      "source": "H2",
+      "target": "A6"
     },
     {
       "relation": "support",
-      "source": "0",
-      "target": "4"
+      "source": "H2",
+      "target": "A7"
+    },
+    {
+      "relation": "support",
+      "source": "H3",
+      "target": "A4"
+    },
+    {
+      "relation": "support",
+      "source": "H3",
+      "target": "A5"
+    },
+    {
+      "relation": "support",
+      "source": "H3",
+      "target": "A6"
+    },
+    {
+      "relation": "support",
+      "source": "H3",
+      "target": "A7"
     },
     {
       "relation": "attack",
-      "source": "1",
-      "target": "0"
+      "source": "A4",
+      "target": "H0"
     },
     {
       "relation": "support",
-      "source": "1",
-      "target": "2"
+      "source": "A4",
+      "target": "H1"
+    },
+    {
+      "relation": "support",
+      "source": "A4",
+      "target": "H2"
+    },
+    {
+      "relation": "support",
+      "source": "A4",
+      "target": "H3"
+    },
+    {
+      "relation": "support",
+      "source": "A4",
+      "target": "A5"
+    },
+    {
+      "relation": "support",
+      "source": "A4",
+      "target": "A6"
+    },
+    {
+      "relation": "support",
+      "source": "A4",
+      "target": "A7"
+    },
+    {
+      "relation": "support",
+      "source": "A5",
+      "target": "H1"
+    },
+    {
+      "relation": "support",
+      "source": "A5",
+      "target": "H2"
+    },
+    {
+      "relation": "support",
+      "source": "A5",
+      "target": "H3"
+    },
+    {
+      "relation": "support",
+      "source": "A5",
+      "target": "A4"
+    },
+    {
+      "relation": "support",
+      "source": "A5",
+      "target": "A6"
+    },
+    {
+      "relation": "support",
+      "source": "A5",
+      "target": "A7"
+    },
+    {
+      "relation": "support",
+      "source": "A6",
+      "target": "H1"
+    },
+    {
+      "relation": "support",
+      "source": "A6",
+      "target": "H3"
+    },
+    {
+      "relation": "support",
+      "source": "A6",
+      "target": "A4"
+    },
+    {
+      "relation": "support",
+      "source": "A6",
+      "target": "A5"
+    },
+    {
+      "relation": "support",
+      "source": "A6",
+      "target": "A7"
     },
     {
       "relation": "attack",
-      "source": "1",
-      "target": "4"
+      "source": "A7",
+      "target": "H0"
     },
     {
       "relation": "support",
-      "source": "2",
-      "target": "0"
+      "source": "A7",
+      "target": "H1"
     },
     {
       "relation": "support",
-      "source": "2",
-      "target": "4"
+      "source": "A7",
+      "target": "H2"
     },
     {
       "relation": "support",
-      "source": "4",
-      "target": "0"
+      "source": "A7",
+      "target": "H3"
     },
     {
       "relation": "support",
-      "source": "4",
-      "target": "2"
+      "source": "A7",
+      "target": "A4"
+    },
+    {
+      "relation": "support",
+      "source": "A7",
+      "target": "A5"
     }
   ]
 }

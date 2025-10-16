@@ -4,96 +4,72 @@
   "graph": {},
   "nodes": [
     {
-      "type": "claim",
-      "text": "backbone",
-      "strength": 0.9999808980955412,
-      "id": "0"
+      "type": "hypothesis",
+      "text": "Bones characterize Vertebrata.",
+      "strength": 0.6677459221889068,
+      "id": "H0"
     },
     {
-      "type": "evidence",
-      "text": "Bones",
-      "strength": 0.9999808980955412,
-      "id": "1"
-    },
-    {
-      "type": "evidence",
-      "text": "Muscles",
-      "strength": 0.9998910414723077,
-      "id": "2"
-    },
-    {
-      "type": "evidence",
-      "text": "Thumbs",
+      "type": "hypothesis",
+      "text": "Muscles are a characteristic of Vertebrata.",
       "strength": 0.5,
-      "id": "3"
+      "id": "H1"
     },
     {
-      "type": "evidence",
-      "text": "```json",
+      "type": "hypothesis",
+      "text": "Thumbs are a characteristic of Vertebrata.",
       "strength": 0.5,
-      "id": "4"
+      "id": "H2"
+    },
+    {
+      "type": "hypothesis",
+      "text": "Vertebrata are characterized by the presence of a backbone.",
+      "strength": 0.8542924530374862,
+      "id": "H3"
+    },
+    {
+      "type": "argument",
+      "text": "Vertebrates, also called craniates, are animals with a vertebral column and a cranium",
+      "strength": 0.8491513727977984,
+      "id": "A4"
+    },
+    {
+      "type": "argument",
+      "text": "The vertebral column surrounds and protects the spinal cord",
+      "strength": 0.710859289362476,
+      "id": "A5"
     }
   ],
   "links": [
     {
       "relation": "support",
-      "source": "0",
-      "target": "1"
+      "source": "H0",
+      "target": "A4"
     },
     {
       "relation": "support",
-      "source": "0",
-      "target": "2"
+      "source": "H3",
+      "target": "A4"
     },
     {
       "relation": "support",
-      "source": "0",
-      "target": "4"
+      "source": "H3",
+      "target": "A5"
     },
     {
       "relation": "support",
-      "source": "1",
-      "target": "0"
+      "source": "A4",
+      "target": "H3"
     },
     {
       "relation": "support",
-      "source": "1",
-      "target": "2"
-    },
-    {
-      "relation": "attack",
-      "source": "1",
-      "target": "4"
+      "source": "A5",
+      "target": "H0"
     },
     {
       "relation": "support",
-      "source": "2",
-      "target": "0"
-    },
-    {
-      "relation": "support",
-      "source": "2",
-      "target": "4"
-    },
-    {
-      "relation": "support",
-      "source": "2",
-      "target": "3"
-    },
-    {
-      "relation": "support",
-      "source": "2",
-      "target": "1"
-    },
-    {
-      "relation": "support",
-      "source": "4",
-      "target": "0"
-    },
-    {
-      "relation": "support",
-      "source": "4",
-      "target": "2"
+      "source": "A5",
+      "target": "H3"
     }
   ]
 }

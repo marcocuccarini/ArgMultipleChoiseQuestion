@@ -29,7 +29,7 @@ if __name__ == "__main__":
 
     output_data = []
 
-    subset = dataset["test"].select(range(50))  # ✅ Correct dataset iteration
+    subset = dataset["test"]  # ✅ Correct dataset iteration
 
     # Process subset of SciQ dataset
     for i, example in enumerate(subset):

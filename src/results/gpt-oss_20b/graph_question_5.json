@@ -4,101 +4,134 @@
   "graph": {},
   "nodes": [
     {
-      "type": "claim",
-      "text": "tree rings",
-      "strength": 0.5,
-      "id": "0"
+      "type": "hypothesis",
+      "text": "Mountain ranges indicate the environmental conditions at the time of their creation, along with ice cores and varves.",
+      "strength": 0.7203089884172008,
+      "id": "H0"
     },
     {
-      "type": "evidence",
-      "text": "mountain ranges",
-      "strength": 0.7499005936298626,
-      "id": "1"
+      "type": "hypothesis",
+      "text": "Fossils indicate the environmental conditions at the time of their creation, along with ice cores and varves.",
+      "strength": 0.9302621448780523,
+      "id": "H1"
     },
     {
-      "type": "evidence",
-      "text": "fossils",
-      "strength": 0.5,
-      "id": "2"
+      "type": "hypothesis",
+      "text": "Magma indicates the environmental conditions at the time of its creation, alongside ice cores and varves.",
+      "strength": 0.7139623282892759,
+      "id": "H2"
     },
     {
-      "type": "evidence",
-      "text": "magma",
-      "strength": 0.5,
-      "id": "3"
+      "type": "hypothesis",
+      "text": "Tree rings, ice cores, and varves indicate the environmental conditions at the time of their creation.",
+      "strength": 0.9302561621280421,
+      "id": "H3"
     },
     {
-      "type": "evidence",
-      "text": "An ice core is a core sample that is typically removed from an ice sheet or a high mountain glacier.",
-      "strength": 0.5,
-      "id": "4"
+      "type": "argument",
+      "text": "Dendrochronology is the scientific method of dating tree rings to the exact year they were formed in a tree",
+      "strength": 0.7318863300289348,
+      "id": "A4"
+    },
+    {
+      "type": "argument",
+      "text": "This can give data for dendroclimatology, the study of climate and atmospheric conditions during different periods in history from the wood of old trees",
+      "strength": 0.8649613143412079,
+      "id": "A5"
+    },
+    {
+      "type": "argument",
+      "text": "Herbchronology is the analysis of annual growth rings (or simply annual rings) in the secondary root xylem of perennial herbaceous plants.",
+      "strength": 0.7318863300289348,
+      "id": "A6"
+    },
+    {
+      "type": "argument",
+      "text": "Similar seasonal patterns also occur in ice cores and in varves (layers of sediment deposition in a lake, river, or sea bed).",
+      "strength": 0.8878731477760645,
+      "id": "A7"
     }
   ],
   "links": [
     {
       "relation": "support",
-      "source": "0",
-      "target": "1"
+      "source": "H1",
+      "target": "A7"
     },
     {
       "relation": "support",
-      "source": "0",
-      "target": "2"
+      "source": "H2",
+      "target": "A5"
     },
     {
       "relation": "support",
-      "source": "0",
-      "target": "4"
+      "source": "H3",
+      "target": "A5"
     },
     {
       "relation": "support",
-      "source": "1",
-      "target": "0"
+      "source": "H3",
+      "target": "A4"
     },
     {
       "relation": "support",
-      "source": "1",
-      "target": "2"
+      "source": "H3",
+      "target": "A6"
+    },
+    {
+      "relation": "support",
+      "source": "H3",
+      "target": "A7"
+    },
+    {
+      "relation": "support",
+      "source": "A4",
+      "target": "H1"
+    },
+    {
+      "relation": "support",
+      "source": "A4",
+      "target": "A5"
+    },
+    {
+      "relation": "support",
+      "source": "A4",
+      "target": "H3"
+    },
+    {
+      "relation": "support",
+      "source": "A5",
+      "target": "H1"
+    },
+    {
+      "relation": "support",
+      "source": "A5",
+      "target": "H2"
+    },
+    {
+      "relation": "support",
+      "source": "A5",
+      "target": "H3"
     },
     {
       "relation": "attack",
-      "source": "1",
-      "target": "4"
+      "source": "A6",
+      "target": "A5"
     },
     {
       "relation": "support",
-      "source": "2",
-      "target": "0"
+      "source": "A7",
+      "target": "H0"
     },
     {
       "relation": "support",
-      "source": "2",
-      "target": "4"
+      "source": "A7",
+      "target": "H1"
     },
     {
       "relation": "support",
-      "source": "2",
-      "target": "3"
-    },
-    {
-      "relation": "support",
-      "source": "2",
-      "target": "1"
-    },
-    {
-      "relation": "support",
-      "source": "3",
-      "target": "1"
-    },
-    {
-      "relation": "support",
-      "source": "4",
-      "target": "0"
-    },
-    {
-      "relation": "support",
-      "source": "4",
-      "target": "2"
+      "source": "A7",
+      "target": "H3"
     }
   ]
 }

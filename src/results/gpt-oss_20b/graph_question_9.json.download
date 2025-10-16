@@ -1,0 +1,75 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "type": "hypothesis",
+      "text": "Increased viscosity is found in long-chain hydrocarbons.",
+      "strength": 0.5,
+      "id": "H0"
+    },
+    {
+      "type": "hypothesis",
+      "text": "Long-chain hydrocarbons have low viscosity.",
+      "strength": 0.5,
+      "id": "H1"
+    },
+    {
+      "type": "hypothesis",
+      "text": "Intense viscosity is found in long-chain hydrocarbons.",
+      "strength": 0.5,
+      "id": "H2"
+    },
+    {
+      "type": "hypothesis",
+      "text": "Long-chain hydrocarbons are highly viscous.",
+      "strength": 0.6739731129616156,
+      "id": "H3"
+    },
+    {
+      "type": "argument",
+      "text": "Viscosity is a measure of a fluid's rate-dependent resistance to a change in shape or to movement of its neighboring portions relative to one another.",
+      "strength": 0.7308106175236729,
+      "id": "A4"
+    },
+    {
+      "type": "argument",
+      "text": "For liquids, viscosity corresponds to the informal concept of thickness.",
+      "strength": 0.9262377638649556,
+      "id": "A5"
+    }
+  ],
+  "links": [
+    {
+      "relation": "support",
+      "source": "H0",
+      "target": "A5"
+    },
+    {
+      "relation": "support",
+      "source": "H2",
+      "target": "A5"
+    },
+    {
+      "relation": "support",
+      "source": "H3",
+      "target": "A5"
+    },
+    {
+      "relation": "support",
+      "source": "A4",
+      "target": "H3"
+    },
+    {
+      "relation": "support",
+      "source": "A4",
+      "target": "A5"
+    },
+    {
+      "relation": "support",
+      "source": "A5",
+      "target": "A4"
+    }
+  ]
+}
